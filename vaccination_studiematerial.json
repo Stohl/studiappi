@@ -1,0 +1,1028 @@
+{
+  "category": "Vaccination",
+  "source": "rikshandboken-bhv.se",
+  "subcategories": [
+    {
+      "id": 1,
+      "name": "Överväganden vid vaccination",
+      "pages": [
+        {
+          "id": "1.1",
+          "title": "Allmänna kontraindikationer vid vaccination",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/overvaganden-vid-vaccination/allmanna-kontraindikationer-vid-vaccination/",
+          "questions": [
+            {
+              "id": "FC-1.1.1",
+              "type": "flashcard",
+              "section": "Barn som inte kan vaccineras på BVC",
+              "question": "Vilka barn kan INTE vaccineras på BVC?",
+              "answer": "Barn som är konstaterat allergiska eller överkänsliga mot en specifik vaccinkomponent, samt barn som vid en tidigare vaccination reagerat kraftigt och oväntat. Dessa ska hänvisas till mottagning med barnallergologiskt kunnig läkare."
+            },
+            {
+              "id": "FC-1.1.2",
+              "type": "flashcard",
+              "section": "När vaccination ska skjutas upp",
+              "question": "Hur länge ska man vänta med att ge levande vaccin efter vattkoppor eller kraftig infektionssjukdom?",
+              "answer": "Riktlinjen är att det ska ha gått 6 veckor sedan insjuknande, alternativt 4 veckor. Barnet ska vara helt återställt."
+            },
+            {
+              "id": "FC-1.1.3",
+              "type": "flashcard",
+              "section": "Ingen kontraindikation vid vaccination",
+              "question": "Nämn fyra situationer som INTE utgör hinder för vaccination.",
+              "answer": "Övre luftvägsinfektion utan feber (om barnet är piggt), pågående eller nyligen genomgången antibiotikakur, sjukdomen man vaccinerar mot finns i omgivningen, samt äggallergi."
+            },
+            {
+              "id": "MC-1.1.1",
+              "type": "multiple_choice",
+              "section": "När vaccination ska skjutas upp",
+              "question": "Vilket av följande barn ska INTE vaccineras vid besöket?",
+              "options": {
+                "A": "Barn med pågående infektionssjukdom med allmänpåverkan",
+                "B": "Barn med övre luftvägsinfektion utan feber som mår som vanligt",
+                "C": "Barn vars förälder nyligen haft influensa",
+                "D": "Barn som genomgår en antibiotikakur"
+              },
+              "correct": "A",
+              "explanation": "Barn med pågående infektionssjukdom med allmänpåverkan ska inte vaccineras. Antibiotikakur och övre luftvägsinfektion utan feber hos ett piggt barn är inte kontraindikationer."
+            },
+            {
+              "id": "SF-1.1.1",
+              "type": "true_false",
+              "section": "Ingen kontraindikation vid vaccination",
+              "statement": "Äggallergi är en kontraindikation mot vaccination på BVC.",
+              "correct": false,
+              "explanation": "Äggallergi utgör inget hinder för vaccination. Det räknas upp bland situationer som inte utgör kontraindikation."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Vaccination vid allergisk sjukdom",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/overvaganden-vid-vaccination/vaccination-vid-allergisk-sjukdom/",
+          "questions": [
+            {
+              "id": "FC-1.2.1",
+              "type": "flashcard",
+              "section": "Inför vaccination av barn med allergi",
+              "question": "Kan barn med astma, eksem eller rhinokonjunktivit vaccineras på BVC?",
+              "answer": "Ja. Allergisk sjukdom i sig är inget hinder för vaccination. Barn med astma, födoämnesallergi, rhinokonjunktivit eller eksem kan vaccineras på BVC enligt gällande rutiner."
+            },
+            {
+              "id": "FC-1.2.2",
+              "type": "flashcard",
+              "section": "Barn med äggallergi",
+              "question": "Vad gäller för barn med äggallergi inför MPR-vaccination?",
+              "answer": "Barn med äggallergi kan vaccineras mot MPR på BVC oavsett äggallergins svårighetsgrad. Ingen extra observationstid krävs vid vaccination."
+            },
+            {
+              "id": "FC-1.2.3",
+              "type": "flashcard",
+              "section": "Barn med kontaktallergi mot aluminium",
+              "question": "Vilka symtom tyder på kontaktallergi mot aluminium efter vaccination?",
+              "answer": "Intensivt kliande knutor (granulom) som kvarstår en längre tid efter att barnet vaccinerats med ett vaccin som innehåller aluminiumsalter som hjälpämne."
+            },
+            {
+              "id": "MC-1.2.1",
+              "type": "multiple_choice",
+              "section": "Handläggning av barn som reagerat kraftigt och oväntat",
+              "question": "Vad ska alltid göras om ett barn reagerat kraftigt och oväntat vid en vaccination?",
+              "options": {
+                "A": "Ge en ny dos vid nästa besök utan ytterligare utredning",
+                "B": "Bedömas och utredas av läkare innan ytterligare vaccinationer ges",
+                "C": "Hänvisas direkt till akutmottagning",
+                "D": "Dubbelkontrollera allergihistoriken och vaccinera igen vid samma besök"
+              },
+              "correct": "B",
+              "explanation": "Barn som vid en vaccination reagerat kraftigt och oväntat ska alltid bedömas och utredas av läkare innan ytterligare vaccinationer ges."
+            },
+            {
+              "id": "SF-1.2.1",
+              "type": "true_false",
+              "section": "Beredskap för anafylaxi",
+              "statement": "Beredskap för anafylaxi krävs alltid vid vaccination på BVC.",
+              "correct": true,
+              "explanation": "Beredskap för att hantera en anafylaxi ska alltid finnas vid vaccination på BVC, även om allvarlig allergisk reaktion vid vaccination är sällsynt."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Vaccination av för tidigt födda barn",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/overvaganden-vid-vaccination/vaccination-av-for-tidigt-fodda-barn/",
+          "questions": [
+            {
+              "id": "FC-1.3.1",
+              "type": "flashcard",
+              "section": "Barn födda före vecka 32 + 0 vaccineras på barnklinik",
+              "question": "Vad erbjuds barn födda före vecka 32+0 utöver det ordinarie vaccinationsprogrammet?",
+              "answer": "En extra primärdos av DTP-polio-Hib-HepB-vaccin, utöver vaccin mot rotavirus enligt ordinarie program. Dessa vaccinationer ges på barnklinik."
+            },
+            {
+              "id": "FC-1.3.2",
+              "type": "flashcard",
+              "section": "Barn födda efter vecka 32 vaccineras vanligen på BVC",
+              "question": "Hur beräknas vaccinationsålder för prematura barn från vecka 32 och framåt?",
+              "answer": "Friska, prematura barn födda från vecka 32 vaccineras enligt kronologisk ålder – räknat från det datum då barnet är fött."
+            },
+            {
+              "id": "MC-1.3.1",
+              "type": "multiple_choice",
+              "section": "Kombinationsvaccin mot DTP-polio-Hib-hep B",
+              "question": "Varför ges prematura barn (född <v32) en extra primärdos av DTP-polio-Hib-hep B-vaccin?",
+              "options": {
+                "A": "För att kompensera för generellt sämre antikroppsproduktion vid prematuritet",
+                "B": "För att ge ett så tidigt skydd som möjligt, främst mot kikhosta",
+                "C": "Eftersom kombinationsvaccinet har lägre effekt hos prematura barn",
+                "D": "Eftersom de löper ökad risk för pneumokocker"
+              },
+              "correct": "B",
+              "explanation": "Syftet är att ge ett så tidigt skydd som möjligt, främst med avseende på kikhosta."
+            },
+            {
+              "id": "SF-1.3.1",
+              "type": "true_false",
+              "section": "Vaccin mot rotavirus",
+              "statement": "Rotavirusvaccination bör skjutas upp för prematura barn på grund av ökad risk.",
+              "correct": false,
+              "explanation": "Eftersom fördelen med vaccination är hög för denna spädbarnsgrupp bör vaccinationen mot rotavirus inte utebli eller skjutas upp."
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Vaccination vid särskilda hälsotillstånd",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/overvaganden-vid-vaccination/vaccination-vid-sarskilda-halsotillstand/",
+          "questions": [
+            {
+              "id": "FC-1.4.1",
+              "type": "flashcard",
+              "section": "Levande (försvagat) vaccin och svår immunbrist",
+              "question": "Vilka vacciner kan INTE ges till barn med svår kombinerad immunbrist (SCID)?",
+              "answer": "Levande (försvagade) vaccin – BCG, MPR och rotavirus – kan inte ges till barn med SCID, rubbningar i T-cellsfunktionen eller svår immunbrist på grund av annan sjukdom eller behandling."
+            },
+            {
+              "id": "FC-1.4.2",
+              "type": "flashcard",
+              "section": "Barn vars födande förälder har hepatit B",
+              "question": "Vad ska ske för nyfödda barn till en HBsAg-positiv (smittsam hepatit B) förälder?",
+              "answer": "Nyfödda barn till födande förälder med hepatit B-smitta ska få första dosen av monovalent hepatit B-vaccin samt hepatit B-immunglobulin inom 12 timmar efter födseln."
+            },
+            {
+              "id": "FC-1.4.3",
+              "type": "flashcard",
+              "section": "Hypoton-hyporesponsiv episode (HHE)",
+              "question": "Vad är hypoton-hyporesponsiv episod (HHE) och hur skiljer den sig från en allergisk reaktion?",
+              "answer": "HHE är ett ovanligt tillstånd som uppträder inom 48 timmar efter vaccination. Barnet blir slapp, blekt och okontaktbart under några minuter upp till en timme, varefter symtomen försvinner av sig själv. Det ska inte förväxlas med en allergisk reaktion."
+            },
+            {
+              "id": "MC-1.4.1",
+              "type": "multiple_choice",
+              "section": "Avdödat (inaktiverat) vaccin och immunbrist",
+              "question": "Vad gäller för avdödade (inaktiverade) vaccin till barn med immunbrist?",
+              "options": {
+                "A": "De kan inte ges till barn med immunbrist",
+                "B": "De kan ges på vanligt sätt men effekten kan bli svagare; extra dos kan ges vid behov",
+                "C": "De är mer effektiva hos barn med immunbrist",
+                "D": "De kräver alltid läkarordination och kan inte ges på BVC"
+              },
+              "correct": "B",
+              "explanation": "Avdödat vaccin kan ges till barn med immunbrist på vanligt sätt, men vaccinets effekt kan bli svagare än normalt. Vid behov kan en extra vaccindos ges."
+            },
+            {
+              "id": "SF-1.4.1",
+              "type": "true_false",
+              "section": "Downs syndrom",
+              "statement": "Barn med Downs syndrom ska inte erbjudas levande vaccin som MPR och rotavirus.",
+              "correct": false,
+              "explanation": "Barn med Downs syndrom ska följa barnvaccinationsprogrammet inklusive levande vaccin (rotavirus, MPR och TB)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Praktiska riktlinjer",
+      "pages": [
+        {
+          "id": "2.1",
+          "title": "Behörighet för sjuksköterskor som ordinerar vaccinationer",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/praktiska-riktlinjer/behorighet-for-sjukskoterskor-som-ordinerar-vaccinationer/",
+          "questions": [
+            {
+              "id": "FC-2.1.1",
+              "type": "flashcard",
+              "section": "Delegering är inte möjlig",
+              "question": "Kan sjuksköterskans ansvar för vaccination delegeras till annan personal?",
+              "answer": "Nej. Sjuksköterskans ansvar vid vaccination angående ordination och medicinska bedömningar är tydligt reglerat i HSLF-FS 2018:43. Ansvaret för vaccinationer går inte att delegera."
+            },
+            {
+              "id": "FC-2.1.2",
+              "type": "flashcard",
+              "section": "Specialistutbildning",
+              "question": "Vilken utbildning krävs för att en sjuksköterska ska få ordinera läkemedel för vaccination?",
+              "answer": "Specialistutbildning till distriktssköterska eller inom hälso- och sjukvård för barn och ungdomar. Behörigheten regleras i HSLF-FS 2018:43 och HSLF-FS 2023:10."
+            },
+            {
+              "id": "MC-2.1.1",
+              "type": "multiple_choice",
+              "section": "Delegering är inte möjlig",
+              "question": "Vad gäller för avvikelser från det ordinarie vaccinationsprogrammet i tid eller innehåll?",
+              "options": {
+                "A": "BHV-sjuksköterskan kan besluta om dessa självständigt",
+                "B": "Avvikelser får ordineras av distriktssköterska med specialistutbildning",
+                "C": "Avvikelser får endast ordineras av läkare",
+                "D": "Det är tillåtet att delegera dessa beslut till undersköterska med erfarenhet"
+              },
+              "correct": "C",
+              "explanation": "Avvikelser från generella vaccinationsprogram i tid eller innehåll får endast ordineras av läkare."
+            },
+            {
+              "id": "SF-2.1.1",
+              "type": "true_false",
+              "section": "Specialistutbildning",
+              "statement": "En sjuksköterska utan specialistutbildning kan vaccinera barn om hon eller han har tillräcklig erfarenhet.",
+              "correct": false,
+              "explanation": "Behörighet regleras i HSLF-FS 2018:43 och kräver specialistutbildning till distriktssköterska eller inom hälso- och sjukvård för barn och ungdomar – erfarenhet kan inte ersätta detta."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Tuberkulintest - TST",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/praktiska-riktlinjer/tuberkulintest-tst/",
+          "questions": [
+            {
+              "id": "FC-2.2.1",
+              "type": "flashcard",
+              "section": "När gör man ett tuberkulintest?",
+              "question": "För vilka barn rekommenderas tuberkulintest (TST) inför BCG-vaccination?",
+              "answer": "TST rekommenderas inför BCG-vaccination till barn över 18 månader och till barn som kan ha exponerats för tuberkulossmitta."
+            },
+            {
+              "id": "FC-2.2.2",
+              "type": "flashcard",
+              "section": "Avläsning",
+              "question": "Vad ska mätas vid avläsning av tuberkulintestet, och när ska det avläsas?",
+              "answer": "Testet avläses 48–72 timmar efter injektionen. Det är indurationen (förhårdnaden) – INTE rodnaden – som mäts tvärgående mot armens längdaxel i millimeter."
+            },
+            {
+              "id": "FC-2.2.3",
+              "type": "flashcard",
+              "section": "TST i kombination med vaccination",
+              "question": "Vad gäller för TST i kombination med MPR-vaccination?",
+              "answer": "TST kan sättas före eller samtidigt med MPR-vaccination. Om MPR ges först bör man vänta en månad med TST. Om TST satts först kan MPR ges när TST avläses på tredje dagen."
+            },
+            {
+              "id": "MC-2.2.1",
+              "type": "multiple_choice",
+              "section": "Administrering och injektionsställe",
+              "question": "Hur och var administreras PPD vid tuberkulintest?",
+              "options": {
+                "A": "0,1 ml subkutant i överarmens mellersta tredjedel",
+                "B": "0,1 ml intrakutant på ovansidan av underarmens mellersta tredjedel",
+                "C": "0,05 ml intrakutant i låret",
+                "D": "0,1 ml intramuskulärt i deltoideus"
+              },
+              "correct": "B",
+              "explanation": "Dos är 0,1 ml innehållande 2 tuberkulinenheter. PPD sätts intrakutant på ovansidan av underarmens mellersta tredjedel."
+            },
+            {
+              "id": "SF-2.2.1",
+              "type": "true_false",
+              "section": "Inget TST för barn vid 6 veckor",
+              "statement": "Rutinmässig BCG-vaccination av spädbarn i riskgrupp vid 6 veckors ålder kräver alltid föregående TST.",
+              "correct": false,
+              "explanation": "Rutinmässig vaccination av barn i riskgrupp vid 6 veckors ålder kan ges utan föregående TST, om barnet inte har vistats i miljöer med risk för smitta."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Dokumentation och rapportering av vaccinationer",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/praktiska-riktlinjer/dokumentation-och-rapportering-av-vaccinationer/",
+          "questions": [
+            {
+              "id": "FC-2.3.1",
+              "type": "flashcard",
+              "section": "Dokumentation av utförda vaccinationer",
+              "question": "Vad ska registreras i journalen och nationella vaccinationsregistret vid en utförd vaccination?",
+              "answer": "Datum för vaccinationen, vilket vaccin som använts, vaccinets batchnummer, placering för vaccinationen, samt vaccinatörens signatur/namn."
+            },
+            {
+              "id": "FC-2.3.2",
+              "type": "flashcard",
+              "section": "Rapportering av utförda vaccinationer",
+              "question": "Sedan när är rapportering av vaccinationer i barnvaccinationsprogrammet till nationellt vaccinationsregister obligatorisk?",
+              "answer": "Från den 1 januari 2013, reglerat i lag (2012:453) om register över nationella vaccinationsprogram."
+            },
+            {
+              "id": "MC-2.3.1",
+              "type": "multiple_choice",
+              "section": "Rapportering av eventuella biverkningar",
+              "question": "Vem ska rapportera misstanke om vaccinationsbiverkning till Läkemedelsverket?",
+              "options": {
+                "A": "Endast läkare är skyldiga att rapportera",
+                "B": "Hälso- och sjukvårdspersonal, och även patienter och konsumenter uppmanas att rapportera",
+                "C": "Enbart BHV-sjuksköterskan som utförde vaccinationen",
+                "D": "Regionens smittskyddsläkare ansvarar för all biverkningsrapportering"
+              },
+              "correct": "B",
+              "explanation": "Hälso- och sjukvårdspersonal ska rapportera misstanke om biverkning till Läkemedelsverket, men även patienter och konsumenter uppmanas att rapportera."
+            },
+            {
+              "id": "SF-2.3.1",
+              "type": "true_false",
+              "section": "Avvikelse vid vaccination",
+              "statement": "En avvikelse vid vaccination ska rapporteras enbart om den lett till faktisk skada för patienten.",
+              "correct": false,
+              "explanation": "En avvikelse är en händelse som medfört eller hade kunnat medföra något oönskat – potentiella skador ska också rapporteras."
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Injektionstekniker vid vaccinationer",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/praktiska-riktlinjer/injektionstekniker-vid-vaccinationer/",
+          "questions": [
+            {
+              "id": "FC-2.4.1",
+              "type": "flashcard",
+              "section": "Desinfektion av huden",
+              "question": "Krävs desinfektion av injektionsstället inför vaccination?",
+              "answer": "Nej, man behöver inte desinfektera injektionsstället förutom när huden är synligt smutsig."
+            },
+            {
+              "id": "FC-2.4.2",
+              "type": "flashcard",
+              "section": "Aspiration",
+              "question": "Varför behöver man inte aspirera vid vaccinationsinjektioner?",
+              "answer": "Aspiration behövs inte eftersom stora kärl saknas på rekommenderade injektionsställen. Det gör att vaccinet kan ges snabbt och minskar smärtupplevelsen för barnet."
+            },
+            {
+              "id": "MC-2.4.1",
+              "type": "multiple_choice",
+              "section": "Anpassa kanylens längd efter vilken teknik som används",
+              "question": "Vilken kanyllängd rekommenderas vid sträckning av huden för intramuskulär injektion i låret hos ett spädbarn?",
+              "options": {
+                "A": "16 mm",
+                "B": "22 mm",
+                "C": "25 mm",
+                "D": "30 mm"
+              },
+              "correct": "A",
+              "explanation": "För att komma in i lårmuskeln på ett spädbarn bör en kanyl med 16 millimeters längd användas vid sträckning av huden. Vid lyft av muskeln används en kanyl med 22–25 mm längd."
+            },
+            {
+              "id": "SF-2.4.1",
+              "type": "true_false",
+              "section": "Z-tekniken eller bruten stickkanal",
+              "statement": "Z-tekniken vid intramuskulär injektion minskar risken för läckage av vaccin till subkutan vävnad.",
+              "correct": true,
+              "explanation": "När vaccinet är på plats och kanylen tas ut bryts stickkanalen och minskar risken för läckage av vaccin från muskelvävnad upp till subkutan vävnad och därmed risk för vävnadsretning och smärta."
+            }
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "Vägledning angående levande vaccin och immunmodulerande läkemedel",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/praktiska-riktlinjer/vagledning-angaende-levande-vaccin-och-immunmodulerandelakemedel/",
+          "questions": [
+            {
+              "id": "FC-2.5.1",
+              "type": "flashcard",
+              "section": "Vem får ordinera vaccin till barn som exponerats för immunmodulerande läkemedel?",
+              "question": "Vem ska fatta beslut om vaccination med levande vaccin till barn som exponerats för immunmodulerande läkemedel?",
+              "answer": "Vaccination med levande vaccin sker först efter en dokumenterad individuell läkarbedömning."
+            },
+            {
+              "id": "FC-2.5.2",
+              "type": "flashcard",
+              "section": "Hur används vägledningen?",
+              "question": "Vilka faktorer beaktas när ett immunmodulerande läkemedel bedöms inför vaccination med levande vaccin?",
+              "answer": "Varje läkemedel bedöms utifrån dos, tid för exponering, behandlingsduration och exponeringsväg. Man tar också hänsyn till om barnet exponerats för en kombination av olika immunmodulerande läkemedel."
+            },
+            {
+              "id": "MC-2.5.1",
+              "type": "multiple_choice",
+              "section": "Vem får ordinera vaccin till barn som exponerats för immunmodulerande läkemedel?",
+              "question": "Varifrån kan BHV inhämta stöd inför vaccination av barn exponerade för immunmodulerande läkemedel?",
+              "options": {
+                "A": "Folkhälsomyndigheten",
+                "B": "Den födande förälderns behandlande läkare och Janusmed",
+                "C": "Läkemedelsverket direkt",
+                "D": "BHV kan alltid besluta självständigt om dessa vacciner"
+              },
+              "correct": "B",
+              "explanation": "Stöd kan inhämtas från den födande förälderns behandlande läkare, Janusmed fosterpåverkan eller Janusmed amning, utöver riktlinjerna i vägledningen."
+            },
+            {
+              "id": "SF-2.5.1",
+              "type": "true_false",
+              "section": "Hur används vägledningen?",
+              "statement": "Alla barn som exponerats för immunmodulerande läkemedel ska vänta minst sex månader innan levande vaccin ges.",
+              "correct": false,
+              "explanation": "Varje läkemedel bedöms individuellt utifrån dos, tid för exponering, behandlingsduration och exponeringsväg. Ingen fast väntetid på sex månader anges i källtexten."
+            }
+          ]
+        },
+        {
+          "id": "2.6",
+          "title": "Förberedelser och smärtlindring",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/praktiska-riktlinjer/forberedelser-och-smartlindring/",
+          "questions": [
+            {
+              "id": "FC-2.6.1",
+              "type": "flashcard",
+              "section": "Amning som smärtlindring",
+              "question": "Vad visar studier om amning i samband med vaccination?",
+              "answer": "Amning strax före och under vaccination har visats ha en lugnande och smärtlindrande effekt. Det rekommenderas för barn upp till 12 månaders ålder."
+            },
+            {
+              "id": "FC-2.6.2",
+              "type": "flashcard",
+              "section": "Sockerlösning som smärtlindring",
+              "question": "Vad rekommenderar Läkemedelsverket som sockerlösning vid procedurrelaterad smärta hos barn?",
+              "answer": "1 ml 30-procentig glukoslösning per os inför procedurrelaterad smärta."
+            },
+            {
+              "id": "FC-2.6.3",
+              "type": "flashcard",
+              "section": "Lokalbedövningskräm som smärtlindring",
+              "question": "Vad gäller för lokalbedövningskräm (lidokain/prilocain) vid vaccination?",
+              "answer": "Forskningsläget är övertygande om lokalbedövningskrämens smärtlindrande effekt. Den kan användas till barn i alla åldrar."
+            },
+            {
+              "id": "MC-2.6.1",
+              "type": "multiple_choice",
+              "section": "Läkemedel som smärtlindring",
+              "question": "Vad visar forskning om febernedsättande läkemedel som smärtlindring inför vaccination?",
+              "options": {
+                "A": "Det har en tydlig smärtlindrande effekt utan påverkan på vaccinets effekt",
+                "B": "Det bör undvikas eftersom det kan minska antikroppssvaret vid första dosen",
+                "C": "Det rekommenderas starkt till alla barn inför vaccination",
+                "D": "Det har ingen effekt alls på smärtupplevelsen vid vaccination"
+              },
+              "correct": "B",
+              "explanation": "Smärtlindring med febernedsättande läkemedel bör undvikas då en litteraturöversikt visat viss minskning av antikroppssvaret i samband med första dosen."
+            },
+            {
+              "id": "SF-2.6.1",
+              "type": "true_false",
+              "section": "Barnets position vid vaccination",
+              "statement": "Barn yngre än 3 år bör ligga ner på ett undersökningsbord under vaccinationen.",
+              "correct": false,
+              "explanation": "Upprätt position kan minska smärtupplevelsen. Barn yngre än 3 år hålls i föräldrars famn, vända mot eller från föräldern."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Checklistor inför vaccination",
+      "pages": [
+        {
+          "id": "3.1",
+          "title": "Manual och checklista inför vaccination mot tuberkulos- och rotavirusinfektion",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/checklistor-infor-vaccination/manual-och-checklista-infor-vaccination-mot-tuberkulos--och-rotavirusinfektion/",
+          "questions": [
+            {
+              "id": "FC-3.1.1",
+              "type": "flashcard",
+              "section": "Hur används checklistan?",
+              "question": "Vilken funktion har checklistan inför BCG- och rotavirusvaccination?",
+              "answer": "Checklistan fungerar som ett stöd för BHV-sjuksköterskan för att identifiera kontraindikationer inför vaccination med rotavirus- och BCG-vaccin."
+            },
+            {
+              "id": "FC-3.1.2",
+              "type": "flashcard",
+              "section": "Fråga 1. Har PKU-prov tagits enligt rutin?",
+              "question": "Varför är PKU-provet viktigt inför vaccination med levande vaccin?",
+              "answer": "PKU-provet identifierar barn med svår kombinerad immunbrist (SCID), som förekommer hos ungefär 2 barn per 100 000 nyfödda. Dessa barn kan inte vaccineras med levande vaccin."
+            },
+            {
+              "id": "FC-3.1.3",
+              "type": "flashcard",
+              "section": "Fråga 7: Har barnet haft tarminvagination?",
+              "question": "Varför frågar man om tarminvagination inför rotavirusvaccination?",
+              "answer": "Rotavirusvaccination är kontraindicerat för barn som haft tarminvagination."
+            },
+            {
+              "id": "MC-3.1.1",
+              "type": "multiple_choice",
+              "section": "Hur ska svaren bedömas?",
+              "question": "Hur tolkas checklistans svar för att avgöra om barnet kan vaccineras mot rotavirus och tuberkulos?",
+              "options": {
+                "A": "Alla frågor ska besvaras med NEJ för att barnet ska kunna vaccineras",
+                "B": "Fråga 1 ska besvaras med JA, övriga (markerade med fet stil) med NEJ",
+                "C": "Sjuksköterskan avgör fritt baserat på helhetsintrycket av barnet",
+                "D": "Alla JA-svar på frågor utesluter alltid vaccination"
+              },
+              "correct": "B",
+              "explanation": "När fråga 1 (PKU-prov taget) besvaras med JA och övriga relevanta frågor med NEJ, kan barnet erbjudas aktuell vaccination. För övriga barn görs en individuell bedömning."
+            },
+            {
+              "id": "SF-3.1.1",
+              "type": "true_false",
+              "section": "Fråga 6: Har den som fött barnet någon gång under graviditet eller amning behandlats med mediciner som kan försvaga immunförsvaret?",
+              "statement": "Barnets immunsvar kan påverkas om den gravida tagit immunhämmande läkemedel från graviditetsvecka 28 och framåt.",
+              "correct": false,
+              "explanation": "Barnets immunsvar kan vara påverkat om den gravida, från graviditetsvecka 20 och framåt, behandlats med immunhämmande läkemedel – inte från vecka 28."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Vaccinationer på BVC",
+      "pages": [
+        {
+          "id": "4.1",
+          "title": "Vaccin mot pneumokocker",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/vaccinationer-pa-bvc/vaccin-mot-pneumokockinfektion/",
+          "questions": [
+            {
+              "id": "FC-4.1.1",
+              "type": "flashcard",
+              "section": "Vaccinets egenskaper",
+              "question": "Vad är fördelen med konjugatvaccin (PCV) mot pneumokocker?",
+              "answer": "Konjugatvaccin har kolhydrater från bakteriens kapsel kopplade till ett protein, vilket gör att även barn under två år kan bilda skyddande antikroppar och ger ett immunologiskt minne."
+            },
+            {
+              "id": "FC-4.1.2",
+              "type": "flashcard",
+              "section": "Skyddseffekt",
+              "question": "Hur stor är pneumokockvaccinets skyddseffekt mot invasiva pneumokockinfektioner som ingår i vaccinet?",
+              "answer": "Mer än 90 procent skyddseffekt mot invasiva pneumokockinfektioner som exempelvis meningit."
+            },
+            {
+              "id": "MC-4.1.1",
+              "type": "multiple_choice",
+              "section": "Administreringssätt",
+              "question": "Hur ska pneumokockvaccin administreras?",
+              "options": {
+                "A": "Subkutant i låret",
+                "B": "Intramuskulärt i låret (alla åldrar) eller i överarmen (barn >1 år)",
+                "C": "Oralt",
+                "D": "Intrakutant i överarmen"
+              },
+              "correct": "B",
+              "explanation": "Vaccinet ska ges intramuskulärt. Låret kan användas som injektionsställe i alla åldrar. Till barn över 1 år kan intramuskulär injektion även ges i överarmen."
+            },
+            {
+              "id": "SF-4.1.1",
+              "type": "true_false",
+              "section": "Utbytbarhet",
+              "statement": "De olika konjugerade pneumokockvaccinerna är utbytbara med varandra.",
+              "correct": true,
+              "explanation": "De olika konjugerade pneumokockvaccinerna är utbytbara med varandra."
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Vaccinationsschema",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/vaccinationer-pa-bvc/barnvaccinationsprogrammet/",
+          "questions": [
+            {
+              "id": "FC-4.2.1",
+              "type": "flashcard",
+              "section": "Vaccinationsschema",
+              "question": "Vid vilka åldrar ges rotavirusvaccin i barnvaccinationsprogrammet?",
+              "answer": "Rotavirusvaccin ges vid 6 veckors, 3 månaders och 5 månaders ålder."
+            },
+            {
+              "id": "FC-4.2.2",
+              "type": "flashcard",
+              "section": "Om intervallen blir kortare eller längre",
+              "question": "Vad händer om intervallet mellan vaccindoser blir längre än rekommenderat?",
+              "answer": "Det leder som regel inte till ett försämrat immunsvar. Man behöver vanligen inte börja om serien från början."
+            },
+            {
+              "id": "MC-4.2.1",
+              "type": "multiple_choice",
+              "section": "Vid ofullständigt given dos",
+              "question": "Vad ska göras om ett barn av misstag fått för liten dos av ett inaktiverat vaccin?",
+              "options": {
+                "A": "Dosen ignoreras och räknas ändå som en fullständig dos",
+                "B": "Vaccinationen upprepas efter minst 14 dagar med rätt dos",
+                "C": "Serien börjas om från början",
+                "D": "Dosen ges om igen direkt vid samma besök"
+              },
+              "correct": "B",
+              "explanation": "Om det är ett inaktiverat vaccin upprepas vaccinationen efter minst 14 dagar med rätt dos. Endast fullständiga doser räknas."
+            },
+            {
+              "id": "SF-4.2.1",
+              "type": "true_false",
+              "section": "Om intervallen blir kortare eller längre",
+              "statement": "Kortare intervall än rekommenderat mellan vaccindoser kan ge ett sämre immunsvar.",
+              "correct": true,
+              "explanation": "Intervallen mellan de olika vaccindoserna bör inte bli kortare än de rekommenderade på grund av risk för sämre immunsvar."
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Vaccin mot tuberkulos",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/vaccinationer-pa-bvc/vaccin-mot-tuberkulos/",
+          "questions": [
+            {
+              "id": "FC-4.3.1",
+              "type": "flashcard",
+              "section": "Vaccinets egenskaper",
+              "question": "Vad är BCG-vaccinet och hur är det sammansatt?",
+              "answer": "BCG (Bacillus Calmette-Guérin) är en levande, försvagad stam av Mykobakterium bovis."
+            },
+            {
+              "id": "FC-4.3.2",
+              "type": "flashcard",
+              "section": "Kontraindikationer",
+              "question": "Vilka barn ska INTE erbjudas BCG-vaccination?",
+              "answer": "Barn som lever med hiv, vars födande förälder lever med hiv (tills hiv-smitta uteslutits hos barnet), som får läkemedel eller har sjukdom som påverkar immunförsvaret, eller som exponerats för immunsupprimerande behandling."
+            },
+            {
+              "id": "FC-4.3.3",
+              "type": "flashcard",
+              "section": "Skyddseffekt",
+              "question": "Hur lång tid tar det innan BCG-vaccination ger skydd?",
+              "answer": "Det tar minst 6 veckor efter vaccinationstillfället innan BCG-vaccinationen ger skydd."
+            },
+            {
+              "id": "MC-4.3.1",
+              "type": "multiple_choice",
+              "section": "BCG i kombination med andra vaccin",
+              "question": "Vad gäller för ett levande, försvagat, parenteralt vaccin i kombination med BCG?",
+              "options": {
+                "A": "Det kan ges oberoende av BCG utan tidsintervall",
+                "B": "Det kan ges samtidigt med BCG eller efter minst fyra veckor",
+                "C": "Det ska ges minst 4 veckor FÖRE BCG",
+                "D": "Det kan aldrig ges i kombination med BCG"
+              },
+              "correct": "B",
+              "explanation": "Ett levande, försvagat, parenteralt vaccin kan ges samtidigt med BCG eller efter minst fyra veckor."
+            },
+            {
+              "id": "SF-4.3.1",
+              "type": "true_false",
+              "section": "Misslyckad injektion – utebliven reaktion",
+              "statement": "Om BCG-vaccinationen misstänks ha misslyckats kan man kontrollera skyddseffekten med TST efter 3 månader och vaccinera om på nytt om TST är helt negativ (0 mm).",
+              "correct": true,
+              "explanation": "Om misslyckad injektion befaras och ingen reaktion utvecklas, kan skyddseffekten kontrolleras med TST efter 3 månader. En ny vaccination görs om TST är helt negativ (0 mm)."
+            }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Sexvalent och fyrvalent kombinationsvaccin",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/vaccinationer-pa-bvc/sexvalent-och-fyrvalent-kombinationsvaccin/",
+          "questions": [
+            {
+              "id": "FC-4.4.1",
+              "type": "flashcard",
+              "section": "Vaccinets egenskaper",
+              "question": "Mot vilka sjukdomar skyddar det sexvalenta kombinationsvaccinet?",
+              "answer": "Difteri, stelkramp, kikhosta, polio, Haemophilus influenzae typ b (Hib) och hepatit B."
+            },
+            {
+              "id": "FC-4.4.2",
+              "type": "flashcard",
+              "section": "Kikhosta",
+              "question": "Vad menas med att kikhostavaccinet är 'acellulärt'?",
+              "answer": "Det acellulärt vaccinet innehåller bara delar av bakterien, till skillnad från helcellsvacciner där hela bakterien används. Komponenterna omvandlas till toxoider under framställningen."
+            },
+            {
+              "id": "MC-4.4.1",
+              "type": "multiple_choice",
+              "section": "Administreringssätt",
+              "question": "Varför ska subkutana injektioner undvikas för kombinationsvaccin mot DTP?",
+              "options": {
+                "A": "Subkutana injektioner ger svagare immunsvar",
+                "B": "Subkutana injektioner ökar risken för lokala reaktioner och sterila abscesser",
+                "C": "Subkutan injektion är tekniskt svårare att utföra",
+                "D": "Det saknas lämplig kanyl för subkutan injektion"
+              },
+              "correct": "B",
+              "explanation": "Undvik subkutana injektioner eftersom dessa ökar risken för besvärande lokala reaktioner och sterila abscesser."
+            },
+            {
+              "id": "SF-4.4.1",
+              "type": "true_false",
+              "section": "Särskilda överväganden gällande kikhosta",
+              "statement": "Om ett barn redan haft kikhosta ska man avvakta med vaccination tills barnet är helt återställt.",
+              "correct": false,
+              "explanation": "Barnet bör vaccineras även om det redan haft misstänkt eller verifierad kikhosta. Vaccinationen fungerar som en förstärkning av skyddet."
+            }
+          ]
+        },
+        {
+          "id": "4.5",
+          "title": "Monovalenta vaccin",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/vaccinationer-pa-bvc/monovalenta-vaccin/",
+          "questions": [
+            {
+              "id": "FC-4.5.1",
+              "type": "flashcard",
+              "section": "Inledning",
+              "question": "I vilka situationer kan monovalenta vaccin behöva användas inom BHV?",
+              "answer": "Ibland kan det finnas skäl att komplettera med ett monovalent vaccin, till exempel för barn med ofullständig grundvaccination."
+            },
+            {
+              "id": "FC-4.5.2",
+              "type": "flashcard",
+              "section": "Difteri",
+              "question": "Finns det monovalenta fulldosvaccin mot difteri, stelkramp eller kikhosta?",
+              "answer": "Det finns inget monovalent fulldosvaccin mot difteri eller kikhosta. Monovalent stelkrampsvaccin finns endast via licensförfarande. Rekommendation är i samtliga fall att använda fyrvalent eller sexvalent kombinationsvaccin."
+            },
+            {
+              "id": "MC-4.5.1",
+              "type": "multiple_choice",
+              "section": "Polio",
+              "question": "När rekommenderas monovalent poliovaccin?",
+              "options": {
+                "A": "Alltid vid vaccination mot polio",
+                "B": "Vid separat vaccination mot polio, till exempel vid komplettering av bristfälligt vaccinationsskydd",
+                "C": "Enbart vid utomnordisk resa",
+                "D": "Monovalent poliovaccin finns inte i Sverige"
+              },
+              "correct": "B",
+              "explanation": "Det finns ett monovalent fulldosvaccin mot polio. Det rekommenderas vid separat vaccination mot polio, till exempel om man behöver komplettera skyddet hos barn utan fullständigt vaccinationsskydd."
+            },
+            {
+              "id": "SF-4.5.1",
+              "type": "true_false",
+              "section": "Mässling",
+              "statement": "Det finns ett monovalent fulldosvaccin mot mässling som kan användas vid behov.",
+              "correct": false,
+              "explanation": "Det finns inget monovalent fulldosvaccin mot mässling. Rekommendation är att vaccinera med MPR-vaccin."
+            }
+          ]
+        },
+        {
+          "id": "4.6",
+          "title": "Vaccin mot mässling, påssjuka, röda hund",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/vaccinationer-pa-bvc/vaccin-mot-massling-passjuka-roda-hund/",
+          "questions": [
+            {
+              "id": "FC-4.6.1",
+              "type": "flashcard",
+              "section": "Vaccinets egenskaper",
+              "question": "Vad innehåller MPR-vaccinet?",
+              "answer": "MPR-vaccinet mot mässling, påssjuka och röda hund består av ett frystorkat pulver med levande försvagade virusstammar mot alla tre sjukdomarna."
+            },
+            {
+              "id": "FC-4.6.2",
+              "type": "flashcard",
+              "section": "MPR vid resa",
+              "question": "Från vilken ålder rekommenderar Folkhälsomyndigheten MPR-vaccination vid hög mässlingsrisk vid resa?",
+              "answer": "Folkhälsomyndigheten rekommenderar vaccination redan från 6 månaders ålder vid resa om risken att exponeras för mässling är stor."
+            },
+            {
+              "id": "MC-4.6.1",
+              "type": "multiple_choice",
+              "section": "Biverkningar",
+              "question": "Vilka biverkningar är vanliga efter MPR-vaccination?",
+              "options": {
+                "A": "Omedelbar anafylaxi inom 30 minuter",
+                "B": "Feberreaktion 5–13 dagar efter vaccination hos 5–10%, eventuellt utslag och lätt parotissvullnad",
+                "C": "Allvarlig allergisk chock hos 10–15%",
+                "D": "Allvarliga neurologiska komplikationer inom 48 timmar"
+              },
+              "correct": "B",
+              "explanation": "Cirka 5–10 procent av barnen får en feberreaktion 5–13 dagar efter vaccinationen. Utslag, lätt parotissvullnad eller övergående ledvärk kan förekomma. Besvären försvinner efter ett par dagar och barnen är inte smittsamma."
+            },
+            {
+              "id": "SF-4.6.1",
+              "type": "true_false",
+              "section": "Övrigt",
+              "statement": "Om en förälder uppger att barnet haft mässling bör man avvakta med MPR-vaccination.",
+              "correct": false,
+              "explanation": "Även om vårdnadshavare uppger att barnet haft mässling, påssjuka eller röda hund bör vaccination ges, eftersom anamnes och diagnos ofta är osäker och skydd mot de övriga två sjukdomarna behövs."
+            }
+          ]
+        },
+        {
+          "id": "4.7",
+          "title": "Vaccin mot rotavirus",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/vaccinationer-pa-bvc/vaccin-mot-rotavirusinfektion/",
+          "questions": [
+            {
+              "id": "FC-4.7.1",
+              "type": "flashcard",
+              "section": "Vaccinets egenskaper",
+              "question": "Hur administreras rotavirusvaccin och vad innehåller det?",
+              "answer": "Rotavirusvaccin är en oral lösning med levande, försvagade virus. Det innehåller inga adjuvans eller konserveringsmedel och smakar sött på grund av sackaros."
+            },
+            {
+              "id": "FC-4.7.2",
+              "type": "flashcard",
+              "section": "Skyddseffekt",
+              "question": "Vilken skyddseffekt ger rotavirusvaccinet?",
+              "answer": "Vaccinet ger cirka 90 procent skydd mot allvarlig gastroenterit orsakad av rotavirus (RVGE) och cirka 75 procent skydd mot all RVGE. Skyddet varar i minst tre år."
+            },
+            {
+              "id": "FC-4.7.3",
+              "type": "flashcard",
+              "section": "Ålder och intervall",
+              "question": "Vad gäller för åldersgränser vid rotavirusvaccination?",
+              "answer": "Första dosen ges från 6 veckors ålder och ska ges innan 12 veckors ålder. Det ska vara minst 4 veckors intervall mellan doserna."
+            },
+            {
+              "id": "MC-4.7.1",
+              "type": "multiple_choice",
+              "section": "Administreringssätt",
+              "question": "Vad ska göras om barnet spottar ut eller kräks upp rotavirusvaccinet?",
+              "options": {
+                "A": "Ge genast en ny dos",
+                "B": "Vänta 30 minuter och försök på nytt",
+                "C": "Dosen räknas som given och ska inte upprepas",
+                "D": "Kontakta läkare för bedömning"
+              },
+              "correct": "C",
+              "explanation": "Om barnet spottar ut eller kräks upp vaccinet ska man inte ge en ny dos – dosen räknas som given dos."
+            },
+            {
+              "id": "SF-4.7.1",
+              "type": "true_false",
+              "section": "Prematurt födda barn",
+              "statement": "För tidigt födda barn kan inte erbjudas rotavirusvaccin förrän vid fullgången ålder.",
+              "correct": false,
+              "explanation": "För tidigt födda barn från graviditetsvecka 25 (RotaTeq®) respektive vecka 27 (Rotarix®) kan erbjudas vaccination från 6 veckors ålder med samma schema och antal doser som för fullgångna barn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Anafylaxi på BVC",
+      "pages": [
+        {
+          "id": "5.1",
+          "title": "Anafylaxi på BVC",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/anafylaxi-pa-bvc/",
+          "questions": [
+            {
+              "id": "FC-5.1.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "question": "Vad är anafylaxi?",
+              "answer": "Anafylaxi är en akut, svår och ofta snabbt insättande systemisk överkänslighetsreaktion från flera organsystem. Anafylaxi är potentiellt livshotande."
+            },
+            {
+              "id": "FC-5.1.2",
+              "type": "flashcard",
+              "section": "Läkemedel på BVC",
+              "question": "Vilka läkemedel ska alltid finnas tillgängliga på BVC-mottagning?",
+              "answer": "Adrenalin-autoinjektor (adrenalinpenna) 0,15 mg/dos (2 st) samt Desloratadin munlöslig tablett 2,5 mg (2 st) eller Desloratadin oral lösning 0,5 mg/ml (120 ml)."
+            },
+            {
+              "id": "FC-5.1.3",
+              "type": "flashcard",
+              "section": "Åtgärder vid anafylaxi",
+              "question": "Vilka är de omedelbara åtgärderna vid anafylaxi på BVC?",
+              "answer": "Lägg barnet ner och höj fotändan (vid andningspåverkan eller kräkning: låt barnet ligga/sitta i förälders knä i den position det föredrar). Ge adrenalin intramuskulärt i låret. Larma 112. Kontrollera andning och cirkulation."
+            },
+            {
+              "id": "MC-5.1.1",
+              "type": "multiple_choice",
+              "section": "BHV-sjuksköterskan får ge läkemedel enligt delegering",
+              "question": "Under vilka omständigheter får BHV-sjuksköterskan ge läkemedel vid anafylaktisk reaktion utan läkare på plats?",
+              "options": {
+                "A": "Aldrig – sjuksköterskan måste alltid vänta på läkare",
+                "B": "Enligt generellt direktiv från ansvarig läkare i en brådskande situation",
+                "C": "Om sjuksköterskan har mer än 5 års erfarenhet",
+                "D": "Enbart om föräldern ger sitt samtycke"
+              },
+              "correct": "B",
+              "explanation": "Enligt generellt direktiv från ansvarig läkare får sjuksköterskan – i en brådskande situation där läkare inte finns på plats – ge läkemedel vid en anafylaktisk reaktion efter en behovsbedömning."
+            },
+            {
+              "id": "SF-5.1.1",
+              "type": "true_false",
+              "section": "Begränsad allergisk reaktion",
+              "statement": "Enbart urtikaria och angioödem utan övriga symtom räknas som anafylaxi.",
+              "correct": false,
+              "explanation": "Enbart urtikaria, angioödem, rinkonjunktivit eller lindriga gastrointestinala symtom ses vid en begränsad allergisk reaktion och är inte anafylaxi. Vid anafylaxi är flera organsystem involverade samtidigt med kraftig allmänpåverkan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Samtal med föräldrar som är tveksamma till vaccin",
+      "pages": [
+        {
+          "id": "6.1",
+          "title": "Samtal med föräldrar som är tveksamma till vaccin",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/samtal-med-vaccintveksamma-foraldrar/",
+          "questions": [
+            {
+              "id": "FC-6.1.1",
+              "type": "flashcard",
+              "section": "Vaccinparadoxen",
+              "question": "Vad menas med 'vaccinparadoxen'?",
+              "answer": "Ju fler som vaccineras, desto färre får sjukdomarna, och då glöms deras allvarliga komplikationer bort. Föräldrars oro för sjukdomarna ersätts med oro för vaccinationsrisker och biverkningar."
+            },
+            {
+              "id": "FC-6.1.2",
+              "type": "flashcard",
+              "section": "C.A.S.E. metoden",
+              "question": "Vad står förkortningen C.A.S.E. för i kommunikation om vaccin?",
+              "answer": "Corroborate (bekräfta föräldrarnas funderingar), About me (berätta vad du själv gjort för att bilda din uppfattning), Science (tala om vad vetenskapen kommit fram till), Explain/Advice (förklara och ge råd)."
+            },
+            {
+              "id": "FC-6.1.3",
+              "type": "flashcard",
+              "section": "När föräldrarna inte är överens om att vaccinera",
+              "question": "Vad gäller om föräldrar inte är eniga om att vaccinera?",
+              "answer": "Vaccinationer är frivilliga och inget barn får vaccineras mot den ena eller bägge vårdnadshavarnas vilja. Båda vårdnadshavarna måste vara överens."
+            },
+            {
+              "id": "MC-6.1.1",
+              "type": "multiple_choice",
+              "section": "Samtal med hälsovårdspersonal har betydelse",
+              "question": "Vilket förhållningssätt rekommenderas när hälsovårdspersonal samtalar med tveksamma föräldrar om vaccin?",
+              "options": {
+                "A": "Presentera fakta på ett bestämt och auktoritärt sätt",
+                "B": "Lyssna, bekräfta på ett respektfullt sätt och välkomna föräldrarnas frågor",
+                "C": "Hänvisa direkt till skriftlig information utan dialog",
+                "D": "Vänta tills föräldrarna själva tar initiativet till samtalet"
+              },
+              "correct": "B",
+              "explanation": "Barnhälsovårdens uppgift är att utgå från att alla föräldrar vill sitt barns bästa, lyssna och bekräfta på ett respektfullt och inbjudande sätt, och välkomna föräldrarnas frågor."
+            },
+            {
+              "id": "SF-6.1.1",
+              "type": "true_false",
+              "section": "Om föräldrarna bestämmer sig för att inte vaccinera",
+              "statement": "Om föräldrar bestämmer sig för att inte vaccinera sitt barn bör de avskrivas från BVC.",
+              "correct": false,
+              "explanation": "Barnhälsovårdens inställning och förhållningssätt ska syfta till att familjen känner sig välkommen tillbaka till BVC. Man ska göra klart att man respekterar deras beslut och att dörren alltid är öppen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Bedöma och komplettera vaccinationer",
+      "pages": [
+        {
+          "id": "7.1",
+          "title": "Bedöma och komplettera vaccinationer",
+          "source_url": "https://www.rikshandboken-bhv.se/vaccination/bedoma-och-komplettera-vaccinationer/",
+          "questions": [
+            {
+              "id": "FC-7.1.1",
+              "type": "flashcard",
+              "section": "Kartläggning av vaccinationsstatus",
+              "question": "Hur kartläggs vaccinationsstatus för ett barn som inte följt det svenska programmet?",
+              "answer": "Baserat på noggrann anamnes och genomgång av befintlig dokumentation, med frågor om barnet följt andra länders vaccinationsschema. Auktoriserad tolk används vid behov."
+            },
+            {
+              "id": "FC-7.1.2",
+              "type": "flashcard",
+              "section": "Serologiundersökning behövs inte",
+              "question": "Ska serologiundersökning göras rutinmässigt för att bedöma vaccinationsbehov?",
+              "answer": "Nej. Serologiundersökning är ingen rutinåtgärd och tillför i de flesta fall ingen ytterligare information för vaccinationsplaneringen."
+            },
+            {
+              "id": "FC-7.1.3",
+              "type": "flashcard",
+              "section": "Om vaccinationsstatus inte går att fastställa eller saknas",
+              "question": "Vad görs om ett barns vaccinationsstatus bedöms som oklar eller barnet är helt ovaccinerat?",
+              "answer": "En grundvaccination påbörjas med doser och intervall som motsvarar det allmänna vaccinationsprogrammet. Kombinations-vaccin används om möjligt för att minska antalet injektioner."
+            },
+            {
+              "id": "MC-7.1.1",
+              "type": "multiple_choice",
+              "section": "Ordinationsrätt för kompletterande doser",
+              "question": "Vad krävs för vaccinationer som faller utanför tidsramarna i Folkhälsomyndighetens föreskrifter?",
+              "options": {
+                "A": "Specialistsjuksköterskan kan alltid hantera dessa självständigt",
+                "B": "Läkarordination krävs",
+                "C": "Regionens vaccinationssamordnare godkänner",
+                "D": "Föräldrarna måste skriva under ett informerat samtycke"
+              },
+              "correct": "B",
+              "explanation": "Läkarordination krävs för vaccinationer som faller utanför tidsramarna i föreskrifterna HSLF-FS 2016:5 och HSLF-FS 2019:17."
+            },
+            {
+              "id": "SF-7.1.1",
+              "type": "true_false",
+              "section": "Alla barn ska erbjudas kompletterande vaccination",
+              "statement": "Kompletterande vaccination erbjuds enbart barn upp till 6 års ålder som inte följt barnvaccinationsprogrammet.",
+              "correct": false,
+              "explanation": "Alla barn upp till 18 års ålder som inte vaccinerats enligt Folkhälsomyndighetens föreskrifter ska erbjudas kompletterande vaccination mot sjukdomarna i det allmänna vaccinationsprogrammet."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

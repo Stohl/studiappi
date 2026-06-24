@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BHV Studiapp</title>
+<style>
+  :root {
+    --blue: #006AA7; --blue-dark: #004f80; --blue-light: #e8f4fc;
+    --green: #2d9e5f; --green-light: #e6f7ee;
+    --red: #d63638; --red-light: #fde8e8;
+    --yellow: #f0a500; --yellow-light: #fff8e6;
+    --gray: #6b7280; --gray-light: #f3f4f6;
+    --text: #1a1a2e; --white: #ffffff; --border: #e2e8f0;
+    --shadow: 0 2px 12px rgba(0,0,0,0.08);
+    --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+    --radius: 12px; --radius-sm: 8px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f0f4f8; color: var(--text); min-height: 100vh; }
+
+  .app-header { background: var(--blue); color: white; padding: 16px 24px; display: flex; align-items: center; gap: 12px; box-shadow: 0 2px 8px rgba(0,106,167,0.3); }
+  .app-header h1 { font-size: 1.2rem; font-weight: 700; }
+  .app-header .subtitle { font-size: 0.8rem; opacity: 0.8; }
+
+  .screen { display: none; padding: 24px; max-width: 700px; margin: 0 auto; }
+  .screen.active { display: block; }
+
+  /* Loading */
+  .loading-wrap { text-align: center; padding: 60px 24px; }
+  .spinner { width: 44px; height: 44px; border: 4px solid var(--border); border-top-color: var(--blue); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 20px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+  .loading-status { font-size: 0.85rem; color: var(--gray); line-height: 1.6; }
+  .error-box { background: var(--red-light); border: 1px solid var(--red); border-radius: var(--radius-sm); padding: 16px 20px; margin-top: 20px; text-align: left; font-size: 0.9rem; line-height: 1.7; color: var(--red); }
+  .error-box code { background: rgba(0,0,0,0.06); padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+
+  /* Home */
+  .main-cats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 24px; }
+  .main-cat-btn { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius); padding: 16px; cursor: pointer; text-align: center; transition: all 0.2s; position: relative; }
+  .main-cat-btn:hover { border-color: var(--blue); box-shadow: var(--shadow); transform: translateY(-1px); }
+  .main-cat-btn .cat-emoji { font-size: 1.8rem; display: block; margin-bottom: 6px; }
+  .main-cat-btn .cat-name { font-size: 0.85rem; font-weight: 600; }
+  .main-cat-btn .cat-count { font-size: 0.75rem; color: var(--gray); margin-top: 2px; }
+
+  .section-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--gray); margin-bottom: 12px; }
+  .divider { height: 1px; background: var(--border); margin: 20px 0; }
+
+  .subcat-grid { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+  .subcat-item { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius-sm); padding: 12px 16px; display: flex; align-items: center; gap: 12px; cursor: pointer; transition: all 0.15s; user-select: none; }
+  .subcat-item:hover { border-color: var(--blue); background: var(--blue-light); }
+  .subcat-item.checked { border-color: var(--blue); background: var(--blue-light); }
+  .subcat-check { width: 20px; height: 20px; border-radius: 5px; border: 2px solid var(--border); flex-shrink: 0; display: flex; align-items: center; justify-content: center; transition: all 0.15s; }
+  .subcat-item.checked .subcat-check { background: var(--blue); border-color: var(--blue); color: white; }
+  .subcat-check::after { content: '✓'; font-size: 12px; font-weight: bold; display: none; }
+  .subcat-item.checked .subcat-check::after { display: block; }
+  .subcat-label { flex: 1; }
+  .subcat-label .name { font-size: 0.9rem; font-weight: 600; }
+  .subcat-label .meta { font-size: 0.75rem; color: var(--gray); margin-top: 1px; }
+
+  .select-all-row { display: flex; gap: 8px; margin-bottom: 12px; }
+  .btn-sm { padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border); background: var(--white); font-size: 0.8rem; cursor: pointer; font-weight: 600; transition: all 0.15s; color: var(--gray); }
+  .btn-sm:hover { border-color: var(--blue); color: var(--blue); }
+
+  .mode-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+  .mode-btn { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius-sm); padding: 14px; cursor: pointer; text-align: center; transition: all 0.15s; }
+  .mode-btn:hover { border-color: var(--blue); }
+  .mode-btn.selected { border-color: var(--blue); background: var(--blue-light); }
+  .mode-btn .mode-icon { font-size: 1.4rem; }
+  .mode-btn .mode-name { font-size: 0.85rem; font-weight: 700; margin-top: 4px; }
+  .mode-btn .mode-desc { font-size: 0.72rem; color: var(--gray); margin-top: 2px; }
+
+  .btn-primary { background: var(--blue); color: white; padding: 14px 28px; border: none; border-radius: var(--radius); font-size: 1rem; font-weight: 700; cursor: pointer; width: 100%; transition: all 0.2s; box-shadow: 0 4px 12px rgba(0,106,167,0.25); }
+  .btn-primary:hover { background: var(--blue-dark); transform: translateY(-1px); }
+  .btn-primary:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+  .btn-ghost { background: transparent; color: var(--gray); padding: 10px 20px; border: 2px solid var(--border); border-radius: var(--radius); font-size: 0.9rem; font-weight: 600; cursor: pointer; transition: all 0.15s; width: 100%; }
+  .btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
+
+  #screen-study { padding: 16px; }
+  .study-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .study-back { background: none; border: none; font-size: 1.2rem; cursor: pointer; padding: 4px; }
+  .study-progress-wrap { flex: 1; }
+  .progress-bar-bg { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .progress-bar-fill { height: 100%; background: var(--blue); border-radius: 4px; transition: width 0.4s ease; }
+  .progress-text { font-size: 0.75rem; color: var(--gray); margin-top: 4px; }
+  .study-stats { display: flex; gap: 12px; margin-bottom: 16px; }
+  .stat-chip { background: var(--white); border-radius: 20px; padding: 5px 12px; font-size: 0.8rem; font-weight: 700; border: 1px solid var(--border); display: flex; align-items: center; gap: 5px; }
+  .stat-chip.green { background: var(--green-light); border-color: var(--green); color: var(--green); }
+  .stat-chip.red { background: var(--red-light); border-color: var(--red); color: var(--red); }
+
+  .q-type-badge { display: inline-block; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 3px 10px; border-radius: 20px; margin-bottom: 12px; }
+  .q-type-badge.fc { background: #e8eaf6; color: #3949ab; }
+  .q-type-badge.mc { background: #e8f5e9; color: #2e7d32; }
+  .q-type-badge.sf { background: #fff3e0; color: #e65100; }
+
+  .flashcard-scene { perspective: 1200px; width: 100%; margin-bottom: 16px; }
+  .flashcard { width: 100%; min-height: 220px; position: relative; transform-style: preserve-3d; transition: transform 0.5s ease; cursor: pointer; }
+  .flashcard.flipped { transform: rotateY(180deg); }
+  .card-face { position: absolute; top: 0; left: 0; width: 100%; min-height: 220px; backface-visibility: hidden; -webkit-backface-visibility: hidden; border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; justify-content: center; box-shadow: var(--shadow-lg); }
+  .card-front { background: var(--white); border: 2px solid var(--border); }
+  .card-back { background: var(--blue); color: white; transform: rotateY(180deg); }
+  .card-face .card-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; opacity: 0.5; margin-bottom: 12px; }
+  .card-face .card-text { font-size: 1rem; line-height: 1.6; font-weight: 500; }
+  .card-face .flip-hint { margin-top: 20px; font-size: 0.75rem; opacity: 0.4; text-align: center; }
+  .fc-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 4px; }
+  .btn-knew { padding: 13px; border: none; border-radius: var(--radius); font-size: 0.9rem; font-weight: 700; cursor: pointer; transition: all 0.15s; }
+  .btn-knew.yes { background: var(--green-light); color: var(--green); border: 2px solid var(--green); }
+  .btn-knew.yes:hover { background: var(--green); color: white; }
+  .btn-knew.no { background: var(--red-light); color: var(--red); border: 2px solid var(--red); }
+  .btn-knew.no:hover { background: var(--red); color: white; }
+
+  .mc-card, .sf-card { background: var(--white); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); margin-bottom: 16px; }
+  .mc-question, .sf-statement { font-size: 1rem; font-weight: 600; line-height: 1.6; margin-bottom: 20px; }
+  .mc-options { display: flex; flex-direction: column; gap: 10px; }
+  .mc-option { padding: 13px 16px; border: 2px solid var(--border); border-radius: var(--radius-sm); cursor: pointer; transition: all 0.15s; font-size: 0.9rem; font-weight: 500; display: flex; gap: 10px; align-items: flex-start; }
+  .mc-option:hover:not(.disabled) { border-color: var(--blue); background: var(--blue-light); }
+  .mc-option.selected-correct { border-color: var(--green); background: var(--green-light); color: var(--green); }
+  .mc-option.selected-wrong { border-color: var(--red); background: var(--red-light); color: var(--red); }
+  .mc-option.reveal-correct { border-color: var(--green); background: var(--green-light); }
+  .mc-option.disabled { cursor: default; }
+  .option-letter { width: 24px; height: 24px; border-radius: 50%; background: var(--gray-light); display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 800; flex-shrink: 0; margin-top: 1px; }
+  .selected-correct .option-letter { background: var(--green); color: white; }
+  .selected-wrong .option-letter { background: var(--red); color: white; }
+  .reveal-correct .option-letter { background: var(--green); color: white; }
+
+  .sf-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .sf-btn { padding: 20px; border: 2px solid var(--border); border-radius: var(--radius); font-size: 1.1rem; font-weight: 800; cursor: pointer; transition: all 0.15s; text-align: center; }
+  .sf-btn.sant { color: var(--green); border-color: var(--green); }
+  .sf-btn.sant:hover:not(.disabled) { background: var(--green); color: white; }
+  .sf-btn.falskt { color: var(--red); border-color: var(--red); }
+  .sf-btn.falskt:hover:not(.disabled) { background: var(--red); color: white; }
+  .sf-btn.correct { background: var(--green); color: white; border-color: var(--green); }
+  .sf-btn.wrong { background: var(--red); color: white; border-color: var(--red); }
+  .sf-btn.disabled { cursor: default; opacity: 0.5; }
+  .sf-btn.disabled.correct { opacity: 1; }
+
+  .explanation-box { background: var(--yellow-light); border: 1px solid var(--yellow); border-radius: var(--radius-sm); padding: 14px 16px; margin-bottom: 16px; font-size: 0.88rem; line-height: 1.6; animation: slideIn 0.2s ease; }
+  .explanation-box strong { color: var(--yellow); }
+  .source-link { display: inline-flex; align-items: center; gap: 5px; margin-top: 10px; font-size: 0.78rem; color: var(--blue); text-decoration: none; font-weight: 600; border-top: 1px solid rgba(240,165,0,0.3); padding-top: 8px; width: 100%; }
+  .source-link:hover { text-decoration: underline; }
+  .source-link-plain { display: inline-flex; align-items: center; gap: 5px; font-size: 0.78rem; color: var(--blue); text-decoration: none; font-weight: 600; margin-bottom: 8px; }
+  .source-link-plain:hover { text-decoration: underline; }
+
+  @keyframes slideIn { from { opacity:0; transform: translateY(-6px); } to { opacity:1; transform: translateY(0); } }
+  .next-btn { background: var(--blue); color: white; border: none; padding: 14px 28px; border-radius: var(--radius); font-size: 0.95rem; font-weight: 700; cursor: pointer; width: 100%; transition: all 0.15s; animation: fadeIn 0.2s; }
+  .next-btn:hover { background: var(--blue-dark); }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+  #screen-results { text-align: center; }
+  .result-emoji { font-size: 4rem; margin: 20px 0 10px; }
+  .result-title { font-size: 1.6rem; font-weight: 800; margin-bottom: 8px; }
+  .result-subtitle { color: var(--gray); margin-bottom: 28px; }
+  .result-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-bottom: 28px; }
+  .result-stat { background: var(--white); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
+  .result-stat .val { font-size: 1.8rem; font-weight: 800; }
+  .result-stat .lbl { font-size: 0.75rem; color: var(--gray); margin-top: 2px; }
+  .result-stat.green .val { color: var(--green); }
+  .result-stat.red .val { color: var(--red); }
+  .result-stat.blue .val { color: var(--blue); }
+  .result-actions { display: flex; flex-direction: column; gap: 10px; }
+
+  .streak-flash { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2.6rem; font-weight: 900; color: var(--green); pointer-events: none; z-index: 999; animation: streakAnim 2s ease forwards; text-shadow: 0 2px 16px rgba(45,158,95,0.3); }
+  @keyframes streakAnim { 0% { opacity:0; transform: translate(-50%,-60%) scale(0.7); } 20% { opacity:1; transform: translate(-50%,-50%) scale(1.15); } 60% { opacity:1; transform: translate(-50%,-50%) scale(1); } 100% { opacity:0; transform: translate(-50%,-42%); } }
+  .fc-correct-flash { background: var(--green) !important; color: white !important; border-color: var(--green) !important; transform: scale(1.03); transition: all 0.2s !important; }
+  .kbd-hint { text-align: center; font-size: 0.72rem; color: var(--gray); margin-top: 8px; }
+  .card-appear { animation: cardAppear 0.25s ease; }
+  @keyframes cardAppear { from { opacity:0; transform: translateY(8px); } to { opacity:1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+
+<div class="app-header">
+  <span style="font-size:1.8rem">🩺</span>
+  <div>
+    <h1>BHV Studiapp</h1>
+    <div class="subtitle">Rikshandboken i barnhälsovård</div>
+  </div>
+</div>
+
+<!-- LOADING -->
+<div id="screen-loading" class="screen active">
+  <div class="loading-wrap">
+    <div class="spinner"></div>
+    <div class="loading-title">Laddar studiematerial...</div>
+    <div class="loading-status" id="loading-status"></div>
+  </div>
+</div>
+
+<!-- HOME -->
+<div id="screen-home" class="screen">
+  <div class="section-title" style="margin-top:4px;">Välj ämnesområde</div>
+  <div class="main-cats" id="main-cats-container"></div>
+</div>
+
+<!-- CONFIG -->
+<div id="screen-config" class="screen">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
+    <button class="study-back" onclick="showScreen('home')">←</button>
+    <div>
+      <div id="config-title" style="font-size:1.1rem;font-weight:700;"></div>
+      <div style="font-size:0.8rem;color:var(--gray);">Välj kategorier och studieläge</div>
+    </div>
+  </div>
+  <div class="section-title">Underkategorier</div>
+  <div class="select-all-row">
+    <button class="btn-sm" onclick="selectAll(true)">Markera alla</button>
+    <button class="btn-sm" onclick="selectAll(false)">Avmarkera alla</button>
+  </div>
+  <div class="subcat-grid" id="subcat-list"></div>
+  <div class="divider"></div>
+  <div class="section-title">Format</div>
+  <div class="mode-grid">
+    <div class="mode-btn selected" onclick="selectMode(this,'all')"><div class="mode-icon">🎲</div><div class="mode-name">Blandat</div><div class="mode-desc">Alla format</div></div>
+    <div class="mode-btn" onclick="selectMode(this,'fc')"><div class="mode-icon">🃏</div><div class="mode-name">Flashcards</div><div class="mode-desc">Fråga & svar</div></div>
+    <div class="mode-btn" onclick="selectMode(this,'mc')"><div class="mode-icon">✅</div><div class="mode-name">Flerval</div><div class="mode-desc">Välj rätt svar</div></div>
+    <div class="mode-btn" onclick="selectMode(this,'sf')"><div class="mode-icon">⚖️</div><div class="mode-name">Sant / Falskt</div><div class="mode-desc">Bedöm påståendet</div></div>
+  </div>
+  <button class="btn-primary" id="start-btn" onclick="startSession()">Starta →</button>
+</div>
+
+<!-- STUDY -->
+<div id="screen-study" class="screen">
+  <div class="study-header">
+    <button class="study-back" onclick="confirmExit()">✕</button>
+    <div class="study-progress-wrap">
+      <div class="progress-bar-bg"><div class="progress-bar-fill" id="progress-fill" style="width:0%"></div></div>
+      <div class="progress-text" id="progress-text">Fråga 1 av 1</div>
+    </div>
+  </div>
+  <div class="study-stats">
+    <div class="stat-chip green" id="stat-correct">✓ 0</div>
+    <div class="stat-chip red" id="stat-wrong">✗ 0</div>
+    <div class="stat-chip" id="stat-streak">🔥 0 i rad</div>
+  </div>
+  <div id="question-area"></div>
+</div>
+
+<!-- RESULTS -->
+<div id="screen-results" class="screen">
+  <div class="result-emoji" id="result-emoji">🎉</div>
+  <div class="result-title" id="result-title">Bra jobbat!</div>
+  <div class="result-subtitle" id="result-subtitle"></div>
+  <div class="result-stats">
+    <div class="result-stat green"><div class="val" id="res-correct">0</div><div class="lbl">Rätt</div></div>
+    <div class="result-stat red"><div class="val" id="res-wrong">0</div><div class="lbl">Fel</div></div>
+    <div class="result-stat blue"><div class="val" id="res-pct">0%</div><div class="lbl">Andel rätt</div></div>
+  </div>
+  <div class="result-actions">
+    <button class="btn-primary" onclick="replayWrong()" id="btn-replay-wrong">🔁 Öva på felaktiga svar</button>
+    <button class="btn-primary" onclick="startSession()" style="background:var(--green);">🔀 Ny omgång (samma urval)</button>
+    <button class="btn-ghost" onclick="showScreen('config')">← Välj kategorier</button>
+  </div>
+</div>
+
+<script>
+// ── Dynamic data ─────────────────────────────────────────────────────────────
+let ALL_QUESTIONS = [];
+let SUBCATS = [];
+let MAIN_CATS = [];
+
+// Emoji/key mapping for known category names
+const CAT_META = {
+  'Vaccination':            { emoji: '💉', key: 'vaccination' },
+  'Amning & nutrition':     { emoji: '🍼', key: 'amning' },
+  'Hälsosamtal':            { emoji: '💬', key: 'halsosamtal' },
+  'Hälsobesök':             { emoji: '👶', key: 'halsobesok' },
+  'Föräldraskapsstöd':      { emoji: '👨‍👩‍👧', key: 'foraldraskapsstod' },
+  'Somatik':                { emoji: '🔬', key: 'somatik' },
+  'Verksamhetsriktlinjer':  { emoji: '📋', key: 'riktlinjer' },
+};
+
+// ── State ────────────────────────────────────────────────────────────────────
+let selectedCats  = new Set();
+let selectedMode  = 'all';
+let currentMainCat = null;
+let session = [], sessionIdx = 0;
+let correct = 0, wrong = 0, streak = 0;
+let wrongPool = [];
+let fcFlipped = false, answered = false;
+
+// ── Loading ──────────────────────────────────────────────────────────────────
+async function loadData() {
+  const statusEl = document.getElementById('loading-status');
+  const files = [
+    'amning-och-nutrition-studiematerial.json',
+    'halsosamtal_studiematerial.json',
+    'vaccination_studiematerial.json',
+  ];
+  try {
+    for (let i = 0; i < files.length; i++) {
+      statusEl.textContent = `Laddar ${files[i]} (${i+1}/${files.length})…`;
+      const r = await fetch(files[i]);
+      if (!r.ok) throw new Error(`Kunde inte ladda ${files[i]}: HTTP ${r.status}`);
+      parseJsonFile(await r.json(), i * 1000);
+    }
+
+    selectedCats = new Set(SUBCATS.map(s => s.id));
+    renderHome();
+    showScreen('home');
+
+  } catch (err) {
+    showLoadError(err.message);
+    console.error(err);
+  }
+}
+
+function showLoadError(msg) {
+  document.getElementById('loading-status').innerHTML = `
+    <div class="error-box">
+      ❌ ${msg}<br><br>
+      Kontrollera att JSON-filerna finns i samma mapp som HTML-filen.
+    </div>`;
+}
+
+function parseJsonFile(data, offset) {
+  const catName = data.category || 'Okänd';
+  const meta    = CAT_META[catName] || { emoji: '📚', key: catName.toLowerCase().replace(/[^a-z]/g, '') };
+  const mcKey   = meta.key;
+  let   total   = 0;
+
+  data.subcategories.forEach(sc => {
+    const catId = sc.id + offset;
+    let count = 0;
+
+    (sc.pages || []).forEach(page => {
+      const url = page.source_url || '';
+      (page.questions || []).forEach(q => {
+        count++;
+        if (q.type === 'flashcard') {
+          ALL_QUESTIONS.push({ mainCat: mcKey, cat: catId, type: 'fc',
+            q: q.question, a: q.answer, url });
+        } else if (q.type === 'multiple_choice') {
+          const o = q.options;
+          const optList = ['A','B','C','D'].map(k => o[k]).filter(Boolean);
+          ALL_QUESTIONS.push({ mainCat: mcKey, cat: catId, type: 'mc',
+            q: q.question, opts: optList,
+            correct: q.correct.charCodeAt(0) - 65,
+            exp: q.explanation || '', url });
+        } else if (q.type === 'true_false') {
+          ALL_QUESTIONS.push({ mainCat: mcKey, cat: catId, type: 'sf',
+            q: q.statement, correct: q.correct,
+            exp: q.explanation || '', url });
+        }
+      });
+    });
+
+    SUBCATS.push({ id: catId, name: sc.name, count, mainCat: mcKey });
+    total += count;
+  });
+
+  MAIN_CATS.push({ key: mcKey, name: catName, emoji: meta.emoji, count: total });
+}
+
+// ── Home ─────────────────────────────────────────────────────────────────────
+function renderHome() {
+  const container = document.getElementById('main-cats-container');
+  container.innerHTML = '';
+  MAIN_CATS.forEach(mc => {
+    const nSub = SUBCATS.filter(s => s.mainCat === mc.key).length;
+    const btn  = document.createElement('button');
+    btn.className = 'main-cat-btn';
+    btn.innerHTML = `<span class="cat-emoji">${mc.emoji}</span>
+      <div class="cat-name">${mc.name}</div>
+      <div class="cat-count">${nSub} kategorier · ${mc.count} frågor</div>`;
+    btn.addEventListener('click', () => showConfig(mc.key));
+    container.appendChild(btn);
+  });
+}
+
+// ── Config ────────────────────────────────────────────────────────────────────
+function showConfig(mainCatKey) {
+  currentMainCat = mainCatKey;
+  const mc = MAIN_CATS.find(m => m.key === mainCatKey);
+  document.getElementById('config-title').textContent = `${mc.emoji} ${mc.name}`;
+  // Reset mode selector UI
+  document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('selected'));
+  document.querySelectorAll('.mode-btn')[0].classList.add('selected');
+  selectedMode = 'all';
+  renderSubcats();
+  updateStartBtn();
+  showScreen('config');
+}
+
+function renderSubcats() {
+  const list    = document.getElementById('subcat-list');
+  list.innerHTML = '';
+  SUBCATS.filter(s => s.mainCat === currentMainCat).forEach(sub => {
+    const item = document.createElement('div');
+    item.className = 'subcat-item' + (selectedCats.has(sub.id) ? ' checked' : '');
+    item.innerHTML = `<div class="subcat-check"></div>
+      <div class="subcat-label">
+        <div class="name">${sub.name}</div>
+        <div class="meta">${sub.count} frågor</div>
+      </div>`;
+    item.addEventListener('click', () => {
+      if (selectedCats.has(sub.id)) selectedCats.delete(sub.id);
+      else selectedCats.add(sub.id);
+      item.classList.toggle('checked', selectedCats.has(sub.id));
+      updateStartBtn();
+    });
+    list.appendChild(item);
+  });
+}
+
+function selectAll(val) {
+  SUBCATS.filter(s => s.mainCat === currentMainCat).forEach(s =>
+    val ? selectedCats.add(s.id) : selectedCats.delete(s.id));
+  renderSubcats();
+  updateStartBtn();
+}
+
+function selectMode(el, mode) {
+  document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('selected'));
+  el.classList.add('selected');
+  selectedMode = mode;
+  updateStartBtn();
+}
+
+function getFiltered() {
+  return ALL_QUESTIONS.filter(q =>
+    selectedCats.has(q.cat) && (selectedMode === 'all' || q.type === selectedMode));
+}
+
+function updateStartBtn() {
+  const n   = getFiltered().length;
+  const btn = document.getElementById('start-btn');
+  btn.disabled    = n === 0;
+  btn.textContent = n > 0 ? `Starta studiesession → (${n} frågor)` : 'Välj minst en kategori';
+}
+
+// ── Session ───────────────────────────────────────────────────────────────────
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startSession() {
+  session = shuffle(getFiltered());
+  sessionIdx = 0; correct = 0; wrong = 0; streak = 0; wrongPool = [];
+  updateStats();
+  showScreen('study');
+  renderQuestion();
+}
+
+function replayWrong() {
+  if (!wrongPool.length) { startSession(); return; }
+  session = shuffle(wrongPool);
+  sessionIdx = 0; correct = 0; wrong = 0; streak = 0; wrongPool = [];
+  updateStats();
+  showScreen('study');
+  renderQuestion();
+}
+
+// ── Rendering ─────────────────────────────────────────────────────────────────
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+function renderQuestion() {
+  answered = false; fcFlipped = false;
+  const pct = Math.round(sessionIdx / session.length * 100);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = `Fråga ${sessionIdx + 1} av ${session.length}`;
+  const q    = session[sessionIdx];
+  const area = document.getElementById('question-area');
+  area.innerHTML = '';
+  area.className = 'card-appear';
+  if      (q.type === 'fc') renderFC(q, area);
+  else if (q.type === 'mc') renderMC(q, area);
+  else                       renderSF(q, area);
+}
+
+function badge(type) {
+  const labels = { fc: '🃏 Flashcard', mc: '✅ Flerval', sf: '⚖️ Sant/Falskt' };
+  return `<span class="q-type-badge ${type}">${labels[type]}</span>`;
+}
+
+function srcLink(url) {
+  if (!url) return '';
+  return `<a class="source-link" href="${url}" target="_blank" rel="noopener">📖 Rikshandboken – öppna källan ↗</a>`;
+}
+
+function renderFC(q, area) {
+  area.innerHTML = `
+    ${badge('fc')}
+    <div class="flashcard-scene">
+      <div class="flashcard" id="fc-card" onclick="flipCard()">
+        <div class="card-face card-front">
+          <div class="card-label">Fråga</div>
+          <div class="card-text">${q.q}</div>
+          <div class="flip-hint">Klicka för att se svaret</div>
+        </div>
+        <div class="card-face card-back">
+          <div class="card-label">Svar</div>
+          <div class="card-text">${q.a}</div>
+        </div>
+      </div>
+    </div>
+    <div class="fc-actions" id="fc-actions" style="display:none;">
+      <button class="btn-knew no"  onclick="fcAnswer(false)">✗ Visste inte</button>
+      <button class="btn-knew yes" onclick="fcAnswer(true)">✓ Visste det!</button>
+    </div>
+    <div style="margin-bottom:8px;">${srcLink(q.url)}</div>
+    <div class="kbd-hint">Tryck <kbd>Space</kbd> för att vända · <kbd>1</kbd> Visste inte · <kbd>2</kbd> Visste det</div>`;
+}
+
+function flipCard() {
+  const card = document.getElementById('fc-card');
+  if (!card) return;
+  fcFlipped = !fcFlipped;
+  card.classList.toggle('flipped', fcFlipped);
+  if (fcFlipped) document.getElementById('fc-actions').style.display = 'grid';
+}
+
+function fcAnswer(knew) {
+  if (answered) return;
+  answered = true;
+  if (knew) {
+    correct++; streak++;
+    const yesBtn = document.querySelector('.btn-knew.yes');
+    if (yesBtn) yesBtn.classList.add('fc-correct-flash');
+    if (streak > 1) showStreak(streak);
+  } else {
+    wrong++; streak = 0; wrongPool.push(session[sessionIdx]);
+    const noBtn = document.querySelector('.btn-knew.no');
+    if (noBtn) { noBtn.style.background = 'var(--red)'; noBtn.style.color = 'white'; }
+  }
+  updateStats();
+  setTimeout(nextQuestion, 1800);
+}
+
+function renderMC(q, area) {
+  const letters = ['A', 'B', 'C', 'D'];
+  const opts = q.opts.map((o, i) =>
+    `<div class="mc-option" id="mc-opt-${i}" onclick="mcAnswer(${i})">
+      <div class="option-letter">${letters[i]}</div><div>${o}</div>
+    </div>`).join('');
+  area.innerHTML = `
+    ${badge('mc')}
+    <div class="mc-card"><div class="mc-question">${q.q}</div><div class="mc-options">${opts}</div></div>
+    <div id="explanation" style="display:none;"></div>
+    <div id="next-wrap" style="display:none;">
+      <button class="next-btn" onclick="nextQuestion()">Nästa fråga →</button>
+      <div class="kbd-hint" style="margin-top:6px;">Tryck <kbd>Enter</kbd> eller <kbd>→</kbd></div>
+    </div>`;
+}
+
+function mcAnswer(idx) {
+  if (answered) return;
+  answered = true;
+  const q = session[sessionIdx];
+  document.querySelectorAll('.mc-option').forEach((el, i) => {
+    el.classList.add('disabled');
+    if (i === q.correct) el.classList.add('reveal-correct');
+    if (i === idx && idx !== q.correct) el.classList.add('selected-wrong');
+    if (i === idx && idx === q.correct) { el.classList.remove('reveal-correct'); el.classList.add('selected-correct'); }
+  });
+  if (idx === q.correct) { correct++; streak++; if (streak > 1) showStreak(streak); }
+  else { wrong++; streak = 0; wrongPool.push(q); }
+  updateStats();
+  const exp = document.getElementById('explanation');
+  exp.style.display = 'block';
+  exp.className = 'explanation-box';
+  exp.innerHTML = `<strong>💡 Förklaring:</strong> ${q.exp}${srcLink(q.url)}`;
+  document.getElementById('next-wrap').style.display = 'block';
+}
+
+function renderSF(q, area) {
+  area.innerHTML = `
+    ${badge('sf')}
+    <div class="sf-card"><div class="sf-statement">${q.q}</div>
+      <div class="sf-buttons">
+        <button class="sf-btn sant"   id="btn-sant"   onclick="sfAnswer(true)">✓ SANT</button>
+        <button class="sf-btn falskt" id="btn-falskt" onclick="sfAnswer(false)">✗ FALSKT</button>
+      </div>
+    </div>
+    <div id="explanation" style="display:none;"></div>
+    <div id="next-wrap" style="display:none;">
+      <button class="next-btn" onclick="nextQuestion()">Nästa fråga →</button>
+      <div class="kbd-hint" style="margin-top:6px;">Tryck <kbd>Enter</kbd> eller <kbd>→</kbd></div>
+    </div>`;
+}
+
+function sfAnswer(val) {
+  if (answered) return;
+  answered = true;
+  const q = session[sessionIdx];
+  const isCorrect = val === q.correct;
+  const s = document.getElementById('btn-sant');
+  const f = document.getElementById('btn-falskt');
+  s.classList.add('disabled'); f.classList.add('disabled');
+  if (q.correct) { s.classList.add('correct'); if (!isCorrect) f.classList.add('wrong'); }
+  else           { f.classList.add('correct'); if (!isCorrect) s.classList.add('wrong'); }
+  if (isCorrect) { correct++; streak++; if (streak > 1) showStreak(streak); }
+  else           { wrong++; streak = 0; wrongPool.push(q); }
+  updateStats();
+  const exp = document.getElementById('explanation');
+  exp.style.display = 'block';
+  exp.className = 'explanation-box';
+  exp.innerHTML = `<strong>💡 Förklaring:</strong> ${q.exp}${srcLink(q.url)}`;
+  document.getElementById('next-wrap').style.display = 'block';
+}
+
+function nextQuestion() {
+  sessionIdx++;
+  if (sessionIdx >= session.length) showResults();
+  else renderQuestion();
+}
+
+function updateStats() {
+  document.getElementById('stat-correct').textContent = '✓ ' + correct;
+  document.getElementById('stat-wrong').textContent   = '✗ ' + wrong;
+  document.getElementById('stat-streak').textContent  = '🔥 ' + streak + ' i rad';
+}
+
+function showStreak(n) {
+  const el = document.createElement('div');
+  el.className = 'streak-flash';
+  el.textContent = n + ' i rad! 🔥';
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 2100);
+}
+
+function showResults() {
+  const total = correct + wrong;
+  const pct   = total > 0 ? Math.round(correct / total * 100) : 0;
+  document.getElementById('res-correct').textContent = correct;
+  document.getElementById('res-wrong').textContent   = wrong;
+  document.getElementById('res-pct').textContent     = pct + '%';
+  let emoji, title, subtitle;
+  if      (pct >= 90) { emoji = '🏆'; title = 'Strålande!';    subtitle = 'Du kan det här!'; }
+  else if (pct >= 70) { emoji = '🎉'; title = 'Bra jobbat!';   subtitle = 'Lite mer så sitter det perfekt.'; }
+  else if (pct >= 50) { emoji = '📚'; title = 'På rätt väg!';  subtitle = 'Öva på de du missade.'; }
+  else                { emoji = '💪'; title = 'Kämpa på!';     subtitle = 'Öva igen – det lossnar!'; }
+  document.getElementById('result-emoji').textContent    = emoji;
+  document.getElementById('result-title').textContent    = title;
+  document.getElementById('result-subtitle').textContent = subtitle;
+  const btnW = document.getElementById('btn-replay-wrong');
+  btnW.style.display  = wrongPool.length ? 'block' : 'none';
+  if (wrongPool.length) btnW.textContent = `🔁 Öva på ${wrongPool.length} felaktiga svar`;
+  showScreen('results');
+}
+
+function confirmExit() {
+  if (confirm('Avsluta sessionen?')) showScreen('config');
+}
+
+// ── Keyboard shortcuts ────────────────────────────────────────────────────────
+document.addEventListener('keydown', e => {
+  const study = document.getElementById('screen-study');
+  if (!study.classList.contains('active')) return;
+  const q = session[sessionIdx];
+  if (!q) return;
+  if (q.type === 'fc') {
+    if (e.code === 'Space')              { e.preventDefault(); flipCard(); }
+    if (e.key === '1' && fcFlipped)      fcAnswer(false);
+    if (e.key === '2' && fcFlipped)      fcAnswer(true);
+  }
+  if ((e.key === 'Enter' || e.key === 'ArrowRight') && answered) nextQuestion();
+  if (q.type === 'mc' && !answered) {
+    if (e.key === '1') mcAnswer(0); if (e.key === '2') mcAnswer(1);
+    if (e.key === '3') mcAnswer(2); if (e.key === '4') mcAnswer(3);
+  }
+  if (q.type === 'sf' && !answered) {
+    if (e.key === 's' || e.key === 'S') sfAnswer(true);
+    if (e.key === 'f' || e.key === 'F') sfAnswer(false);
+  }
+});
+
+// ── Start ─────────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>

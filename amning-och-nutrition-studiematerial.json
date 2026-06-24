@@ -1,0 +1,1652 @@
+{
+  "category": "Amning & nutrition",
+  "source": "rikshandboken-bhv.se",
+  "subcategories": [
+    {
+      "id": 1,
+      "name": "Komplikationer vid amning - översikt",
+      "pages": [
+        {
+          "id": "1.1",
+          "title": "Mastit - mjölkstockning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/komplikationer-vid-amning---oversikt/mastit---mjolkstockning/",
+          "questions": [
+            {
+              "id": "FC-1.1.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "question": "Vad är mastit och under vilken period är det vanligast?",
+              "answer": "Mastit (mjölkstockning) är en inflammation eller infektion i bröstet. Det är vanligast de första två månaderna efter förlossning men kan uppträda när som helst under amningsperioden – och även under graviditeten."
+            },
+            {
+              "id": "FC-1.1.2",
+              "type": "flashcard",
+              "section": "Riskfaktorer för mastit",
+              "question": "Vilka är de viktigaste riskfaktorerna för mastit?",
+              "answer": "Klämd eller snedsugen bröstvårta, för litet tag om bröstet, sprickor/sår på bröstvårtan, smärtsam amning, reglerad amning, återhållen utdrivningsreflex (smärta/stress), mekaniskt hinder (åtsittande behå) samt amningsnapp eller pump som inte fungerar optimalt."
+            },
+            {
+              "id": "FC-1.1.3",
+              "type": "flashcard",
+              "section": "Handläggning och behandling",
+              "question": "Vad ska undvikas vid behandling av mastit och vad rekommenderas istället?",
+              "answer": "Hård massage ska undvikas då det kan förvärra tillståndet. Istället rekommenderas en lätt strykning med handflatan eller fingrarna över det hårdare området under amning, samt att fortsätta amma och variera barnets position."
+            },
+            {
+              "id": "MC-1.1.1",
+              "type": "multiple_choice",
+              "section": "Symtom",
+              "question": "Vilka faktorer bör väcka misstanke om infektiös mastit?",
+              "options": {
+                "A": "Svullnad i ett bröst utan feber under det första dygnet",
+                "B": "Upprepade mjölkstockningar, sårig bröstvårta, mjölkstockning mer än två dygn, hög feber eller allmänpåverkan",
+                "C": "Smärta som uppstår direkt vid den första amningen",
+                "D": "Mjölkstockning som försvinner spontant efter ett dygn"
+              },
+              "correct": "B",
+              "explanation": "Misstanke om infektiös mastit föreligger vid: upprepade mjölkstockningar, sårig bröstvårta nu eller tidigare, mjölkstockning mer än två dygn, hög feber eller allmänpåverkan."
+            },
+            {
+              "id": "MC-1.1.2",
+              "type": "multiple_choice",
+              "section": "Diagnos",
+              "question": "Hur ställs diagnosen mastit bäst?",
+              "options": {
+                "A": "Alltid via bakterieodling av bröstmjölk före annan bedömning",
+                "B": "Utifrån symtombilden och tidsförloppet, kompletterat med noggrann anamnes",
+                "C": "Enbart med ultraljud",
+                "D": "Enbart utifrån feber och CRP-värde"
+              },
+              "correct": "B",
+              "explanation": "Diagnosen ställs huvudsakligen utifrån symtombilden och tidsförloppet. Bedömningen om det är en inflammation eller infektion och ställningstagandet till antibiotika görs bäst med hjälp av noggrann anamnes."
+            },
+            {
+              "id": "SF-1.1.1",
+              "type": "true_false",
+              "section": "Uppföljning på BVC",
+              "statement": "Om en kvinna haft mastit och resistensen kvarstår efter två månader bör hon remitteras till bröstmottagning.",
+              "correct": true,
+              "explanation": "Om resistens kvarstår efter två månader tas ny vårdkontakt och remiss till bröstmottagning skickas."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Sår och sprickor vid amning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/komplikationer-vid-amning---oversikt/sar-och-sprickor-vid-amning/",
+          "questions": [
+            {
+              "id": "FC-1.2.1",
+              "type": "flashcard",
+              "section": "Orsaker till smärtsam amning",
+              "question": "Vad är den vanligaste orsaken till sår och sprickor på bröstvårtorna?",
+              "answer": "Barnets tag och position vid bröstet är den vanligaste orsaken. Andra orsaker kan vara barnets orala anatomi, exempelvis kort tungband eller högt gomtak."
+            },
+            {
+              "id": "FC-1.2.2",
+              "type": "flashcard",
+              "section": "Avlasta bröstvårtorna",
+              "question": "Vad kan den ammande göra om hon inte klarar av att amma på grund av smärtor?",
+              "answer": "Avlasta brösten med handmjölkning eller pump och ge barnet bröstmjölk med sked eller kopp tills bröstvårtan har läkt."
+            },
+            {
+              "id": "FC-1.2.3",
+              "type": "flashcard",
+              "section": "Amningsnapp",
+              "question": "Hur ska amningsnapp användas vid sår och sprickor och vad bör kontrolleras?",
+              "answer": "Amningsnappar kan dämpa smärtan men ska inte ses som en generell rekommendation. Om napp rekommenderas bör amningsobservation göras för att förvissa sig om att nappen passar bröstvårtans storlek och att barnet tar tag korrekt."
+            },
+            {
+              "id": "MC-1.2.1",
+              "type": "multiple_choice",
+              "section": "Svårläkta sprickor och sår som ger svåra smärtor",
+              "question": "När bör bakterieodling tas vid sår på bröstvårtan?",
+              "options": {
+                "A": "Alltid vid första kontakt med BVC oavsett symtom",
+                "B": "Om såret inte läker trots ändrat läge, vid synlig varbildning, infekterat sår eller misstanke om MRSA",
+                "C": "Enbart om mamman har hög feber",
+                "D": "Enbart om barnet har kräkts blod"
+              },
+              "correct": "B",
+              "explanation": "Bakterieodling bör tas om ett sår på bröstvårtan inte läker trots att mamman ändrat barnets läge i famnen, om såret är infekterat med synlig varbildning, eller om det finns misstanke om MRSA."
+            },
+            {
+              "id": "SF-1.2.1",
+              "type": "true_false",
+              "section": "Stöd vid smärtsam amning",
+              "statement": "Den första insatsen vid smärtsam amning är att erbjuda att göra en amningsobservation eller amningsstatus.",
+              "correct": true,
+              "explanation": "En första insats för att hjälpa en mamma som har ont när hon ammar är att fråga om man kan få göra en amningsobservation eller en amningsstatus."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Läkemedelsbehandling vid bröstkomplikationer",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/komplikationer-vid-amning---oversikt/lakemedelsbehandling-vid-brostkomplikationer/",
+          "questions": [
+            {
+              "id": "FC-1.3.1",
+              "type": "flashcard",
+              "section": "Handläggning på BVC",
+              "question": "Vad bör läkemedelsbehandling vid amningskomplikationer alltid föregås av?",
+              "answer": "Noggrann anamnes och bedömning med amningsstatus eller amningsobservation – behandling bör sättas in först därefter."
+            },
+            {
+              "id": "FC-1.3.2",
+              "type": "flashcard",
+              "section": "Misstanke om svampinfektion",
+              "question": "Hur behandlas Candidainfektion om barnet har uttalade symtom och den ammande har bröstsymtom?",
+              "answer": "Båda behandlas samtidigt: barnet med Nystatin enligt FASS och den ammande med mikonazolkräm (Daktar) på bröstvårta och vårtgård."
+            },
+            {
+              "id": "MC-1.3.1",
+              "type": "multiple_choice",
+              "section": "Antibiotika vid misstanke om bakteriell infektion",
+              "question": "Vid misstanke om bakteriell infektion på bröstvårtan utan feber eller allmänpåverkan – vad är det första behandlingsalternativet?",
+              "options": {
+                "A": "Perorala antibiotika omgående utan anamnes",
+                "B": "Lokal behandling med Microcidkräm 2–3 gånger dagligen i upp till fem dagar",
+                "C": "Intravenösa antibiotika på sjukhus",
+                "D": "Svampodling och avvakta utan behandling"
+              },
+              "correct": "B",
+              "explanation": "Vid misstanke om bakteriell infektion på bröstvårtan utan feber eller allmänpåverkan kan råd ges om lokal behandling med Microcidkräm 2–3 gånger dagligen i upp till fem dagar."
+            },
+            {
+              "id": "SF-1.3.1",
+              "type": "true_false",
+              "section": "Tips vid lokalbehandling med salva, kräm",
+              "statement": "Inför nästa amning bör salva eller kräm på bröstvårtan torkas av med bröstmjölk för smak och doft.",
+              "correct": true,
+              "explanation": "Torka av bröstet med bröstmjölk innan nästa amning för smak och doft – detta rekommenderas vid lokalbehandling på bröstvårtorna."
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Eksem på brösten",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/komplikationer-vid-amning---oversikt/eksem-pa-brosten/",
+          "questions": [
+            {
+              "id": "FC-1.4.1",
+              "type": "flashcard",
+              "section": "Förekomst och orsaker",
+              "question": "Vilken risk medför eksem på brösten under amning?",
+              "answer": "Det finns en ökad risk att få svamp- eller bakterieinfektion i brösten om den ammande också har eksem. Ungefär hälften av de som drabbas har tidigare haft eksem."
+            },
+            {
+              "id": "MC-1.4.1",
+              "type": "multiple_choice",
+              "section": "BHV-sjuksköterskans roll på BVC",
+              "question": "Vad är ett viktigt steg vid misstanke om eksem på brösten vid bedömning på BVC?",
+              "options": {
+                "A": "Omedelbart remittera till hudläkare utan egen bedömning",
+                "B": "Ge kortison utan föregående anamnes",
+                "C": "Ta anamnes, kartlägga symtom och riskfaktorer samt genomföra amningsstatus",
+                "D": "Rekommendera antibiotika som profylax"
+              },
+              "correct": "C",
+              "explanation": "Åtgärder vid misstanke om eksem inkluderar anamnes, kartläggning av symtom och riskfaktorer (t.ex. tidigare eksem, torr och känslig hud) samt individuellt amningsstöd och amningsstatus."
+            },
+            {
+              "id": "SF-1.4.1",
+              "type": "true_false",
+              "section": "Förekomst och orsaker",
+              "statement": "Det är vanligt att ammande kvinnor drabbas av eksem på brösten.",
+              "correct": false,
+              "explanation": "Det är FÅ kvinnor som får eksem på brösten – det är alltså ett relativt ovanligt tillstånd bland ammande."
+            }
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "Bröstböld - abscess",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/komplikationer-vid-amning---oversikt/brostbold---abscess/",
+          "questions": [
+            {
+              "id": "FC-1.5.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "question": "Hur uppkommer en bröstböld och hur känns den?",
+              "answer": "En bröstböld uppkommer vanligen efter en bröstinfektion. Bröstvävnaden smälter och innehåller vätska/var som kapslas in. Ibland ligger bölden djupt och kan vara svår att känna."
+            },
+            {
+              "id": "FC-1.5.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "question": "Hur avgörs behandlingsmetod vid bröstböld?",
+              "answer": "Behandlingen baseras på böldens storlek: vid storlek under 3 cm görs punktion; vid storlek över 3 cm sätts en pigtailkateter in som spolas med NaCl 3–4 gånger per dygn i 3–5 dagar."
+            },
+            {
+              "id": "MC-1.5.1",
+              "type": "multiple_choice",
+              "section": "Riskfaktorer",
+              "question": "Vilka är riskfaktorer för att utveckla bröstböld?",
+              "options": {
+                "A": "Unga förstföderskor och barn med låg födelsevikt",
+                "B": "Komplicerade förlossningar, förstföderskor, kvinnor över 30 år, överburenhet och tidigare mastit",
+                "C": "Kort amningsperiod och låg mjölkproduktion",
+                "D": "Sekundärt kejsarsnitt och amningsnappanvändning"
+              },
+              "correct": "B",
+              "explanation": "Riskfaktorer för abscess är: komplicerade förlossningar, förstföderskor, kvinnor över 30 år, överburenhet och kvinnor med tidigare mastit."
+            },
+            {
+              "id": "SF-1.5.1",
+              "type": "true_false",
+              "section": "Symtom",
+              "statement": "När en bröstböld väl bildats förvärras infektionssymtomen alltid ytterligare.",
+              "correct": false,
+              "explanation": "Symtombilden kan variera – när bölden bildats kan infektionssymtomen ibland bli LINDRIGARE, men förhårdnaden i bröstet försvinner inte."
+            }
+          ]
+        },
+        {
+          "id": "1.6",
+          "title": "Candidainfektion på bröstvårta, vårtgård och i bröstet",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/komplikationer-vid-amning---oversikt/candidainfektion-pa-brostvarta-vartgard-och-i-brostet/",
+          "questions": [
+            {
+              "id": "FC-1.6.1",
+              "type": "flashcard",
+              "section": "Symtom hos mamman",
+              "question": "Vilka är typiska symtom på Candidainfektion på bröstvårtan hos den ammande?",
+              "answer": "Rosaröd, irriterad och svullen bröstvårta med sprickor i basen. Glansig, vätskande och fjällande vårtgård. Ytlig ihållande smärta, klåda och brännande känsla. Smärta inne i bröstet – brännande och skjutande – under och efter amning."
+            },
+            {
+              "id": "FC-1.6.2",
+              "type": "flashcard",
+              "section": "Riskfaktorer för Candidainfektion i brösten",
+              "question": "Vilka är riskfaktorer för Candidainfektion på brösten?",
+              "answer": "Tidigare svampinfektioner (t.ex. i underlivet), antibiotikabehandling, användning av amningsnapp eller tröstnapp, atopiskt eksem eller torr hud, och överväxt av svamp i barnets mun."
+            },
+            {
+              "id": "MC-1.6.1",
+              "type": "multiple_choice",
+              "section": "Diagnos",
+              "question": "Vad stödjer diagnosen Candidainfektion i brösten?",
+              "options": {
+                "A": "Enbart positiv blododling",
+                "B": "Synliga symtom på bröstvårtor/vårtgårdar, smärtor inne i brösten, synlig torsk i barnets mun och/eller positiv svampodling",
+                "C": "Feber och förhöjt CRP",
+                "D": "Enbart barnets symtom med torsk i munnen"
+              },
+              "correct": "B",
+              "explanation": "Stöd för diagnosen Candidainfektion ges av synliga symtom på bröstvårtor och vårtgårdar, smärtor inne i brösten, synlig torsk i barnets mun och positivt provsvar från svampodling från bröstmjölk eller bröstvårta."
+            },
+            {
+              "id": "SF-1.6.1",
+              "type": "true_false",
+              "section": "Candida är en svamp som kan ge besvär",
+              "statement": "Candidainfektion kan spridas mellan barn och mamma vid amning.",
+              "correct": true,
+              "explanation": "Candida kan spridas mellan barn och mamma vid amning – detta är ett känt spridningssätt för Candida Albicans."
+            }
+          ]
+        },
+        {
+          "id": "1.7",
+          "title": "Mjölkstas",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/komplikationer-vid-amning---oversikt/mjolkstas/",
+          "questions": [
+            {
+              "id": "FC-1.7.1",
+              "type": "flashcard",
+              "section": "Orsaker till mjölkstas",
+              "question": "Vad orsakar mjölkstas och när uppkommer det?",
+              "answer": "Mjölkstas är ett naturligt fysiologiskt tillstånd som uppkommer vanligtvis från andra till femte dagen efter födseln. Det beror på ökad blodvolym, vävnadsvätska och lymfvätska och visar att mjölkproduktionen håller på att komma igång."
+            },
+            {
+              "id": "FC-1.7.2",
+              "type": "flashcard",
+              "section": "Cottermans handgrepp",
+              "question": "Vad används Cottermans handgrepp till och när fungerar det bäst?",
+              "answer": "Cottermans handgrepp används för att mjuka upp området kring bröstvårtan vid mjölkstas, så att barnet lättare kan ta ett stort tag om bröstet. Det fungerar bäst omedelbart före amningen."
+            },
+            {
+              "id": "MC-1.7.1",
+              "type": "multiple_choice",
+              "section": "När mjölken kommer",
+              "question": "Vad kan hända när brösten är kraftigt spända vid mjölkstas?",
+              "options": {
+                "A": "Barnet automatiskt får ett bättre sugtag",
+                "B": "Det kan vara svårt för barnet att få ett tillräckligt stort tag om bröstet",
+                "C": "Mjölkproduktionen upphör permanent",
+                "D": "Amning bör avbrytas tills svullnaden klingat av helt"
+              },
+              "correct": "B",
+              "explanation": "När brösten är spända kan det vara svårt för barnet att få ett tillräckligt stort tag om bröstet – därav vikten av att mjuka upp med t.ex. Cottermans handgrepp."
+            },
+            {
+              "id": "SF-1.7.1",
+              "type": "true_false",
+              "section": "Orsaker till mjölkstas",
+              "statement": "Mjölkstas är ett patologiskt tillstånd som alltid kräver antibiotikabehandling.",
+              "correct": false,
+              "explanation": "Mjölkstas är ett naturligt FYSIOLOGISKT tillstånd. Svullnaden avklingar oftast efter några dygn och kräver inte antibiotikabehandling."
+            }
+          ]
+        },
+        {
+          "id": "1.8",
+          "title": "Störd utdrivningsreflex",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/komplikationer-vid-amning---oversikt/stord-utdrivningsreflex/",
+          "questions": [
+            {
+              "id": "FC-1.8.1",
+              "type": "flashcard",
+              "section": "Hur utdrivningsreflexen fungerar",
+              "question": "Vilket hormon styr utdrivningsreflexen och vad utlöser dess frisättning?",
+              "answer": "Oxytocin styr utdrivningsreflexen. Det frisätts när barnet suger på bröstet."
+            },
+            {
+              "id": "FC-1.8.2",
+              "type": "flashcard",
+              "section": "Problem med utdrivningsreflexen",
+              "question": "Vad kan störa utdrivningsreflexen?",
+              "answer": "Ett påslag av adrenalin kan störa utdrivningsreflexen, eftersom oxytocin och adrenalin motverkar varandra. Stress, smärta och negativa tankar kan hämma utdrivningsreflexen."
+            },
+            {
+              "id": "MC-1.8.1",
+              "type": "multiple_choice",
+              "section": "Praktiska råd",
+              "question": "Vad bör alltid erbjudas vid misstanke om störd utdrivningsreflex?",
+              "options": {
+                "A": "Direkt remiss till amningsmottagning utan egen bedömning",
+                "B": "Amningsstatus eller amningsobservation för att kontrollera barnets tag och läge",
+                "C": "Antibiotika som profylax",
+                "D": "Tillfällig avbrytning av amning"
+              },
+              "correct": "B",
+              "explanation": "Vid behov erbjuds alltid amningsstatus eller amningsobservation för att kontrollera om barnet har ett tillräckligt stort tag om bröstet och om det ligger i nära läge i famnen."
+            },
+            {
+              "id": "SF-1.8.1",
+              "type": "true_false",
+              "section": "Hur kan man få igång utdrivningsreflexen att fungera igen?",
+              "statement": "Hud-mot-hud-kontakt, vila, massage och att äta och dricka är åtgärder som kan hjälpa vid störd utdrivningsreflex.",
+              "correct": true,
+              "explanation": "Råd inkluderar: hud mot hudkontakt med fria luftvägar, att bära barnet nära, vila, massage om den ammande vill, äta och dricka för välbefinnandets skull och att hitta en bekväm amningsposition."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mat och dryck - översikt",
+      "pages": [
+        {
+          "id": "2.1",
+          "title": "Ätsvårigheter hos barn",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/mat-och-dryck---oversikt/atsvarigheter-hos-barn/",
+          "questions": [
+            {
+              "id": "FC-2.1.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "question": "Vad är Pediatric Feeding Disorder (PFD)?",
+              "answer": "En störning av oralt ätande och/eller icke-åldersadekvat ätande under längre tid än två veckor, associerat med svårigheter inom ett eller fler av: medicinska problem, nutrition, ätförmåga eller psykosocial dysfunktion."
+            },
+            {
+              "id": "FC-2.1.2",
+              "type": "flashcard",
+              "section": "Orsaker och symtom",
+              "question": "Vad är grundsynen på ätsvårigheter hos små barn?",
+              "answer": "Ätsvårigheter beror sällan på trots eller ovilja hos barnet. Grundsynen är att små barn gör så gott de kan. Orsaken är oftast multifaktoriell."
+            },
+            {
+              "id": "FC-2.1.3",
+              "type": "flashcard",
+              "section": "Psykologiska faktorer",
+              "question": "Vad är fagofobi och hur uppstår det?",
+              "answer": "Fagofobi innebär fobi mot att svälja (sväljrädsla). Det uppstår oftast som följd av en traumatisk episod av aspiration, kräkning eller kraftig allergisk reaktion, men kan förekomma utan att barnet självt upplevt fara."
+            },
+            {
+              "id": "MC-2.1.1",
+              "type": "multiple_choice",
+              "section": "Bristande motorisk- och sensorisk förmåga",
+              "question": "Vad kan upprepade lunginflammationer hos ett litet barn vara tecken på?",
+              "options": {
+                "A": "Allergi mot mjölkprotein",
+                "B": "Att barnet sväljer mat eller dryck fel så att det hamnar i luftstrupen istället för matstrupen",
+                "C": "Förstoppning och tarmproblematik",
+                "D": "Bristande immunförsvar utan relation till ätandet"
+              },
+              "correct": "B",
+              "explanation": "Upprepade lunginflammationer kan vara ett tecken på att barnet sväljer ner mat och dryck fel så att det hamnar i luftstrupen i stället för i matstrupen."
+            },
+            {
+              "id": "SF-2.1.1",
+              "type": "true_false",
+              "section": "Förekomst",
+              "statement": "Alla barn med ätsvårigheter uppvisar påverkan på tillväxten.",
+              "correct": false,
+              "explanation": "Viktigt att uppmärksamma är att INTE alla barn med ätsvårigheter uppvisar en påverkan på tillväxten."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Kostråd vid trög mage",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/mat-och-dryck---oversikt/kostrad-vid-trog-mage/",
+          "questions": [
+            {
+              "id": "FC-2.2.1",
+              "type": "flashcard",
+              "section": "Barnets mat- och avföringsvanor",
+              "question": "Vad är den gastrokoliska reflexen och när är den starkast?",
+              "answer": "Reflexen leder till ett behov att tömma tarmen strax efter intag av mat. Den är starkast på morgonen."
+            },
+            {
+              "id": "FC-2.2.2",
+              "type": "flashcard",
+              "section": "Råd till barn under 6 månader",
+              "question": "Varför avråder Livsmedelsverket från att tillsätta olja i bröstmjölksersättning vid förstoppning?",
+              "answer": "Det rubbar ersättningens noggrant sammansatta energi- och näringsinnehåll. Det saknas dessutom evidens för att olja hjälper vid förstoppning."
+            },
+            {
+              "id": "MC-2.2.1",
+              "type": "multiple_choice",
+              "section": "Råd till barn över 6 månader",
+              "question": "Varför bör barn vid ökat fiberintag erbjudas tillräckligt med vätska?",
+              "options": {
+                "A": "Fibrer hämmar vätskeupptaget och kan orsaka uttorkning direkt",
+                "B": "Fibrer ökar salthalten i blodet",
+                "C": "Fibrer metaboliseras av tarmbakterier och passage underlättas av tillräcklig vätska",
+                "D": "Vätska neutraliserar de negativa effekterna av för högt fiberintag"
+              },
+              "correct": "C",
+              "explanation": "Frukt, bär, grönsaker, rotfrukter och baljväxter innehåller fibrer som metaboliseras av bakterier i tarmen. Barn bör vid ökat fiberintag erbjudas tillräckligt med vätska."
+            },
+            {
+              "id": "SF-2.2.1",
+              "type": "true_false",
+              "section": "Kostråd",
+              "statement": "Det finns god vetenskaplig evidens för att probiotika är effektivt vid behandling av funktionell förstoppning.",
+              "correct": false,
+              "explanation": "Det finns i dagsläget INGEN evidens för effekt av pro- eller prebiotika vid behandling av funktionell förstoppning."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Barn och dricksvatten",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/mat-och-dryck---oversikt/barn-och-dricksvatten/",
+          "questions": [
+            {
+              "id": "FC-2.3.1",
+              "type": "flashcard",
+              "section": "Dricksvatten i Sverige",
+              "question": "Varför är det extra viktigt att dricksvattnet håller hög kvalitet för barn?",
+              "answer": "Barn är mer känsliga än vuxna för olika ämnen som kan finnas i vattnet, och det är därför särskilt viktigt att dricksvattnet håller hög kvalitet."
+            },
+            {
+              "id": "FC-2.3.2",
+              "type": "flashcard",
+              "section": "Eget brunnsvatten",
+              "question": "Hur ofta rekommenderar Livsmedelsverket provtagning av enskilt brunnsvatten?",
+              "answer": "Vart tredje år vid misstanke om kvalitetsförändring, och alltid innan vattnet ges till spädbarn."
+            },
+            {
+              "id": "MC-2.3.1",
+              "type": "multiple_choice",
+              "section": "Dricksvatten i Sverige",
+              "question": "Vad är den bästa måltidsdrycken för barn över ett år?",
+              "options": {
+                "A": "Juice och fruktdryck",
+                "B": "Mjölk",
+                "C": "Vatten",
+                "D": "Fruktdryck utan tillsatt socker"
+              },
+              "correct": "C",
+              "explanation": "Vatten är den bästa måltidsdrycken för barn över ett år. Kranvatten är färskt, lokalproducerat, kontrollerat och billigt jämfört med flaskvatten."
+            },
+            {
+              "id": "SF-2.3.1",
+              "type": "true_false",
+              "section": "Eget brunnsvatten",
+              "statement": "Det är kommunen – inte brunnsägaren – som har ansvar för skötseln och vattenkvaliteten i en enskild brunn.",
+              "correct": false,
+              "explanation": "Det är BRUNNSÄGAREN som har ansvar för skötseln av brunnen och vattnets kvalitet."
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Främja en god ätutveckling",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/mat-och-dryck---oversikt/framja-en-god-atutveckling/",
+          "questions": [
+            {
+              "id": "FC-2.4.1",
+              "type": "flashcard",
+              "section": "Stödjande föräldrasamtal",
+              "question": "Vad är grundtanken i ansvarsfördelningen vid barnets ätande?",
+              "answer": "Föräldrar bestämmer NÄR och VAD barnet ska erbjudas. Barnet bestämmer vad och hur mycket hen vill äta. Ett barn ska aldrig tvingas att äta, bara erbjudas mat."
+            },
+            {
+              "id": "FC-2.4.2",
+              "type": "flashcard",
+              "section": "Uppföljning av föräldrasamtalet",
+              "question": "Hur snart bör den första uppföljningskontakten ske efter ett föräldrasamtal om barnets ätande?",
+              "answer": "Det brukar vara bra med en första kontakt inom en till två veckor för att höra hur samtalet och planeringen uppfattades."
+            },
+            {
+              "id": "MC-2.4.1",
+              "type": "multiple_choice",
+              "section": "Bedömning av föräldrasamtalet",
+              "question": "Vad bör BHV-sköterskan beakta vid bedömning av föräldrasamtalet?",
+              "options": {
+                "A": "Enbart barnets viktuppgång",
+                "B": "Föräldrarnas kunskap om barns ätutveckling, eventuell psykiatrisk problematik eller depression och om ätsvårigheterna ryms inom BHV-sköterskans kompetens",
+                "C": "Barnets ålder och om det äter exakt rätt mängd mat",
+                "D": "Om familjen har ekonomiska förutsättningar att köpa rätt mat"
+              },
+              "correct": "B",
+              "explanation": "BHV-sköterskan bör tänka på: om föräldrarna har kunskap om barns ätutveckling, om det finns psykiatriska problem eller depression som kan störa samspelet och om ätsvårigheterna ryms inom den egna kompetensen."
+            },
+            {
+              "id": "SF-2.4.1",
+              "type": "true_false",
+              "section": "Stödjande föräldrasamtal",
+              "statement": "Barn ska vid behov tvingas äta för att säkerställa tillräckligt nutritionsintag.",
+              "correct": false,
+              "explanation": "Den grundläggande tanken är att ett barn ALDRIG ska tvingas att äta – bara erbjudas mat."
+            }
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "D-vitamin",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/mat-och-dryck---oversikt/d-vitamin/",
+          "questions": [
+            {
+              "id": "FC-2.5.1",
+              "type": "flashcard",
+              "section": "D-vitamin är viktigt för hälsan",
+              "question": "Vad kan brist på D-vitamin orsaka hos barn?",
+              "answer": "Brist på D-vitamin kan orsaka Rakit ('engelska sjukan') – en bristsjukdom som numera är mycket sällsynt tack vare D-vitaminprofylax."
+            },
+            {
+              "id": "FC-2.5.2",
+              "type": "flashcard",
+              "section": "Val av D-droppar",
+              "question": "Varför ses D-droppar inom BHV som läkemedel och inte som kosttillskott?",
+              "answer": "D-droppar ges för att förebygga sjukdom och är läkemedelsklassade – de genomgår tester för läkemedel. Kosttillskott genomgår inte dessa tester och mängden och kvaliteten kan variera."
+            },
+            {
+              "id": "FC-2.5.3",
+              "type": "flashcard",
+              "section": "Kan barn få i sig för mycket D-vitamin?",
+              "question": "Vad kan ett för högt D-vitaminintag leda till?",
+              "answer": "Det är giftigt och kan leda till för höga kalciumnivåer i blodet, kalciuminlagring i njurarna och njursvikt. Farligt höga intag kan uppnås via tillskott men inte via enbart mat."
+            },
+            {
+              "id": "MC-2.5.1",
+              "type": "multiple_choice",
+              "section": "Inledning",
+              "question": "Vilken dos D-vitamin rekommenderas dagligen till alla barn från 1 veckas ålder upp till 2 år?",
+              "options": {
+                "A": "2 droppar (200 IE)",
+                "B": "5 droppar (400 IE = 10 mikrogram)",
+                "C": "10 droppar (800 IE)",
+                "D": "3 droppar (300 IE)"
+              },
+              "correct": "B",
+              "explanation": "Alla barn från 1 veckas ålder och upp till 2 år rekommenderas tillskott med 5 droppar D-vitamin (D3) dagligen (400 IE = 10 mikrogram vitamin D)."
+            },
+            {
+              "id": "SF-2.5.1",
+              "type": "true_false",
+              "section": "D-vitamintillskott till ammande",
+              "statement": "Ammande mammor behöver ta extra höga doser D-vitamin för att täcka barnets behov via bröstmjölken.",
+              "correct": false,
+              "explanation": "Enligt Livsmedelsverket gäller samma rekommenderade intag för gravida och ammande som för andra vuxna. Doser utöver detta kan diskuteras med behandlande läkare."
+            }
+          ]
+        },
+        {
+          "id": "2.6",
+          "title": "Matintroduktion",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/mat-och-dryck---oversikt/matintroduktion/",
+          "questions": [
+            {
+              "id": "FC-2.6.1",
+              "type": "flashcard",
+              "section": "Pyttesmå smakprover kan ges från 4 månaders ålder",
+              "question": "Från vilken ålder kan pyttesmå smakprover ges och i vilken mängd?",
+              "answer": "Från 4 månaders ålder som tidigast, i mängden ungefär ett kryddmått till en tesked – en upplevelse av smak och konsistens på fingret eller sked."
+            },
+            {
+              "id": "FC-2.6.2",
+              "type": "flashcard",
+              "section": "Livsmedel att undvika under första året",
+              "question": "Vilka livsmedel rekommenderas att undvika under det första levnadsåret?",
+              "answer": "Gröna bladgrönsaker, honung, rödbetsjuice, salt (smakprover ok), fänkålste, socker och sockerinnehållande livsmedel, hela nötter och jordnötter. Risprodukter bör inte ges mer än fyra gånger per vecka; riskakor och risdryck bör undvikas helt."
+            },
+            {
+              "id": "FC-2.6.3",
+              "type": "flashcard",
+              "section": "Exponering för allergener",
+              "question": "Hur förebyggs bäst utveckling av födoämnesallergi enligt aktuell forskning?",
+              "answer": "Genom introduktion och exponering av många olika livsmedel under barnets första levnadsår."
+            },
+            {
+              "id": "MC-2.6.1",
+              "type": "multiple_choice",
+              "section": "Erbjuda mat med tuggmotstånd",
+              "question": "Från vilken ålder bör man senast börja träna barnet på mat med grövre konsistens och tuggmotstånd?",
+              "options": {
+                "A": "Från 4 månader",
+                "B": "Senast vid 8 månaders ålder",
+                "C": "Från 12 månader",
+                "D": "Inte förrän barnet har alla tänder"
+              },
+              "correct": "B",
+              "explanation": "Vid senast 8 månaders ålder är det dags att börja träna på lite grövre konsistens på maten som ger mer tuggmotstånd."
+            },
+            {
+              "id": "SF-2.6.1",
+              "type": "true_false",
+              "section": "Att börja äta vanlig mat",
+              "statement": "Tidpunkten för matintroduktion styrs till stor del av barnets utveckling, inte enbart av barnets kronologiska ålder.",
+              "correct": true,
+              "explanation": "Tidpunkten för introduktion av annan mat än bröstmjölk eller bröstmjölksersättning styrs till stor del av barnets utveckling."
+            }
+          ]
+        },
+        {
+          "id": "2.7",
+          "title": "Barns ätutveckling 0-6 år",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/mat-och-dryck---oversikt/barns-atutveckling-0-6-ar/",
+          "questions": [
+            {
+              "id": "FC-2.7.1",
+              "type": "flashcard",
+              "section": "Ätutveckling 0–3 månader",
+              "question": "Hur styrs det nyfödda barnets ätande?",
+              "answer": "Det styrs av reflexer – barnet börjar suga när något stoppas in i munnen och sväljning utlöses automatiskt när vätska når svalget. Tungan rör sig rakt ut och in i en lapande rörelse."
+            },
+            {
+              "id": "FC-2.7.2",
+              "type": "flashcard",
+              "section": "Neofobi",
+              "question": "Vad är neofobi i ätutvecklingen och när uppträder det?",
+              "answer": "En fas med ökad skepsis gentemot livsmedel som många barn utvecklar från 20 månaders ålder och som kan vara upp till 6 års ålder. Barnet undviker plötsligt mat som tidigare fungerat och är inte lika intresserade av att prova nytt."
+            },
+            {
+              "id": "MC-2.7.1",
+              "type": "multiple_choice",
+              "section": "Ätutveckling 9–12 månader",
+              "question": "Vad klarar de flesta barn kring 12 månaders ålder?",
+              "options": {
+                "A": "Äta helt självständigt utan hjälp",
+                "B": "Dricka från ett öppet glas",
+                "C": "Tugga hårt bröd",
+                "D": "Äta precis samma mat som övriga familjen utan anpassning"
+              },
+              "correct": "B",
+              "explanation": "Omkring 12 månaders ålder kan många barn dricka från ett öppet glas, i takt med att läppar, tunga och käkar fått bättre rörlighet och stabilitet."
+            },
+            {
+              "id": "SF-2.7.1",
+              "type": "true_false",
+              "section": "Den sensoriska utvecklingen",
+              "statement": "Den sensoriska ätutvecklingen sker kronologiskt på samma sätt som den motoriska ätutvecklingen.",
+              "correct": false,
+              "explanation": "Den sensoriska utvecklingen sker INTE kronologiskt på samma sätt som den motoriska. Barn kan ha en mer eller mindre lättutlöst kväljreflex och är olika känsliga för konsistens, smak och temperatur."
+            }
+          ]
+        },
+        {
+          "id": "2.8",
+          "title": "Vegetariska koster till barn",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/mat-och-dryck---oversikt/vegetariska-koster-till-barn/",
+          "questions": [
+            {
+              "id": "FC-2.8.1",
+              "type": "flashcard",
+              "section": "Berikade produkter och näringstillskott krävs",
+              "question": "Varför kräver en uteslutande växtbaserad kost berikade produkter och tillskott för barn?",
+              "answer": "En uteslutande växtbaserad kost är inte nearingsmässigt fullvärdig. Små barn har dessutom ett högt energi- och näringsbehov per kilo kroppsvikt, vilket ställer höga krav på matens sammansättning och föräldrarnas kunskap."
+            },
+            {
+              "id": "FC-2.8.2",
+              "type": "flashcard",
+              "section": "Remiss till läkare eller dietist",
+              "question": "Vilka barn med växtbaserad kost bör remitteras till läkare?",
+              "answer": "Barn vars förälder ätit helt växtbaserat utan tillskott under graviditet och/eller amning, barn med avvikande tillväxt, barn med samtidig födoämnesallergi, och barn med uttalat ätproblem."
+            },
+            {
+              "id": "MC-2.8.1",
+              "type": "multiple_choice",
+              "section": "Kosttillskott",
+              "question": "Varför är kosttillskott till de allra minsta barnen komplicerat i Sverige?",
+              "options": {
+                "A": "Det är förbjudet att sälja kosttillskott till barn under 2 år",
+                "B": "Det saknas tillskott avsedda för de allra minsta, mängden vitaminer och mineraler varierar och det saknas ett kontrollorgan som säkerställer att innehållet stämmer med förpackningen",
+                "C": "Tillskott absorberas inte av barn under 1 år",
+                "D": "Alla tillskott är lika säkra oavsett fabrikat och dosering"
+              },
+              "correct": "B",
+              "explanation": "På den svenska marknaden saknas tillskott avsedda för de allra minsta barnen, mängden vitaminer och mineraler kan vara väldigt varierande och det saknas ett kontrollorgan som säkerställer att innehållet stämmer."
+            },
+            {
+              "id": "SF-2.8.1",
+              "type": "true_false",
+              "section": "Allt fler väljer växtbaserad kost",
+              "statement": "En mer växtbaserad kost med mycket grönsaker, baljväxter, frukt, bär, nötter och fröer är förknippad med stora hälsofördelar och ett minskat klimatavtryck.",
+              "correct": true,
+              "explanation": "En mer växtbaserad kost med mycket grönsaker, baljväxter, frukt, bär, nötter och fröer är förknippad med stora hälsofördelar och ett minskat klimatavtryck jämfört med en kost med mer animalier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Främja amning - översikt",
+      "pages": [
+        {
+          "id": "3.1",
+          "title": "Amning ur ett tandhälsoperspektiv",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/framja-amning---oversikt/rad-om-amning-ur-ett-tandhalsoperspektiv/",
+          "questions": [
+            {
+              "id": "FC-3.1.1",
+              "type": "flashcard",
+              "section": "Hur karies uppstår",
+              "question": "Hur uppstår karies och vad ökar risken?",
+              "answer": "Karies uppstår när bakterier i munnen bryter ner kolhydrater till syror som löser upp tandytan. Ju oftare barnet äter, desto fler perioder med sur miljö i munnen och desto högre kariesrisk."
+            },
+            {
+              "id": "FC-3.1.2",
+              "type": "flashcard",
+              "section": "Amning och karies - vad forskning visar",
+              "question": "Vad visar forskning om amning och kariesrisk beroende på amningslängd?",
+              "answer": "Amning upp till 12 månader tycks vara skyddande mot karies. Nattlig eller mer frekvent amning efter 12–18 månader, eller amning längre än 24 månader, skulle kunna öka risken för karies."
+            },
+            {
+              "id": "MC-3.1.1",
+              "type": "multiple_choice",
+              "section": "Hur man undviker karies hos barn",
+              "question": "Vad är den viktigaste åtgärden för att undvika karies hos barn, oavsett om de ammas eller inte?",
+              "options": {
+                "A": "Undvika all amning efter 6 månaders ålder",
+                "B": "Goda kostvanor med regelbundna måltider utan tillsatt socker och tandborstning med fluoridtandkräm morgon och kväll",
+                "C": "Ge fluoridtabletter dagligen från spädbarnstiden",
+                "D": "Borsta tänder enbart efter frukost"
+              },
+              "correct": "B",
+              "explanation": "Det är viktigt att alla barn, oavsett om de ammas eller inte, har goda kostvanor och får tänderna borstade med fluoridtandkräm morgon och kväll för att undvika uppkomst av karies."
+            },
+            {
+              "id": "SF-3.1.1",
+              "type": "true_false",
+              "section": "Amning och karies - vad forskning visar",
+              "statement": "Bröstmjölk i sig orsakar karies.",
+              "correct": false,
+              "explanation": "Bröstmjölk i sig tycks INTE orsaka karies, men när bröstmjölk finns tillgängligt i munnen samtidigt med andra nedbrytbara kolhydrater kan kariesrisken öka."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Bemötande vid amningsvägledning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/framja-amning---oversikt/bemotande-vid-amningsvagledning/",
+          "questions": [
+            {
+              "id": "FC-3.2.1",
+              "type": "flashcard",
+              "section": "Mål med amningsvägledning",
+              "question": "Vad är målen med amningsvägledning inom BHV?",
+              "answer": "Att erbjuda evidensbaserat och individualiserat stöd för att främja en positiv amningsupplevelse, stärka kvinnans tillit till sin förmåga att amma och inkludera hela familjen."
+            },
+            {
+              "id": "FC-3.2.2",
+              "type": "flashcard",
+              "section": "Informativt, emotionellt och praktiskt stöd",
+              "question": "Hur kan amningsvägledning delas upp?",
+              "answer": "I informativt stöd (kunskapsförmedling baserad på aktuella riktlinjer), emotionellt stöd (trygghet, empati, omsorg och tillit) och praktiskt stöd."
+            },
+            {
+              "id": "MC-3.2.1",
+              "type": "multiple_choice",
+              "section": "Vad vill föräldrarna ha för bemötande vid amning?",
+              "question": "Vad visar studier om vilket stöd föräldrar önskar vid amning?",
+              "options": {
+                "A": "De vill ha enbart medicinsk information om amningspositioner",
+                "B": "Känslomässig bekräftelse och att BHV-sjuksköterskan utgår från familjens behov och involverar hela familjen",
+                "C": "Enbart konkreta råd om hur länge de ska amma",
+                "D": "Råd om bröstmjölksersättning som primärt alternativ"
+              },
+              "correct": "B",
+              "explanation": "Föräldrarna vill ha känslomässig bekräftelse och att BHV-sjuksköterskan utgår från familjens behov och involverar hela familjen. Den icke-ammande föräldern bör ses som en viktig resurs."
+            },
+            {
+              "id": "SF-3.2.1",
+              "type": "true_false",
+              "section": "Att vara amningsvägledare",
+              "statement": "Att vara amningsvägledare innebär primärt att ge snabba lösningar och svar på amningsproblem.",
+              "correct": false,
+              "explanation": "Att vara amningsvägledare innebär att LYSSNA och STÄLLA FRÅGOR snarare än att ge snabba lösningar och svar."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Hälsoeffekter av amning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/framja-amning---oversikt/halsoeffekter-av-amning/",
+          "questions": [
+            {
+              "id": "FC-3.3.1",
+              "type": "flashcard",
+              "section": "Amning - en folkhälsoangelägenhet",
+              "question": "Hur länge räcker bröstmjölken ensam som näring för barnet?",
+              "answer": "Bröstmjölken innehåller all näring och vätska ett barn behöver för gynnsam tillväxt, utveckling och hälsa under barnets sex första levnadsmånader."
+            },
+            {
+              "id": "FC-3.3.2",
+              "type": "flashcard",
+              "section": "Studier om amningens hälsofördelar",
+              "question": "Vilka hälsoeffekter har amning för den ammande kvinnan?",
+              "answer": "För ammande kvinnor minskar risken att insjukna i bröstcancer, äggstockscancer och typ 2-diabetes. Amning har även kopplats till minskad risk för hjärt-kärlsjukdom."
+            },
+            {
+              "id": "MC-3.3.1",
+              "type": "multiple_choice",
+              "section": "Nackdelar med att inte amma ur ett globalt perspektiv",
+              "question": "Vilka faktorer hos mamman är kopplade till minskad amning?",
+              "options": {
+                "A": "Hög utbildning och hög socioekonomisk status",
+                "B": "Lågt självförtroende, bristande tillit till förmågan att amma och lägre socioekonomisk status",
+                "C": "Hög ålder och stor familj",
+                "D": "Enbart medicinska komplikationer"
+              },
+              "correct": "B",
+              "explanation": "Avsaknad av stöd och psykologiska faktorer som lågt självförtroende och bristande tillit till förmågan att amma kan orsaka amningsproblem. Mödrar med lägre socioekonomisk status är överrepresenterade bland de som inte ammar alls eller endast kortvarigt."
+            },
+            {
+              "id": "SF-3.3.1",
+              "type": "true_false",
+              "section": "Studier om amningens hälsofördelar",
+              "statement": "Bröstmjölken stimulerar immunförsvaret hos barnet och minskar risken för infektioner.",
+              "correct": true,
+              "explanation": "Bröstmjölken stimulerar immunförsvaret hos barnet och minskar risken för infektioner – detta är en av de dokumenterade hälsofördelarna med amning."
+            }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Amningens påverkansfaktorer",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/framja-amning---oversikt/amningens-paverkansfaktorer/",
+          "questions": [
+            {
+              "id": "FC-3.4.1",
+              "type": "flashcard",
+              "section": "Yttre påverkansfaktorer",
+              "question": "Vilka sociodemografiska faktorer påverkar amning?",
+              "answer": "Det finns tydliga samband mellan mammans ålder, utbildning, yrke och bostadsort och amning. Socialt stöd från partner, familj och vänner påverkar om och hur länge kvinnan väljer att amma."
+            },
+            {
+              "id": "FC-3.4.2",
+              "type": "flashcard",
+              "section": "Negativt samband mellan obesitas, rökning och amning",
+              "question": "Varför ammar kvinnor med obesitas i lägre utsträckning?",
+              "answer": "Det beror bland annat på fördröjd utdrivningsreflex samt fysiska barriärer som stora bröst och att barnet har svårt att få ett bra sugtag."
+            },
+            {
+              "id": "MC-3.4.1",
+              "type": "multiple_choice",
+              "section": "Smärtsam amning",
+              "question": "Vilket är ett av de vanligaste skälen till att lägga ned amningen och när sker det?",
+              "options": {
+                "A": "Brist på stöd från partnern – vanligen efter 3 månader",
+                "B": "Smärtsam amning, t.ex. såriga bröstvårtor – vanligen inom fyra veckor",
+                "C": "Övervikt hos barnet – vanligen vid 6 månader",
+                "D": "Mjölkstockning – vanligen vid 4–6 månader"
+              },
+              "correct": "B",
+              "explanation": "Amningskomplikation såsom smärtsam amning är ett av de vanligaste skälen att lägga ner amningen och det sker inom fyra veckor."
+            },
+            {
+              "id": "SF-3.4.1",
+              "type": "true_false",
+              "section": "Nappar kan användas men med försiktighet",
+              "statement": "WHO avråder helt och hållet från nappanvändande för att stödja och främja amning.",
+              "correct": false,
+              "explanation": "WHO väljer att INTE avråda från nappanvändandet helt. Rekommendationen innehåller ord som 'använd med försiktighet' för att främja och stödja amning."
+            }
+          ]
+        },
+        {
+          "id": "3.5",
+          "title": "Strategier och rekommendationer för amning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/framja-amning---oversikt/strategier-och-rekommendationer-for-amning/",
+          "questions": [
+            {
+              "id": "FC-3.5.1",
+              "type": "flashcard",
+              "section": "WHO:s rekommendationer",
+              "question": "Vad rekommenderar WHO och UNICEF om amning?",
+              "answer": "Amning ska initieras under den första timmen efter födelsen och vara exklusiv under barnets första sex månader. Därefter rekommenderas fortsatt amning med tilläggskost i tillräckliga mängder i två år eller så länge föräldrar och barn vill."
+            },
+            {
+              "id": "FC-3.5.2",
+              "type": "flashcard",
+              "section": "Livsmedelsverkets rekommendationer",
+              "question": "Hur skiljer sig Sveriges amningsrekommendationer från WHO:s?",
+              "answer": "Sveriges rekommendationer följer i stort sett WHO:s, med skillnaden att amning rekommenderas i ett år eller så länge mor och barn önskar (jämfört med WHO:s rekommendation om två år)."
+            },
+            {
+              "id": "MC-3.5.1",
+              "type": "multiple_choice",
+              "section": "Myndigheternas olika ansvarsområden",
+              "question": "Vilken myndighet ansvarar för rekommendationer gällande mat och näring till spädbarn i Sverige?",
+              "options": {
+                "A": "Socialstyrelsen",
+                "B": "Folkhälsomyndigheten",
+                "C": "Livsmedelsverket",
+                "D": "Barnläkarföreningen"
+              },
+              "correct": "C",
+              "explanation": "Livsmedelsverket ansvarar för rekommendationer som rör mat och näring till spädbarn."
+            },
+            {
+              "id": "SF-3.5.1",
+              "type": "true_false",
+              "section": "Amning för folkhälsan",
+              "statement": "Samverkan mellan barnhälsovård, mödrahälsovård, BB och förlossning har stor betydelse för att skydda och främja amning.",
+              "correct": true,
+              "explanation": "Samverkan mellan barnhälsovård, mödrahälsovård, BB och förlossning (vårdkedjan) har stor betydelse för att skydda och främja amning."
+            }
+          ]
+        },
+        {
+          "id": "3.6",
+          "title": "Skapa goda förutsättningar för amningsstunden",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/framja-amning---oversikt/skapa-goda-forutsattningar-for-amningsstunden/",
+          "questions": [
+            {
+              "id": "FC-3.6.1",
+              "type": "flashcard",
+              "section": "Varför små barn vill amma ofta",
+              "question": "Hur stor är barnets magsäck vid en veckas respektive två veckors ålder?",
+              "answer": "Vid en veckas ålder är magsäcken ungefär stor som en aprikos. Vid den andra veckan är den ungefär stor som ett hönsägg."
+            },
+            {
+              "id": "FC-3.6.2",
+              "type": "flashcard",
+              "section": "Fördelar med att ha barnet hud mot hud",
+              "question": "Vilka fördelar ger hud-mot-hud-kontakt?",
+              "answer": "Barnet håller kroppstemperaturen bättre, blir lugnare, skriker mindre, suger snabbare på bröstet, ger mer mjölk snabbare, får jämnare blodsockernivå, fler helammar i 6 månader, mamman får färre amningskomplikationer och samspelet med barnet främjas."
+            },
+            {
+              "id": "FC-3.6.3",
+              "type": "flashcard",
+              "section": "Oxytocin stimulerar utsöndring av bröstmjölken",
+              "question": "Vilket hormon stimuleras av hud-mot-hud-kontakt och vad är dess funktion vid amning?",
+              "answer": "Oxytocin (lugn-och-ro-hormonet) stimuleras av hud-mot-hud-kontakt och driver utdrivningen av bröstmjölken."
+            },
+            {
+              "id": "MC-3.6.1",
+              "type": "multiple_choice",
+              "section": "Hur kan man se att barnet får i sig tillräckligt",
+              "question": "Vilket av följande är ett tecken på att barnet de första veckorna får i sig tillräckligt?",
+              "options": {
+                "A": "Barnet skriker alltid omedelbart innan amning",
+                "B": "Barnet sover mer än 4 timmar i sträck",
+                "C": "Barnet kissar ljust minst 6 gånger varje dygn och bajsar flera gånger varje dygn",
+                "D": "Barnet ökar precis 200 gram per vecka"
+              },
+              "correct": "C",
+              "explanation": "Tecken på att barnet får i sig tillräckligt inkluderar att det kissar ljust minst 6 gånger per dygn och bajsar flera gånger per dygn, är piggt och alert vid bröstet och nöjt mellan amningarna."
+            },
+            {
+              "id": "SF-3.6.1",
+              "type": "true_false",
+              "section": "Vad en fungerande amning gör",
+              "statement": "Ju mer barnet suger på bröstet, desto mer bröstmjölk produceras – efterfrågan styr tillgången.",
+              "correct": true,
+              "explanation": "Tidig fungerande amning stärker mammans tillit. Ju mer barnet suger på bröstet, desto mer bröstmjölk produceras – efterfrågan styr tillgången."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bröstmjölksersättning - översikt",
+      "pages": [
+        {
+          "id": "4.1",
+          "title": "Blanda bröstmjölksersättning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/brostmjolksersattning---oversikt/blanda-brostmjolksersattning/",
+          "questions": [
+            {
+              "id": "FC-4.1.1",
+              "type": "flashcard",
+              "section": "Varför man inte ska göra egen bröstmjölksersättning",
+              "question": "Varför avråder Livsmedelsverket starkt från att göra hemgjord bröstmjölksersättning eller ge vanlig komjölk?",
+              "answer": "Dessa innehåller inte all näring ett spädbarn behöver och riskerar att innehålla för höga protein- och salthalter, vilket kan skada tarmar och njurar och leda till felnäring – med risk för dödsfall."
+            },
+            {
+              "id": "FC-4.1.2",
+              "type": "flashcard",
+              "section": "Tillredning av bröstmjölksersättning",
+              "question": "Vad händer om man blandar för lite respektive för mycket pulver vid tillredning av bröstmjölksersättning?",
+              "answer": "För lite pulver ger inte tillräckligt med energi och näring. För mycket pulver kan orsaka förstoppning och en för snabb viktökning."
+            },
+            {
+              "id": "MC-4.1.1",
+              "type": "multiple_choice",
+              "section": "Tillredning av bröstmjölksersättning",
+              "question": "Vilket vatten ska INTE användas vid beredning av bröstmjölksersättning?",
+              "options": {
+                "A": "Kokt och sedan avsvalnat vatten",
+                "B": "Kallt kranvatten som värms till angiven temperatur",
+                "C": "Varmt vatten direkt från varmvattenkranen",
+                "D": "Mineralvatten på flaska"
+              },
+              "correct": "C",
+              "explanation": "Varmt vatten direkt från kranen ska inte användas då det kan innehålla koppar. Kallt vatten ska tas ur kranen och värmas till angiven temperatur."
+            },
+            {
+              "id": "SF-4.1.1",
+              "type": "true_false",
+              "section": "Viktigt vid användning av välling/ersättningsmaskin",
+              "statement": "En vällings- eller ersättningsmaskin värmer alltid vattnet till minst 70 grader.",
+              "correct": false,
+              "explanation": "Maskinen värmer bara vattnet till ättemperatur – INTE till 70 grader. Därför rekommenderas att koka upp vattnet separat och sedan låta det svalna innan det hälls i maskinens behållare."
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Bröstmjölksersättning till barn med mjölkproteinallergi",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/brostmjolksersattning---oversikt/brostmjolksersattning-till-barn-med-komjolksproteinallergi/",
+          "questions": [
+            {
+              "id": "FC-4.2.1",
+              "type": "flashcard",
+              "section": "Vid etablerad allergi",
+              "question": "Vilka ersättningsalternativ finns för barn med etablerad mjölkproteinallergi?",
+              "answer": "Höggradigt hydrolyserade bröstmjölksersättningar (mjölkproteinerna är sönderdelade) eller aminosyrabaserade bröstmjölksersättningar."
+            },
+            {
+              "id": "FC-4.2.2",
+              "type": "flashcard",
+              "section": "Observera!",
+              "question": "Varför är delvis hydrolyserade bröstmjölksersättningar INTE lämpliga vid etablerad mjölkproteinallergi?",
+              "answer": "De är enbart delvis hydrolyserade och inte tillräckligt sönderdelade för barn med etablerad allergi. De rekommenderas inte heller vid misstanke om mjölkproteinallergi."
+            },
+            {
+              "id": "MC-4.2.1",
+              "type": "multiple_choice",
+              "section": "Vid allergisk ärftlighet",
+              "question": "Vilken rekommendation gäller för barn med allergisk ärftlighet som inte ammas?",
+              "options": {
+                "A": "Alltid specialersättning från födseln för att förebygga allergi",
+                "B": "Vanlig bröstmjölksersättning i de allra flesta fall; specialersättning kan i vissa fall prövas vid mycket hög ärftlighet för svår allergi efter inrådan från barnläkare",
+                "C": "Aminosyrabaserad ersättning direkt från födseln",
+                "D": "Kokomjölk som alternativ"
+              },
+              "correct": "B",
+              "explanation": "Barnläkarföreningens sektion anger att vanlig bröstmjölksersättning bör användas i de allra flesta fall. Vid mycket hög ärftlighet för svår allergi kan specialersättning möjligen prövas efter inrådan från barnläkare."
+            },
+            {
+              "id": "SF-4.2.1",
+              "type": "true_false",
+              "section": "Vid etablerad allergi",
+              "statement": "De flesta vanliga bröstmjölksersättningar, vällingar och grötar innehåller mjölkprotein.",
+              "correct": true,
+              "explanation": "De flesta bröstmjölksersättningar, vällingar och grötar innehåller mjölkprotein. Barn med allergi mot mjölkprotein behöver därför specialanpassade produkter."
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Bröstmjölksersättning till för tidigt födda barn",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/brostmjolksersattning---oversikt/brostmjolksersattning-till-for-tidigt-fodda-barn/",
+          "questions": [
+            {
+              "id": "FC-4.3.1",
+              "type": "flashcard",
+              "section": "Att ge näring till ett för tidigt fött barn",
+              "question": "Vad är den bästa näringen för det för tidigt födda barnet?",
+              "answer": "Bröstmjölk eller donerad bröstmjölk är den bästa näringen för det för tidigt födda barnet."
+            },
+            {
+              "id": "FC-4.3.2",
+              "type": "flashcard",
+              "section": "Specialanpassad bröstmjölksersättning",
+              "question": "När används specialanpassad bröstmjölksersättning för prematura barn och vem ordinerar den?",
+              "answer": "Om bröstmjölk eller donerad bröstmjölk inte finns tillgängligt, för barn födda före graviditetsvecka 35, på inrådan av barnläkare eller barndietist."
+            },
+            {
+              "id": "MC-4.3.1",
+              "type": "multiple_choice",
+              "section": "Att ge näring till ett för tidigt fött barn",
+              "question": "Varför behöver prematura barn tid på sig innan de kan amma?",
+              "options": {
+                "A": "De är för lätta och kan inte hålla rätt amningsposition",
+                "B": "De behöver tid för att utveckla förmågan att koordinera suga, svälja och andas samtidigt",
+                "C": "Deras immunförsvar är inte moget för bröstmjölk",
+                "D": "Deras magsäck är för liten för att ta emot bröstmjölk"
+              },
+              "correct": "B",
+              "explanation": "Barn som föds för tidigt behöver tid för att utveckla sin förmåga att suga och svälja, samtidigt som de andas. Kring graviditetsvecka 30 kan de ibland lära sig koordinera detta efter bara några veckor."
+            },
+            {
+              "id": "SF-4.3.1",
+              "type": "true_false",
+              "section": "Att ge näring till ett för tidigt fött barn",
+              "statement": "Donerad bröstmjölk ges primärt till prematura eller sjuka barn som vårdas på neonatalavdelningar.",
+              "correct": true,
+              "explanation": "Donerad bröstmjölk ges främst till prematura eller sjuka barn som vårdas på neonatalavdelningar."
+            }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Ge mat med flaska",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/brostmjolksersattning---oversikt/ge-mat-med-flaska/",
+          "questions": [
+            {
+              "id": "FC-4.4.1",
+              "type": "flashcard",
+              "section": "Avsluta flaskmatning",
+              "question": "När bör nappflaskan fasas ut och varför?",
+              "answer": "Fasas ut efter 12 månaders ålder. Vid 18 månader ska barnet kunna vara utan nappflaska, framförallt med tanke på kariesutvecklingen och risken för övervikt och obesitas."
+            },
+            {
+              "id": "FC-4.4.2",
+              "type": "flashcard",
+              "section": "Mata med kopp eller snipa",
+              "question": "Varför är koppmatning att föredra om ersättning ges tillfälligt?",
+              "answer": "Vid koppmatning dämpas inte barnets sugbeteende, vilket är positivt om mamman önskar amma senare. Vid flaskmatning kan sugbeteendet dämpas och amning bli svårare."
+            },
+            {
+              "id": "MC-4.4.1",
+              "type": "multiple_choice",
+              "section": "Att mata med nappflaska",
+              "question": "Vilken hållning rekommenderas vid flaskmatning av spädbarn?",
+              "options": {
+                "A": "Liggande plant på rygg",
+                "B": "Halvsittande i famnen med stöd för huvud och nacke, med byte av sida som vid amning",
+                "C": "Sittande helt upprätt mot kudde",
+                "D": "Hud-mot-hud på magen"
+              },
+              "correct": "B",
+              "explanation": "Vid flaskmatning är det en fördel att hålla barnet halvsittande i sin famn och stödja barnets huvud och nacke med armen. Bra att byta sida, precis som man gör vid amning."
+            },
+            {
+              "id": "SF-4.4.1",
+              "type": "true_false",
+              "section": "Typ av nappflaska",
+              "statement": "Det finns vetenskapliga studier som visar att ett visst märke av nappflaska är bättre än ett annat.",
+              "correct": false,
+              "explanation": "Det finns idag inga vetenskapliga studier som visar på att den ena nappflaskan är bättre än den andra."
+            }
+          ]
+        },
+        {
+          "id": "4.5",
+          "title": "Stödja och informera om bröstmjölksersättning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/brostmjolksersattning---oversikt/stodja-och-informera-om-brostmjolksersattning/",
+          "questions": [
+            {
+              "id": "FC-4.5.1",
+              "type": "flashcard",
+              "section": "Benämningar på bröstmjölksersättningar och tillskottsnäring",
+              "question": "Vad är skillnaden mellan bröstmjölksersättning nr 1 och tillskottsnäring nr 2?",
+              "answer": "BME nr 1 är avsedd från födseln och kan ges upp till 6 månaders ålder. Tillskottsnäring nr 2 är för 6–12 månaders ålder och innehåller något högre nivå av järn."
+            },
+            {
+              "id": "FC-4.5.2",
+              "type": "flashcard",
+              "section": "Hur mycket mat behöver barnet?",
+              "question": "Vilket ungefärligt intag av bröstmjölksersättning har ett nyfött barn under det första levnadsdygnet?",
+              "answer": "Ungefär 20–30 ml per kilo kroppsvikt under det första levnadsdygnet, vilket innebär ca 5–10 ml per måltid."
+            },
+            {
+              "id": "MC-4.5.1",
+              "type": "multiple_choice",
+              "section": "Protein",
+              "question": "Varför sänks proteinhalten i bröstmjölksersättning jämfört med komjölk?",
+              "options": {
+                "A": "För att förhindra allergireaktioner mot komjölksprotein",
+                "B": "Proteinhalten i komjölk är tre gånger så hög som i bröstmjölk – den sänks för att efterlikna bröstmjölkens sammansättning",
+                "C": "För att förbättra smaken och öka palatabilitet",
+                "D": "Lagkrav kräver låg proteinhalt i alla livsmedelsprodukter för spädbarn"
+              },
+              "correct": "B",
+              "explanation": "Proteinhalten i komjölk är tre gånger så hög som i bröstmjölk. Proteinhalten sänks vid tillverkning för att kunna efterlikna bröstmjölkens sammansättning."
+            },
+            {
+              "id": "SF-4.5.1",
+              "type": "true_false",
+              "section": "Tillsatser i ersättning",
+              "statement": "Det är tillåtet och rekommenderat att tillsätta olja i bröstmjölksersättning för att ge energiberikad kost till ett spädbarn.",
+              "correct": false,
+              "explanation": "Livsmedelsverket avråder STARKT från att tillsätta olja eller andra ingredienser i ersättningen, eftersom detta rubbar dess noggrant sammansatta energi- och näringsinnehåll."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Stödja amning - översikt",
+      "pages": [
+        {
+          "id": "5.1",
+          "title": "Barnets tag om bröstet och amningspositioner",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/stodja-amning---oversikt/barnets-tag-om-brostet-och-amningspositioner/",
+          "questions": [
+            {
+              "id": "FC-5.1.1",
+              "type": "flashcard",
+              "section": "BHV-sjuksköterskans roll",
+              "question": "Vad bör BHV-sjuksköterskan göra vid frågor om barnets tag om bröstet eller amningsposition?",
+              "answer": "Ta noggrann anamnes, göra amningsstatus och om möjligt genomföra amningsobservation för att ge individuella råd och stöd utifrån den specifika situationen."
+            },
+            {
+              "id": "FC-5.1.2",
+              "type": "flashcard",
+              "section": "Tillbakalutad amningsposition",
+              "question": "Varför rekommenderas tillbakalutad amningsposition tidigt?",
+              "answer": "I tillbakalutad halvliggande position kan barnet använda sina medfödda reflexer (sökreflexen) och ligga tätt mot den som ammar, vilket underlättar amningsstart."
+            },
+            {
+              "id": "MC-5.1.1",
+              "type": "multiple_choice",
+              "section": "Amma flera barn; tvillingamning och syskonamning",
+              "question": "Vad är viktigt att tänka på vid tvillingamning avseende bröstsida?",
+              "options": {
+                "A": "Alltid amma båda barn simultant på varsitt permanent bröst",
+                "B": "Barnen behöver byta bröst varje amningstillfälle eller varje dag, då de kan ha olika sugförmåga och båda brösten behöver stimulans",
+                "C": "Ge bröstmjölksersättning till det ena barnet alltid",
+                "D": "Låta det ena barnet permanent styra vilket bröst det ammar från"
+              },
+              "correct": "B",
+              "explanation": "Barnen behöver byta bröst, antingen varje amningstillfälle eller varje dag, då de kan ha olika sugförmåga och båda brösten behöver få stimulans för att bibehålla bröstmjölksproduktionen."
+            },
+            {
+              "id": "SF-5.1.1",
+              "type": "true_false",
+              "section": "Vid komplikationer",
+              "statement": "Tidigt amningsstöd och rådgivning om tag och position kan bidra till att man ammar längre och drabbas mer sällan av komplikationer.",
+              "correct": true,
+              "explanation": "Får man tidigt stöd och rådgivning ammar man ofta längre och drabbas mer sällan av komplikationer."
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Amningshjälpmedel",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/stodja-amning---oversikt/amningshjalpmedel/",
+          "questions": [
+            {
+              "id": "FC-5.2.1",
+              "type": "flashcard",
+              "section": "Bröstpump",
+              "question": "Vad är viktigt att tänka på vid bröstpumpanvändning?",
+              "answer": "Det är viktigt att vara väl insatt i hur pumpen används för att undvika amningsproblem, och att välja en pump som känns så behaglig som möjligt."
+            },
+            {
+              "id": "FC-5.2.2",
+              "type": "flashcard",
+              "section": "Amningsinlägg",
+              "question": "Vad är det viktigaste vid val av amningsinlägg?",
+              "answer": "Att välja ett material som kan andas och sitter bekvämt. Inlägg av plast kan ge upphov till hudirritation, svamp och obehag."
+            },
+            {
+              "id": "MC-5.2.1",
+              "type": "multiple_choice",
+              "section": "Amningshjälpmedel utan evidens från forskning",
+              "question": "Vad rekommenderas i FÖRSTA HAND vid såriga bröstvårtor?",
+              "options": {
+                "A": "Antibiotikakräm",
+                "B": "Att smörja bröstvårtorna med den egna bröstmjölken och lufta bröstvårtorna efter amning",
+                "C": "Kortisonkräm",
+                "D": "Täcka bröstvårtan med plåster"
+              },
+              "correct": "B",
+              "explanation": "I första hand rekommenderas att med rena händer smörja bröstvårtorna med den egna bröstmjölken och lufta bröstvårtorna efter amning. Det finns inte tillräckligt stöd i forskning för att rekommendera bröstvårtskrämer."
+            },
+            {
+              "id": "SF-5.2.1",
+              "type": "true_false",
+              "section": "Amningsinlägg",
+              "statement": "Amningsinlägg av plast rekommenderas som förstahandsval då de är mest effektiva mot läckage.",
+              "correct": false,
+              "explanation": "Inlägg av plast kan ge upphov till hudirritation, svamp och obehag. Det viktigaste är att välja ett material som kan andas och sitter bekvämt."
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Tobak och amning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/stodja-amning---oversikt/tobak-och-amning/",
+          "questions": [
+            {
+              "id": "FC-5.3.1",
+              "type": "flashcard",
+              "section": "Barnet får nikotin via bröstmjölken",
+              "question": "Hur påverkar rökning och snusning barnets nikotinexponering vid amning?",
+              "answer": "Barn som ammas av rökande eller snusande mammor får nikotin via bröstmjölken. Risken för plötslig spädbarnsdöd ökar om mamman rökt eller snusat under graviditeten och ökar ytterligare vid passiv rökning."
+            },
+            {
+              "id": "FC-5.3.2",
+              "type": "flashcard",
+              "section": "Att sluta med tobak",
+              "question": "Vilka former av nikotinläkemedel kan ammande använda vid rökstopp?",
+              "answer": "Former som ger mer tillfällig påverkan: nikotintuggummi, sugtablett, inhalator och munsprej."
+            },
+            {
+              "id": "MC-5.3.1",
+              "type": "multiple_choice",
+              "section": "Att sluta med tobak",
+              "question": "Vad bör ammande kvinnor i FÖRSTA HAND rekommenderas angående tobak?",
+              "options": {
+                "A": "Att byta till snus istället för rökning",
+                "B": "Att använda nikotinplåster",
+                "C": "Att sluta med tobak utan att använda avvänjningsläkemedel",
+                "D": "Att amma kortare tid för att minska barnets nikotinexponering"
+              },
+              "correct": "C",
+              "explanation": "Ammande kvinnor bör i första hand rekommenderas att sluta med tobak utan att använda avvänjningsläkemedel."
+            },
+            {
+              "id": "SF-5.3.1",
+              "type": "true_false",
+              "section": "Att sluta med tobak",
+              "statement": "Fortsatt rökning antas vara en större fara för barnet än nikotinläkemedel som ger tillfällig påverkan, såsom tuggummi eller sugtablett.",
+              "correct": true,
+              "explanation": "Fortsatt rökning antas vara en större fara för barnet i jämförelse med nikotinläkemedel som ger en mer tillfällig påverkan."
+            }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": "Amningsstatus och amningsobservation",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/stodja-amning---oversikt/amningsstatus-och-amningsobservation/",
+          "questions": [
+            {
+              "id": "FC-5.4.1",
+              "type": "flashcard",
+              "section": "Amningsanamnes",
+              "question": "Vad är amningsanamnes?",
+              "answer": "Amningsanamnes är perioden mellan förlossningen och hembesöket – det som hänt innan BHV-sjuksköterskan träffar familjen för första gången."
+            },
+            {
+              "id": "FC-5.4.2",
+              "type": "flashcard",
+              "section": "Barnets sugteknik och sugmönster",
+              "question": "Vilka är tecken på att amningen går bra avseende barnets sugteknik?",
+              "answer": "Barnet tar ett stort tag om bröstet och det hörs när barnet sväljer. Det suger snabbt i början och sedan med långa kraftfulla sugtag."
+            },
+            {
+              "id": "FC-5.4.3",
+              "type": "flashcard",
+              "section": "Efter amningsobservationen",
+              "question": "Vad ska BHV-sjuksköterskan göra efter en amningsobservation?",
+              "answer": "Bekräfta förälderns förmåga att amma, tydliggöra det som ser bra ut och föreslå förbättringar, samtala positivt om barnets förmåga, och dokumentera amningsstatus, given information och plan för uppföljning."
+            },
+            {
+              "id": "MC-5.4.1",
+              "type": "multiple_choice",
+              "section": "Barnets läge och tag om bröstet och bröstvårtan",
+              "question": "Vad är ett tecken på att amningen GÅR BRA avseende barnets tag om bröstet?",
+              "options": {
+                "A": "Näpet sugtag och barnet ligger långt ifrån bröstet i famnen",
+                "B": "Stort tag om bröstet och mer vårtgård syns över barnets mun än under",
+                "C": "Tydliga klickljud och smackande ljud hörs",
+                "D": "Barnet somnar snabbt vid bröstet"
+              },
+              "correct": "B",
+              "explanation": "Tecken på att amningen går bra inkluderar att barnet tar ett stort tag om bröstet och att mer vårtgård syns över barnets mun än under."
+            },
+            {
+              "id": "SF-5.4.1",
+              "type": "true_false",
+              "section": "Syfte med amningsobservation",
+              "statement": "Det primära syftet med amningsobservation vid hembesöket är att kontrollera att barnet ökar tillräckligt i vikt.",
+              "correct": false,
+              "explanation": "Syftet med amningsobservationen är att få kunskap om hur amningen fungerar och bidra till föräldrarnas kunskap om amning – inte primärt att kontrollera vikten."
+            }
+          ]
+        },
+        {
+          "id": "5.5",
+          "title": "Alkohol och amning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/stodja-amning---oversikt/alkohol-och-amning/",
+          "questions": [
+            {
+              "id": "FC-5.5.1",
+              "type": "flashcard",
+              "section": "Barnets bästa ska komma först",
+              "question": "Varför bör BHV-sjuksköterskan samtala om alkohol och amning?",
+              "answer": "Förmågan att se till barnets behov minskar vid alkoholintag. Barnkonventionen slår fast att barnets bästa ska sättas i främsta rummet och att föräldrar ska få information om fördelarna med amning."
+            },
+            {
+              "id": "FC-5.5.2",
+              "type": "flashcard",
+              "section": "Motivationshöjande samtal",
+              "question": "Vad är syftet med samtalet om alkohol och amning?",
+              "answer": "Att uppmärksamma föräldrar på alkoholintagets konsekvenser på barnet och på föräldraskapet, och ge dem möjlighet till reflektion."
+            },
+            {
+              "id": "MC-5.5.1",
+              "type": "multiple_choice",
+              "section": "Förslag på hur samtalet kan läggas upp",
+              "question": "Vilket samtalsverktyg rekommenderas vid samtal om alkohol och amning?",
+              "options": {
+                "A": "AUDIT-C",
+                "B": "MI (motiverande samtal) med aktivt lyssnande – BÖRS: Bekräftelse, Öppna frågor, Reflektion, Sammanfattning",
+                "C": "Konfrontation och direkta råd",
+                "D": "Skriftlig information utan samtal"
+              },
+              "correct": "B",
+              "explanation": "MI, motiverande samtal, rekommenderas med aktivt lyssnande – BÖRS: Bekräftelse, Öppna frågor, Reflektion, Sammanfattning. Reflektera kring det föräldrarna säger och lyssna till viljan att förändra."
+            },
+            {
+              "id": "SF-5.5.1",
+              "type": "true_false",
+              "section": "Barnets bästa ska komma först",
+              "statement": "Samtalet om alkohol och amning bör föras vid första hembesöket och vid behov även senare under amningsperioden.",
+              "correct": true,
+              "explanation": "BHV-sjuksköterskan bör samtala med föräldrarna om alkohol och amning vid första hembesöket och senare under amningsperioden vid behov."
+            }
+          ]
+        },
+        {
+          "id": "5.6",
+          "title": "Nedtrappning av tillmatning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/stodja-amning---oversikt/nedtrappning-av-tillmatning/",
+          "questions": [
+            {
+              "id": "FC-5.6.1",
+              "type": "flashcard",
+              "section": "Minska tillmatning stegvis",
+              "question": "Hur bör tillmatning trappas ned om målet är att helamma?",
+              "answer": "Successivt. I takt med att amningstillfällena ökar stimuleras bröstmjölksproduktionen. Det är oftast en fördel om nedtrappningen påbörjas så tidigt som möjligt efter förlossningen."
+            },
+            {
+              "id": "FC-5.6.2",
+              "type": "flashcard",
+              "section": "Upprätta amningsplan och stötta vid behov",
+              "question": "Vad är viktigt om helamningen inte lyckas trots nedtrappningsförsök?",
+              "answer": "Det kan vara en stor besvikelse och det är viktigt att sätta ord på situationen – vad som hänt, vad det lett till och vad de har framför sig. Det viktigaste är att lyssna på familjen."
+            },
+            {
+              "id": "MC-5.6.1",
+              "type": "multiple_choice",
+              "section": "Nedtrappning av tillmatning i korta drag",
+              "question": "Vad är ett viktigt råd vid nedtrappning av tillmatning?",
+              "options": {
+                "A": "Minska antalet amningstillfällen för att ge bröstmjölksproduktionen tid att stabilisera sig",
+                "B": "Amma så ofta barnet visar tecken på att vilja suga, oberoende av tidpunkt för tillmatning",
+                "C": "Ge alltid tillmatning före amning för att säkerställa barnets intag",
+                "D": "Byta till formula helt tills bröstmjölksproduktionen stabiliseras"
+              },
+              "correct": "B",
+              "explanation": "Amma så ofta barnet visar tecken på att vilja suga oberoende av tidpunkt för tillmatning – detta stimulerar bröstmjölksproduktionen."
+            },
+            {
+              "id": "SF-5.6.1",
+              "type": "true_false",
+              "section": "Ibland behöver ett nyfött barn tillmatning",
+              "statement": "Tillmatning kan enbart ges med nappflaska.",
+              "correct": false,
+              "explanation": "Tillmatning kan ges på OLIKA SÄTT: med flaska, kopp, sked, spruta eller tillmatningsset."
+            }
+          ]
+        },
+        {
+          "id": "5.7",
+          "title": "Avsluta amning",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/stodja-amning---oversikt/avsluta-amning/",
+          "questions": [
+            {
+              "id": "FC-5.7.1",
+              "type": "flashcard",
+              "section": "Amningsnedläggning",
+              "question": "Vad händer med brösten vid amningsnedläggning?",
+              "answer": "Mjölkproduktionen hämmas successivt av sig själv. Brösten kan bli spända och ömma under ca 3–4 dagar, ibland upp till 3 veckor. Det kan förekomma att mjölk läcker en tid framöver."
+            },
+            {
+              "id": "FC-5.7.2",
+              "type": "flashcard",
+              "section": "Råd om vad som kan underlätta amningsnedläggningen",
+              "question": "Vilka åtgärder kan underlätta amningsnedläggning?",
+              "answer": "Använda en fast behå eller sportbehå, ta smärtstillande läkemedel (paracetamol eller ibuprofen) vid behov, fortsätta dricka vanlig mängd vätska, och vid kraftig spänning avlasta med att luta sig över ett handfat med varmt vatten."
+            },
+            {
+              "id": "MC-5.7.1",
+              "type": "multiple_choice",
+              "section": "Olika orsaker till att behöva sluta amma på kort tid",
+              "question": "Vilka kan vara anledningar till att amning måste avslutas på kort tid?",
+              "options": {
+                "A": "Barnets viktuppgång och tillväxt",
+                "B": "Allvarlig sjukdom hos den ammande, eller upprepade svåra amningskomplikationer",
+                "C": "Barnets preferens för nappflaska",
+                "D": "Alltid vid 12 månaders ålder"
+              },
+              "correct": "B",
+              "explanation": "Anledningar till kort amningsnedläggning kan vara allvarlig sjukdom, men det kan också finnas andra medicinska orsaker eller upprepade svåra amningskomplikationer."
+            },
+            {
+              "id": "SF-5.7.1",
+              "type": "true_false",
+              "section": "Amningsnedläggning",
+              "statement": "Mjölkproduktionen upphör omedelbart när man slutar amma.",
+              "correct": false,
+              "explanation": "Mjölkproduktionen hämmas SUCCESSIVT av sig själv. Brösten kan bli spända och ömma under ca 3–4 dagar, ibland tar det upp till 3 veckor innan brösten slutar att spänna."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bröstmjölk",
+      "pages": [
+        {
+          "id": "6.1",
+          "title": "Bröstmjölk",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/brostmjolk/",
+          "questions": [
+            {
+              "id": "FC-6.1.1",
+              "type": "flashcard",
+              "section": "Det prematura barnets behov av bröstmjölk",
+              "question": "Hur skiljer sig prematur bröstmjölk från bröstmjölk till fullgångna barn?",
+              "answer": "Prematur bröstmjölk innehåller mer fett och protein samt fler antikroppar (immunglobuliner), anpassat efter det prematura barnets behov."
+            },
+            {
+              "id": "FC-6.1.2",
+              "type": "flashcard",
+              "section": "Förvaring av bröstmjölk",
+              "question": "Hur länge kan bröstmjölk förvaras i kylskåp respektive frys?",
+              "answer": "I kylskåp tre dagar. I frys sex månader. I rumstemperatur enbart tre timmar, varefter den inte kan ges till barnet."
+            },
+            {
+              "id": "MC-6.1.1",
+              "type": "multiple_choice",
+              "section": "Bröstmjölksdonation",
+              "question": "Vem ges i första hand donerad bröstmjölk?",
+              "options": {
+                "A": "Friska fullgångna barn vars mammor inte kan amma",
+                "B": "Prematura eller sjuka barn som vårdas på neonatalavdelningar",
+                "C": "Barn med mjölkproteinallergi",
+                "D": "Alla barn vars mammor har för lite bröstmjölk"
+              },
+              "correct": "B",
+              "explanation": "Donerad bröstmjölk ges främst till prematura eller sjuka barn som vårdas på neonatalavdelningar."
+            },
+            {
+              "id": "SF-6.1.1",
+              "type": "true_false",
+              "section": "Förvaring av bröstmjölk",
+              "statement": "Bröstmjölk kan förvaras i rumstemperatur i upp till tre timmar, varefter den inte kan ges till barnet.",
+              "correct": true,
+              "explanation": "Vid rumstemperatur kan bröstmjölk förvaras i tre timmar. Därefter kan bröstmjölken inte ges till barnet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Amningsutmaningar",
+      "pages": [
+        {
+          "id": "7.1",
+          "title": "Amningsutmaningar",
+          "source_url": "https://www.rikshandboken-bhv.se/amning-och-nutrition/Amningsutmaningar/",
+          "questions": [
+            {
+              "id": "FC-7.1.1",
+              "type": "flashcard",
+              "section": "Barn som inte kan amma de första dagarna",
+              "question": "Vad bör den ammande föräldern göra om barnet inte kan amma de första dagarna?",
+              "answer": "Så snart det är möjligt handmjölka eller pumpa ut bröstmjölken. Att börja tidigt främjar bröstmjölksproduktionen och ger en större chans att amma när barnet kan komma till bröstet."
+            },
+            {
+              "id": "FC-7.1.2",
+              "type": "flashcard",
+              "section": "Hur man kan hjälpa den ammande",
+              "question": "Hur kan personal stödja en ammande förälder vars barn inte kan amma de första dagarna?",
+              "answer": "Ge stöd och berätta hur bröstmjölksproduktionen fungerar och vilka hormoner som är involverade, så att föräldern förstår hur hen kan hjälpa sitt barn till bröstet och upprätthålla produktionen."
+            },
+            {
+              "id": "MC-7.1.1",
+              "type": "multiple_choice",
+              "section": "Barn som inte kan amma de första dagarna",
+              "question": "Hur ges näring till ett barn som inte kan amma de första dagarna?",
+              "options": {
+                "A": "Enbart via nasogastrisk sond",
+                "B": "Via urmjölkad bröstmjölk på kopp eller i sond",
+                "C": "Via bröstmjölksersättning i nappflaska",
+                "D": "Intravenöst näringsdropp"
+              },
+              "correct": "B",
+              "explanation": "Barnet får sin näring genom urmjölkad bröstmjölk på kopp eller i sond om det inte kan amma de första dagarna."
+            },
+            {
+              "id": "SF-7.1.1",
+              "type": "true_false",
+              "section": "Hur man kan hjälpa den ammande",
+              "statement": "Ammande föräldrar till prematura barn som får stöd till urmjölkning och amning upplever amningen negativt i högre utsträckning.",
+              "correct": false,
+              "explanation": "Ammande föräldrar till prematura barn som får stöd till urmjölkning och amning upplever amningen positivt i STÖRRE utsträckning – stöd har alltså en positiv effekt på amningsupplevelsen."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "category": "Hälsosamtal",
+  "source": "rikshandboken-bhv.se",
+  "subcategories": [
+    {
+      "id": 1,
+      "name": "Toalettvanor",
+      "pages": [
+        {
+          "id": "1.1",
+          "title": "Toalettvanor - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/toalettvanor/",
+          "questions": [
+            {
+              "id": "FC-1.1.1",
+              "type": "flashcard",
+              "section": "Kontroll över blåsa och tarm",
+              "question": "Vad kallas den metod för tidig potträning som väckt intresse i västvärlden, och vad innebär den?",
+              "answer": "Elimination Communication (EC) – en metod där föräldrar observerar barnets vanor och lär sig tolka barnets tecken på behov för att hjälpa barnet att kissa och bajsa utan blöja redan som spädbarn."
+            },
+            {
+              "id": "FC-1.1.2",
+              "type": "flashcard",
+              "section": "När barnet kan börja med potta eller toalett",
+              "question": "Varför bör BHV-sjuksköterskan informera föräldrar om barnets elimination senast vid 10 månaders ålder?",
+              "answer": "För att ge barn och föräldrar möjlighet till en blöjfri tillvaro, stärka empowerment och förebygga problem som kan uppkomma i samband med blöjanvändning."
+            },
+            {
+              "id": "FC-1.1.3",
+              "type": "flashcard",
+              "section": "Återfall under potträningen",
+              "question": "Vad bör rådet vara om ett barn får återfall under potträningen och vill börja använda blöja igen?",
+              "answer": "Rådet är att under en period backa till ett tidigare fungerande steg av potträningen. Om det blir mycket konflikter kan det vara bra att ta en paus under några månader och fokusera på andra positiva saker för att öka barnets självförtroende."
+            },
+            {
+              "id": "MC-1.1.1",
+              "type": "multiple_choice",
+              "section": "Barn som inte vill bajsa i pottan eller toaletten",
+              "question": "Toalettvägran definieras som att under hur lång tid vägra använda pottan eller toaletten att bajsa i, och i stället vilja ha blöja?",
+              "options": {
+                "A": "Minst en månad",
+                "B": "Minst en vecka",
+                "C": "Minst tre månader",
+                "D": "Minst sex månader"
+              },
+              "correct": "A",
+              "explanation": "Toalettvägran definieras som att under minst en månads tid vägra använda pottan eller toaletten att bajsa i och i stället vilja ha blöja."
+            },
+            {
+              "id": "MC-1.1.2",
+              "type": "multiple_choice",
+              "section": "När barnet kan börja med potta eller toalett",
+              "question": "Vad anser flera författare om toaletträning som påbörjas efter 32–36 månaders ålder?",
+              "options": {
+                "A": "Det är förknippat med ökad förekomst av problem relaterade till blås- och tarmkontroll",
+                "B": "Det minskar risken för toalettvägran",
+                "C": "Det har inga kliniska konsekvenser för barnets blås- och tarmfunktion",
+                "D": "Det leder till bättre samarbetsförmåga hos barnet"
+              },
+              "correct": "A",
+              "explanation": "Flera författare anser att toaletträning, efter 32-36 månaders ålder, är förknippad med ökad förekomst av problem relaterade till blås- och tarmkontroll."
+            },
+            {
+              "id": "SF-1.1.1",
+              "type": "true_false",
+              "section": "Hitta barnets naturliga eliminationsmönster",
+              "statement": "Uppmuntran vid potträning bör i första hand ges enbart när barnet kissar eller bajsar i pottan, inte för att barnet sitter på den.",
+              "correct": false,
+              "explanation": "Potträning ska vara trevligt och uppmuntran bör i första hand ske för att barnet sitter på pottan och inte bara vid kiss eller bajs i pottan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Goda vanor för en bättre munhälsa",
+      "pages": [
+        {
+          "id": "2.1",
+          "title": "Fluoridtandkrämens betydelse för tandhälsan - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/goda-vanor-for-en-battre-munhalsa/fluoridtandkramens-betydelse-for-tandhalsan/",
+          "questions": [
+            {
+              "id": "FC-2.1.1",
+              "type": "flashcard",
+              "section": "Varför är fluorid bra för tänderna?",
+              "question": "På vilka tre sätt skyddar fluorid tänderna?",
+              "answer": "1) Hjälper saliven att läka ut ytliga kariesskador. 2) Gör tandens yta hårdare och mer motståndskraftig mot syrafrätning. 3) Gör det svårare för bakterierna att bilda syra och fästa på tandytan."
+            },
+            {
+              "id": "FC-2.1.2",
+              "type": "flashcard",
+              "section": "Fluoridhalter i dricksvatten",
+              "question": "Under vilken period av barnets liv är risken störst för att emaljfluoros uppkommer vid höga fluoridhalter i dricksvatten?",
+              "answer": "Under den tid de permanenta tänderna mineraliseras, främst upp till sexårsåldern."
+            },
+            {
+              "id": "FC-2.1.3",
+              "type": "flashcard",
+              "section": "Fluorid som prevention",
+              "question": "Varför är fluoridtillförsel extra viktig vid förhöjd kariesrisk?",
+              "answer": "Fluorid är ett väldokumenterat läkemedel mot karies och en hörnsten i tandvårdens prevention. Forskare är eniga om att fluorid har en avgörande betydelse för tandhälsan, och fluoridtillförsel är extra viktig vid förhöjd kariesrisk för att ge största möjliga nytta för patienten."
+            },
+            {
+              "id": "MC-2.1.1",
+              "type": "multiple_choice",
+              "section": "Fluoridtandkräm är avgörande för tandhälsan",
+              "question": "Vilket råd är avgörande för en god tandhälsa vad gäller fluoridtandkräm?",
+              "options": {
+                "A": "Tandborstning med fluoridtandkräm morgon och kväll",
+                "B": "Tandborstning med fluoridtandkräm en gång per dag",
+                "C": "Skölja med fluoridlösning en gång per vecka",
+                "D": "Använda fluoridtabbletter dagligen som komplement till borstning"
+              },
+              "correct": "A",
+              "explanation": "Tandborstning med fluoridtandkräm morgon och kväll är av avgörande betydelse för en god tandhälsa. Det finns stark vetenskaplig evidens för att det har kariesförebyggande effekt i alla åldrar."
+            },
+            {
+              "id": "SF-2.1.1",
+              "type": "true_false",
+              "section": "Fluoridhalter i dricksvatten",
+              "statement": "Bröstmjölk kan orsaka emaljfluoros hos barn om modern har ett högt intag av fluorid.",
+              "correct": false,
+              "explanation": "Bröstmjölken kan inte orsaka emaljfluoros, eftersom ytterst små mängder transporteras från plasma till mjölk."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Borsta tänderna på förskolan - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/goda-vanor-for-en-battre-munhalsa/borsta-tanderna-pa-forskolan/",
+          "questions": [
+            {
+              "id": "FC-2.2.1",
+              "type": "flashcard",
+              "section": "Tandborstning med fluoridtandkräm",
+              "question": "I vilka områden är tandborstning med fluoridtandkräm på förskolan särskilt motiverad?",
+              "answer": "I områden där barn har en utbredd kariesproblematik är tandborstning med fluoridtandkräm på förskolan särskilt motiverad för att främja en god tandhälsa."
+            },
+            {
+              "id": "MC-2.2.1",
+              "type": "multiple_choice",
+              "section": "Förslag på rutin",
+              "question": "Hur genomförs tandborstning på förskolan enligt rekommendationerna?",
+              "options": {
+                "A": "Barnet borstar sina egna tänder, gärna sittande kvar vid matbordet",
+                "B": "Förskolläraren borstar barnets tänder individuellt i ett separat rum",
+                "C": "Barnet sköljer munnen med fluoridlösning vid måltiden",
+                "D": "Föräldrarna ansvarar för borstning vid lämning och hämtning"
+              },
+              "correct": "A",
+              "explanation": "Att borsta tänderna på förskolan innebär att barnet själv borstar sina tänder. Tandborstningen kan med fördel ske då barnen sitter kvar vid matbordet."
+            },
+            {
+              "id": "SF-2.2.1",
+              "type": "true_false",
+              "section": "Tandborstning med fluoridtandkräm",
+              "statement": "Tandborstning med fluoridtandkräm på förskolan rekommenderas som ett hälsofrämjande inslag, särskilt i områden med utbredd kariesproblematik.",
+              "correct": true,
+              "explanation": "Tandborstning med fluoridtandkräm i förskolan främjar en god tandhälsa och är särskilt motiverad i områden där barn har en utbredd kariesproblematik."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Goda vanor för en bättre munhälsa - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/goda-vanor-for-en-battre-munhalsa/",
+          "questions": [
+            {
+              "id": "FC-2.3.1",
+              "type": "flashcard",
+              "section": "Aldrig söt dryck i nappflaska eller som nattmål",
+              "question": "Varför bör man aldrig ge söt dryck i nappflaska eller som nattmål till små barn?",
+              "answer": "Söt dryck i nappflaska eller som nattmål badar tänderna länge i socker, vilket är en stark riskfaktor för karies i de tidiga tänderna."
+            },
+            {
+              "id": "FC-2.3.2",
+              "type": "flashcard",
+              "section": "Tips till föräldrar om hur man borstar barnets tänder",
+              "question": "Från vilken tidpunkt bör tandborstning påbörjas hos barn?",
+              "answer": "Tandborstning bör påbörjas då första tanden kommit."
+            },
+            {
+              "id": "MC-2.3.1",
+              "type": "multiple_choice",
+              "section": "Hur barnets tänder påverkas av napp och tumsugning",
+              "question": "Vid vilken ålder rekommenderas det att barn slutar med napp eller tumme för att undvika negativa effekter på tänderna?",
+              "options": {
+                "A": "I treårsåldern",
+                "B": "Vid 12 månaders ålder",
+                "C": "Vid 18 månaders ålder",
+                "D": "Vid 5 års ålder"
+              },
+              "correct": "A",
+              "explanation": "Bra att sluta med napp eller tumme i treårsåldern – det framgår direkt ur sektionen om napp och tumsugning."
+            },
+            {
+              "id": "SF-2.3.1",
+              "type": "true_false",
+              "section": "Karies uppkommer om tänderna inte får vila",
+              "statement": "Karies kan förebyggas genom att låta tänderna vila mellan måltiderna, eftersom bakterierna bildar syra varje gång man äter eller dricker något.",
+              "correct": true,
+              "explanation": "Karies uppkommer om tänderna inte får vila. Varje gång man äter eller dricker något syrabildar bakterierna i munnen, vilket angriper tandemaljen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sömnsvårigheter",
+      "pages": [
+        {
+          "id": "3.1",
+          "title": "Sömnsvårigheter - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/somnsvarigheter/",
+          "questions": [
+            {
+              "id": "FC-3.1.1",
+              "type": "flashcard",
+              "section": "Nattskräck och sömngång",
+              "question": "Vad skiljer nattskräck och sömngång från mardrömmar vad gäller sömnfas och barnets medvetande?",
+              "answer": "Nattskräck och sömngång uppträder under djupsömnen (partiella uppvaknanden) – barnet är inte vaket, omedvetet om omgivningen och minns sällan episoden. Mardrömmar sker under REM-sömnen, och barnet blir ofta klarvakent och minns detaljer av drömmen."
+            },
+            {
+              "id": "FC-3.1.2",
+              "type": "flashcard",
+              "section": "Sömnrelaterade andningsstörningar",
+              "question": "Vilka är de vanligaste symtomen på obstruktiv sömnapné (OSDB) hos barn, och vad kan orsaka det?",
+              "answer": "Symtomen är snarkningar och ansträngd andning med andningsuppehåll. Sömnen blir orolig med sämre sömnkvalitet, vilket gör barnet trött och ur form under dagen. Vanlig orsak är stora halsmandlar eller körtel bakom näsan, ofta i anslutning till en infektion."
+            },
+            {
+              "id": "FC-3.1.3",
+              "type": "flashcard",
+              "section": "Orsaker till sömnsvårigheter",
+              "question": "Vilka medicinska tillstånd nämns som möjliga orsaker till sömnsvårigheter hos barn?",
+              "answer": "Gastroesofagal reflux, förstoppning och eksem nämns som medicinska orsaker. Även regleringssvårigheter och utvecklingsrelaterade funktionsavvikelser samt bristande omsorg om barnet kan ligga bakom sömnsvårigheter."
+            },
+            {
+              "id": "MC-3.1.1",
+              "type": "multiple_choice",
+              "section": "Nattskräck och sömngång",
+              "question": "Vilket är förstahandsåtgärden vid sömngång hos barn?",
+              "options": {
+                "A": "Se över säkerheten i hemmet och undvika sömnbrist hos barnet",
+                "B": "Remittera omedelbart till barnläkare",
+                "C": "Ge barnet sömnmedicin i låg dos",
+                "D": "Väcka barnet schemalagt varje natt vid samma tid"
+              },
+              "correct": "A",
+              "explanation": "Förstahandsåtgärd vid sömngång är att se över säkerheten i hemmet och undvika sömnbrist hos barnet."
+            },
+            {
+              "id": "MC-3.1.2",
+              "type": "multiple_choice",
+              "section": "Familjesituationen",
+              "question": "Vad visar studier om sambandet mellan svåra sömnproblem hos spädbarn och föräldrarnas hälsa?",
+              "options": {
+                "A": "Svåra sömnproblem har samband med hög trötthet och psykisk/fysisk ohälsa, främst hos den födande föräldern",
+                "B": "Barnets sömnproblem påverkar enbart barnets egna hälsa, inte föräldrarnas",
+                "C": "Det finns inget bevisat samband mellan barns sömnproblem och föräldrars hälsa",
+                "D": "Fäder påverkas mer av barnets sömnproblem än den födande föräldern"
+              },
+              "correct": "A",
+              "explanation": "Ett flertal studier har visat att svåra sömnproblem hos spädbarn och förskolebarn har samband med hög grad av trötthet samt psykisk och fysisk ohälsa främst hos den födande föräldern i familjen."
+            },
+            {
+              "id": "SF-3.1.1",
+              "type": "true_false",
+              "section": "Att låta barn skrika sig till sömns rekommenderas inte",
+              "statement": "Att låta barn skrika sig till sömns är en rekommenderad metod inom barnhälsovården för att lära barn att sova självständigt.",
+              "correct": false,
+              "explanation": "Att låta barnet skrika sig till sömns är inget som rekommenderas. Det tidiga känslomässiga samspelet handlar om att föräldrarna svarar på barnets känslor, och det är bäst att välja ett tillvägagångssätt som föräldrarna upplever som genomförbart."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Främja god sömn",
+      "pages": [
+        {
+          "id": "4.1",
+          "title": "Främja god sömn - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/framja-god-somn/",
+          "questions": [
+            {
+              "id": "FC-4.1.1",
+              "type": "flashcard",
+              "section": "Samsovning",
+              "question": "Vilken risk föreligger vid samsovning i samma säng för barn under 3 månader, och vilka faktorer förstärker risken?",
+              "answer": "Risken för plötslig spädbarnsdöd ökar när föräldrar och barn sover i samma säng. Risken ökar ytterligare om föräldern röker, använder alkohol eller lugnande läkemedel."
+            },
+            {
+              "id": "FC-4.1.2",
+              "type": "flashcard",
+              "section": "Sömnens betydelse",
+              "question": "Vilka fysiologiska processer sker under sömnen som är viktiga för barnets hälsa?",
+              "answer": "Tillväxthormon utsöndras under djupsömnen och immunförsvaret återhämtar sig. Sömn ger fysisk och psykisk vila, och sömnens mängd och kvalitet påverkar minne, koncentration och uppmärksamhet, som i sin tur påverkar inlärningsförmågan."
+            },
+            {
+              "id": "FC-4.1.3",
+              "type": "flashcard",
+              "section": "Råd för sömnhygien",
+              "question": "Nämn tre faktorer som kan störa ett barns sömn, enligt råden för sömnhygien.",
+              "answer": "För mycket stillasittande inomhus under dagarna, för lång eller för sen middagssömn, sötade drycker eller stora måltider före sängdags samt skärmanvändning i sängen."
+            },
+            {
+              "id": "MC-4.1.1",
+              "type": "multiple_choice",
+              "section": "Sömn och hunger",
+              "question": "Vad styr sömnen hos ett nyfött barn mer än ljus och mörker?",
+              "options": {
+                "A": "Hunger och mättnad",
+                "B": "Buller och tystnad i rummet",
+                "C": "Temperatur och luftfuktighet",
+                "D": "Föräldrarnas sömnrytm"
+              },
+              "correct": "A",
+              "explanation": "Hunger och mättnad styr sömnen under barnets första tid mer än ljus och mörker. Magsäcken hos ett nyfött barn är liten och det påverkar barnets förmåga att känna sig mätt."
+            },
+            {
+              "id": "SF-4.1.1",
+              "type": "true_false",
+              "section": "Dagsömn",
+              "statement": "Barn 2 år och äldre kan alltid sova hur länge de vill på dagen utan risk för försämrad nattsömn.",
+              "correct": false,
+              "explanation": "För barn 2 år och äldre kan föräldrarna behöva begränsa dagsömnen. Att barnet sover sent på eftermiddagen kan göra att det får svårare att somna på kvällen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hälsosamtal om rörelsevanor och fysisk aktivitet",
+      "pages": [
+        {
+          "id": "5.1",
+          "title": "Hälsosamtal om rörelsevanor och fysisk aktivitet - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/halsosamtal-om-rorelsevanor-och-fysisk-aktivitet/",
+          "questions": [
+            {
+              "id": "FC-5.1.1",
+              "type": "flashcard",
+              "section": "Förslag på insatser vid behov",
+              "question": "Vad händer om ett barn upprepat misslyckas med en motorisk aktivitet, och vilken konsekvens kan det leda till?",
+              "answer": "Barnet kommer att undvika aktiviteten, vilket ger färre träningstillfällen och leder till sämre motorik och mindre fysisk aktivitet – en negativ spiral av undvikande och ökad stillesittande."
+            },
+            {
+              "id": "FC-5.1.2",
+              "type": "flashcard",
+              "section": "Kan en gåstol påverka barnets motoriska utveckling?",
+              "question": "Varför rekommenderas inte gåstolar för att främja barnets motoriska utveckling?",
+              "answer": "En gåstol ger barnet mycket stöd och liten möjlighet att träna den balanskontroll som är nödvändig för att gå självständigt. Det finns inga tydliga positiva effekter för den motoriska utvecklingen, och det finns risker för olyckor."
+            },
+            {
+              "id": "FC-5.1.3",
+              "type": "flashcard",
+              "section": "Anpassa råden om den fysiska aktiviteten",
+              "question": "Vad är nyckeln till att utveckla motoriska färdigheter och en god fysisk förmåga hos barn?",
+              "answer": "Mängdträning – upprepning och tillräckliga möjligheter till lek och rörelse. Till exempel tar ett barn som lär sig gå ungefär 14 000 steg per dag."
+            },
+            {
+              "id": "MC-5.1.1",
+              "type": "multiple_choice",
+              "section": "Anpassa råden om den fysiska aktiviteten",
+              "question": "Vad bör man tänka på när man ger råd om fysisk aktivitet i förskoleålder?",
+              "options": {
+                "A": "Fysisk aktivitet i förskoleålder är ofta detsamma som lek, och alla tillfällen till rörelse räknas",
+                "B": "Barn bör delta i minst 60 minuter organiserad träning varje dag",
+                "C": "Föräldrar bör begränsa utomhuslek för att undvika skador",
+                "D": "Stillasittande inomhuslek ger bättre koncentrationsförmåga än utomhuslek"
+              },
+              "correct": "A",
+              "explanation": "Det är viktigt att minnas att fysisk aktivitet i förskoleålder ofta är detsamma som lek. Alla tillfällen till lek och rörelse är bra."
+            },
+            {
+              "id": "SF-5.1.1",
+              "type": "true_false",
+              "section": "Kan en gåstol påverka barnets motoriska utveckling?",
+              "statement": "Gåstolar rekommenderas av barnhälsovården som ett effektivt hjälpmedel för att stimulera barnets gångträning.",
+              "correct": false,
+              "explanation": "Informera föräldrarna om att en gåstol främst är en leksak och barnvakt, och inget som främjar barnets utveckling. Det finns inga tydliga positiva effekter för barnets motoriska utveckling av att sitta i gåstol."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hälsosamtal och hälsovägledning om levnadsvanor",
+      "pages": [
+        {
+          "id": "6.1",
+          "title": "Hälsosamtal och hälsovägledning om levnadsvanor - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/halsosamtal-och-halsovagledning-om-levnadsvanor/",
+          "questions": [
+            {
+              "id": "FC-6.1.1",
+              "type": "flashcard",
+              "section": "Barnhälsovårdssjuksköterskan viktiga roll",
+              "question": "Vilka levnadsvanor inkluderas i barnhälsovårdens hälsofrämjande och förebyggande arbete?",
+              "answer": "Kost, fysisk aktivitet, sömn, tandhälsa och barnsäkerhet ingår i levnadsvanorna som barnhälsovården fokuserar på vid hälsobesök på BVC."
+            },
+            {
+              "id": "FC-6.1.2",
+              "type": "flashcard",
+              "section": "Familjestödsprogram",
+              "question": "När rekommenderas familjestödsprogram, och vad ingår i dem?",
+              "answer": "Om ohälsosamma matvanor eller otillräcklig fysisk aktivitet identifieras hos barn från 2 år rekommenderas familjestödsprogram. De inkluderar hela familjen och består av komponenter som hälsosamtal, hälsovägledning och praktiska inslag."
+            },
+            {
+              "id": "MC-6.1.1",
+              "type": "multiple_choice",
+              "section": "Föräldrars förväntningar och önskemål på hälsosamtal",
+              "question": "Vad visar forskning om föräldrars förväntningar på hälsovägledning inom BHV?",
+              "options": {
+                "A": "Föräldrar förväntar sig att BHV-sjuksköterskan ska samtala om levnadsvanor och känner stort förtroende för hens vägledning, framför allt under barnets första levnadsår",
+                "B": "Föräldrar föredrar att inte bli kontaktade om levnadsvanor utan efterfrågar enbart medicinsk uppföljning",
+                "C": "Föräldrar känner minst förtroende för BHV-sjuksköterskan jämfört med andra vårdgivare",
+                "D": "Föräldrar är generellt ointresserade av att diskutera barnets matvanor vid BVC-besök"
+              },
+              "correct": "A",
+              "explanation": "Föräldrar vill och förväntar sig att BHV-sjuksköterskan ska samtala om levnadsvanor och känner stort förtroende i hens hälsovägledning framför allt under barnets första levnadsår."
+            },
+            {
+              "id": "SF-6.1.1",
+              "type": "true_false",
+              "section": "Hälsosamtal om barnsäkerhet",
+              "statement": "Alla familjer ska erbjudas regelbundna samtal om barnsäkerhet inom barnhälsovården.",
+              "correct": true,
+              "explanation": "Alla familjer ska erbjudas regelbundna samtal om barnsäkerhet. Syftet med samtalen är att ge familjen möjlighet att reflektera över miljön som barnet vistas i, identifiera risker och diskutera hur säkerheten kan stärkas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Barn och alkohol",
+      "pages": [
+        {
+          "id": "7.1",
+          "title": "Barn och alkohol - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/barn-och-alkohol/",
+          "questions": [
+            {
+              "id": "FC-7.1.1",
+              "type": "flashcard",
+              "section": "Skadligt bruk av alkohol påverkar hela samvaron",
+              "question": "Varför är frågan om alkoholvanor och föräldraskap särskilt viktig för personal inom BHV?",
+              "answer": "Det finns stark empirisk evidens för att små barn som växer upp i vuxnas riskmiljöer löper förhöjd risk för egna beteendeproblem. En förälders skadliga bruk av alkohol påverkar barnen, hela familjen och dess samvaro, och kan påverka den känslomässiga miljön och konfliktnivån i hemmet."
+            },
+            {
+              "id": "FC-7.1.2",
+              "type": "flashcard",
+              "section": "Alkohol och olycksstatistik",
+              "question": "Vilket samband finns det mellan alkoholbruk hos föräldrar och barnets risk för olycksfall?",
+              "answer": "Det finns en ökad risk för olycksfall i samband med alkoholbruk. Vid alkoholintag försämras förmågan att se till barnets behov, och risken för att ett barn ska råka ut för ett olycksfall ökar när den vuxna som har omsorg om barnet är påverkad av alkohol."
+            },
+            {
+              "id": "FC-7.1.3",
+              "type": "flashcard",
+              "section": "Förbyggande arbete och rådgivning",
+              "question": "Varför är perioden under graviditet och tidigt föräldraskap ett extra bra tillfälle att samtala om alkohol?",
+              "answer": "Föräldrar har beskrivit denna period som en tid med ofta hög motivation att ta emot information och diskutera viktiga saker relaterade till föräldraskap, och de kan vara benägna att göra positiva livsstilsförändringar."
+            },
+            {
+              "id": "MC-7.1.1",
+              "type": "multiple_choice",
+              "section": "Samtal om alkohol inom barnhälsovården",
+              "question": "Vilket är syftet med att samtala om alkohol inom barnhälsovården?",
+              "options": {
+                "A": "Att uppmärksamma föräldrar på alkoholintagets negativa konsekvenser och erbjuda stöd till de vars konsumtion kan påverka barnen negativt",
+                "B": "Att förbjuda alla former av alkoholkonsumtion hos föräldrar med barn under 5 år",
+                "C": "Att identifiera missbruk och omedelbart anmäla till socialtjänsten",
+                "D": "Att enbart dokumentera alkoholvanor utan att ge råd"
+              },
+              "correct": "A",
+              "explanation": "Syftet med att prata om alkohol är att uppmärksamma föräldrar på alkoholintagets negativa konsekvenser. De föräldrar som har en alkoholkonsumtion som kan påverka barnen negativt ska erbjudas stöd att ändra sina alkoholvanor."
+            },
+            {
+              "id": "SF-7.1.1",
+              "type": "true_false",
+              "section": "Skadligt bruk av alkohol påverkar hela samvaron",
+              "statement": "Det finns stark empirisk evidens för att små barn som växer upp i vuxnas riskmiljöer med alkohol löper förhöjd risk för egna beteendeproblem.",
+              "correct": true,
+              "explanation": "Det finns stark empirisk evidens för att små barn som växer upp i vuxnas riskmiljöer löper förhöjd risk för egna beteendeproblem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Samtal om solvanor",
+      "pages": [
+        {
+          "id": "8.1",
+          "title": "Samtal om solvanor - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/samtal-om-solvanor/",
+          "questions": [
+            {
+              "id": "FC-8.1.1",
+              "type": "flashcard",
+              "section": "Solråd för barn under 1 år",
+              "question": "Vilket solskydd rekommenderas för barn under ett år, och varför är de extra känsliga?",
+              "answer": "Barn under ett år har nästan inget skydd mot UV-strålar och bör inte vara i direkt solljus. Bästa skyddet är skugga, kläder och solskyddsmedel. Barn har känsligare hud, tunnare hudbarriär och mindre pigment än vuxna."
+            },
+            {
+              "id": "FC-8.1.2",
+              "type": "flashcard",
+              "section": "Hudcancer",
+              "question": "Varför är det viktigt att skydda barn mot UV-strålning trots att barn nästan aldrig får hudcancer i barndomen?",
+              "answer": "Överexponering för UV-strålning, särskilt i barndomen, är en riskfaktor för hudcancer längre fram i livet. Den skadliga effekten är ackumulerande, och ungefär hälften av en persons totala UV-exponering fram till 60-årsåldern sker under barndom och ungdom."
+            },
+            {
+              "id": "FC-8.1.3",
+              "type": "flashcard",
+              "section": "Barns ögon",
+              "question": "Varför är barns ögon mer känsliga för UV-strålning än vuxnas?",
+              "answer": "Barns ögon har en klarare lins och vidare pupill som släpper in mer ljus till näthinnan. Den skadliga effekten av UV-strålning är ackumulerande, vilket gör det extra viktigt att skydda unga ögon med solhatt och CE-märkta solglasögon med UV-skydd."
+            },
+            {
+              "id": "MC-8.1.1",
+              "type": "multiple_choice",
+              "section": "Solskyddsmedel",
+              "question": "Vilket solskyddsfaktorintervall rekommenderas för solskyddsmedel till barn?",
+              "options": {
+                "A": "Faktor 30–50+",
+                "B": "Faktor 10–20",
+                "C": "Faktor 15–25",
+                "D": "Faktor 50+ enbart"
+              },
+              "correct": "A",
+              "explanation": "Solskyddsmedlet som används till barn ska ha hög solskyddsfaktor, mellan 30 och 50+ och bör vara vattenresistent."
+            },
+            {
+              "id": "SF-8.1.1",
+              "type": "true_false",
+              "section": "Skugga",
+              "statement": "I skuggan är barnet fullständigt skyddat från UV-strålning och behöver inget extra solskydd.",
+              "correct": false,
+              "explanation": "Solens strålar reflekteras överallt och även i skuggan kan barnet utsättas för upp till 50 procent av den direkt infallande UV-strålningen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Skärmvanor för barn 0-6 år",
+      "pages": [
+        {
+          "id": "9.1",
+          "title": "Skärmvanor för barn 0-6 år - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/skarmvanor-for-barn-0-6-ar/",
+          "questions": [
+            {
+              "id": "FC-9.1.1",
+              "type": "flashcard",
+              "section": "1. Hur mycket tid vid skärmen är acceptabelt?",
+              "question": "Vad är rekommendationen för skärmanvändning för barn under 2 år respektive barn 2–5 år?",
+              "answer": "Barn under 2 år bör helst inte använda skärmar alls. Barn 2–5 år rekommenderas högst en timmes skärmanvändning om dagen."
+            },
+            {
+              "id": "FC-9.1.2",
+              "type": "flashcard",
+              "section": "3. Hur påverkas barns hälsa och utveckling av skärmanvändning?",
+              "question": "Vilka hälsoeffekter hos barn är kopplade till hög skärmanvändning, enligt studier?",
+              "answer": "Barns sömn kan påverkas negativt (minskad sömnkvalitet). Hög skärmanvändning kan i viss mån leda till aggressivt beteende. Det kan ge sämre samspel mellan förälder och barn, och forskning visar att hög skärmanvändning riskerar att påverka barns språkutveckling negativt."
+            },
+            {
+              "id": "FC-9.1.3",
+              "type": "flashcard",
+              "section": "Skyddsfaktorer mot problematisk medieanvändning",
+              "question": "Vilka faktorer skyddar mot problematisk skärmanvändning hos barn?",
+              "answer": "Goda relationer mellan föräldrar och barn är en skyddsfaktor mot problematisk medieanvändning, liksom att föräldrar styr barns användning av digitala medier. Detsamma gäller barn till föräldrar med hög tilltro till den egna föräldraförmågan."
+            },
+            {
+              "id": "MC-9.1.1",
+              "type": "multiple_choice",
+              "section": "Gynnar barnets sömn",
+              "question": "Vad rekommenderas gällande skärmar inför läggdags för att gynna barnets sömn?",
+              "options": {
+                "A": "Undvika skärmar minst den sista timmen innan det är dags att sova och lämna mobil/surfplatta utanför sovrummet",
+                "B": "Låta barnet titta på lugnt innehåll på skärm som avslappning inför sömn",
+                "C": "Skärmanvändning under 30 minuter innan sömn är acceptabelt",
+                "D": "Skärmanvändning påverkar inte barnets sömn och behöver inte begränsas"
+              },
+              "correct": "A",
+              "explanation": "En bra tumregel är att undvika skärmar åtminstone den sista timmen innan det är dags att sova och att lämna mobil och surfplattor utanför sovrummet."
+            },
+            {
+              "id": "SF-9.1.1",
+              "type": "true_false",
+              "section": "Samband med ökad stress",
+              "statement": "Föräldrars mobilanvändande när de är med sina barn har samband med ökad stress och bråkighet hos barnet.",
+              "correct": true,
+              "explanation": "Föräldrars mobilanvändande när de är med sina barn har samband med stress samt oro och bråkighet hos barn. Barns stressnivå och beteende kan påverkas negativt av föräldrars mobilanvändande."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Barn och tobak",
+      "pages": [
+        {
+          "id": "10.1",
+          "title": "Barn och tobak - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/barn-och-tobak/",
+          "questions": [
+            {
+              "id": "FC-10.1.1",
+              "type": "flashcard",
+              "section": "Passiv rökning",
+              "question": "Varför är passiv rök mer skadlig än den rök rökaren drar i sig, och vilka sjukdomar drabbas barn av?",
+              "answer": "Passiv rök har högre koncentration av farliga partiklar än den rök som rökaren drar i sig. Barn som utsätts för passiv rök får fler övre och nedre luftvägsinfektioner (lunginflammation, bronkit, barnastma), fler öroninflammationer och behöver oftare sjukvård."
+            },
+            {
+              "id": "FC-10.1.2",
+              "type": "flashcard",
+              "section": "E-cigarett",
+              "question": "Varför rekommenderas inte e-cigaretter som alternativ när läkemedel behövs för att sluta röka?",
+              "answer": "När läkemedel behövs för att framgångsrikt sluta röka rekommenderas de noggrant utprovade nikotinläkemedlen. E-cigaretter klassas som tobaksvaror och riskerar, på grund av smaktillsatser som attraherar ungdomar, att bli en inkörsport till rökning."
+            },
+            {
+              "id": "FC-10.1.3",
+              "type": "flashcard",
+              "section": "Vattenpipa",
+              "question": "Vad är riskerna med vattenpiprökning jämfört med cigarettrök?",
+              "answer": "Rökning av vattenpipa bedöms ha samma hälsorisker som rökning av cigaretter. Det är en myt att vattnet skulle ha en renande effekt – ett bloss från en vattenpipa ger tolv gånger mer rök än ett bloss från en cigarett. Passiv rök från vattenpipa är lika skadlig."
+            },
+            {
+              "id": "MC-10.1.1",
+              "type": "multiple_choice",
+              "section": "Passiv rökning",
+              "question": "Vad händer med risken för plötslig spädbarnsdöd i relation till tobak?",
+              "options": {
+                "A": "Risken ökar om mamman rökt eller snusat under graviditeten, och ökar ytterligare om det nyfödda barnet utsätts för rök",
+                "B": "Risken påverkas inte av passiv rökning, enbart av mammans aktiva rökning",
+                "C": "Plötslig spädbarnsdöd har inget samband med tobaksbruk",
+                "D": "Risken ökar enbart om barnet aktivt utsätts för rök, inte av rökning under graviditeten"
+              },
+              "correct": "A",
+              "explanation": "Plötslig spädbarnsdöd är sällsynt men risken ökar om mamman har rökt eller snusat under graviditeten, och ökar ytterligare om det nyfödda barnet utsätts för rök."
+            },
+            {
+              "id": "SF-10.1.1",
+              "type": "true_false",
+              "section": "Föräldern som förebild",
+              "statement": "Barn med föräldrar som röker har en betydligt större risk att börja röka, och föräldrarnas attityder till tobaksbruk har betydelse.",
+              "correct": true,
+              "explanation": "Barn med föräldrar och syskon som röker har en betydligt större risk att börja röka. Även föräldrarnas attityder och värderingar till tobaksbruk har betydelse."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Hälsosamtal om matvanor",
+      "pages": [
+        {
+          "id": "11.1",
+          "title": "Hälsosamtal om matvanor - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/halsosamtal/halsosamtal-om-matvanor/",
+          "questions": [
+            {
+              "id": "FC-11.1.1",
+              "type": "flashcard",
+              "section": "6 månader",
+              "question": "Vad är viktigt att uppmärksamma vid matintroduktionen runt 6 månaders ålder?",
+              "answer": "Smakportioner, att låta introduktionen av nya livsmedel ta tid genom en långsam övergång under hela andra halvåret, fortsatt delamning eller bröstmjölksersättning samt vikten av järnrika livsmedel."
+            },
+            {
+              "id": "FC-11.1.2",
+              "type": "flashcard",
+              "section": "18 månader",
+              "question": "Vilka råd bör föräldrarna till ett 18 månader gammalt barn uppmuntras till vid hälsosamtalet om matvanor?",
+              "answer": "Fortsätta erbjuda hälsosamma och näringsrika livsmedel, undvika att truga eller tvinga barnet att äta, undvika småätande mellan måltiderna samt begränsa ohälsosamma livsmedel."
+            },
+            {
+              "id": "MC-11.1.1",
+              "type": "multiple_choice",
+              "section": "4 till 5 månader",
+              "question": "Vad bekräftas föräldrar i vid hälsosamtalet om matvanor när barnet är 4–5 månader?",
+              "options": {
+                "A": "Att bröstmjölk och/eller bröstmjölksersättning ger all den näring barnet behöver de första sex månaderna tillsammans med D-droppar",
+                "B": "Att smakportioner bör introduceras omedelbart för att förebygga allergi",
+                "C": "Att välling kan påbörjas vid 4 månaders ålder",
+                "D": "Att modersmjölksersättning är att föredra framför bröstmjölk för en jämnare näringsnivå"
+              },
+              "correct": "A",
+              "explanation": "Bekräfta föräldrarna i att bröstmjölk och/eller bröstmjölksersättning ger all den näring barnet behöver de första sex månaderna tillsammans med D-droppar."
+            },
+            {
+              "id": "SF-11.1.1",
+              "type": "true_false",
+              "section": "8 och 10 månader",
+              "statement": "Vid 8–10 månaders ålder bör alla livsmedelsgrupper ha introducerats under barnets första år, och barnet kan börja ges bitar och plockvänlig mat.",
+              "correct": true,
+              "explanation": "Vid 8 och 10 månader uppmuntras föräldrarna till att introducera alla livsmedelsgrupper under barnets första år och att börja ge bitar och plockvänlig mat."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
