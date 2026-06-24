@@ -1,0 +1,1484 @@
+{
+  "category": "Föräldraskapsstöd",
+  "source": "rikshandboken-bhv.se",
+  "subcategories": [
+    {
+      "id": 1,
+      "name": "Individuellt föräldraskapsstöd",
+      "pages": [
+        {
+          "id": "1.1",
+          "title": "Depression hos nyblivna föräldrar",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/individuellt-foraldraskapsstod/depression-hos-nyblivna-foraldrar/",
+          "questions": [
+            {
+              "id": "FC-1.1.1",
+              "type": "flashcard",
+              "section": "Vanligaste komplikationen efter graviditet",
+              "question": "Vilka tillstånd är de vanligaste komplikationerna efter graviditet och förlossning?",
+              "answer": "Depression och ångesttillstånd, som ofta uppträder tillsammans, är de vanligaste komplikationerna efter en graviditet och förlossning (postpartum)."
+            },
+            {
+              "id": "FC-1.1.2",
+              "type": "flashcard",
+              "section": "Förekomst",
+              "question": "Vilken andel av de som fött barn de senaste tre månaderna drabbas av måttlig till svår postpartumdepression (egentlig depression)?",
+              "answer": "Omkring 5–9 procent. Inkluderas även mild till måttlig (subklinisk) depression är andelen 10–13 procent."
+            },
+            {
+              "id": "FC-1.1.3",
+              "type": "flashcard",
+              "section": "Postpartumpsykos",
+              "question": "Vilka är de tidiga tecknen på postpartumpsykos och vad kräver tillståndet?",
+              "answer": "Tidiga tecken kan vara allvarlig sömnrubbning och att mamman är uppvarvad. Tillståndet kräver snabb bedömning och inläggning på psykiatrisk klinik."
+            },
+            {
+              "id": "MC-1.1.1",
+              "type": "multiple_choice",
+              "section": "Riskfaktorer",
+              "question": "Vilken av följande tillhör de STARKASTE riskfaktorerna för postpartumdepression?",
+              "options": {
+                "A": "Att tidigare ha haft en eller flera depressioner",
+                "B": "Socioekonomiska svårigheter",
+                "C": "Flerbörd",
+                "D": "Migrationsbakgrund"
+              },
+              "correct": "A",
+              "explanation": "Forskning visar att den största risken för postpartumdepression har de som tidigare haft en eller flera depressioner, har något annat psykiatriskt tillstånd, eller har varit med om våld i nära relationer. Socioekonomiska svårigheter, flerbörd och migration är mer måttliga riskfaktorer."
+            },
+            {
+              "id": "SF-1.1.1",
+              "type": "true_false",
+              "section": "Effekter på barnet",
+              "statement": "Övergående, mild till måttlig psykisk ohälsa hos en förälder är kopplat till allvarliga och långvariga negativa effekter på barnets kognitiva och emotionella utveckling.",
+              "correct": false,
+              "explanation": "Övergående, mild till måttlig psykisk ohälsa är kopplat till små eller måttliga effekter på barnets utveckling. Det är de långvariga och allvarliga depressionerna som framför allt riskerar att påverka barnets utveckling negativt."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Familjerådgivning",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/individuellt-foraldraskapsstod/familjeradgivning/",
+          "questions": [
+            {
+              "id": "FC-1.2.1",
+              "type": "flashcard",
+              "section": "Kommunens uppdrag",
+              "question": "Varför är gemensamma samtal kontraindicerade när det förekommer hot eller våld i relationen?",
+              "answer": "Vid hot eller våld i relationen är gemensamma samtal kontraindicerat. Enskilda samtal eller särskild verksamhet inriktad på våld i nära relation bör erbjudas istället."
+            },
+            {
+              "id": "FC-1.2.2",
+              "type": "flashcard",
+              "section": "Familjerätt",
+              "question": "Vad innebär samarbetssamtal hos Familjerätten och vad kostar de?",
+              "answer": "Föräldrar som separerar kan ansöka om samarbetssamtal hos Familjerätten för att komma överens om barnens vårdnad, boende och omsorg. Samtalen är kostnadsfria."
+            },
+            {
+              "id": "MC-1.2.1",
+              "type": "multiple_choice",
+              "section": "Kommunens uppdrag",
+              "question": "Vad gäller för familjerådgivare angående journalföring?",
+              "options": {
+                "A": "De har full journalföringsplikt",
+                "B": "De har inte journalföringsplikt",
+                "C": "De har journalföringsplikt enbart vid allvarliga ärenden",
+                "D": "De har journalföringsplikt enbart för barn under 5 år"
+              },
+              "correct": "B",
+              "explanation": "Familjerådgivare har inte journalföringsplikt."
+            },
+            {
+              "id": "SF-1.2.1",
+              "type": "true_false",
+              "section": "Kommunens uppdrag",
+              "statement": "Familjerådgivning inom kommunens uppdrag handlar alltid enbart om parrelationer.",
+              "correct": false,
+              "explanation": "Alla familjerelationer ingår i kommunens uppdrag, men oftast handlar det om parrelationer."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Spädbarnsmassage",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/individuellt-foraldraskapsstod/spadbarnsmassage/",
+          "questions": [
+            {
+              "id": "FC-1.3.1",
+              "type": "flashcard",
+              "section": "Oxytocin",
+              "question": "Vilket hormon frisätts vid mjuk beröring som vid massage, och vad är dess verkningsmekanism?",
+              "answer": "Oxytocin frisätts och aktiverar kroppens lugn-och-ro-system. Det ger positiva effekter på humör, immunförsvar och hälsa, och kallas även för ett anknytnings- och bindningshormon."
+            },
+            {
+              "id": "FC-1.3.2",
+              "type": "flashcard",
+              "section": "Förberedelser",
+              "question": "Hur förbereds barnet inför spädbarnsmassage?",
+              "answer": "Föräldern tar ögonkontakt med barnet, värmer olja mellan händerna och ber om lov att massera. Barnet lär sig känna igen denna ritual och kan svara med kroppsspråk om hen är redo."
+            },
+            {
+              "id": "FC-1.3.3",
+              "type": "flashcard",
+              "section": "Effekt på spädbarnskolik",
+              "question": "Vilken effekt har regelbunden bukmassage på spädbarnskolik?",
+              "answer": "Erfarenhetsmässigt har massage av buken, utförd regelbundet och förebyggande, visats kunna ge lindring vid magknip och gasbesvär."
+            },
+            {
+              "id": "MC-1.3.1",
+              "type": "multiple_choice",
+              "section": "Massage passar inte alla",
+              "question": "Vad gäller för föräldrar som känner sig obekväma med att utföra spädbarnsmassage?",
+              "options": {
+                "A": "De bör ändå genomföra massagen för barnets skull",
+                "B": "Massagen rekommenderas inte – andra former av nära kontakt söks istället",
+                "C": "De bör remitteras till specialist för vägledning",
+                "D": "Massagen kan utföras av BHV-sjuksköterskan istället"
+              },
+              "correct": "B",
+              "explanation": "Spädbarnsmassage rekommenderas inte till föräldrar som känner sig obekväma med aktiviteten, eftersom det kan leda till sämre kontakt. Man försöker istället hitta andra tillfällen för nearhet och kroppskontakt."
+            },
+            {
+              "id": "SF-1.3.1",
+              "type": "true_false",
+              "section": "Fördelar för barnet",
+              "statement": "Forskning visar att spädbarnsmassage direkt påverkar barnets anknytningsmönster positivt.",
+              "correct": false,
+              "explanation": "I den systematiska litteraturöversikten av A. Underdown med flera framkommer att spädbarnsmassage kan förbättra samspelet mellan barn och förälder, men det finns inte belägg för att det påverkar barnets anknytningsmönster."
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Trösta ett barn som skriker",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/individuellt-foraldraskapsstod/trosta-ett-barn-som-skriker/",
+          "questions": [
+            {
+              "id": "FC-1.4.1",
+              "type": "flashcard",
+              "section": "Barns skrik",
+              "question": "Varför skriker spädbarn – handlar det om manipulation?",
+              "answer": "Barn skriker inte för att manipulera eller ställa krav. De skriker för att bli omhändertagna och få hjälp att återfå en inre balans. Oavsett orsak behöver de nearhet."
+            },
+            {
+              "id": "FC-1.4.2",
+              "type": "flashcard",
+              "section": "Psykopedagogisk rådgivning - kunskap om skrik",
+              "question": "Hur kan en negativ spiral uppstå kring barnets skrik?",
+              "answer": "Föräldrarna kan bli spända och oroliga, vilket smittar barnet som skriker ännu mer."
+            },
+            {
+              "id": "FC-1.4.3",
+              "type": "flashcard",
+              "section": "Avslappning",
+              "question": "Vad innebär tekniken 'Andas i fyrkant' som kan hjälpa föräldrar vid stress?",
+              "answer": "Man andas i en lugn rytm med lika långa in- och utandningar och lika långa pauser emellan – man föreställer sig att man andas utmed sidorna på en fyrkant."
+            },
+            {
+              "id": "MC-1.4.1",
+              "type": "multiple_choice",
+              "section": "Man behöver utesluta medicinska orsaker",
+              "question": "Vid vilken ålder bör barn som fortfarande skriker mycket alltid läkarundersökas?",
+              "options": {
+                "A": "Efter 1 månads ålder",
+                "B": "Efter 2 månaders ålder",
+                "C": "Efter 3 månaders ålder",
+                "D": "Efter 6 månaders ålder"
+              },
+              "correct": "C",
+              "explanation": "Barn som fortfarande skriker mycket efter 3 månaders ålder bör alltid läkarundersökas för att utesluta en komjölksproteinallergi eller annan medicinsk orsak."
+            },
+            {
+              "id": "SF-1.4.1",
+              "type": "true_false",
+              "section": "När man tröstar stärks det känslomässiga bandet",
+              "statement": "Att föräldrarna tröstar och lugnar barnet lägger grunden till de första anknytningsrelationerna.",
+              "correct": true,
+              "explanation": "Anknytningen sker just då barnets oro stillas och behov tillgodoses. Att hjälpa barn att återställa jämvikt då de varit upprörda är betydligt viktigare för anknytningsrelationerna än samvaro då barnet är glatt och nöjt."
+            }
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "Stödjande samtal till nedstämda, nyblivna föräldrar",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/individuellt-foraldraskapsstod/stodjande-samtal-till-nedstamda-nyblivna-foraldrar/",
+          "questions": [
+            {
+              "id": "FC-1.5.1",
+              "type": "flashcard",
+              "section": "Syfte och målgrupp",
+              "question": "Vad kallas den samtalsmetod Socialstyrelsen rekommenderar som första intervention till föräldrar med depressiva symtom eller lindrig depression?",
+              "answer": "Stödjande samtal – personcentrerad counselling. På engelska: person-centered counselling, non-directive counselling eller listening visits."
+            },
+            {
+              "id": "FC-1.5.2",
+              "type": "flashcard",
+              "section": "Förhållningssätt vid stödjande samtal",
+              "question": "Vad är grundläggande förhållningssätt för att skapa tillit i stödjande samtal?",
+              "answer": "Empati, nyfikenhet på förälderns situation, att förmedla respekt, värme och vänlighet utan att döma, samt att lyssna och vara genuint intresserad."
+            },
+            {
+              "id": "FC-1.5.3",
+              "type": "flashcard",
+              "section": "Forskning om stödjande samtal",
+              "question": "Vad visar SBU:s utvärdering om stödjande samtal till nyblivna mammor?",
+              "answer": "Stödjande samtal kan ge en minskning av depressionssymtom upp till sex månader efter avslutad insats. Evidensen har dock låg tillförlitlighet på grund av få studier av varierande kvalitet."
+            },
+            {
+              "id": "MC-1.5.1",
+              "type": "multiple_choice",
+              "section": "Berätta om syftet och planera samtalet",
+              "question": "Vad är ett viktigt råd vid planering av stödjande samtal?",
+              "options": {
+                "A": "Barnet ska alltid vara med under samtalet för kontinuitet",
+                "B": "Tydliggöra att samtalet är till för föräldern och att frågor om barnet kan tas upp separat",
+                "C": "Samtalet ska alltid hållas hemma hos föräldern",
+                "D": "Samtalet bör alltid inledas med EPDS-screening"
+              },
+              "correct": "B",
+              "explanation": "Var tydlig med att samtalen är till för föräldern och att frågor som handlar om barnet kan tas upp separat, till exempel i slutet av samtalet."
+            },
+            {
+              "id": "SF-1.5.1",
+              "type": "true_false",
+              "section": "BHV-sjuksköterskans roll i stödjande samtal",
+              "statement": "Stödjande samtal handlar primärt om specifika samtalstekniker snarare än om förhållningssätt.",
+              "correct": false,
+              "explanation": "Stödjande samtal handlar mer om förhållningssätt än om samtalstekniker. Det är relationen mellan den som lyssnar och den som blir lyssnad till som är avgörande."
+            }
+          ]
+        },
+        {
+          "id": "1.6",
+          "title": "Enskilda föräldrasamtal",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/individuellt-foraldraskapsstod/enskilda-foraldrasamtal/",
+          "questions": [
+            {
+              "id": "FC-1.6.1",
+              "type": "flashcard",
+              "section": "Barnhälsovårdens uppdrag",
+              "question": "Vilka specifika samtal för föräldrar ingår i barnhälsovårdsprogrammet?",
+              "answer": "Två gemensamma besök för föräldrar samt ett enskilt föräldrasamtal för varje förälder."
+            },
+            {
+              "id": "FC-1.6.2",
+              "type": "flashcard",
+              "section": "Föräldraskapsstöd",
+              "question": "Hur påverkar positivt föräldraengagemang barnets utveckling?",
+              "answer": "Det påverkar alla aspekter av barnets utveckling – välbefinnande, sociala, känslomässiga, beteendemässiga, språkliga och kognitiva förmåga samt framtida skolresultat."
+            },
+            {
+              "id": "MC-1.6.1",
+              "type": "multiple_choice",
+              "section": "Social och ekonomisk utsatthet",
+              "question": "Vad stämmer om sambandet mellan familjens ekonomiska situation och pappors deltagande på BVC?",
+              "options": {
+                "A": "Pappor i ekonomiskt utsatta familjer deltar mer på BVC än genomsnittet",
+                "B": "Det finns inget samband mellan ekonomisk situation och pappors deltagande",
+                "C": "Pappor i familjer med svag ekonomisk och social situation har lägre tillgång till stöd via BVC",
+                "D": "Alla pappor erbjuds hembesök oavsett ekonomisk situation"
+              },
+              "correct": "C",
+              "explanation": "Pappors deltagande på BVC har ett starkt negativt samband med familjens ekonomiska och sociala resurser – pappor i familjer med svag situation har lägre tillgång till föräldraskapsstöd."
+            },
+            {
+              "id": "SF-1.6.1",
+              "type": "true_false",
+              "section": "Nedstämdhet hos föräldrar",
+              "statement": "Enskilda föräldrasamtal hålls under barnets första månader delvis för att risken för nedstämdhet och ångest ökar under denna tid.",
+              "correct": true,
+              "explanation": "Den känslomässiga öppenheten gör föräldrarna mottagliga för barnets kommunikation, men under samma tid ökar också risken för nedstämdhet och ångest, vilket kan ha negativa konsekvenser för barnet. Av det skälet hålls de enskilda föräldrasamtalen under barnets första månader."
+            }
+          ]
+        },
+        {
+          "id": "1.7",
+          "title": "Screening med EPDS",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/individuellt-foraldraskapsstod/screening-med-epds/",
+          "questions": [
+            {
+              "id": "FC-1.7.1",
+              "type": "flashcard",
+              "section": "Sammanfattning",
+              "question": "Vad indikerar en EPDS-poängsumma på 12 eller mer?",
+              "answer": "Tecken på psykisk ohälsa. Höga poäng ger dock inte underlag för diagnos, indikerar inte svårighetsgrad eller hur länge symtomen varat, och kan inte ersätta en klinisk bedömning."
+            },
+            {
+              "id": "FC-1.7.2",
+              "type": "flashcard",
+              "section": "Koda formuläret",
+              "question": "Hur kodas EPDS-svaren och vilka frågor avviker från det normala kodschemat?",
+              "answer": "Svaren kodas normalt i ordningen 3,2,1,0. Frågorna 1, 2 och 4 kodas i omvänd ordning: 0,1,2,3."
+            },
+            {
+              "id": "FC-1.7.3",
+              "type": "flashcard",
+              "section": "Var och när kan screening med EPDS användas?",
+              "question": "Vid vilket tillfälle ska EPDS erbjudas till alla som fött barn?",
+              "answer": "Sex till åtta veckor efter förlossningen."
+            },
+            {
+              "id": "MC-1.7.1",
+              "type": "multiple_choice",
+              "section": "Screeningen ersätter inte klinisk bedömning",
+              "question": "Vad bör göras vid osäkerhet om höga EPDS-poäng beror på tillfällig belastning eller psykisk ohälsa?",
+              "options": {
+                "A": "Direkt remittera till psykiatrisk bedömning",
+                "B": "Avvakta och se om föräldern återkommer av eget initiativ",
+                "C": "Erbjuda EPDS igen efter ett par veckor",
+                "D": "Avsluta kontakten och följa upp vid nästa ordinarie besök"
+              },
+              "correct": "C",
+              "explanation": "Vid osäkerhet rekommenderas att erbjuda EPDS igen efter ett par veckor. Höga poäng vid två tillfällen med en eller två veckors mellanrum, plus en intervju som påvisat psykisk ohälsa, brukar bekräfta att en fördjupad bedömning behövs."
+            },
+            {
+              "id": "SF-1.7.1",
+              "type": "true_false",
+              "section": "Samtal och bedömning utifrån formuläret",
+              "statement": "Svar på EPDS fråga 10 som indikerar tankar på att skada sig själv bör alltid följas upp direkt.",
+              "correct": true,
+              "explanation": "Svar på fråga 10 som anger att det förekommit tankar på att skada sig själv bör alltid följas upp direkt."
+            }
+          ]
+        },
+        {
+          "id": "1.8",
+          "title": "Främja trygg anknytning och gott samspel",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/individuellt-foraldraskapsstod/framja-trygg-anknytning-och-gott-samspel/",
+          "questions": [
+            {
+              "id": "FC-1.8.1",
+              "type": "flashcard",
+              "section": "Lyhördhet",
+              "question": "Vad innebär ett lyhört föräldraskap?",
+              "answer": "Att föräldern återkommande tolkar och svarar på barnets signaler på ett sätt barnet kan förutse, reagerar på signaler, förstår vad barnet signalerar, och tar hänsyn till barnets personlighet, utvecklingsnivå och dagsform."
+            },
+            {
+              "id": "FC-1.8.2",
+              "type": "flashcard",
+              "section": "Reglering",
+              "question": "Hur lär sig ett litet barn att reglera sina känslor?",
+              "answer": "Barnet lär sig självreglering tillsammans med sina föräldrar – inte skilt från dem. En av föräldrarnas viktigaste uppgifter är att hjälpa barnet att hantera starka eller överväldigande känslor."
+            },
+            {
+              "id": "FC-1.8.3",
+              "type": "flashcard",
+              "section": "Mentalisering",
+              "question": "Vad innebär mentaliseringsförmåga i föräldra-barnsamspelet?",
+              "answer": "Förälderns förmåga att reflektera och tänka om sig själv som förälder och om sitt barn – att tänka om barnets känslor, behov och önskningar."
+            },
+            {
+              "id": "MC-1.8.1",
+              "type": "multiple_choice",
+              "section": "Tecken på svårigheter i samspelet",
+              "question": "Vilket av följande beteenden hos en förälder BÖR alltid uppmärksammas?",
+              "options": {
+                "A": "Föräldern ber om råd vid besök",
+                "B": "Föräldern uttrycker negativa tankar eller känslor om barnet",
+                "C": "Föräldern frågar om barnets sömnvanor",
+                "D": "Föräldern ber om information om amning"
+              },
+              "correct": "B",
+              "explanation": "Bland beteenden som alltid bör uppmärksammas finns när föräldern uttrycker besvikelse över sina känslor för barnet, uttrycker negativa tankar eller känslor om barnet, eller är likgiltig inför barnet."
+            },
+            {
+              "id": "SF-1.8.1",
+              "type": "true_false",
+              "section": "Anknytning",
+              "statement": "Barnets anknytningsmönster är fast bestämt vid födseln och kan inte påverkas av förälderns lyhördhet och omsorgsförmåga.",
+              "correct": false,
+              "explanation": "Barnets anknytningsmönster utvecklas och påverkas av samspelet med sina föräldrar. Föräldrarnas lyhördhet och omsorgsförmåga påverkar i hög grad samspelet och därmed anknytningsmönstret."
+            }
+          ]
+        },
+        {
+          "id": "1.9",
+          "title": "EPDS-formulär",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/individuellt-foraldraskapsstod/epds-formular/",
+          "questions": [
+            {
+              "id": "FC-1.9.1",
+              "type": "flashcard",
+              "section": "Formuläret på svenska",
+              "question": "Vad är cut-off poängen för EPDS-formuläret på svenska?",
+              "answer": "Cut-off poäng är 11/12 – vid 12 poäng eller mer föreligger tecken på psykisk ohälsa."
+            },
+            {
+              "id": "FC-1.9.2",
+              "type": "flashcard",
+              "section": "Fler språk - ej validerade",
+              "question": "Vilken EPDS-översättning som finns på Rikshandboken är ej validerad?",
+              "answer": "Dari-versionen (persiska som talas i Afghanistan) är ej validerad."
+            },
+            {
+              "id": "MC-1.9.1",
+              "type": "multiple_choice",
+              "section": "The Edinburgh postnatal depression scale (EPDS) manual",
+              "question": "Vad gäller för kliniker och forskare som vill kopiera EPDS-översättningarna?",
+              "options": {
+                "A": "Det kräver betalning till upphovsrättsinnehavaren",
+                "B": "Det är tillåtet för eget bruk om källan anges",
+                "C": "Det kräver skriftligt tillstånd från Rikshandboken",
+                "D": "Det är inte tillåtet utan speciallicens"
+              },
+              "correct": "B",
+              "explanation": "Det är tillåtet för kliniker och forskare att kopiera översättningarna i originalhandboken för eget bruk, om man anger referensen till ursprungskällan."
+            },
+            {
+              "id": "SF-1.9.1",
+              "type": "true_false",
+              "section": "Formuläret på svenska",
+              "statement": "EPDS-formuläret på svenska har cut-off poängen 12/13.",
+              "correct": false,
+              "explanation": "EPDS-formulär på svenska har cut-off poäng 11/12. Det är det engelska formuläret som har cut-off 12/13."
+            }
+          ]
+        },
+        {
+          "id": "1.10",
+          "title": "Föräldrastress",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/individuellt-foraldraskapsstod/foraldrastress/",
+          "questions": [
+            {
+              "id": "FC-1.10.1",
+              "type": "flashcard",
+              "section": "Vad är föräldrastress?",
+              "question": "Vad är föräldrastress och när uppstår den?",
+              "answer": "Föräldrastress beskriver hur föräldraskapet kan upplevas som påfrestande. Den uppstår när föräldern känner sig otillräcklig i sin föräldraroll eller saknar stöd från andra."
+            },
+            {
+              "id": "FC-1.10.2",
+              "type": "flashcard",
+              "section": "Skillnader i vad som skapar föräldrastress",
+              "question": "Vilken faktor av föräldrastress påverkar föräldrar mest enligt forskning?",
+              "answer": "Rollbegränsning – att inte ha tid och utrymme för egna intressen på grund av föräldraansvaret. Detta gäller särskilt för födande föräldrar."
+            },
+            {
+              "id": "FC-1.10.3",
+              "type": "flashcard",
+              "section": "Ökar risken för samspelsvårigheter och beteendeproblem hos barnet",
+              "question": "Hur kan kraftig föräldrastress påverka barnet?",
+              "answer": "Samspelet mellan barn och föräldrar kan påverkas negativt, vilket kan bidra till att barn drar sig undan, allvarliga uppmärksamhetsproblem och utagerande beteenden hos barn med otrygg anknytning."
+            },
+            {
+              "id": "MC-1.10.1",
+              "type": "multiple_choice",
+              "section": "Faktorer hos barnet",
+              "question": "Vilket av följande är starkt sammankopplat med föräldrastress?",
+              "options": {
+                "A": "Att barnet äter bra och sover länge",
+                "B": "Att barnets temperament uppfattas som krävande och att barnet ofta är missnöjt eller har sömnproblem",
+                "C": "Att barnet börjar gå tidigt",
+                "D": "Att barnet har många syskon"
+              },
+              "correct": "B",
+              "explanation": "Att barnets temperament uppfattas som krävande, och att barnet ofta är missnöjt eller har sömnproblem, kan väcka känslor av frustration och är starkt sammankopplat med föräldrastress."
+            },
+            {
+              "id": "SF-1.10.1",
+              "type": "true_false",
+              "section": "Fördelning av föräldraansvaret spelar roll",
+              "statement": "Ickefödande föräldrar som delat lika på föräldraledigheten med sin partner rapporterar lägre föräldrastress än de som inte delat lika.",
+              "correct": true,
+              "explanation": "Erfarenhet av föräldraledighet har visat sig ha betydelse. Ickefödande förälder som delat lika på föräldraledigheten rapporterade lägre föräldrastress än de som inte delat lika."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Föräldraskapsstöd i grupp",
+      "pages": [
+        {
+          "id": "2.1",
+          "title": "Förberedelser inför att leda föräldragrupper",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/forberedelser-infor-att-leda-foraldragrupper/",
+          "questions": [
+            {
+              "id": "FC-2.1.1",
+              "type": "flashcard",
+              "section": "Hur många träffar, hur ofta och hur länge?",
+              "question": "Vad är rekommendationen för antalet grupptillfällen och barnens ålder vid gruppstart?",
+              "answer": "Programmet ska omfatta 6–8 grupptillfällen under barnets första levnadsår. Barnen är vanligtvis 6–12 veckor gamla vid gruppstart."
+            },
+            {
+              "id": "FC-2.1.2",
+              "type": "flashcard",
+              "section": "Gruppstorlek",
+              "question": "Hur stor brukar en lämplig föräldragrupp vara?",
+              "answer": "Fem till sju familjer. Gruppen ska vara tillräckligt stor för att tåla att någon är borta enstaka tillfällen, men inte större än att alla kan komma till tals."
+            },
+            {
+              "id": "FC-2.1.3",
+              "type": "flashcard",
+              "section": "Öppen eller sluten grupp?",
+              "question": "Varför är sluten grupp att föredra framför öppen för gruppsammanhållningen?",
+              "answer": "I en sluten grupp tas inga nya deltagare in sedan gruppen startat, vilket gör att målet att skapa möjligheter till kontakt och gemenskap uppnås i högre utsträckning."
+            },
+            {
+              "id": "MC-2.1.1",
+              "type": "multiple_choice",
+              "section": "Riktade grupper",
+              "question": "Vad är en riktad föräldragrupp?",
+              "options": {
+                "A": "En grupp enbart för föräldrar med professionell sjukvårdsbakgrund",
+                "B": "Ett komplement till ordinarie grupp för föräldrar med särskilda erfarenheter eller behov",
+                "C": "En grupp utan fast struktur som formas av deltagarna",
+                "D": "En grupp för föräldrar till barn med diagnostiserade sjukdomar"
+              },
+              "correct": "B",
+              "explanation": "En riktad grupp kan vara ett komplement till ordinarie grupp. Föräldrar som har särskilda erfarenheter eller behov kan ha stort utbyte av en riktad grupp, till exempel adoptivföräldrar, tvillingföräldrar, HBTQ-grupper eller nyanlända."
+            },
+            {
+              "id": "SF-2.1.1",
+              "type": "true_false",
+              "section": "Ersätter inte föräldragrupperna",
+              "statement": "Informationsträffar och temaföreläsningar kan ersätta de ordinarie föräldragrupperna inom BHV.",
+              "correct": false,
+              "explanation": "Informationsträffar och temaföreläsningar kan vara ett komplement till föräldragrupper, men ersätter inte de ordinarie grupperna inom BHV. Informationsträffar är oftast enkelriktad information."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Föräldragrupp: vardagsliv - alkohol och tobak",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/foraldragrupp-vardagsliv---alkohol-och-tobak/",
+          "questions": [
+            {
+              "id": "FC-2.2.1",
+              "type": "flashcard",
+              "section": "Introduktion till tema: Vardagsliv – alkohol och tobak",
+              "question": "Varför är det viktigt att inte vara alkoholpåverkad i närvaro av spädbarn?",
+              "answer": "Barn trivs bäst med det förutsägbara. Om föräldrarnas beteende förändras på grund av alkohol kan det skapa stress hos barnet, som känner av även små beteendeförändringar."
+            },
+            {
+              "id": "FC-2.2.2",
+              "type": "flashcard",
+              "section": "Passiv rökning",
+              "question": "Vilka hälsorisker innebär passiv rökning specifikt för barn?",
+              "answer": "Barn till rökande föräldrar får oftare luftvägsinfektion och öroninflammation. Passiv rökning ökar också risken för allergier och förvärrar symtomen hos barn med astma."
+            },
+            {
+              "id": "MC-2.2.1",
+              "type": "multiple_choice",
+              "section": "Skadligt bruk av alkohol",
+              "question": "Hur stor andel av barn i Sverige uppger att de påverkats mycket negativt av att växa upp med en förälder med skadligt bruk av alkohol?",
+              "options": {
+                "A": "Vart femte barn",
+                "B": "Vart tionde barn",
+                "C": "Vart tjugonde barn",
+                "D": "Vart tredje barn"
+              },
+              "correct": "B",
+              "explanation": "Vart tionde barn i Sverige uppger att de påverkats mycket negativt av att växa upp i en familj där en förälder har ett skadligt bruk av alkohol."
+            },
+            {
+              "id": "SF-2.2.1",
+              "type": "true_false",
+              "section": "Passiv rökning",
+              "statement": "Passiv rökning är farlig för alla, men barn är särskilt utsatta eftersom de inte har färdigutvecklade lungor och immunsystem.",
+              "correct": true,
+              "explanation": "Passiv rökning är farligt för alla, men särskilt för barn som inte har färdigutvecklade lungor och immunsystem."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Föräldragrupp: vardagsliv - balans i vardagen",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/foraldragrupp-vardagsliv---balans-i-vardagen/",
+          "questions": [
+            {
+              "id": "FC-2.3.1",
+              "type": "flashcard",
+              "section": "En ny vardag med nya rutiner",
+              "question": "Vad är en central utmaning i omställningen till det tidiga föräldraskapet?",
+              "answer": "Aktiviteter som man tidigare lade tid på behöver ofta prioriteras bort, eftersom vardagsrutinerna med ett litet barn tar mycket tid. Det kan upplevas omskakande att sluta med sådant man tidigare ägnat sig åt."
+            },
+            {
+              "id": "FC-2.3.2",
+              "type": "flashcard",
+              "section": "Vad ska prioriteras?",
+              "question": "Vad bör par reflektera kring i parrelationen under det tidiga föräldraskapet?",
+              "answer": "Som nya föräldrar handlar vuxenrelationen mycket om att hitta ett gemensamt föräldraskap. Det är även viktigt att prata om hur man ser på parrelationen och hur man kan ta hand om den utifrån de förutsättningar som är just nu."
+            },
+            {
+              "id": "MC-2.3.1",
+              "type": "multiple_choice",
+              "section": "Vad ska prioriteras?",
+              "question": "Vad är bra att reflektera över för balans i vardagen som nybliven förälder?",
+              "options": {
+                "A": "Hur man maximerar sin arbetsinsats under föräldraledigheten",
+                "B": "Vad som ger energi och vad som tar energi, och vad man vill att vardagen ska innehålla",
+                "C": "Hur man minskar barnets sovtimmar",
+                "D": "Hur man undviker socialt umgänge för att spara kraft"
+              },
+              "correct": "B",
+              "explanation": "Det är bra att fundera över och diskutera vad man vill att vardagen med barn ska innehålla och vad som kan väljas bort. Vad ger energi och vad tar energi?"
+            },
+            {
+              "id": "SF-2.3.1",
+              "type": "true_false",
+              "section": "Introduktion till tema: Balans i vardagen",
+              "statement": "Hur vardagen med barn ser ut är likadan för alla familjer eftersom alla barn har samma grundläggande behov.",
+              "correct": false,
+              "explanation": "Hur vardagen med barn ser ut beror på varje familjs förutsättningar och behov. Det som är gemensamt är att vardagen med barn skiljer sig mycket från vardagen utan barn."
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Föräldragrupp: mat",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/foraldragrupp-mat/",
+          "questions": [
+            {
+              "id": "FC-2.4.1",
+              "type": "flashcard",
+              "section": "Lyhördhet för barnets signaler i matsituationen",
+              "question": "Varför är lyhördhet för barnets signaler viktig i matsituationen?",
+              "answer": "Det kan bidra till att barnet får en sund inställning till mat och ätande. Föräldrarnas egna matvanor och stunden runt matbordet har också betydelse för barnets etablering av matvanor."
+            },
+            {
+              "id": "FC-2.4.2",
+              "type": "flashcard",
+              "section": "Smakportioner",
+              "question": "Varför bör smakportioner av fast föda introduceras vid 6 månaders ålder?",
+              "answer": "Vid 6 månader behövs mat för att täcka barnets närings- och energibehov. Barnets depåer av järn börjar vara låga och behöver kompletteras."
+            },
+            {
+              "id": "FC-2.4.3",
+              "type": "flashcard",
+              "section": "Pyttesmå smakprov",
+              "question": "Vad är 'pyttesmå smakprov' och när kan de introduceras?",
+              "answer": "Smakprov av familjens mat i mycket liten mängd (ca 1 kryddmått) – så lite att det inte konkurrerar med bröstmjölk. Kan ges från fyra månaders ålder utifrån barnets intresse."
+            },
+            {
+              "id": "MC-2.4.1",
+              "type": "multiple_choice",
+              "section": "Smakportioner",
+              "question": "Hur många gånger kan en ny smak behöva testas innan barnet accepterar den?",
+              "options": {
+                "A": "1–2 gånger",
+                "B": "3–5 gånger",
+                "C": "10–15 gånger",
+                "D": "20–30 gånger"
+              },
+              "correct": "C",
+              "explanation": "Nya smaker och konsistenser kan ibland behöva testas 10 till 15 gånger innan det accepteras helt."
+            },
+            {
+              "id": "SF-2.4.1",
+              "type": "true_false",
+              "section": "Tillvänjning",
+              "statement": "Syftet med matintroduktionen är att barnet ska avvänjas från bröstmjölk eller ersättning.",
+              "correct": false,
+              "explanation": "Det är viktigt att tänka på att barnet ska tillvänjas vid den fasta födan, inte att hen ska avvänjas från bröstmjölk eller ersättning. Bröstmjölk eller ersättning bidrar fortfarande med den största delen av näringsintaget vid matintroduktionens start."
+            }
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "Föräldragrupp: barns utveckling",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/foraldragrupp-barns-utveckling/",
+          "questions": [
+            {
+              "id": "FC-2.5.1",
+              "type": "flashcard",
+              "section": "Trygga relationer",
+              "question": "Varför är trygga relationer med föräldrar viktiga för barnet?",
+              "answer": "Trygga relationer har betydelse för barnets mående och utveckling – inte bara i barndomen, utan för hela livet. När föräldrar leker och pratar med barnet främjas motorisk, språklig, social, kognitiv och känslomässig utveckling."
+            },
+            {
+              "id": "FC-2.5.2",
+              "type": "flashcard",
+              "section": "TEMA: Språklig utveckling och kommunikation",
+              "question": "Varför är de tre första levnadsåren särskilt viktiga för barnets språkutveckling?",
+              "answer": "Under barnets tre första levnadsår är hjärnan särskilt mottaglig för stimulans, vilket i högsta grad gäller barnets kommunikation och språk. Det har stor betydelse vilken mängd och typ av språklig stimulans barnet får."
+            },
+            {
+              "id": "MC-2.5.1",
+              "type": "multiple_choice",
+              "section": "Motorisk utveckling i olika åldrar",
+              "question": "Vad karaktäriserar barnets motoriska och sensoriska utveckling vid 3–5 månaders ålder?",
+              "options": {
+                "A": "Barnet kan gå med stöd",
+                "B": "Barnet vill greppa saker i händernas närhet och undersöka föremål med munnen",
+                "C": "Barnet kan sitta utan stöd",
+                "D": "Barnet kan rulla från rygg till mage"
+              },
+              "correct": "B",
+              "explanation": "Vid 3–5 månaders ålder vill barnet greppa saker i händernas närhet och undersöka föremål med munnen."
+            },
+            {
+              "id": "SF-2.5.1",
+              "type": "true_false",
+              "section": "Individuella skillnader",
+              "statement": "Barn föds som 'oskrivna blad' utan personlighet eller drivkraft.",
+              "correct": false,
+              "explanation": "Barn föds inte som oskrivna blad, utan med en egen personlighet och drivkraft att utvecklas och kommunicera med sin omgivning."
+            }
+          ]
+        },
+        {
+          "id": "2.6",
+          "title": "Att leda föräldragrupper",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/att-leda-foraldragrupper/",
+          "questions": [
+            {
+              "id": "FC-2.6.1",
+              "type": "flashcard",
+              "section": "Rollen som gruppledare",
+              "question": "Vad skapar trygghet i en föräldragrupp?",
+              "answer": "Förutsägbarhet och igenkänning, till exempel genom att ha en återkommande struktur för träffarna. Det är viktigt att vara tydlig med att alla behöver respektera varandras olikheter."
+            },
+            {
+              "id": "FC-2.6.2",
+              "type": "flashcard",
+              "section": "Invänta gruppens egna reflektioner",
+              "question": "Varför bör gruppledaren låta övriga deltagare reflektera och svara innan hen svarar på en fråga?",
+              "answer": "Det bekräftar den enskildes tankar och frågor och visar förtroende och tillit till gruppen. Efteråt kan gruppledaren tillföra ny kunskap som inte kommit fram."
+            },
+            {
+              "id": "FC-2.6.3",
+              "type": "flashcard",
+              "section": "Hemuppgifter",
+              "question": "Vilket syfte fyller hemuppgifter i föräldragrupper?",
+              "answer": "Hemuppgifter kan ge föräldrarna ett konkret fokus mellan träffarna och ge stoff till gruppsamtalen vid nästa tillfälle. Vid frånvaro är det fint att skicka hem uppgiften till den som varit borta."
+            },
+            {
+              "id": "MC-2.6.1",
+              "type": "multiple_choice",
+              "section": "Rollen som gruppledare",
+              "question": "Vad är en av de viktigaste uppgifterna för en föräldragruppsledare?",
+              "options": {
+                "A": "Att föreläsa om medicinska ämnen för föräldrarna",
+                "B": "Att skapa trygghet och ett tillåtande klimat i gruppen",
+                "C": "Att bedöma föräldrarnas psykiska hälsa",
+                "D": "Att strikt följa ett standardiserat program"
+              },
+              "correct": "B",
+              "explanation": "Att leda en föräldragrupp handlar framför allt om att skapa trygghet och ett tillåtande klimat i gruppen."
+            },
+            {
+              "id": "SF-2.6.1",
+              "type": "true_false",
+              "section": "Ett föräldraskapsstödjande förhållningssätt",
+              "statement": "Rollen som expert bör användas frekvent och centralt i föräldragruppssammanhanget.",
+              "correct": false,
+              "explanation": "Som föräldragruppsledare kan det vara lätt att hamna i en expertroll, en roll som bör användas sparsamt i föräldragruppssammanhanget."
+            }
+          ]
+        },
+        {
+          "id": "2.7",
+          "title": "Föräldragrupp: vardagsliv - sömn",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/foraldragrupp-vardagsliv---somn/",
+          "questions": [
+            {
+              "id": "FC-2.7.1",
+              "type": "flashcard",
+              "section": "Faktorer som påverkar sömnen",
+              "question": "Vad styr spädbarns sömn mer än ljus och mörker?",
+              "answer": "Hunger och mättnad styr sömnen mer än ljus och mörker."
+            },
+            {
+              "id": "FC-2.7.2",
+              "type": "flashcard",
+              "section": "Sova tillsammans med barnet",
+              "question": "Vilken risk finns för barn under 3 månader med samsovsning i samma säng?",
+              "answer": "Risken för plötslig spädbarnsdöd ökar, särskilt i kombination med andra riskfaktorer. Risken minskar då barnet kan vända sig själv."
+            },
+            {
+              "id": "MC-2.7.1",
+              "type": "multiple_choice",
+              "section": "Störande ljus och ljud",
+              "question": "Varför bör stunden innan barnet ska sova vara fri från skärmar?",
+              "options": {
+                "A": "Skärmar distraherar förälderns fokus från barnet och har störande ljus och ljud",
+                "B": "Skärmar ger barnet alltför stark visuell stimulans",
+                "C": "Skärmar blockerar barnets melatoninproduktion",
+                "D": "Skärmar orsakar direkt hörselskada hos spädbarn"
+              },
+              "correct": "A",
+              "explanation": "Stunden innan barnet ska sova bör vara fri från skärmar, eftersom de både distraherar förälderns fokus från barnet och har störande ljus och ljud."
+            },
+            {
+              "id": "SF-2.7.1",
+              "type": "true_false",
+              "section": "Barnet behöver hjälp att hitta en dygnsrytm",
+              "statement": "Barns förmåga att somna och somna om på egen hand är medfödd och behöver inte tränas upp.",
+              "correct": false,
+              "explanation": "Förmågan att somna och somna om på egen hand utvecklas över tid, men ser olika ut för olika barn och föräldrar."
+            }
+          ]
+        },
+        {
+          "id": "2.8",
+          "title": "Föräldragrupp: första träffen och tema omställning",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/foraldragrupp-forsta-traffen-och-tema-omstallning/",
+          "questions": [
+            {
+              "id": "FC-2.8.1",
+              "type": "flashcard",
+              "section": "Introduktion till första träffen",
+              "question": "Vad är föräldragruppsledarens roll vid föräldragrupper?",
+              "answer": "Att stå för ramarna, förbereda diskussionsämnen och bjuda in till reflektion – inte att föreläsa. Det är gruppens diskussion som är viktigast."
+            },
+            {
+              "id": "FC-2.8.2",
+              "type": "flashcard",
+              "section": "Introduktion av tema: Omställning",
+              "question": "Vad är centralt att tala om under temat 'Omställning' i den första föräldragruppen?",
+              "answer": "Att bli förälder är en av de största omställningarna i livet. Föräldraskapet ska etableras, vardagen förändras drastiskt, och man behöver hitta en balans mellan rutiner, närvaro och återhämtning."
+            },
+            {
+              "id": "MC-2.8.1",
+              "type": "multiple_choice",
+              "section": "Välja och använda teman på träffarna",
+              "question": "Vilket tema rekommenderas till det allra första föräldragruppstillfället?",
+              "options": {
+                "A": "Mat",
+                "B": "Omställning",
+                "C": "Barns utveckling",
+                "D": "Samspel och anknytning"
+              },
+              "correct": "B",
+              "explanation": "Till det första tillfället rekommenderas tema: Omställning."
+            },
+            {
+              "id": "SF-2.8.1",
+              "type": "true_false",
+              "section": "Känslomässig lyhördhet är bra för barnet",
+              "statement": "Nyblivna föräldrar bör undvika starka negativa känslor eftersom dessa alltid skadar barnet.",
+              "correct": false,
+              "explanation": "Det är inte konstigt att känna starka känslor – både positiva och negativa – som nybliven förälder. Ansvaret för en ny människa kan upplevas som överväldigande."
+            }
+          ]
+        },
+        {
+          "id": "2.9",
+          "title": "Mål och syfte med föräldraskapsstöd i grupp",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/mal-och-syfte-med-foraldrastod-i-grupp/",
+          "questions": [
+            {
+              "id": "FC-2.9.1",
+              "type": "flashcard",
+              "section": "Grundläggande arbetsmetod sedan 1979",
+              "question": "Sedan vilket år är föräldragrupper en grundläggande arbetsmetod inom BHV och vad var bakgrunden?",
+              "answer": "Sedan 1979, då riksdagen tog beslut om en generell föräldrautbildning med syfte att genom pedagogiska insatser förbättra barns levnadsvillkor."
+            },
+            {
+              "id": "FC-2.9.2",
+              "type": "flashcard",
+              "section": "Skapa möjligheter till kontakt och gemenskap",
+              "question": "Varför är skapandet av sociala kontakter ett viktigt mål för föräldraskapsstöd i grupp?",
+              "answer": "Familjers kontaktytor har blivit färre och många föräldrar känner sig isolerade och ensamma. Sociala nätverk ger möjlighet till stöd hos andra familjer och kan bryta isolering."
+            },
+            {
+              "id": "MC-2.9.1",
+              "type": "multiple_choice",
+              "section": "Den nationella strategins tre målområden",
+              "question": "Vad framhåller regeringens nationella strategi (2018) att föräldraskapsstödet ska bidra med?",
+              "options": {
+                "A": "Stärkt medicinsk kompetens hos föräldrar",
+                "B": "Fördjupad kunskap om barns behov och rättigheter, kontakt och gemenskap, samt stärkta föräldrar i sin föräldraroll",
+                "C": "Ekonomiska bidrag till barnfamiljer",
+                "D": "Medicinsk diagnostik av föräldrar"
+              },
+              "correct": "B",
+              "explanation": "I regeringens nationella strategi (2018) framhålls att föräldraskapsstödet ska bidra till fördjupad kunskap om barns behov och rättigheter, ge möjlighet till kontakt och gemenskap, samt stärka föräldrarna i sin föräldraroll."
+            },
+            {
+              "id": "SF-2.9.1",
+              "type": "true_false",
+              "section": "Viktigt att nå dem som behöver stödet mest",
+              "statement": "Forskning visar att det framför allt är föräldrar med störst risk för ohälsa som deltar i föräldragrupper.",
+              "correct": false,
+              "explanation": "Forskning visar att det primärt är föräldrar med mindre risk för ohälsa som deltar i föräldragrupper. Det är därför viktigt att BHV arbetar för att nå alla föräldrar, särskilt de som behöver stödet mest."
+            }
+          ]
+        },
+        {
+          "id": "2.10",
+          "title": "Föräldragrupp: samspel och anknytning",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/foraldragrupp-samspel-och-anknytning/",
+          "questions": [
+            {
+              "id": "FC-2.10.1",
+              "type": "flashcard",
+              "section": "Lyhördhet",
+              "question": "Vad innebär det att vara lyhörd för sitt barn?",
+              "answer": "Att försöka förstå vad som händer inuti barnet och vad det behöver just nu – att uppmärksamma, försöka tolka och svara på barnets signaler som skrik eller gråt."
+            },
+            {
+              "id": "FC-2.10.2",
+              "type": "flashcard",
+              "section": "Trygg anknytning",
+              "question": "Hur byggs trygg anknytning hos barn?",
+              "answer": "Trygg anknytning byggs när barnet upprepat erbjuds tröst och omsorg i situationer där barnet visar att hen behöver detta."
+            },
+            {
+              "id": "MC-2.10.1",
+              "type": "multiple_choice",
+              "section": "Känsligheten är bra",
+              "question": "Varför är den känslighet som nyblivna föräldrar upplever inför barnets skrik och gråt funktionell?",
+              "options": {
+                "A": "Den är ett tecken på depression som kräver behandling",
+                "B": "Den är evolutionärt gynnsam eftersom den bäddar för omhändertagande av barnet",
+                "C": "Den beror uteslutande på sömnbrist och är negativ",
+                "D": "Den leder alltid till negativ stress för föräldern"
+              },
+              "correct": "B",
+              "explanation": "Det är meningen att det ska finnas en känslighet hos nyblivna föräldrar, eftersom den känsligheten bäddar för omhändertagande och alltså har varit evolutionärt gynnsamt."
+            },
+            {
+              "id": "SF-2.10.1",
+              "type": "true_false",
+              "section": "Föräldraskapet är olika utmanande",
+              "statement": "Trötthet hos en förälder har ingen inverkan på lyhördheten och förmågan att trösta barnet.",
+              "correct": false,
+              "explanation": "Trötthet kan påverka hur lättstressad man blir och det påverkar förmågan till lyhördhet negativt."
+            }
+          ]
+        },
+        {
+          "id": "2.11",
+          "title": "Föräldragrupp: vardagsliv - skärmvanor",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/foraldragrupp-vardagsliv---skarmvanor/",
+          "questions": [
+            {
+              "id": "FC-2.11.1",
+              "type": "flashcard",
+              "section": "Introduktion till temat",
+              "question": "Vad är rekommendationen gällande skärmanvändning för barn under 2 år?",
+              "answer": "Rekommendationen är att barn under 2 år inte ska ha någon skärmanvändning alls, för att det inte ska stjäla tid från annan stimulans."
+            },
+            {
+              "id": "FC-2.11.2",
+              "type": "flashcard",
+              "section": "Barn under 2 år",
+              "question": "Varför kan inte barn under 2 år ta till sig innehållet på digitala medier?",
+              "answer": "Deras ögon och kognitiva förmågor är inte tillräckligt utvecklade för att ta till sig digitalt innehåll."
+            },
+            {
+              "id": "MC-2.11.1",
+              "type": "multiple_choice",
+              "section": "Barn under 2 år",
+              "question": "Varför behöver skärmtid begränsas för föräldrar med små barn?",
+              "options": {
+                "A": "Skärmar skadar förälderns syn och ger migrän",
+                "B": "Skärmar kan stjäla tid från samvaro och störa kontakten med barnet och dess språkutveckling",
+                "C": "Skärmar sänker förälderns intelligensnivå",
+                "D": "Skärmar skapar elektromagnetisk strålning skadlig för barn"
+              },
+              "correct": "B",
+              "explanation": "Skärmtiden för både barn och vuxna behöver begränsas för att inte stjäla tid från annan samvaro. Barn under 2 år utvecklas när de i deras närhet talar, leker, läser eller sjunger med dem."
+            },
+            {
+              "id": "SF-2.11.1",
+              "type": "true_false",
+              "section": "Barn under 2 år",
+              "statement": "Digitalt innehåll kan vara lärande och stimulerande för barn under 2 år om innehållet är anpassat.",
+              "correct": false,
+              "explanation": "Barn under 2 år kan inte ta till sig innehållet på digitala medier eftersom deras ögon och kognitiva förmågor inte är tillräckligt utvecklade."
+            }
+          ]
+        },
+        {
+          "id": "2.12",
+          "title": "Föräldragrupp: föräldrar tillsammans",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/foraldraskapsstod-i-grupp/foraldragrupp-foraldrar-tillsammans/",
+          "questions": [
+            {
+              "id": "FC-2.12.1",
+              "type": "flashcard",
+              "section": "Introduktion till temat",
+              "question": "Hur påverkas barns och föräldrars hälsa av jämställdhet i familjen?",
+              "answer": "Barn och föräldrars hälsa påverkas positivt av jämställdhet i familjen."
+            },
+            {
+              "id": "FC-2.12.2",
+              "type": "flashcard",
+              "section": "Att träna sig på att vara förälder",
+              "question": "Hur kan man som förälder bli tryggare i föräldrarollen?",
+              "answer": "Ju mer man får öva, desto mer lär man sig, och ju mer man lär sig, desto tryggare blir man. Föräldrar fortsätter att utvecklas genom hela livet, precis som barnet."
+            },
+            {
+              "id": "MC-2.12.1",
+              "type": "multiple_choice",
+              "section": "Punkter att samtala om",
+              "question": "Vad ingår i att vara ett bra föräldrateam?",
+              "options": {
+                "A": "Att fördela barnomsorgen alltid exakt lika, oberoende av familjens förutsättningar",
+                "B": "Att stötta varandras föräldraskap, fördela ansvaret, känna tillit och kunna hantera konflikter",
+                "C": "Att alltid vara ense om alla beslut som rör barnet",
+                "D": "Att en förälder tar det primära ansvaret för barnet"
+              },
+              "correct": "B",
+              "explanation": "Att vara ett bra föräldrateam handlar om att stötta varandras föräldraskap, fördela ansvaret för barnet, känna tillit till varandra som föräldrar och kunna hantera konflikter i den vuxna relationen."
+            },
+            {
+              "id": "SF-2.12.1",
+              "type": "true_false",
+              "section": "Introduktion till temat",
+              "statement": "BHV-sjuksköterskan spelar ingen roll i att vägleda föräldrar mot ett jämställt föräldraskap.",
+              "correct": false,
+              "explanation": "BHV-sjuksköterskan har en viktig roll i att vägleda föräldrar till ett föräldraskap där båda föräldrarna är delaktiga – både känslomässigt och praktiskt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Barnsäkerhet",
+      "pages": [
+        {
+          "id": "3.1",
+          "title": "Förebygga förgiftning och påverkan av kemikalier",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/barnsakerhet/barnsakerhet-i-hemmet---oversikt/forebygga-forgiftning-och-paverkan-av-kemikalier/",
+          "questions": [
+            {
+              "id": "FC-3.1.1",
+              "type": "flashcard",
+              "section": "Hemmet är den vanligaste platsen för förgiftningsolyckor",
+              "question": "I vilken ålder sker de flesta förgiftningsolyckor bland barn och varför?",
+              "answer": "15–30 månaders ålder, när barn kan förflytta sig självständigt, strävar efter självständighet och lämnar föräldrarna för att utforska omgivningen."
+            },
+            {
+              "id": "FC-3.1.2",
+              "type": "flashcard",
+              "section": "Hushållskemikalier",
+              "question": "Vilka hushållskemikalier kan ge frätskador och utgör allvarlig risk även i liten mängd?",
+              "answer": "Frätande kemikalier som ammoniak, kaustiksoda (lut), propplösare, vissa syror, ättika (24%) och avkalkningsmedel."
+            },
+            {
+              "id": "FC-3.1.3",
+              "type": "flashcard",
+              "section": "Batterier",
+              "question": "Varför är det farligt om ett barn sväljer ett knappcellsbatteri?",
+              "answer": "Om batteriet fastnar i matstrupen eller mag-tarmkanalen kan en elektrisk strömkrets bildas, vilket kan ge allvarliga skador på slemhinnorna."
+            },
+            {
+              "id": "MC-3.1.1",
+              "type": "multiple_choice",
+              "section": "Råd till föräldrar för att förebygga förgiftning",
+              "question": "Vilket råd är korrekt för att förebygga förgiftning i hemmet?",
+              "options": {
+                "A": "Barnskyddande förpackningar är tillräckliga skyddsåtgärder",
+                "B": "Kemikalier och läkemedel bör förvaras i originalförpackning, oåtkomliga för barn",
+                "C": "Läkemedel kan förvaras i jackfickor eller väskor om de har barnskydd",
+                "D": "Giftiga växter behöver inte avlägsnas om barnet inte rört dem tidigare"
+              },
+              "correct": "B",
+              "explanation": "Säkerhetsåtgärder inkluderar att inte lita på barnskyddande förpackningar, förvara kemikalier och läkemedel i originalförpackning och oåtkomliga för barn, och att inte förvara läkemedel i jackfickor eller väskor."
+            },
+            {
+              "id": "SF-3.1.1",
+              "type": "true_false",
+              "section": "Kemikalier kan vara farliga för hälsan",
+              "statement": "Barn är mer känsliga för kemikaliers påverkan än vuxna, eftersom kroppen är mindre och ämnesomsättningen omogen.",
+              "correct": true,
+              "explanation": "Jämfört med vuxna är barn känsligare för kemikaliers påverkan beroende på att kroppen är mindre och att barnet har en i jämförelse omogen ämnesomsättning."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Främja elsäkerhet",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/barnsakerhet/barnsakerhet-i-hemmet---oversikt/framja-elsakerhet/",
+          "questions": [
+            {
+              "id": "FC-3.2.1",
+              "type": "flashcard",
+              "section": "Barn som råkar ut för en elolycka",
+              "question": "Hur sker de flesta elektriska olyckor hos små barn i hemmet?",
+              "answer": "Vanligtvis i tvåårsåldern, när barnet sticker in saker i eluttag, leker med lösa elkablar eller biter i dem, eller sticker ner fingrarna i belysningars lamputtag."
+            },
+            {
+              "id": "FC-3.2.2",
+              "type": "flashcard",
+              "section": "Viktigt med kunskap om elsäkerhet",
+              "question": "Vad är det mest effektiva sättet att minska risken för att barn skadas av el?",
+              "answer": "Att förebygga att barn utsätts för olyckshändelser med elektricitet. Petskydd finns inbyggt i moderna eluttag; i äldre bostäder bör uttagen i första hand bytas ut."
+            },
+            {
+              "id": "MC-3.2.1",
+              "type": "multiple_choice",
+              "section": "Barn som råkar ut för en elolycka",
+              "question": "Hur många barn söker akutmottagning per år till följd av elolycka?",
+              "options": {
+                "A": "Ca 50 barn",
+                "B": "Ca 100 barn",
+                "C": "Ca 280 barn",
+                "D": "Ca 500 barn"
+              },
+              "correct": "C",
+              "explanation": "Varje år uppsöker cirka 280 barn en akutmottagning till följd av en elolycka."
+            },
+            {
+              "id": "SF-3.2.1",
+              "type": "true_false",
+              "section": "Barn som råkar ut för en elolycka",
+              "statement": "Dödsolyckor hos barn till följd av el är vanliga i Sverige.",
+              "correct": false,
+              "explanation": "Dödsolyckor hos barn på grund av el är mycket ovanliga i Sverige."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Förebygga brännskador och skållskador",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/barnsakerhet/barnsakerhet-i-hemmet---oversikt/forebygga-brannskador-och-skallskador/",
+          "questions": [
+            {
+              "id": "FC-3.3.1",
+              "type": "flashcard",
+              "section": "Förekomst och skademekanismer",
+              "question": "Vilken åldersgrupp är vanligast i vård för brännskador och skållskador?",
+              "answer": "Barn mellan ett och två år. Varje år skadas circa 200 barn i Sverige så allvarligt att de behöver inneliggande sjukhusvård."
+            },
+            {
+              "id": "FC-3.3.2",
+              "type": "flashcard",
+              "section": "De flesta olyckor inträffar i köket",
+              "question": "Vad är den vanligaste brännskademekanismen hos barn 1–3 år?",
+              "answer": "Ungefär hälften bränner sig på ett varmt föremål; ca 40 procent beror på varma vätskor (kaffe, te, vatten). Den typiske patienten är en pojke 15 månader–5 år som fått varm vätska på handen, i hemmet vid måltid."
+            },
+            {
+              "id": "MC-3.3.1",
+              "type": "multiple_choice",
+              "section": "Vanligaste orsakerna till olyckor",
+              "question": "Vilken faktor förklarade föräldrar som en vanlig orsak till att barn drabbas av brännskador?",
+              "options": {
+                "A": "Barnet är för fysiskt starkt för att hållas tillbaka",
+                "B": "Föräldrarnas trötthet, stress och missbedömning av barnets förmåga att nå farliga saker",
+                "C": "Att barnet aktivt söker upp farliga ting",
+                "D": "Dålig köksutrustning"
+              },
+              "correct": "B",
+              "explanation": "Studier visar att föräldrar ofta förklarade olyckshändelser med att något oväntat inträffade som fångade deras uppmärksamhet, att de kände sig trötta och stressade, eller att de missbedömde barnets förmåga att nå farliga saker."
+            },
+            {
+              "id": "SF-3.3.1",
+              "type": "true_false",
+              "section": "Gåstolar",
+              "statement": "Gåstolar är säkra att använda i hemmiljön eftersom de förhindrar att barnet når varma föremål.",
+              "correct": false,
+              "explanation": "Gåstolar är ofta inblandade i olyckshändelser. Barnet förflyttar sig snabbt med gåstolen och kommer åt exempelvis kaffekoppar, kokkärl, ugnsluckor och braskaminer."
+            }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Förebygga kvävning",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/barnsakerhet/barnsakerhet-i-hemmet---oversikt/forebygga-kvavning/",
+          "questions": [
+            {
+              "id": "FC-3.4.1",
+              "type": "flashcard",
+              "section": "Orsaker till kvävningsolyckor",
+              "question": "Hur definieras kvävning?",
+              "answer": "Ett mekaniskt stopp i luftvägarna som förhindrar andningsförmågan."
+            },
+            {
+              "id": "FC-3.4.2",
+              "type": "flashcard",
+              "section": "Orsakerna varierar med barnets ålder",
+              "question": "Vad orsakar de flesta kvävningstillbud hos barn under fyra år?",
+              "answer": "60–80 procent av kvävningstillbuden hos barn under fyra år orsakas av mat och matrester."
+            },
+            {
+              "id": "FC-3.4.3",
+              "type": "flashcard",
+              "section": "Samtala om risker och förebyggande åtgärder",
+              "question": "Vad är det viktigaste verktyget för att förebygga kvävningsolyckor?",
+              "answer": "Samtal med föräldrarna – utgå från föräldrarnas egna erfarenheter, tankar och funderingar kring olycksfallsrisker."
+            },
+            {
+              "id": "MC-3.4.1",
+              "type": "multiple_choice",
+              "section": "Orsaker till kvävningsolyckor",
+              "question": "Ungefär hur många barn per år söker akutmottagning på grund av kvävningsolycka?",
+              "options": {
+                "A": "50 barn",
+                "B": "100 barn",
+                "C": "200 barn",
+                "D": "500 barn"
+              },
+              "correct": "C",
+              "explanation": "Omkring 200 barn om året sökte akutmottagning på grund av kvävningsolycka under åren 2010–2013."
+            },
+            {
+              "id": "SF-3.4.1",
+              "type": "true_false",
+              "section": "Samtala om risker och förebyggande åtgärder",
+              "statement": "Kvävningsrisker är enbart relevanta för de allra minsta barnen under 6 månader.",
+              "correct": false,
+              "explanation": "Att samtala om kvävningsrisker är aktuellt i alla åldrar. Orsakerna till kvävning varierar med barnets ålder."
+            }
+          ]
+        },
+        {
+          "id": "3.5",
+          "title": "Samtal om barnsäkerhet",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/barnsakerhet/samtal-om-barnsakerhet/",
+          "questions": [
+            {
+              "id": "FC-3.5.1",
+              "type": "flashcard",
+              "section": "Inledning",
+              "question": "Vad är syftet med BHV:s samtal om barnsäkerhet?",
+              "answer": "Att föräldrar och barn, utifrån egna upplevelser och tankar, ges möjlighet att fundera över hur barnets säkerhet kan främjas, och att miljön runt barnet ska vara både säker och utvecklande."
+            },
+            {
+              "id": "FC-3.5.2",
+              "type": "flashcard",
+              "section": "Skadestatistik",
+              "question": "Hur många barn sökte akutmottagning efter skadehändelser under år 2022 i Sverige?",
+              "answer": "Ungefär 140 000 barn (0–17 år). Av dessa blev 10 300 barn inlagda på sjukhuset, resten fick öppenvård."
+            },
+            {
+              "id": "MC-3.5.1",
+              "type": "multiple_choice",
+              "section": "Vid hälsosamtalet",
+              "question": "Vad är ett viktigt råd vid samtal om barnsäkerhet på BVC?",
+              "options": {
+                "A": "Ge identisk standardinformation till alla föräldrar utan anpassning",
+                "B": "Anpassa samtalet till familjen utifrån barnets ålder och utvecklingsnivå",
+                "C": "Fokusera uteslutande på statistik och faktaunderlag",
+                "D": "Ta enbart upp barnsäkerhet vid specifika besök"
+              },
+              "correct": "B",
+              "explanation": "Anpassa samtalet till familjen och ta upp adekvata barnsäkerhetsfrågor utifrån barnets ålder och utvecklingsnivå. Utgå från barnets och föräldrarnas behov."
+            },
+            {
+              "id": "SF-3.5.1",
+              "type": "true_false",
+              "section": "Barnhälsovårdens uppdrag",
+              "statement": "Sverige saknar ett systematiskt förebyggande arbete kring barnsäkerhet men är ändå ett av de mest barnsäkra länderna i världen.",
+              "correct": false,
+              "explanation": "Sverige ligger långt fram i det förebyggande arbetet kring barnsäkerhet och är ett av de mest barnsäkra länderna i världen. Det förebyggande arbetet är en aktiv satsning."
+            }
+          ]
+        },
+        {
+          "id": "3.6",
+          "title": "Främja barnets säkerhet i lantbruksmiljön",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/barnsakerhet/framja-barnets-sakerhet-i-lantbruksmiljon/",
+          "questions": [
+            {
+              "id": "FC-3.6.1",
+              "type": "flashcard",
+              "section": "Att växa upp på en gård",
+              "question": "Varför löper barn som växer upp i lantbruksmiljö högre risk för olyckor?",
+              "answer": "Föräldrarnas arbetsplats och barnets hem och lekplats sammanfaller på en lantbruksgård, vilket skapar en miljö med spännande men också betydande olycksrisker."
+            },
+            {
+              "id": "FC-3.6.2",
+              "type": "flashcard",
+              "section": "Checklista för barnsäkerhet i lantbruksmiljö",
+              "question": "Vilka BVC-besök lämpar sig bäst för samtal utifrån checklista om barnsäkerhet i lantbruksmiljö?",
+              "answer": "Både första hembesöket och hembesök vid 8 månaders ålder."
+            },
+            {
+              "id": "MC-3.6.1",
+              "type": "multiple_choice",
+              "section": "Att växa upp på en gård",
+              "question": "Vad visade en studie om barns upplevelse av att leva på lantbruk?",
+              "options": {
+                "A": "Barnen var helt omedvetna om faror på gården",
+                "B": "Barnen tyckte det var roligt men var medvetna om att risker och faror fanns",
+                "C": "Gårdar visade sig vara säkrare än stadsmiljöer för barn",
+                "D": "Lantbruksrisker gäller enbart för barn under 2 år"
+              },
+              "correct": "B",
+              "explanation": "Barn berättade att de tyckte det var roligt att leka på gården, hjälpa till med djuren och utföra sysslor, men de var samtidigt medvetna om att risker och faror fanns."
+            },
+            {
+              "id": "SF-3.6.1",
+              "type": "true_false",
+              "section": "Att växa upp på en gård",
+              "statement": "Barn som bor på eller besöker lantbruk har samma olycksrisk som barn i andra uppväxtmiljöer.",
+              "correct": false,
+              "explanation": "Barn som växer upp i eller besöker en lantbruksmiljö har högre risk att råka ut för olyckor än barn i andra uppväxtmiljöer."
+            }
+          ]
+        },
+        {
+          "id": "3.7",
+          "title": "Främja vattensäkerhet",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/barnsakerhet/framja-vattensakerhet/",
+          "questions": [
+            {
+              "id": "FC-3.7.1",
+              "type": "flashcard",
+              "section": "Vanligaste orsaken till dödsolyckor hos barn 1-6 år",
+              "question": "Vad är en av de vanligaste orsakerna till att barn mellan ett och sex år omkommer i en dödsolycka?",
+              "answer": "Drunkning."
+            },
+            {
+              "id": "FC-3.7.2",
+              "type": "flashcard",
+              "section": "Säkerhet på is",
+              "question": "Hur tjock bör kärnis vara för att det ska vara säkert att vistas på den?",
+              "answer": "Minst 10 centimeter tjock, men man måste vara medveten om att isen är olika tjock på olika ställen."
+            },
+            {
+              "id": "MC-3.7.1",
+              "type": "multiple_choice",
+              "section": "Vanligaste orsaken till dödsolyckor hos barn 1-6 år",
+              "question": "Var drunknar barn under ett år oftast?",
+              "options": {
+                "A": "I sjöar och dammar",
+                "B": "I simbassänger",
+                "C": "I badbalja eller badkar",
+                "D": "I hav och hamnbassänger"
+              },
+              "correct": "C",
+              "explanation": "När barn under ett år drunknar är platsen ofta en badbalja eller ett badkar."
+            },
+            {
+              "id": "SF-3.7.1",
+              "type": "true_false",
+              "section": "Vanligaste orsaken till dödsolyckor hos barn 1-6 år",
+              "statement": "Föräldrar känner i allmänhet till hur snabbt och tyst ett barn kan drunkna.",
+              "correct": false,
+              "explanation": "Föräldrar känner inte alltid till hur tyst och snabbt ett barn kan drunkna. Därför är det viktigt att lyfta frågan för att öka deras kunskap och medvetenhet."
+            }
+          ]
+        },
+        {
+          "id": "3.8",
+          "title": "Främja cykelsäkerhet",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/barnsakerhet/framja-cykelsakerhet/",
+          "questions": [
+            {
+              "id": "FC-3.8.1",
+              "type": "flashcard",
+              "section": "Skjutsa barn på cykel",
+              "question": "Från vilken ålder kan en cykelsits användas och vad krävs av barnet?",
+              "answer": "När barnet kan sitta stadigt utan stöd, i genomsnitt vid nio månaders ålder. Barnet ska också vara tillräckligt starkt i nacken för att bära hjälm."
+            },
+            {
+              "id": "FC-3.8.2",
+              "type": "flashcard",
+              "section": "Hjälm",
+              "question": "Vad säger svensk lag om cykelhjälm för barn?",
+              "answer": "Barn upp till femton år som färdas på eller cyklar på tvåhjulig cykel ska ha cykelhjälm."
+            },
+            {
+              "id": "MC-3.8.1",
+              "type": "multiple_choice",
+              "section": "Säker småbarnshjälm med grönt spänne",
+              "question": "Varför rekommenderas småbarnshjälm med grönt spänne (EN 1080) för barn upp till sju år?",
+              "options": {
+                "A": "Det är grönfärgade hjälmar av estetiska skäl",
+                "B": "Spännet löser ut om barnet fastnar, vilket minskar stryprisken vid lek utanför cykeln",
+                "C": "Det är en obligatorisk märkning i svensk lag",
+                "D": "Dessa hjälmar ger bäst skydd specifikt vid cykling"
+              },
+              "correct": "B",
+              "explanation": "Eftersom små barn ofta lämnar cykeln för annan lek, är rekommendationen att barn upp till sju år ska ha småbarnshjälm med spänne som löser ut om barnet fastnar."
+            },
+            {
+              "id": "SF-3.8.1",
+              "type": "true_false",
+              "section": "När barnet cyklar själv",
+              "statement": "Tvåhjuling med stödhjul rekommenderas som det bästa sättet att lära barn att cykla.",
+              "correct": false,
+              "explanation": "Tvåhjuling med stödhjul rekommenderas inte då farten riskerar att bli högre än barnet kan hantera. Balanscykel rekommenderas kring treårsåldern som förberedelse till tvåhjulig cykel."
+            }
+          ]
+        },
+        {
+          "id": "3.9",
+          "title": "Barn i bil",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/barnsakerhet/barn-i-bil/",
+          "questions": [
+            {
+              "id": "FC-3.9.1",
+              "type": "flashcard",
+              "section": "Barn under tre år",
+              "question": "Vad är rekommendationen i Sverige för hur barn ska sitta i bil?",
+              "answer": "Rekommendationen är att barnet åker bakåtvänt. Barn under tre år ska placeras i en särskild skyddsanordning."
+            },
+            {
+              "id": "FC-3.9.2",
+              "type": "flashcard",
+              "section": "Certifiering av bilbarnskydd",
+              "question": "Vad är den viktigaste skillnaden mellan certifieringsstandarderna UN ECE R44 och R129 (i-Size)?",
+              "answer": "R129 (i-Size) är även sidokrockstestad och baserar bilbarnstolens användning på barnets längd snarare än vikt som i R44."
+            },
+            {
+              "id": "MC-3.9.1",
+              "type": "multiple_choice",
+              "section": "NTF avråder från framåtvända bilstolar till barn från 15 månader",
+              "question": "Vad avråder NTF och säkerhetsexperter ifrån?",
+              "options": {
+                "A": "Bakåtvända bilbarnstolar",
+                "B": "Framåtvända bilbarnstolar till barn under 4 år",
+                "C": "Bältesstolar för barn under 10 år",
+                "D": "Bilresor med barn under 1 år"
+              },
+              "correct": "B",
+              "explanation": "NTF och andra experter avråder från framåtvända bilbarnstolar till barn under 4 år, trots att sådana stolar säljs med rekommendation från 15 månaders ålder."
+            },
+            {
+              "id": "SF-3.9.1",
+              "type": "true_false",
+              "section": "Barn under tre år",
+              "statement": "Det är tillåtet att ta med barn under tre år i bil utan skyddsanordning om resan är kort.",
+              "correct": false,
+              "explanation": "Barn under tre år får inte färdas i bil utan att placeras i en särskild skyddsanordning. Undantag görs för kortare resor i taxi, men då får inte barnet åka i framsätet."
+            }
+          ]
+        },
+        {
+          "id": "3.10",
+          "title": "Säkra leksaker och säkerhetskrav",
+          "source_url": "https://www.rikshandboken-bhv.se/foraldraskapsstod/barnsakerhet/barnsakerhet-i-hemmet---oversikt/sakra-leksaker-och-sakerhetskrav/",
+          "questions": [
+            {
+              "id": "FC-3.10.1",
+              "type": "flashcard",
+              "section": "Kontroll av barnets leksaker",
+              "question": "Hur stor diameter bör leksaker till små barn ha för att inte utgöra kvävningsrisk?",
+              "answer": "Större än 3,2 cm i diameter. Kulor, små bollar och äggformade föremål bör vara över 5 cm i diameter."
+            },
+            {
+              "id": "FC-3.10.2",
+              "type": "flashcard",
+              "section": "Tillverkning av egna produkter samt användning av målarfärg och lim",
+              "question": "Vilken risk finns med hemgjord lera?",
+              "answer": "Hemgjord lera innehåller ofta stora mängder salt, vilket kan vara skadligt om barnet äter den."
+            },
+            {
+              "id": "MC-3.10.1",
+              "type": "multiple_choice",
+              "section": "Miljö och hållbara val vid leksaksköp",
+              "question": "Vilket alternativ är ett bättre val ur miljö- och hälsoperspektiv vid leksaksköp?",
+              "options": {
+                "A": "Plastleksaker med okänd kemikaliesammansättning",
+                "B": "Leksaker i trä, naturgummi eller ekologiskt textilmaterial",
+                "C": "Begagnade plastleksaker utan märkning",
+                "D": "Nyproducerade leksaker utan miljömärkning"
+              },
+              "correct": "B",
+              "explanation": "Leksaker i trä, naturgummi eller ekologiskt textilmaterial är ett bättre val än plastleksaker med okänd kemikaliesammansättning."
+            },
+            {
+              "id": "SF-3.10.1",
+              "type": "true_false",
+              "section": "Kontroll av barnets leksaker",
+              "statement": "Leksaker tillverkade före 2013 är säkra att använda eftersom de är välbeprövade och testade.",
+              "correct": false,
+              "explanation": "Leksaker tillverkade före 2013 kan innehålla kemikalier som nu är förbjudna. Rådet är att rensa ut gamla leksaker."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
