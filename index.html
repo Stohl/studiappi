@@ -42,6 +42,8 @@
   .main-cat-btn .cat-emoji { font-size: 1.8rem; display: block; margin-bottom: 6px; }
   .main-cat-btn .cat-name { font-size: 0.85rem; font-weight: 600; }
   .main-cat-btn .cat-count { font-size: 0.75rem; color: var(--gray); margin-top: 2px; }
+  .cat-progress-bar { height: 5px; background: var(--border); border-radius: 3px; margin-top: 8px; overflow: hidden; }
+  .cat-progress-bar-fill { height: 100%; background: var(--green); border-radius: 3px; }
 
   .section-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--gray); margin-bottom: 12px; }
   .divider { height: 1px; background: var(--border); margin: 20px 0; }
@@ -278,6 +280,27 @@ let correct = 0, wrong = 0, streak = 0;
 let wrongPool = [];
 let fcFlipped = false, answered = false;
 
+// ── Persistence ──────────────────────────────────────────────────────────────
+function qId(q) {
+  const s = q.type + q.q;
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
+  return h.toString(36);
+}
+
+function getResults() {
+  try { return JSON.parse(localStorage.getItem('bhv_results') || '{}'); }
+  catch { return {}; }
+}
+
+function saveResult(q, isCorrect) {
+  const r = getResults();
+  const id = qId(q);
+  if (!r[id]) r[id] = { c: 0, w: 0 };
+  if (isCorrect) r[id].c++; else r[id].w++;
+  localStorage.setItem('bhv_results', JSON.stringify(r));
+}
+
 // ── Loading ──────────────────────────────────────────────────────────────────
 async function loadData() {
   const statusEl = document.getElementById('loading-status');
@@ -297,7 +320,6 @@ async function loadData() {
       parseJsonFile(await r.json(), i * 1000);
     }
 
-    selectedCats = new Set(SUBCATS.map(s => s.id));
     renderHome();
     showScreen('home');
 
@@ -357,14 +379,22 @@ function parseJsonFile(data, offset) {
 // ── Home ─────────────────────────────────────────────────────────────────────
 function renderHome() {
   const container = document.getElementById('main-cats-container');
+  const r = getResults();
   container.innerHTML = '';
   MAIN_CATS.forEach(mc => {
     const nSub = SUBCATS.filter(s => s.mainCat === mc.key).length;
-    const btn  = document.createElement('button');
+    const catQs = ALL_QUESTIONS.filter(q => q.mainCat === mc.key);
+    const mastered = catQs.filter(q => { const e = r[qId(q)]; return e && e.c > 0; }).length;
+    const pct = catQs.length > 0 ? Math.round(mastered / catQs.length * 100) : 0;
+    const progressBar = mastered > 0
+      ? `<div class="cat-progress-bar"><div class="cat-progress-bar-fill" style="width:${pct}%"></div></div>`
+      : '';
+    const btn = document.createElement('button');
     btn.className = 'main-cat-btn';
     btn.innerHTML = `<span class="cat-emoji">${mc.emoji}</span>
       <div class="cat-name">${mc.name}</div>
-      <div class="cat-count">${nSub} kategorier · ${mc.count} frågor</div>`;
+      <div class="cat-count">${nSub} kategorier · ${mc.count} frågor</div>
+      ${progressBar}`;
     btn.addEventListener('click', () => showConfig(mc.key));
     container.appendChild(btn);
   });
@@ -373,6 +403,7 @@ function renderHome() {
 // ── Config ────────────────────────────────────────────────────────────────────
 function showConfig(mainCatKey) {
   currentMainCat = mainCatKey;
+  SUBCATS.filter(s => s.mainCat === mainCatKey).forEach(s => selectedCats.add(s.id));
   const mc = MAIN_CATS.find(m => m.key === mainCatKey);
   document.getElementById('config-title').textContent = `${mc.emoji} ${mc.name}`;
   // Reset mode selector UI
@@ -385,15 +416,21 @@ function showConfig(mainCatKey) {
 }
 
 function renderSubcats() {
-  const list    = document.getElementById('subcat-list');
+  const list = document.getElementById('subcat-list');
+  const r = getResults();
   list.innerHTML = '';
   SUBCATS.filter(s => s.mainCat === currentMainCat).forEach(sub => {
+    const subcatQs = ALL_QUESTIONS.filter(q => q.cat === sub.id);
+    const mastered = subcatQs.filter(q => { const e = r[qId(q)]; return e && e.c > 0; }).length;
+    const progressTxt = mastered > 0
+      ? ` · <span style="color:var(--green);font-weight:700;">${mastered}/${sub.count} ✓</span>`
+      : '';
     const item = document.createElement('div');
     item.className = 'subcat-item' + (selectedCats.has(sub.id) ? ' checked' : '');
     item.innerHTML = `<div class="subcat-check"></div>
       <div class="subcat-label">
         <div class="name">${sub.name}</div>
-        <div class="meta">${sub.count} frågor</div>
+        <div class="meta">${sub.count} frågor${progressTxt}</div>
       </div>`;
     item.addEventListener('click', () => {
       if (selectedCats.has(sub.id)) selectedCats.delete(sub.id);
@@ -524,6 +561,7 @@ function flipCard() {
 function fcAnswer(knew) {
   if (answered) return;
   answered = true;
+  saveResult(session[sessionIdx], knew);
   if (knew) {
     correct++; streak++;
     const yesBtn = document.querySelector('.btn-knew.yes');
@@ -558,6 +596,7 @@ function mcAnswer(idx) {
   if (answered) return;
   answered = true;
   const q = session[sessionIdx];
+  saveResult(q, idx === q.correct);
   document.querySelectorAll('.mc-option').forEach((el, i) => {
     el.classList.add('disabled');
     if (i === q.correct) el.classList.add('reveal-correct');
@@ -595,6 +634,7 @@ function sfAnswer(val) {
   answered = true;
   const q = session[sessionIdx];
   const isCorrect = val === q.correct;
+  saveResult(q, isCorrect);
   const s = document.getElementById('btn-sant');
   const f = document.getElementById('btn-falskt');
   s.classList.add('disabled'); f.classList.add('disabled');
