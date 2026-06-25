@@ -19,9 +19,15 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f0f4f8; color: var(--text); min-height: 100vh; }
 
-  .app-header { background: var(--blue); color: white; padding: 16px 24px; display: flex; align-items: center; gap: 12px; box-shadow: 0 2px 8px rgba(0,106,167,0.3); }
-  .app-header h1 { font-size: 1.2rem; font-weight: 700; }
-  .app-header .subtitle { font-size: 0.8rem; opacity: 0.8; }
+  /* Header */
+  .app-header { background: var(--blue); color: white; padding: 12px 20px; display: flex; align-items: center; gap: 12px; box-shadow: 0 2px 8px rgba(0,106,167,0.3); }
+  .app-header h1 { font-size: 1.1rem; font-weight: 700; }
+  .app-header .subtitle { font-size: 0.72rem; opacity: 0.8; }
+  .header-xp { margin-left: auto; text-align: right; min-width: 110px; }
+  .header-level { font-size: 0.7rem; font-weight: 700; color: rgba(255,255,255,0.9); white-space: nowrap; }
+  .xp-bar-wrap { background: rgba(255,255,255,0.2); border-radius: 4px; height: 5px; margin-top: 4px; overflow: hidden; }
+  .xp-bar-fill { height: 100%; background: #FFD700; border-radius: 4px; transition: width 0.6s ease; }
+  .header-xp-next { font-size: 0.62rem; color: rgba(255,255,255,0.65); margin-top: 3px; }
 
   .screen { display: none; padding: 24px; max-width: 700px; margin: 0 auto; }
   .screen.active { display: block; }
@@ -33,11 +39,17 @@
   .loading-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
   .loading-status { font-size: 0.85rem; color: var(--gray); line-height: 1.6; }
   .error-box { background: var(--red-light); border: 1px solid var(--red); border-radius: var(--radius-sm); padding: 16px 20px; margin-top: 20px; text-align: left; font-size: 0.9rem; line-height: 1.7; color: var(--red); }
-  .error-box code { background: rgba(0,0,0,0.06); padding: 2px 6px; border-radius: 4px; font-family: monospace; }
 
-  /* Home */
+  /* Home – streak widget */
+  .home-streak { background: var(--white); border-radius: var(--radius); padding: 12px 16px; margin-bottom: 16px; display: flex; align-items: center; gap: 12px; border: 2px solid #fde8c0; }
+  .streak-flame { font-size: 2rem; }
+  .streak-info .streak-title { font-size: 0.9rem; font-weight: 700; }
+  .streak-info .streak-sub { font-size: 0.75rem; color: var(--gray); margin-top: 2px; }
+  .streak-info .next-goal { font-size: 0.72rem; color: var(--blue); font-weight: 700; margin-top: 3px; }
+
+  /* Home – category grid */
   .main-cats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 24px; }
-  .main-cat-btn { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius); padding: 16px; cursor: pointer; text-align: center; transition: all 0.2s; position: relative; }
+  .main-cat-btn { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius); padding: 16px; cursor: pointer; text-align: center; transition: all 0.2s; }
   .main-cat-btn:hover { border-color: var(--blue); box-shadow: var(--shadow); transform: translateY(-1px); }
   .main-cat-btn .cat-emoji { font-size: 1.8rem; display: block; margin-bottom: 6px; }
   .main-cat-btn .cat-name { font-size: 0.85rem; font-weight: 600; }
@@ -48,6 +60,7 @@
   .section-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--gray); margin-bottom: 12px; }
   .divider { height: 1px; background: var(--border); margin: 20px 0; }
 
+  /* Subcats */
   .subcat-grid { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
   .subcat-item { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius-sm); padding: 12px 16px; display: flex; align-items: center; gap: 12px; cursor: pointer; transition: all 0.15s; user-select: none; }
   .subcat-item:hover { border-color: var(--blue); background: var(--blue-light); }
@@ -64,6 +77,14 @@
   .btn-sm { padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border); background: var(--white); font-size: 0.8rem; cursor: pointer; font-weight: 600; transition: all 0.15s; color: var(--gray); }
   .btn-sm:hover { border-color: var(--blue); color: var(--blue); }
 
+  /* Session length */
+  .session-len-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 20px; }
+  .len-btn { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius-sm); padding: 10px 4px; cursor: pointer; text-align: center; font-size: 0.85rem; font-weight: 700; color: var(--text); transition: all 0.15s; }
+  .len-btn:hover { border-color: var(--blue); }
+  .len-btn.selected { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
+  .len-btn .len-icon { font-size: 1.1rem; display: block; margin-bottom: 2px; }
+
+  /* Mode */
   .mode-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
   .mode-btn { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius-sm); padding: 14px; cursor: pointer; text-align: center; transition: all 0.15s; }
   .mode-btn:hover { border-color: var(--blue); }
@@ -78,6 +99,7 @@
   .btn-ghost { background: transparent; color: var(--gray); padding: 10px 20px; border: 2px solid var(--border); border-radius: var(--radius); font-size: 0.9rem; font-weight: 600; cursor: pointer; transition: all 0.15s; width: 100%; }
   .btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
 
+  /* Study screen */
   #screen-study { padding: 16px; }
   .study-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
   .study-back { background: none; border: none; font-size: 1.2rem; cursor: pointer; padding: 4px; }
@@ -85,16 +107,18 @@
   .progress-bar-bg { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
   .progress-bar-fill { height: 100%; background: var(--blue); border-radius: 4px; transition: width 0.4s ease; }
   .progress-text { font-size: 0.75rem; color: var(--gray); margin-top: 4px; }
-  .study-stats { display: flex; gap: 12px; margin-bottom: 16px; }
+  .study-stats { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
   .stat-chip { background: var(--white); border-radius: 20px; padding: 5px 12px; font-size: 0.8rem; font-weight: 700; border: 1px solid var(--border); display: flex; align-items: center; gap: 5px; }
   .stat-chip.green { background: var(--green-light); border-color: var(--green); color: var(--green); }
   .stat-chip.red { background: var(--red-light); border-color: var(--red); color: var(--red); }
+  .stat-chip.xp { background: #fff8e6; border-color: var(--yellow); color: #a07000; }
 
   .q-type-badge { display: inline-block; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 3px 10px; border-radius: 20px; margin-bottom: 12px; }
   .q-type-badge.fc { background: #e8eaf6; color: #3949ab; }
   .q-type-badge.mc { background: #e8f5e9; color: #2e7d32; }
   .q-type-badge.sf { background: #fff3e0; color: #e65100; }
 
+  /* Flashcard */
   .flashcard-scene { perspective: 1200px; width: 100%; margin-bottom: 16px; }
   .flashcard { width: 100%; min-height: 220px; position: relative; transform-style: preserve-3d; transition: transform 0.5s ease; cursor: pointer; }
   .flashcard.flipped { transform: rotateY(180deg); }
@@ -111,6 +135,7 @@
   .btn-knew.no { background: var(--red-light); color: var(--red); border: 2px solid var(--red); }
   .btn-knew.no:hover { background: var(--red); color: white; }
 
+  /* Multiple choice */
   .mc-card, .sf-card { background: var(--white); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); margin-bottom: 16px; }
   .mc-question, .sf-statement { font-size: 1rem; font-weight: 600; line-height: 1.6; margin-bottom: 20px; }
   .mc-options { display: flex; flex-direction: column; gap: 10px; }
@@ -125,6 +150,7 @@
   .selected-wrong .option-letter { background: var(--red); color: white; }
   .reveal-correct .option-letter { background: var(--green); color: white; }
 
+  /* True/false */
   .sf-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   .sf-btn { padding: 20px; border: 2px solid var(--border); border-radius: var(--radius); font-size: 1.1rem; font-weight: 800; cursor: pointer; transition: all 0.15s; text-align: center; }
   .sf-btn.sant { color: var(--green); border-color: var(--green); }
@@ -140,18 +166,22 @@
   .explanation-box strong { color: var(--yellow); }
   .source-link { display: inline-flex; align-items: center; gap: 5px; margin-top: 10px; font-size: 0.78rem; color: var(--blue); text-decoration: none; font-weight: 600; border-top: 1px solid rgba(240,165,0,0.3); padding-top: 8px; width: 100%; }
   .source-link:hover { text-decoration: underline; }
-  .source-link-plain { display: inline-flex; align-items: center; gap: 5px; font-size: 0.78rem; color: var(--blue); text-decoration: none; font-weight: 600; margin-bottom: 8px; }
-  .source-link-plain:hover { text-decoration: underline; }
 
   @keyframes slideIn { from { opacity:0; transform: translateY(-6px); } to { opacity:1; transform: translateY(0); } }
   .next-btn { background: var(--blue); color: white; border: none; padding: 14px 28px; border-radius: var(--radius); font-size: 0.95rem; font-weight: 700; cursor: pointer; width: 100%; transition: all 0.15s; animation: fadeIn 0.2s; }
   .next-btn:hover { background: var(--blue-dark); }
   @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
+  /* Results */
   #screen-results { text-align: center; }
   .result-emoji { font-size: 4rem; margin: 20px 0 10px; }
   .result-title { font-size: 1.6rem; font-weight: 800; margin-bottom: 8px; }
-  .result-subtitle { color: var(--gray); margin-bottom: 28px; }
+  .result-subtitle { color: var(--gray); margin-bottom: 20px; }
+  .result-xp-box { background: linear-gradient(135deg, #1a1a2e, #2d3561); color: white; border-radius: var(--radius); padding: 18px 20px; margin-bottom: 20px; }
+  .result-xp-box .xp-earned { font-size: 2rem; font-weight: 900; color: #FFD700; }
+  .result-xp-box .xp-label { font-size: 0.82rem; opacity: 0.75; margin-bottom: 10px; }
+  .result-xp-box .xp-bar-wrap { background: rgba(255,255,255,0.15); }
+  .result-xp-box .level-line { font-size: 0.78rem; opacity: 0.7; margin-top: 6px; }
   .result-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-bottom: 28px; }
   .result-stat { background: var(--white); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
   .result-stat .val { font-size: 1.8rem; font-weight: 800; }
@@ -161,12 +191,37 @@
   .result-stat.blue .val { color: var(--blue); }
   .result-actions { display: flex; flex-direction: column; gap: 10px; }
 
-  .streak-flash { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2.6rem; font-weight: 900; color: var(--green); pointer-events: none; z-index: 999; animation: streakAnim 2s ease forwards; text-shadow: 0 2px 16px rgba(45,158,95,0.3); }
-  @keyframes streakAnim { 0% { opacity:0; transform: translate(-50%,-60%) scale(0.7); } 20% { opacity:1; transform: translate(-50%,-50%) scale(1.15); } 60% { opacity:1; transform: translate(-50%,-50%) scale(1); } 100% { opacity:0; transform: translate(-50%,-42%); } }
+  /* Streak flash */
+  .streak-flash { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size: 2.6rem; font-weight: 900; color: var(--green); pointer-events: none; z-index: 999; animation: streakAnim 2s ease forwards; text-shadow: 0 2px 16px rgba(45,158,95,0.3); }
+  @keyframes streakAnim { 0%{opacity:0;transform:translate(-50%,-60%) scale(0.7);} 20%{opacity:1;transform:translate(-50%,-50%) scale(1.15);} 60%{opacity:1;transform:translate(-50%,-50%) scale(1);} 100%{opacity:0;transform:translate(-50%,-42%);} }
   .fc-correct-flash { background: var(--green) !important; color: white !important; border-color: var(--green) !important; transform: scale(1.03); transition: all 0.2s !important; }
   .kbd-hint { text-align: center; font-size: 0.72rem; color: var(--gray); margin-top: 8px; }
   .card-appear { animation: cardAppear 0.25s ease; }
-  @keyframes cardAppear { from { opacity:0; transform: translateY(8px); } to { opacity:1; transform: translateY(0); } }
+  @keyframes cardAppear { from{opacity:0;transform:translateY(8px);} to{opacity:1;transform:translateY(0);} }
+
+  /* XP float */
+  .xp-gain { position: fixed; pointer-events: none; z-index: 1000; font-size: 1.1rem; font-weight: 900; color: #FFD700; text-shadow: 0 1px 8px rgba(0,0,0,0.4); animation: xpFloat 1.2s ease forwards; }
+  @keyframes xpFloat { 0%{opacity:0;transform:translateY(0) scale(0.7);} 20%{opacity:1;transform:translateY(-12px) scale(1.2);} 80%{opacity:1;transform:translateY(-45px) scale(1);} 100%{opacity:0;transform:translateY(-65px);} }
+
+  /* Level up overlay */
+  .level-up-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.75); z-index: 2000; display: flex; align-items: center; justify-content: center; }
+  .level-up-box { background: var(--white); border-radius: var(--radius); padding: 40px 32px; text-align: center; max-width: 300px; width: 90%; animation: levelPop 0.4s cubic-bezier(0.34,1.56,0.64,1); }
+  @keyframes levelPop { from{transform:scale(0.4);opacity:0;} to{transform:scale(1);opacity:1;} }
+  .lu-stars { font-size: 2.5rem; margin-bottom: 8px; }
+  .lu-label { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--gray); }
+  .lu-name { font-size: 1.7rem; font-weight: 900; color: var(--blue); margin: 10px 0 6px; }
+  .lu-sub { font-size: 0.85rem; color: var(--gray); margin-bottom: 20px; }
+
+  /* Achievement toast */
+  .ach-toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(120px); background: #1a1a2e; color: white; border-radius: var(--radius); padding: 14px 20px; display: flex; align-items: center; gap: 12px; z-index: 1500; min-width: 240px; max-width: 320px; box-shadow: 0 8px 32px rgba(0,0,0,0.4); transition: transform 0.35s cubic-bezier(0.34,1.56,0.64,1); }
+  .ach-toast.show { transform: translateX(-50%) translateY(0); }
+  .ach-big-icon { font-size: 2rem; }
+  .ach-inner .ach-label { font-size: 0.68rem; color: #FFD700; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+  .ach-inner .ach-name { font-size: 0.95rem; font-weight: 700; }
+
+  /* Confetti */
+  .confetti-piece { position: fixed; top: -20px; pointer-events: none; z-index: 1999; animation: confettiFall var(--dur,2s) ease-in forwards; }
+  @keyframes confettiFall { 0%{transform:translateY(0) rotate(0deg);opacity:1;} 100%{transform:translateY(105vh) rotate(720deg);opacity:0;} }
 </style>
 </head>
 <body>
@@ -176,6 +231,11 @@
   <div>
     <h1>BHV Studiapp</h1>
     <div class="subtitle">Rikshandboken i barnhälsovård</div>
+  </div>
+  <div class="header-xp">
+    <div class="header-level" id="header-level">BHV-novis</div>
+    <div class="xp-bar-wrap"><div class="xp-bar-fill" id="header-xp-fill" style="width:0%"></div></div>
+    <div class="header-xp-next" id="header-xp-next">0 / 100 XP</div>
   </div>
 </div>
 
@@ -190,6 +250,7 @@
 
 <!-- HOME -->
 <div id="screen-home" class="screen">
+  <div id="home-streak-wrap"></div>
   <div class="section-title" style="margin-top:4px;">Välj ämnesområde</div>
   <div class="main-cats" id="main-cats-container"></div>
 </div>
@@ -210,6 +271,14 @@
   </div>
   <div class="subcat-grid" id="subcat-list"></div>
   <div class="divider"></div>
+  <div class="section-title">Antal frågor per session</div>
+  <div class="session-len-grid">
+    <button class="len-btn" onclick="selectLen(this,5)"><span class="len-icon">⚡</span>5</button>
+    <button class="len-btn" onclick="selectLen(this,10)"><span class="len-icon">🔥</span>10</button>
+    <button class="len-btn" onclick="selectLen(this,20)"><span class="len-icon">💪</span>20</button>
+    <button class="len-btn selected" onclick="selectLen(this,null)"><span class="len-icon">🎯</span>Alla</button>
+  </div>
+  <div class="divider" style="margin-top:0;"></div>
   <div class="section-title">Format</div>
   <div class="mode-grid">
     <div class="mode-btn selected" onclick="selectMode(this,'all')"><div class="mode-icon">🎲</div><div class="mode-name">Blandat</div><div class="mode-desc">Alla format</div></div>
@@ -233,6 +302,7 @@
     <div class="stat-chip green" id="stat-correct">✓ 0</div>
     <div class="stat-chip red" id="stat-wrong">✗ 0</div>
     <div class="stat-chip" id="stat-streak">🔥 0 i rad</div>
+    <div class="stat-chip xp" id="stat-xp">⚡ 0 XP</div>
   </div>
   <div id="question-area"></div>
 </div>
@@ -242,6 +312,12 @@
   <div class="result-emoji" id="result-emoji">🎉</div>
   <div class="result-title" id="result-title">Bra jobbat!</div>
   <div class="result-subtitle" id="result-subtitle"></div>
+  <div id="result-xp-box" class="result-xp-box" style="display:none;">
+    <div class="xp-earned" id="res-xp-num">+0 XP</div>
+    <div class="xp-label">intjänat denna session</div>
+    <div class="xp-bar-wrap"><div class="xp-bar-fill" id="res-xp-bar" style="width:0%"></div></div>
+    <div class="level-line" id="res-level-line"></div>
+  </div>
   <div class="result-stats">
     <div class="result-stat green"><div class="val" id="res-correct">0</div><div class="lbl">Rätt</div></div>
     <div class="result-stat red"><div class="val" id="res-wrong">0</div><div class="lbl">Fel</div></div>
@@ -254,13 +330,32 @@
   </div>
 </div>
 
+<!-- Level-up overlay -->
+<div id="level-up-overlay" class="level-up-overlay" style="display:none;">
+  <div class="level-up-box">
+    <div class="lu-stars">⭐ 🌟 ⭐</div>
+    <div class="lu-label">Ny nivå upplåst!</div>
+    <div class="lu-name" id="lu-name"></div>
+    <div class="lu-sub" id="lu-sub"></div>
+    <button class="btn-primary" onclick="closeLevelUp()">Fortsätt! 🚀</button>
+  </div>
+</div>
+
+<!-- Achievement toast -->
+<div id="ach-toast" class="ach-toast">
+  <div class="ach-big-icon" id="ach-icon">🏅</div>
+  <div class="ach-inner">
+    <div class="ach-label">Utmärkelse upplåst!</div>
+    <div class="ach-name" id="ach-name"></div>
+  </div>
+</div>
+
 <script>
 // ── Dynamic data ─────────────────────────────────────────────────────────────
 let ALL_QUESTIONS = [];
 let SUBCATS = [];
 let MAIN_CATS = [];
 
-// Emoji/key mapping for known category names
 const CAT_META = {
   'Vaccination':            { emoji: '💉', key: 'vaccination' },
   'Amning & nutrition':     { emoji: '🍼', key: 'amning' },
@@ -271,12 +366,38 @@ const CAT_META = {
   'Verksamhetsriktlinjer':  { emoji: '📋', key: 'riktlinjer' },
 };
 
+const LEVELS = [
+  { level:1, name:'BHV-novis',      minXP:0    },
+  { level:2, name:'BHV-lärling',    minXP:100  },
+  { level:3, name:'BHV-praktikant', minXP:300  },
+  { level:4, name:'BHV-scout',      minXP:600  },
+  { level:5, name:'BHV-assistent',  minXP:1000 },
+  { level:6, name:'BHV-specialist', minXP:1600 },
+  { level:7, name:'BHV-expert',     minXP:2400 },
+  { level:8, name:'BHV-mästare',    minXP:3500 },
+];
+
+const ACHIEVEMENTS = [
+  { id:'first',   name:'Första rätt!',      icon:'🌱', check:s => s.totalC >= 1 },
+  { id:'s5',      name:'5 i rad',           icon:'🔥', check:s => s.sesStreak >= 5 },
+  { id:'s10',     name:'10 i rad',          icon:'💥', check:s => s.sesStreak >= 10 },
+  { id:'s20',     name:'20 i rad!!',        icon:'🌪️', check:s => s.sesStreak >= 20 },
+  { id:'c25',     name:'25 rätt totalt',    icon:'⭐', check:s => s.totalC >= 25 },
+  { id:'c100',    name:'100 rätt totalt',   icon:'🏅', check:s => s.totalC >= 100 },
+  { id:'c250',    name:'250 rätt totalt',   icon:'🏆', check:s => s.totalC >= 250 },
+  { id:'c500',    name:'500 rätt totalt',   icon:'👑', check:s => s.totalC >= 500 },
+  { id:'perfect', name:'Perfekt omgång!',   icon:'💯', check:s => s.sesWrong === 0 && s.sesTotal >= 5 },
+  { id:'daily3',  name:'3 dagar i rad',     icon:'📅', check:s => s.dailyStreak >= 3 },
+  { id:'daily7',  name:'7 dagar i rad',     icon:'🗓️', check:s => s.dailyStreak >= 7 },
+];
+
 // ── State ────────────────────────────────────────────────────────────────────
-let selectedCats  = new Set();
-let selectedMode  = 'all';
+let selectedCats = new Set();
+let selectedMode = 'all';
+let sessionLengthLimit = null;
 let currentMainCat = null;
 let session = [], sessionIdx = 0;
-let correct = 0, wrong = 0, streak = 0;
+let correct = 0, wrong = 0, streak = 0, sessionXP = 0;
 let wrongPool = [];
 let fcFlipped = false, answered = false;
 
@@ -287,18 +408,140 @@ function qId(q) {
   for (let i = 0; i < s.length; i++) h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
   return h.toString(36);
 }
-
 function getResults() {
   try { return JSON.parse(localStorage.getItem('bhv_results') || '{}'); }
   catch { return {}; }
 }
-
 function saveResult(q, isCorrect) {
   const r = getResults();
   const id = qId(q);
-  if (!r[id]) r[id] = { c: 0, w: 0 };
+  if (!r[id]) r[id] = { c:0, w:0 };
   if (isCorrect) r[id].c++; else r[id].w++;
   localStorage.setItem('bhv_results', JSON.stringify(r));
+}
+function getTotalCorrect() {
+  return Object.values(getResults()).reduce((s,e) => s + (e.c||0), 0);
+}
+
+// ── XP & Levels ──────────────────────────────────────────────────────────────
+function getXP() {
+  return parseInt(localStorage.getItem('bhv_xp') || '0');
+}
+function getLevel(xp) {
+  let lv = LEVELS[0];
+  for (const l of LEVELS) { if (xp >= l.minXP) lv = l; else break; }
+  const next = LEVELS.find(l => l.minXP > xp);
+  const pct = next ? Math.round((xp - lv.minXP) / (next.minXP - lv.minXP) * 100) : 100;
+  return { ...lv, nextMinXP: next ? next.minXP : null, pct };
+}
+function addXP(amount) {
+  const oldXP = getXP();
+  const newXP = oldXP + amount;
+  const oldLv = getLevel(oldXP).level;
+  const newLv = getLevel(newXP);
+  localStorage.setItem('bhv_xp', newXP);
+  if (newLv.level > oldLv) setTimeout(() => showLevelUp(newLv), 500);
+  return newXP;
+}
+function updateHeaderXP() {
+  const xp = getXP();
+  const lv = getLevel(xp);
+  document.getElementById('header-level').textContent = lv.name;
+  document.getElementById('header-xp-fill').style.width = lv.pct + '%';
+  document.getElementById('header-xp-next').textContent = lv.nextMinXP
+    ? `${xp} / ${lv.nextMinXP} XP`
+    : `${xp} XP · Max!`;
+}
+
+// ── Daily streak ──────────────────────────────────────────────────────────────
+function getDailyStreak() {
+  try { return JSON.parse(localStorage.getItem('bhv_daily') || '{"streak":0,"last":""}'); }
+  catch { return { streak:0, last:'' }; }
+}
+function updateDailyStreak() {
+  const today = new Date().toISOString().slice(0,10);
+  const d = getDailyStreak();
+  if (d.last === today) return d.streak;
+  const yesterday = new Date(Date.now()-86400000).toISOString().slice(0,10);
+  const newStreak = d.last === yesterday ? d.streak + 1 : 1;
+  localStorage.setItem('bhv_daily', JSON.stringify({ streak:newStreak, last:today }));
+  return newStreak;
+}
+
+// ── Achievements ──────────────────────────────────────────────────────────────
+function getUnlocked() {
+  try { return JSON.parse(localStorage.getItem('bhv_ach') || '[]'); }
+  catch { return []; }
+}
+let achQueue = [], achRunning = false;
+function checkAchievements(stats) {
+  const unlocked = getUnlocked();
+  const toShow = [];
+  for (const a of ACHIEVEMENTS) {
+    if (!unlocked.includes(a.id) && a.check(stats)) { unlocked.push(a.id); toShow.push(a); }
+  }
+  if (toShow.length) {
+    localStorage.setItem('bhv_ach', JSON.stringify(unlocked));
+    toShow.forEach(a => achQueue.push(a));
+    if (!achRunning) drainAch();
+  }
+}
+function drainAch() {
+  if (!achQueue.length) { achRunning = false; return; }
+  achRunning = true;
+  const a = achQueue.shift();
+  const toast = document.getElementById('ach-toast');
+  document.getElementById('ach-icon').textContent = a.icon;
+  document.getElementById('ach-name').textContent = a.name;
+  toast.classList.add('show');
+  setTimeout(() => { toast.classList.remove('show'); setTimeout(drainAch, 400); }, 2600);
+}
+
+// ── Confetti ──────────────────────────────────────────────────────────────────
+function spawnConfetti(n) {
+  const colors = ['#FFD700','#FF6B6B','#4ECDC4','#45B7D1','#96CEB4','#DDA0DD','#FF9F43','#FFEAA7'];
+  for (let i = 0; i < n; i++) {
+    setTimeout(() => {
+      const el = document.createElement('div');
+      el.className = 'confetti-piece';
+      el.style.left = Math.random()*100 + 'vw';
+      el.style.background = colors[i % colors.length];
+      el.style.setProperty('--dur', (1.4 + Math.random()*1.6) + 's');
+      el.style.width = (7 + Math.random()*7) + 'px';
+      el.style.height = (7 + Math.random()*7) + 'px';
+      el.style.borderRadius = Math.random() > 0.5 ? '50%' : '2px';
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 3200);
+    }, i * 25);
+  }
+}
+
+// ── XP float animation ────────────────────────────────────────────────────────
+function showXPGain(amount, anchorEl) {
+  const rect = anchorEl
+    ? anchorEl.getBoundingClientRect()
+    : { top: window.innerHeight/2, left: window.innerWidth/2, width: 60 };
+  const el = document.createElement('div');
+  el.className = 'xp-gain';
+  el.textContent = '+' + amount + ' XP';
+  el.style.left = Math.round(rect.left + rect.width/2 - 30) + 'px';
+  el.style.top  = Math.round(rect.top + window.scrollY - 5) + 'px';
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 1300);
+}
+
+// ── Level up overlay ──────────────────────────────────────────────────────────
+function showLevelUp(lv) {
+  document.getElementById('lu-name').textContent = lv.name;
+  const xp = getXP();
+  document.getElementById('lu-sub').textContent = lv.nextMinXP
+    ? `${lv.nextMinXP - xp} XP till nästa nivå`
+    : 'Maxnivå uppnådd! Du är en legende 🎊';
+  document.getElementById('level-up-overlay').style.display = 'flex';
+  spawnConfetti(50);
+}
+function closeLevelUp() {
+  document.getElementById('level-up-overlay').style.display = 'none';
 }
 
 // ── Loading ──────────────────────────────────────────────────────────────────
@@ -319,10 +562,9 @@ async function loadData() {
       if (!r.ok) throw new Error(`Kunde inte ladda ${files[i]}: HTTP ${r.status}`);
       parseJsonFile(await r.json(), i * 1000);
     }
-
+    updateHeaderXP();
     renderHome();
     showScreen('home');
-
   } catch (err) {
     showLoadError(err.message);
     console.error(err);
@@ -330,54 +572,58 @@ async function loadData() {
 }
 
 function showLoadError(msg) {
-  document.getElementById('loading-status').innerHTML = `
-    <div class="error-box">
-      ❌ ${msg}<br><br>
-      Kontrollera att JSON-filerna finns i samma mapp som HTML-filen.
-    </div>`;
+  document.getElementById('loading-status').innerHTML =
+    `<div class="error-box">❌ ${msg}<br><br>Kontrollera att JSON-filerna finns i samma mapp som HTML-filen.</div>`;
 }
 
 function parseJsonFile(data, offset) {
   const catName = data.category || 'Okänd';
-  const meta    = CAT_META[catName] || { emoji: '📚', key: catName.toLowerCase().replace(/[^a-z]/g, '') };
+  const meta    = CAT_META[catName] || { emoji:'📚', key:catName.toLowerCase().replace(/[^a-z]/g,'') };
   const mcKey   = meta.key;
   let   total   = 0;
-
   data.subcategories.forEach(sc => {
     const catId = sc.id + offset;
     let count = 0;
-
     (sc.pages || []).forEach(page => {
       const url = page.source_url || '';
       (page.questions || []).forEach(q => {
         count++;
         if (q.type === 'flashcard') {
-          ALL_QUESTIONS.push({ mainCat: mcKey, cat: catId, type: 'fc',
-            q: q.question, a: q.answer, url });
+          ALL_QUESTIONS.push({ mainCat:mcKey, cat:catId, type:'fc', q:q.question, a:q.answer, url });
         } else if (q.type === 'multiple_choice') {
           const o = q.options;
           const optList = ['A','B','C','D'].map(k => o[k]).filter(Boolean);
-          ALL_QUESTIONS.push({ mainCat: mcKey, cat: catId, type: 'mc',
-            q: q.question, opts: optList,
-            correct: q.correct.charCodeAt(0) - 65,
-            exp: q.explanation || '', url });
+          ALL_QUESTIONS.push({ mainCat:mcKey, cat:catId, type:'mc', q:q.question, opts:optList,
+            correct:q.correct.charCodeAt(0)-65, exp:q.explanation||'', url });
         } else if (q.type === 'true_false') {
-          ALL_QUESTIONS.push({ mainCat: mcKey, cat: catId, type: 'sf',
-            q: q.statement, correct: q.correct,
-            exp: q.explanation || '', url });
+          ALL_QUESTIONS.push({ mainCat:mcKey, cat:catId, type:'sf', q:q.statement, correct:q.correct,
+            exp:q.explanation||'', url });
         }
       });
     });
-
-    SUBCATS.push({ id: catId, name: sc.name, count, mainCat: mcKey });
+    SUBCATS.push({ id:catId, name:sc.name, count, mainCat:mcKey });
     total += count;
   });
-
-  MAIN_CATS.push({ key: mcKey, name: catName, emoji: meta.emoji, count: total });
+  MAIN_CATS.push({ key:mcKey, name:catName, emoji:meta.emoji, count:total });
 }
 
 // ── Home ─────────────────────────────────────────────────────────────────────
 function renderHome() {
+  const ds = getDailyStreak();
+  const xp = getXP();
+  const lv = getLevel(xp);
+  const toNext = lv.nextMinXP ? lv.nextMinXP - xp : null;
+  const flame = ds.streak >= 7 ? '🔥' : ds.streak >= 3 ? '⚡' : ds.streak >= 1 ? '✨' : '💤';
+  document.getElementById('home-streak-wrap').innerHTML = `
+    <div class="home-streak">
+      <div class="streak-flame">${flame}</div>
+      <div class="streak-info">
+        <div class="streak-title">${ds.streak} dag${ds.streak !== 1 ? 'ar' : ''} i rad</div>
+        <div class="streak-sub">${lv.name} · ${xp} XP totalt</div>
+        ${toNext ? `<div class="next-goal">⭐ ${toNext} XP till nästa nivå</div>` : '<div class="next-goal">👑 Maxnivå uppnådd!</div>'}
+      </div>
+    </div>`;
+
   const container = document.getElementById('main-cats-container');
   const r = getResults();
   container.innerHTML = '';
@@ -385,7 +631,7 @@ function renderHome() {
     const nSub = SUBCATS.filter(s => s.mainCat === mc.key).length;
     const catQs = ALL_QUESTIONS.filter(q => q.mainCat === mc.key);
     const mastered = catQs.filter(q => { const e = r[qId(q)]; return e && e.c > 0; }).length;
-    const pct = catQs.length > 0 ? Math.round(mastered / catQs.length * 100) : 0;
+    const pct = catQs.length > 0 ? Math.round(mastered/catQs.length*100) : 0;
     const progressBar = mastered > 0
       ? `<div class="cat-progress-bar"><div class="cat-progress-bar-fill" style="width:${pct}%"></div></div>`
       : '';
@@ -406,7 +652,6 @@ function showConfig(mainCatKey) {
   SUBCATS.filter(s => s.mainCat === mainCatKey).forEach(s => selectedCats.add(s.id));
   const mc = MAIN_CATS.find(m => m.key === mainCatKey);
   document.getElementById('config-title').textContent = `${mc.emoji} ${mc.name}`;
-  // Reset mode selector UI
   document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('selected'));
   document.querySelectorAll('.mode-btn')[0].classList.add('selected');
   selectedMode = 'all';
@@ -456,32 +701,43 @@ function selectMode(el, mode) {
   updateStartBtn();
 }
 
+function selectLen(el, val) {
+  document.querySelectorAll('.len-btn').forEach(b => b.classList.remove('selected'));
+  el.classList.add('selected');
+  sessionLengthLimit = val;
+  updateStartBtn();
+}
+
 function getFiltered() {
   return ALL_QUESTIONS.filter(q =>
     selectedCats.has(q.cat) && (selectedMode === 'all' || q.type === selectedMode));
 }
 
 function updateStartBtn() {
-  const n   = getFiltered().length;
+  const available = getFiltered().length;
+  const actual = sessionLengthLimit ? Math.min(sessionLengthLimit, available) : available;
   const btn = document.getElementById('start-btn');
-  btn.disabled    = n === 0;
-  btn.textContent = n > 0 ? `Starta studiesession → (${n} frågor)` : 'Välj minst en kategori';
+  btn.disabled = available === 0;
+  btn.textContent = available > 0 ? `Starta → (${actual} frågor)` : 'Välj minst en kategori';
 }
 
 // ── Session ───────────────────────────────────────────────────────────────────
 function shuffle(arr) {
   const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
+  for (let i = a.length-1; i > 0; i--) {
+    const j = Math.floor(Math.random()*(i+1));
+    [a[i],a[j]] = [a[j],a[i]];
   }
   return a;
 }
 
 function startSession() {
-  session = shuffle(getFiltered());
-  sessionIdx = 0; correct = 0; wrong = 0; streak = 0; wrongPool = [];
+  let qs = shuffle(getFiltered());
+  if (sessionLengthLimit) qs = qs.slice(0, sessionLengthLimit);
+  session = qs;
+  sessionIdx = 0; correct = 0; wrong = 0; streak = 0; sessionXP = 0; wrongPool = [];
   updateStats();
+  updateDailyStreak();
   showScreen('study');
   renderQuestion();
 }
@@ -489,10 +745,34 @@ function startSession() {
 function replayWrong() {
   if (!wrongPool.length) { startSession(); return; }
   session = shuffle(wrongPool);
-  sessionIdx = 0; correct = 0; wrong = 0; streak = 0; wrongPool = [];
+  sessionIdx = 0; correct = 0; wrong = 0; streak = 0; sessionXP = 0; wrongPool = [];
   updateStats();
   showScreen('study');
   renderQuestion();
+}
+
+// ── Answer helpers ────────────────────────────────────────────────────────────
+function handleCorrect(anchorEl) {
+  correct++; streak++;
+  const xp = 10 + Math.min(30, (streak-1) * 5);
+  sessionXP += xp;
+  addXP(xp);
+  showXPGain(xp, anchorEl);
+  if (streak > 1) showStreak(streak);
+  checkAchievements({
+    totalC: getTotalCorrect(),
+    sesStreak: streak,
+    sesWrong: wrong,
+    sesTotal: correct + wrong,
+    dailyStreak: getDailyStreak().streak,
+  });
+  updateStats();
+  updateHeaderXP();
+}
+
+function handleWrong(q) {
+  wrong++; streak = 0; wrongPool.push(q);
+  updateStats();
 }
 
 // ── Rendering ─────────────────────────────────────────────────────────────────
@@ -506,7 +786,7 @@ function renderQuestion() {
   answered = false; fcFlipped = false;
   const pct = Math.round(sessionIdx / session.length * 100);
   document.getElementById('progress-fill').style.width = pct + '%';
-  document.getElementById('progress-text').textContent = `Fråga ${sessionIdx + 1} av ${session.length}`;
+  document.getElementById('progress-text').textContent = `Fråga ${sessionIdx+1} av ${session.length}`;
   const q    = session[sessionIdx];
   const area = document.getElementById('question-area');
   area.innerHTML = '';
@@ -517,10 +797,9 @@ function renderQuestion() {
 }
 
 function badge(type) {
-  const labels = { fc: '🃏 Flashcard', mc: '✅ Flerval', sf: '⚖️ Sant/Falskt' };
+  const labels = { fc:'🃏 Flashcard', mc:'✅ Flerval', sf:'⚖️ Sant/Falskt' };
   return `<span class="q-type-badge ${type}">${labels[type]}</span>`;
 }
-
 function srcLink(url) {
   if (!url) return '';
   return `<a class="source-link" href="${url}" target="_blank" rel="noopener">📖 Rikshandboken – öppna källan ↗</a>`;
@@ -563,22 +842,20 @@ function fcAnswer(knew) {
   answered = true;
   saveResult(session[sessionIdx], knew);
   if (knew) {
-    correct++; streak++;
-    const yesBtn = document.querySelector('.btn-knew.yes');
-    if (yesBtn) yesBtn.classList.add('fc-correct-flash');
-    if (streak > 1) showStreak(streak);
+    const btn = document.querySelector('.btn-knew.yes');
+    if (btn) btn.classList.add('fc-correct-flash');
+    handleCorrect(btn);
   } else {
-    wrong++; streak = 0; wrongPool.push(session[sessionIdx]);
-    const noBtn = document.querySelector('.btn-knew.no');
-    if (noBtn) { noBtn.style.background = 'var(--red)'; noBtn.style.color = 'white'; }
+    const btn = document.querySelector('.btn-knew.no');
+    if (btn) { btn.style.background='var(--red)'; btn.style.color='white'; }
+    handleWrong(session[sessionIdx]);
   }
-  updateStats();
   setTimeout(nextQuestion, 1800);
 }
 
 function renderMC(q, area) {
-  const letters = ['A', 'B', 'C', 'D'];
-  const opts = q.opts.map((o, i) =>
+  const letters = ['A','B','C','D'];
+  const opts = q.opts.map((o,i) =>
     `<div class="mc-option" id="mc-opt-${i}" onclick="mcAnswer(${i})">
       <div class="option-letter">${letters[i]}</div><div>${o}</div>
     </div>`).join('');
@@ -596,16 +873,16 @@ function mcAnswer(idx) {
   if (answered) return;
   answered = true;
   const q = session[sessionIdx];
-  saveResult(q, idx === q.correct);
-  document.querySelectorAll('.mc-option').forEach((el, i) => {
+  const isCorrect = idx === q.correct;
+  saveResult(q, isCorrect);
+  document.querySelectorAll('.mc-option').forEach((el,i) => {
     el.classList.add('disabled');
     if (i === q.correct) el.classList.add('reveal-correct');
-    if (i === idx && idx !== q.correct) el.classList.add('selected-wrong');
-    if (i === idx && idx === q.correct) { el.classList.remove('reveal-correct'); el.classList.add('selected-correct'); }
+    if (i === idx && !isCorrect) el.classList.add('selected-wrong');
+    if (i === idx && isCorrect) { el.classList.remove('reveal-correct'); el.classList.add('selected-correct'); }
   });
-  if (idx === q.correct) { correct++; streak++; if (streak > 1) showStreak(streak); }
-  else { wrong++; streak = 0; wrongPool.push(q); }
-  updateStats();
+  if (isCorrect) handleCorrect(document.getElementById('mc-opt-' + idx));
+  else handleWrong(q);
   const exp = document.getElementById('explanation');
   exp.style.display = 'block';
   exp.className = 'explanation-box';
@@ -640,9 +917,8 @@ function sfAnswer(val) {
   s.classList.add('disabled'); f.classList.add('disabled');
   if (q.correct) { s.classList.add('correct'); if (!isCorrect) f.classList.add('wrong'); }
   else           { f.classList.add('correct'); if (!isCorrect) s.classList.add('wrong'); }
-  if (isCorrect) { correct++; streak++; if (streak > 1) showStreak(streak); }
-  else           { wrong++; streak = 0; wrongPool.push(q); }
-  updateStats();
+  if (isCorrect) handleCorrect(val ? s : f);
+  else handleWrong(q);
   const exp = document.getElementById('explanation');
   exp.style.display = 'block';
   exp.className = 'explanation-box';
@@ -660,34 +936,55 @@ function updateStats() {
   document.getElementById('stat-correct').textContent = '✓ ' + correct;
   document.getElementById('stat-wrong').textContent   = '✗ ' + wrong;
   document.getElementById('stat-streak').textContent  = '🔥 ' + streak + ' i rad';
+  document.getElementById('stat-xp').textContent      = '⚡ ' + sessionXP + ' XP';
 }
 
 function showStreak(n) {
   const el = document.createElement('div');
   el.className = 'streak-flash';
-  el.textContent = n + ' i rad! 🔥';
+  el.textContent = n >= 20 ? n + ' i rad! 🌪️' : n >= 10 ? n + ' i rad! 💥' : n + ' i rad! 🔥';
   document.body.appendChild(el);
   setTimeout(() => el.remove(), 2100);
 }
 
 function showResults() {
   const total = correct + wrong;
-  const pct   = total > 0 ? Math.round(correct / total * 100) : 0;
+  const pct   = total > 0 ? Math.round(correct/total*100) : 0;
   document.getElementById('res-correct').textContent = correct;
   document.getElementById('res-wrong').textContent   = wrong;
   document.getElementById('res-pct').textContent     = pct + '%';
+
   let emoji, title, subtitle;
-  if      (pct >= 90) { emoji = '🏆'; title = 'Strålande!';    subtitle = 'Du kan det här!'; }
-  else if (pct >= 70) { emoji = '🎉'; title = 'Bra jobbat!';   subtitle = 'Lite mer så sitter det perfekt.'; }
-  else if (pct >= 50) { emoji = '📚'; title = 'På rätt väg!';  subtitle = 'Öva på de du missade.'; }
-  else                { emoji = '💪'; title = 'Kämpa på!';     subtitle = 'Öva igen – det lossnar!'; }
+  if      (pct >= 90) { emoji='🏆'; title='Strålande!';   subtitle='Du kan det här! Toppklass.'; }
+  else if (pct >= 70) { emoji='🎉'; title='Bra jobbat!';  subtitle='Lite mer så sitter det perfekt.'; }
+  else if (pct >= 50) { emoji='📚'; title='På rätt väg!'; subtitle='Öva på de du missade.'; }
+  else                { emoji='💪'; title='Kämpa på!';    subtitle='Öva igen – det lossnar snart!'; }
   document.getElementById('result-emoji').textContent    = emoji;
   document.getElementById('result-title').textContent    = title;
   document.getElementById('result-subtitle').textContent = subtitle;
+
+  if (sessionXP > 0) {
+    const xp = getXP();
+    const lv = getLevel(xp);
+    document.getElementById('result-xp-box').style.display = 'block';
+    document.getElementById('res-xp-num').textContent = '+' + sessionXP + ' XP';
+    document.getElementById('res-xp-bar').style.width = lv.pct + '%';
+    document.getElementById('res-level-line').textContent =
+      lv.name + (lv.nextMinXP ? ` · ${lv.nextMinXP - xp} XP till nästa nivå` : ' · Maxnivå!');
+  } else {
+    document.getElementById('result-xp-box').style.display = 'none';
+  }
+
+  checkAchievements({ totalC: getTotalCorrect(), sesStreak: streak, sesWrong: wrong, sesTotal: total, dailyStreak: getDailyStreak().streak });
+
   const btnW = document.getElementById('btn-replay-wrong');
-  btnW.style.display  = wrongPool.length ? 'block' : 'none';
+  btnW.style.display = wrongPool.length ? 'block' : 'none';
   if (wrongPool.length) btnW.textContent = `🔁 Öva på ${wrongPool.length} felaktiga svar`;
+
+  if (pct >= 70) spawnConfetti(pct >= 90 ? 70 : 40);
+
   showScreen('results');
+  updateHeaderXP();
 }
 
 function confirmExit() {
@@ -701,18 +998,18 @@ document.addEventListener('keydown', e => {
   const q = session[sessionIdx];
   if (!q) return;
   if (q.type === 'fc') {
-    if (e.code === 'Space')              { e.preventDefault(); flipCard(); }
-    if (e.key === '1' && fcFlipped)      fcAnswer(false);
-    if (e.key === '2' && fcFlipped)      fcAnswer(true);
+    if (e.code === 'Space')         { e.preventDefault(); flipCard(); }
+    if (e.key === '1' && fcFlipped) fcAnswer(false);
+    if (e.key === '2' && fcFlipped) fcAnswer(true);
   }
   if ((e.key === 'Enter' || e.key === 'ArrowRight') && answered) nextQuestion();
   if (q.type === 'mc' && !answered) {
-    if (e.key === '1') mcAnswer(0); if (e.key === '2') mcAnswer(1);
-    if (e.key === '3') mcAnswer(2); if (e.key === '4') mcAnswer(3);
+    if (e.key==='1') mcAnswer(0); if (e.key==='2') mcAnswer(1);
+    if (e.key==='3') mcAnswer(2); if (e.key==='4') mcAnswer(3);
   }
   if (q.type === 'sf' && !answered) {
-    if (e.key === 's' || e.key === 'S') sfAnswer(true);
-    if (e.key === 'f' || e.key === 'F') sfAnswer(false);
+    if (e.key==='s'||e.key==='S') sfAnswer(true);
+    if (e.key==='f'||e.key==='F') sfAnswer(false);
   }
 });
 
