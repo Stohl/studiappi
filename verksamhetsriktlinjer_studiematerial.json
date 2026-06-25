@@ -1,0 +1,1148 @@
+{
+  "category": "Verksamhetsriktlinjer",
+  "source": "rikshandboken-bhv.se",
+  "subcategories": [
+    {
+      "id": 1,
+      "name": "Arbets- och målbeskrivningar",
+      "pages": [
+        {
+          "id": "1.1",
+          "title": "Nationell målbeskrivning för sjukskötersketjänstgöring inom BHV - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/arbets--och-malbeskrivningar/nationell-malbeskrivning-for-sjukskotersketjanstgoring-inom-bhv/",
+          "questions": [
+            {
+              "id": "FC-1.1.1",
+              "type": "flashcard",
+              "section": "Mål med BHV-sjuksköterskans arbete",
+              "question": "Vilka är barnhälsovårdens tre övergripande mål för BHV-sjukskötersketjänstgöringen?",
+              "answer": "Att (1) främja barns hälsa och utveckling, (2) förebygga ohälsa hos barn, och (3) tidigt identifiera och initiera åtgärder vid problem i barns hälsa, utveckling och uppväxtmiljö."
+            },
+            {
+              "id": "FC-1.1.2",
+              "type": "flashcard",
+              "section": "Behörighet och kompetens",
+              "question": "Vilken formell utbildning krävs för sjuksköterskor som arbetar med BHV?",
+              "answer": "Specialistsjuksköterskeexamen med inriktning distriktssköterska eller med inriktning hälso- och sjukvård för barn och ungdom."
+            },
+            {
+              "id": "FC-1.1.3",
+              "type": "flashcard",
+              "section": "EPDS",
+              "question": "Vad är EPDS och vilket syfte har det inom barnhälsovården?",
+              "answer": "Edinburgh Postnatal Depression Scale – ett screeningverktyg BHV-sjuksköterskan ska ha utbildning och kompetens i, för att identifiera mammor i behov av samtalsstöd under spädbarnsperioden."
+            },
+            {
+              "id": "MC-1.1.1",
+              "type": "multiple_choice",
+              "section": "Antal barn inskrivna på BVC för att upprätthålla kompetens",
+              "question": "Hur många nyfödda barn per år per heltidsanställd BHV-sjuksköterska rekommenderas som högst i ett område utan ökad vårdtyngd?",
+              "options": {
+                "A": "40 nyfödda",
+                "B": "55 nyfödda",
+                "C": "75 nyfödda",
+                "D": "100 nyfödda"
+              },
+              "correct": "B",
+              "explanation": "För att kunna erbjuda det nationella barnhälsovårdsprogrammet till alla barn rekommenderas högst 55 nyfödda barn/år per heltidsanställd BHV-sjuksköterska i ett område utan ökad vårdtyngd."
+            },
+            {
+              "id": "MC-1.1.2",
+              "type": "multiple_choice",
+              "section": "Föräldraskapsstöd",
+              "question": "Vilket syfte har föräldraskapsstöd inom BHV?",
+              "options": {
+                "A": "Att erbjuda medicinsk behandling till nyfödda",
+                "B": "Att främja barns hälsa och psykosociala utveckling genom att stödja och stärka föräldrarnas kompetens",
+                "C": "Att ersätta socialtjänstens insatser i familjer med behov",
+                "D": "Att administrera vaccinationsprogrammet"
+              },
+              "correct": "B",
+              "explanation": "Föräldraskapsstöd är en central uppgift inom BHV vars syfte är att främja barns hälsa och psykosociala utveckling genom att stödja och stärka föräldrarnas kompetens att svara mot de krav som föräldrarollen ställer."
+            },
+            {
+              "id": "SF-1.1.1",
+              "type": "true_false",
+              "section": "Antal barn inskrivna på BVC för att upprätthålla kompetens",
+              "statement": "En BHV-sjuksköterska som inte kan arbeta heltid bör arbeta minst 50 procent av heltid och ha ansvar för minst 25 nyfödda per år för att upprätthålla kompetensen.",
+              "correct": true,
+              "explanation": "Om det inte är möjligt att arbeta heltid med BHV bör BHV-sjuksköterskan arbeta minst 50 procent av heltid och ha ansvar för minst 25 nyfödda per år."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Nationell målbeskrivning för läkartjänstgöring inom BHV - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/arbets--och-malbeskrivningar/nationell-malbeskrivning-for-lakartjanstgoring-inom-bhv/",
+          "questions": [
+            {
+              "id": "FC-1.2.1",
+              "type": "flashcard",
+              "section": "Introduktion",
+              "question": "Vilka grundläggande kunskaper och förhållningssätt krävs av en BHV-läkare?",
+              "answer": "Kunskaper om barnets normala utveckling och barnaålderns sjukdomar, ett socialpediatriskt förhållningssätt, samt förmåga till helhetssyn för att kunna förstå hur levnadsförhållanden och livsmiljö påverkar hälsan."
+            },
+            {
+              "id": "FC-1.2.2",
+              "type": "flashcard",
+              "section": "Behörighet och kompetens",
+              "question": "Vid vilka åldrar medverkar BHV-läkaren vid teambesök inom det nationella barnhälsovårdsprogrammet?",
+              "answer": "Vid 4 veckors ålder, vid 6 och 12 månaders ålder samt vid 2,5–3 års ålder. Ytterligare teambesök kan genomföras utifrån individuella behov."
+            },
+            {
+              "id": "FC-1.2.3",
+              "type": "flashcard",
+              "section": "Behörighet och kompetens",
+              "question": "Vilken specialistkompetens ska läkare som tjänstgör inom BHV ha?",
+              "answer": "Specialistkompetens eller vara ST-läkare inom allmänmedicin eller barn- och ungdomsmedicin. Läkare under specialistutbildning ska ha BVC under handledning."
+            },
+            {
+              "id": "MC-1.2.1",
+              "type": "multiple_choice",
+              "section": "Mål med BHV-läkarens arbete",
+              "question": "Vad är det primära syftet med barnhälsovårdens nationella program, som BHV-läkaren arbetar efter?",
+              "options": {
+                "A": "Att behandla sjukdomar hos barn 0–6 år",
+                "B": "Att erbjuda hälsovägledning, föräldraskapsstöd och hälsoövervakning åt alla barn anslutna till BVC",
+                "C": "Att genomföra vaccinationer och tillväxtkontroller",
+                "D": "Att samordna remisser till specialistsjukvården"
+              },
+              "correct": "B",
+              "explanation": "Uppdraget är enligt Socialstyrelsen att erbjuda ett fastställt program för barnhälsovård innehållande hälsovägledning, föräldraskapsstöd och hälsoövervakning åt alla barn anslutna till BVC."
+            },
+            {
+              "id": "SF-1.2.1",
+              "type": "true_false",
+              "section": "Introduktion av nyanställd BHV-läkare",
+              "statement": "Läkare som tjänstgör på BVC ska ha deltagit i introduktionsprogram eller kurs i barnhälsovård och bör ha tjänstgjort minst två månader på barnklinik eller barnmottagning.",
+              "correct": true,
+              "explanation": "Läkare som tjänstgör på BVC ska ha deltagit i introduktionsprogram eller kurs i barnhälsovård och bör ha tjänstgjort minst två månader på barnklinik/barnmottagning."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Nationell målbeskrivning för psykologer för mödrahälsovård och barnhälsovård - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/arbets--och-malbeskrivningar/nationell-malbeskrivning-for-psykologer-for-modrahalsovard-och-barnhalsovard/",
+          "questions": [
+            {
+              "id": "FC-1.3.1",
+              "type": "flashcard",
+              "section": "Beskriver uppdraget för psykologer inom barnhälsovården",
+              "question": "Vad beskriver den nationella målbeskrivningen för psykologer inom barnhälsovård och mödrahälsovård?",
+              "answer": "Uppdraget för psykologer, som innebär att arbeta förebyggande och ge tidigt psykologiskt stöd till familjer samt konsultation till verksamhetens personal, och innefattar även villkor, riktlinjer, behörighet och kompetenskrav."
+            },
+            {
+              "id": "MC-1.3.1",
+              "type": "multiple_choice",
+              "section": "Beskriver uppdraget för psykologer inom barnhälsovården",
+              "question": "Vad är en central arbetsuppgift för BHV-psykologen gentemot verksamhetens personal?",
+              "options": {
+                "A": "Att ansvara för vaccinationsordination",
+                "B": "Att ge konsultation till verksamhetens personal",
+                "C": "Att genomföra rutinmässiga hälsobesök",
+                "D": "Att hantera patientjournaler"
+              },
+              "correct": "B",
+              "explanation": "Den nationella målbeskrivningen beskriver uppdraget för psykologer inom barnhälsovård och mödrahälsovård, vilket innebär att arbeta förebyggande och ge tidigt psykologiskt stöd till familjer samt konsultation till verksamhetens personal."
+            },
+            {
+              "id": "SF-1.3.1",
+              "type": "true_false",
+              "section": "Beskriver uppdraget för psykologer inom barnhälsovården",
+              "statement": "BHV-psykologens uppdrag inkluderar att arbeta förebyggande och ge tidigt psykologiskt stöd till familjer.",
+              "correct": true,
+              "explanation": "Det innebär att arbeta förebyggande och ge tidigt psykologiskt stöd till familjer samt konsultation till verksamhetens personal."
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Uppdragsbeskrivning för dietist inom central barnhälsovård - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/arbets--och-malbeskrivningar/uppdragsbeskrivning-for-dietist-inom-central-barnhalsovard/",
+          "questions": [
+            {
+              "id": "FC-1.4.1",
+              "type": "flashcard",
+              "section": "Barnhälsovårdsdietistens kompetens",
+              "question": "Vilken spetskompetens besitter dietisten i CBHV-teamet?",
+              "answer": "Spetskompetens inom nutrition och specifikt den pediatriska nutritionen."
+            },
+            {
+              "id": "FC-1.4.2",
+              "type": "flashcard",
+              "section": "Dietistens uppdrag i CBHV-teamet",
+              "question": "Vad är dietistens övergripande uppdrag i CBHV-teamet?",
+              "answer": "Att i samverkan med övriga yrkeskategorier verka för det hälsofrämjande och förebyggande arbetet inom barnhälsovården, tillföra nutritionskompetens, och verka för att nutritionsarbetet bedrivs utifrån vetenskap och beprövad erfarenhet."
+            },
+            {
+              "id": "MC-1.4.1",
+              "type": "multiple_choice",
+              "section": "Barnhälsovårdsdietistens kompetens",
+              "question": "Vad ansvarar dietisten i CBHV-teamet för att utarbeta?",
+              "options": {
+                "A": "Vaccinationsscheman och uppföljningsrutiner",
+                "B": "Riktlinjer och/eller kravspecifikationer i enlighet med nationella program och handlingsplaner",
+                "C": "Psykologiska bedömningsmodeller för familjer",
+                "D": "Remissrutiner till specialistsjukvården"
+              },
+              "correct": "B",
+              "explanation": "Dietist inom CBHV-teamet ansvarar för att, i enlighet med nationella program, författningar och handlingsplaner, utarbeta riktlinjer och/eller kravspecifikationer."
+            },
+            {
+              "id": "SF-1.4.1",
+              "type": "true_false",
+              "section": "Barnhälsovårdsdietistens kompetens",
+              "statement": "Dietisten i CBHV-teamet arbetar isolerat utan samverkan med övriga yrkeskategorier.",
+              "correct": false,
+              "explanation": "CBHV-teamets arbete präglas av samverkan, där alla yrkeskategoriers kompetens tillförs teamet. Dietist i CBHV-teamet besitter spetskompetens inom nutrition och specifikt den pediatriska nutritionen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Strategier och kvalitetssäkring",
+      "pages": [
+        {
+          "id": "2.1",
+          "title": "Teamarbete i barnhälsovården - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/strategier-och-kvalitetssakring/teamarbete-i-barnhalsovarden/",
+          "questions": [
+            {
+              "id": "FC-2.1.1",
+              "type": "flashcard",
+              "section": "Barnet i centrum",
+              "question": "Vilka perspektiv ska prägla arbetet inom barnhälsovården enligt barnkonventionen och svensk lagstiftning?",
+              "answer": "Barnperspektivet, barnets perspektiv och barnrättsperspektivet. FN:s konvention om barnets rättigheter betonar vikten av en helhetssyn på barnet och svensk lagstiftning tydliggör barns och föräldrars rätt till delaktighet."
+            },
+            {
+              "id": "FC-2.1.2",
+              "type": "flashcard",
+              "section": "Vad kännetecknar ett fungerande team?",
+              "question": "Vad kännetecknar interprofessionella team och vad krävs utöver att samla olika professioner?",
+              "answer": "Interprofessionella team involverar minst två professioner med kompletterande kompetenser som interagerar med varandra. Att samla olika professioner räcker inte – teamet behöver gemensam målbild, delat ansvar, jämställda relationer och effektiv kommunikation."
+            },
+            {
+              "id": "FC-2.1.3",
+              "type": "flashcard",
+              "section": "Teambesök och annat teamarbete inom barnhälsovården",
+              "question": "Vid vilka åldrar ingår universella teambesök i det nationella barnhälsovårdsprogrammet?",
+              "answer": "Vid 4 veckor, 6 månader, 12 månader och 2,5–3 år."
+            },
+            {
+              "id": "MC-2.1.1",
+              "type": "multiple_choice",
+              "section": "Olika kompetenser stärker varandra",
+              "question": "Vem har huvudansvaret för det löpande barnhälsovårdsarbetet i BHV-teamet?",
+              "options": {
+                "A": "Barnläkaren",
+                "B": "BHV-psykologen",
+                "C": "BHV-sjuksköterskan",
+                "D": "Socionomen"
+              },
+              "correct": "C",
+              "explanation": "I barnhälsovården har BHV-sjuksköterskan huvudansvaret för det löpande barnhälsovårdsarbetet och träffar barnet och dess familj vid flest tillfällen under barnets fem första år."
+            },
+            {
+              "id": "MC-2.1.2",
+              "type": "multiple_choice",
+              "section": "Teamets förutsättningar på professionsnivå",
+              "question": "Vad innebär teamkompetens som kärnkompetens inom hälso- och sjukvårdsprofessionerna?",
+              "options": {
+                "A": "Förmågan att arbeta ensam och fatta självständiga beslut",
+                "B": "Förmågan att kommunicera mål, arbetssätt och värderingar för att utveckla samsyn i teamet",
+                "C": "Förmågan att ordinera läkemedel och remittera patienter",
+                "D": "Förmågan att leda och administrera verksamheten"
+              },
+              "correct": "B",
+              "explanation": "Teamkompetens är en av hälso- och sjukvårdsprofessionernas kärnkompetenser och innebär förmågan att kommunicera mål, arbetssätt och värderingar för att utveckla samsyn i teamet."
+            },
+            {
+              "id": "SF-2.1.1",
+              "type": "true_false",
+              "section": "Samarbetshälsa och samarbetsvinster",
+              "statement": "Dysfunktionella team kan leda till merarbete, ineffektivitet och risker i vården, och rätt utförda teambesök möter barns unika behov medan dysfunktionella team kan få motsatt effekt.",
+              "correct": true,
+              "explanation": "Rätt utförda teambesök möter barns unika behov, medan dysfunktionella team kan få motsatt effekt. Om teambesök genomförs av dysfunktionella team kan detta leda till merarbete, ineffektivitet och risker i vården."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Centrala barnhälsovårdsteam - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/strategier-och-kvalitetssakring/centrala-barnhalsovardteam-cbhv-team/",
+          "questions": [
+            {
+              "id": "FC-2.2.1",
+              "type": "flashcard",
+              "section": "Dessa yrkesgrupper finns i ett CBHV-team",
+              "question": "Vilka kärnprofessioner ingår alltid i ett CBHV-team?",
+              "answer": "Barnhälsovårdsöverläkare, specialistsjuksköterska som vårdutvecklare eller samordnare, och psykolog. I vissa regioner ingår även administratör, dietist, folkhälsovetare, fysioterapeut, logoped och socionom."
+            },
+            {
+              "id": "FC-2.2.2",
+              "type": "flashcard",
+              "section": "Utvecklar regionens barnhälsovård",
+              "question": "Vad innebär CBHV-teamets uppdrag att kvalitetssäkra BHV i den egna regionen?",
+              "answer": "Det kan innebära att stödja medarbetare och chefer på BVC, konsulteras i psykosociala och medicinska frågor, genomföra utbildning, omvärldsbevaka, sprida information, leda projekt, stödja implementering av nationella riktlinjer. CBHV-teamet är även remissinstans för regionala och nationella riktlinjer som berör BHV."
+            },
+            {
+              "id": "MC-2.2.1",
+              "type": "multiple_choice",
+              "section": "Deltar i det nationella arbetet",
+              "question": "Vilka nationella sammanhang ingår i CBHV-teamets uppdrag att delta i?",
+              "options": {
+                "A": "Enbart Rikshandboken i barnhälsovård",
+                "B": "Nationella utvecklingsgrupper, Rikshandboken, CBHV-rådet, nationella kvalitetsregistret BHVQ och nationella forskningsnätverket",
+                "C": "Folkpartiets barnhälsovårdskommitté och kommunala råd",
+                "D": "Socialtjänstens nationella nätverk och skolhälsovårdens råd"
+              },
+              "correct": "B",
+              "explanation": "Deltagande i Centrala barnhälsovårdens nationella nätverk är en viktig del i CBHV-teamets uppdrag, liksom deltagande i nationella utvecklingsgrupper, Rikshandboken i barnhälsovård, CBHV-rådet på riksnivå, barnhälsovårdens nationella kvalitetsregister (BHVQ) och barnhälsovårdens nationella forskningsnätverk."
+            },
+            {
+              "id": "SF-2.2.1",
+              "type": "true_false",
+              "section": "Nationella barnhälsovårdsdagar",
+              "statement": "Samtliga medlemmar i CBHV-teamet bör beredas möjlighet att delta i årliga nationella och regionala barnhälsovårdsdagar.",
+              "correct": true,
+              "explanation": "Nationella barnhälsovårdsdagar är ett viktigt forum för nationell samverkan och samtliga medlemmar i CBHV-teamet bör beredas möjlighet att delta i årliga nationella, och regionala, barnhälsovårdsdagar."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Barnkonventionen - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/strategier-och-kvalitetssakring/barnkonventionen/",
+          "questions": [
+            {
+              "id": "FC-2.3.1",
+              "type": "flashcard",
+              "section": "Barnkonventionen styr allt arbete i barnhälsovården",
+              "question": "Vad innebär det att barnkonventionen styr arbetet i barnhälsovården?",
+              "answer": "All personal inom barnhälsovården ska arbeta efter barnkonventionen i sitt förhållningssätt och bemötande av barn och föräldrar. Barnkonventionen ska synliggöras i verksamhetsdokument, kvalitetsmål och kvalitetsuppföljning."
+            },
+            {
+              "id": "FC-2.3.2",
+              "type": "flashcard",
+              "section": "Barnkonventionen som svensk lag",
+              "question": "När blev FN:s konvention om barnets rättigheter svensk lag och vad innebär det?",
+              "answer": "Den 1 januari 2020. Det innebär ett förtydligande för domstolar och rättstillämpare att ta hänsyn till barnets rättigheter vid avvägningar och bedömningar i beslutsprocesser, mål och ärenden som rör barn."
+            },
+            {
+              "id": "MC-2.3.1",
+              "type": "multiple_choice",
+              "section": "Barns rätt till trygghet och omvårdnad",
+              "question": "Vilket innehåll regleras i barnkonventionens artikel 24?",
+              "options": {
+                "A": "Barnets rätt till utbildning",
+                "B": "Barnets rätt till bästa uppnåeliga hälsa och rätt till sjukvård och rehabilitering",
+                "C": "Skydd mot exploatering och missbruk",
+                "D": "Barnets rätt till lek och fritid"
+              },
+              "correct": "B",
+              "explanation": "Artikel 24 anger barnets rätt att få bästa uppnåeliga hälsa och rätt till sjukvård och rehabilitering."
+            },
+            {
+              "id": "SF-2.3.1",
+              "type": "true_false",
+              "section": "FN:s konvention om barnets rättigheter",
+              "statement": "Det finns 54 artiklar i barnkonventionen och 41 av dem handlar om rättigheter.",
+              "correct": true,
+              "explanation": "Det finns 54 artiklar i barnkonventionen och 41 av dem handlar om rättigheter. Resten av artiklarna handlar om hur länderna ska arbeta med barnkonventionen."
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Barnhälsovårdens folkhälsoarbete - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/strategier-och-kvalitetssakring/barnhalsovårdens-folkhalsoarbete/",
+          "questions": [
+            {
+              "id": "FC-2.4.1",
+              "type": "flashcard",
+              "section": "Planerade och systematiska insatser för folkhälsan",
+              "question": "Vad innebär folkhälsoarbete och vad är dess mål?",
+              "answer": "Folkhälsoarbete innefattar planerade och systematiska insatser för att främja hälsa och förebygga ohälsa i en befolkning eller i en viss grupp. Målet är att stärka skyddsfaktorernas och minska riskfaktorernas inverkan på hälsan."
+            },
+            {
+              "id": "FC-2.4.2",
+              "type": "flashcard",
+              "section": "Barnhälsovården utfrån en hälsofrämjande ansats",
+              "question": "Hur har barnhälsovårdens förhållningssätt förändrats över tid?",
+              "answer": "Från ett kontrollerande och sjukdomsinriktat förhållningssätt till en hälsofrämjande ansats som bygger på ett demokratiskt och salutogent förhållningssätt."
+            },
+            {
+              "id": "FC-2.4.3",
+              "type": "flashcard",
+              "section": "Empowerment och delaktighet",
+              "question": "Vad innebär begreppet empowerment inom det hälsofrämjande arbetet?",
+              "answer": "Empowerment kan beskrivas som ett förlopp genom vilket människor får större kontroll över beslut och åtgärder som påverkar deras hälsa (WHO, 1998). Det är ett grundfundament i hälsofrämjande arbete och lyfter maktdimensionen."
+            },
+            {
+              "id": "MC-2.4.1",
+              "type": "multiple_choice",
+              "section": "Folkhälsoproblem",
+              "question": "När definieras ett tillstånd som ett folkhälsoproblem?",
+              "options": {
+                "A": "När det drabbar minst 10 procent av befolkningen",
+                "B": "När det kräver sjukhusvård",
+                "C": "Om ett tillstånd drabbar minst en procent av befolkningen",
+                "D": "När det är klassificerat av Socialstyrelsen"
+              },
+              "correct": "C",
+              "explanation": "Om ett tillstånd som ohälsa/sjukdom drabbar minst en procent av befolkningen definieras det som ett folkhälsoproblem."
+            },
+            {
+              "id": "SF-2.4.1",
+              "type": "true_false",
+              "section": "Inledning",
+              "statement": "Barnhälsovården är landets största folkhälsoarena då den når i stort sett alla barn och deras föräldrar.",
+              "correct": true,
+              "explanation": "Barnhälsovården är landets största folkhälsoarena då den når i stort sett alla barn och deras föräldrar och har således en viktig roll i det långsiktiga och systematiska folkhälsoarbetet."
+            }
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "Amningsstatistik - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/strategier-och-kvalitetssakring/amningsstatistik/",
+          "questions": [
+            {
+              "id": "FC-2.5.1",
+              "type": "flashcard",
+              "section": "Insamling av amningsdata",
+              "question": "Vem ansvarar för att publicera nationell statistik över amningsfrekvenser?",
+              "answer": "Socialstyrelsen publicerar nationell statistik via deras temasida om amning samt i rapportserien Statistik om amning."
+            },
+            {
+              "id": "MC-2.5.1",
+              "type": "multiple_choice",
+              "section": "Övergång till BHVQ",
+              "question": "Vad sker med rapporteringen av amningsdata i takt med att regioner ansluter till Svenska barnhälsovårdsregistret (BHVQ)?",
+              "options": {
+                "A": "Amningsdata ska rapporteras direkt till WHO",
+                "B": "Rapporteringen av amningsdata tas successivt över av registret för de anslutna regionerna",
+                "C": "Amningsdata upphör att registreras",
+                "D": "Socialstyrelsen övertar all rapportering"
+              },
+              "correct": "B",
+              "explanation": "I takt med att landets regioner ansluter till Svenska barnhälsovårdsregistret (BHVQ) kommer rapporteringen av amningsdata successivt att tas över av registret för de anslutna regionerna."
+            },
+            {
+              "id": "SF-2.5.1",
+              "type": "true_false",
+              "section": "Insamling av amningsdata",
+              "statement": "Nationell statistik över amningsfrekvenser publiceras av Folkhälsomyndigheten.",
+              "correct": false,
+              "explanation": "Nationell statistik över amningsfrekvenser publiceras av Socialstyrelsen via deras temasida om amning samt i rapportserien Statistik om amning."
+            }
+          ]
+        },
+        {
+          "id": "2.6",
+          "title": "Dokumentation och journalföring - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/strategier-och-kvalitetssakring/dokumentation-och-journalforing/",
+          "questions": [
+            {
+              "id": "FC-2.6.1",
+              "type": "flashcard",
+              "section": "Syfte med dokumentation och journalföring",
+              "question": "Vilket är det primära syftet med dokumentation och journalföring inom barnhälsovården?",
+              "answer": "I första hand att bidra till en god och säker vård av patienten. Viktiga delar som ska dokumenteras är bedömning, planering, genomförande, resultat och utvärdering."
+            },
+            {
+              "id": "FC-2.6.2",
+              "type": "flashcard",
+              "section": "Sammanhållen journalföring",
+              "question": "Vad innebär sammanhållen journalföring via Nationell Patientöversikt (NPÖ)?",
+              "answer": "Det är ett sätt för olika vårdgivare att dela hälso- och vårddokumentation, vilket gör det möjligt för en vårdgivare att ge eller få direktåtkomst till uppgifter hos en annan vårdgivare."
+            },
+            {
+              "id": "MC-2.6.1",
+              "type": "multiple_choice",
+              "section": "Dokumentation inom vissa områden",
+              "question": "Hur ska barn som delar boende mellan vårdnadshavare dokumenteras i journalen?",
+              "options": {
+                "A": "Barnets primära adress anges som folkbokföringsadress",
+                "B": "Båda adresserna registreras som primäradresser",
+                "C": "Barnets folkbokföringsadress ska finnas dokumenterad och delat boende dokumenteras som kommentar i löpande text",
+                "D": "Uppgift om boende dokumenteras inte"
+              },
+              "correct": "C",
+              "explanation": "Barnets folkbokföringsadress ska finnas dokumenterad. Barn som delar boende mellan vårdnadshavare dokumenteras som kommentar i löpande text."
+            },
+            {
+              "id": "SF-2.6.1",
+              "type": "true_false",
+              "section": "Vårdnadshavare och familj",
+              "statement": "Enligt lag ska det göras skillnad på adoptivföräldrar och biologiska föräldrar vid dokumentation av vårdnadshavare.",
+              "correct": false,
+              "explanation": "Enligt lag ska det inte göras skillnad på om det är adoptivföräldrar eller biologiska föräldrar. Lagen säger att man ska journalföra vem som är vårdnadshavare."
+            }
+          ]
+        },
+        {
+          "id": "2.7",
+          "title": "Svenska barnhälsovårdsregistret, BHVQ - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/strategier-och-kvalitetssakring/svenska-barnhalsovårdsregistret-bhvq/",
+          "questions": [
+            {
+              "id": "FC-2.7.1",
+              "type": "flashcard",
+              "section": "Syfte med registret",
+              "question": "Vad är syftet med Svenska barnhälsovårdsregistret, BHVQ?",
+              "answer": "Att samla in data och visa statistik för att regionerna ska kunna arbeta med kontinuerligt förbättringsarbete, verksamhetsutveckling och jämförelser mellan barnhälsovårdscentraler och regioner, samt stötta en jämlik tillgänglighet till barnhälsovården."
+            },
+            {
+              "id": "FC-2.7.2",
+              "type": "flashcard",
+              "section": "Uppgifter som registreras i BHVQ",
+              "question": "Ge exempel på uppgifter som registreras i BHVQ.",
+              "answer": "Barnets personnummer, barnhälsovårdsbesök, tillväxt, screeningundersökningar, vaccinationer, uppgifter om amning och rökning i hemmet, samt om den födande föräldern har erhållit EPDS-screening."
+            },
+            {
+              "id": "MC-2.7.1",
+              "type": "multiple_choice",
+              "section": "Informera föräldrar om registret",
+              "question": "Vad måste göras innan data om ett barn kan överföras till BHVQ?",
+              "options": {
+                "A": "Läkaren måste godkänna varje enskild datapunkt",
+                "B": "Föräldern ska ha informerats om BHVQ och fått möjlighet att tacka nej till att data överförs",
+                "C": "Barnet måste ha fyllt sex månader",
+                "D": "Socialtjänsten ska ha godkänt registreringen"
+              },
+              "correct": "B",
+              "explanation": "Innan data om ett barn kan överföras till BHVQ ska föräldern informerats om BHVQ och fått möjlighet att tacka nej till att data överförs."
+            },
+            {
+              "id": "SF-2.7.1",
+              "type": "true_false",
+              "section": "Användningsområden",
+              "statement": "Data i BHVQ kan användas för forskning för att studera de olika metoder som erbjuds inom barnhälsovården.",
+              "correct": true,
+              "explanation": "Data i registret kan användas för att över en längre tid kunna följa hälsoläget bland svenska barn. BHVQ möjliggör också forskning för att exempelvis studera de olika metoder som erbjuds inom barnhälsovården."
+            }
+          ]
+        },
+        {
+          "id": "2.8",
+          "title": "Centrala barnhälsovårdsenheternas nationella råd - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/strategier-och-kvalitetssakring/centrala-barnhalsovardsenheternas-nationella-rad/",
+          "questions": [
+            {
+              "id": "FC-2.8.1",
+              "type": "flashcard",
+              "section": "Nationell samverkan i demokratisk anda",
+              "question": "Vad är CBHV-rådet och vad är dess uppdrag?",
+              "answer": "Centrala barnhälsovårdsenheters nationella råd (CBHV-rådet) är en samordnande funktion för de centrala barnhälsovårdsenheterna. Rådets uppdrag är att bistå dem i att förvalta, följa upp och utveckla det nationella barnhälsovårdsprogrammet."
+            },
+            {
+              "id": "MC-2.8.1",
+              "type": "multiple_choice",
+              "section": "Nationell samverkan i demokratisk anda",
+              "question": "Hur utses ledamöterna i CBHV-rådet?",
+              "options": {
+                "A": "De utses av Socialstyrelsen",
+                "B": "De utses vid de nationella barnhälsovårdsdagarna",
+                "C": "De utses av respektive regions verksamhetschef",
+                "D": "De väljs via allmänna val bland BHV-sjuksköterskor"
+              },
+              "correct": "B",
+              "explanation": "CBHV-rådets ledamöter utses vid de nationella barnhälsovårdsdagarna."
+            },
+            {
+              "id": "SF-2.8.1",
+              "type": "true_false",
+              "section": "Nationell samverkan i demokratisk anda",
+              "statement": "CBHV-rådet har som uppdrag att bistå de centrala barnhälsovårdsenheterna i att förvalta, följa upp och utveckla det nationella barnhälsovårdsprogrammet.",
+              "correct": true,
+              "explanation": "CBHV-rådets uppdrag är att bistå dem i att förvalta, följa upp och utveckla det nationella barnhälsovårdsprogrammet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Samverkan med andra verksamheter",
+      "pages": [
+        {
+          "id": "3.1",
+          "title": "Samverkan mellan barnhälsovård och förskola - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/samverkan-med-andra-verksamheter/samverkan-mellan-barnhalsovard-och-forskola/",
+          "questions": [
+            {
+              "id": "FC-3.1.1",
+              "type": "flashcard",
+              "section": "Förskolans påverkan på barns hälsa",
+              "question": "Vilka långsiktiga fördelar har deltagande i förskola för barn?",
+              "answer": "Barn som har gått i förskola har färre psykiska problem och infektioner, är bättre på språk och matematik, har högre utbildningsnivå och högre inkomster i vuxen ålder. Fördelarna är störst för barn från socioekonomiskt svaga förhållanden."
+            },
+            {
+              "id": "FC-3.1.2",
+              "type": "flashcard",
+              "section": "Samverkan om det enskilda barnet",
+              "question": "Vad krävs vid samverkan som rör ett enskilt barn mellan barnhälsovård och förskola?",
+              "answer": "Alla kontakter, både skriftliga och muntliga, mellan barnhälsovård och förskola måste godkännas av vårdnadshavare."
+            },
+            {
+              "id": "FC-3.1.3",
+              "type": "flashcard",
+              "section": "SIP - Samordnad individuell plan som verktyg för att samverka utifrån barnets behov",
+              "question": "Vad är SIP och vad syftar det till?",
+              "answer": "Samordnad individuell plan (SIP) är ett verktyg för samverkan som ger en samlad beskrivning av den enskildes pågående och planerade insatser från socialtjänst och hälso- och sjukvård samt andra aktörer. Planen tydliggör vem som ansvarar för de olika insatserna."
+            },
+            {
+              "id": "MC-3.1.1",
+              "type": "multiple_choice",
+              "section": "De flesta barn går i förskola",
+              "question": "Hur stor andel av barn i åldern 1–5 år är inskrivna i förskola i Sverige?",
+              "options": {
+                "A": "Knappt 50 procent",
+                "B": "Ungefär 70 procent",
+                "C": "Knappt 86 procent",
+                "D": "Nästan 100 procent"
+              },
+              "correct": "C",
+              "explanation": "Av alla barn i åldern mellan ett och fem år är knappt 86 procent inskrivna i förskola."
+            },
+            {
+              "id": "SF-3.1.1",
+              "type": "true_false",
+              "section": "De flesta barn går i förskola",
+              "statement": "Bland de barn som inte går i förskolan är barn med utländsk bakgrund överrepresenterade.",
+              "correct": true,
+              "explanation": "Bland de barn som inte går i förskolan är barn med utländsk bakgrund överrepresenterade och de som har lägst deltagande i förskolan är barn födda utomlands."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Familjecentraler - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/samverkan-med-andra-verksamheter/familjecentraler/",
+          "questions": [
+            {
+              "id": "FC-3.2.1",
+              "type": "flashcard",
+              "section": "Definitioner",
+              "question": "Vad menas med en familjecentral och vad skiljer den från familjecentralsliknande verksamhet?",
+              "answer": "En familjecentral är en samlokalisering av mödrahälsovård, barnhälsovård, öppen förskola och socialtjänst med förebyggande verksamhet. Familjecentralsliknande verksamhet innebär barnhälsovård samlokaliserad med minst en kommunal verksamhet (öppen förskola och/eller förebyggande socialtjänst)."
+            },
+            {
+              "id": "FC-3.2.2",
+              "type": "flashcard",
+              "section": "Syfte, mål och uppdrag",
+              "question": "Vad är familjecentralens syfte?",
+              "answer": "Att i samverkan minska den fysiska, psykiska och sociala ohälsan bland barn, att minska ojämlikheten i hälsa, och att vara hälsofrämjande, generell, tidigt förebyggande och stödjande."
+            },
+            {
+              "id": "MC-3.2.1",
+              "type": "multiple_choice",
+              "section": "Förutsättningar för familjecentralen",
+              "question": "Vad krävs för att teamarbete ska uppstå på en familjecentral?",
+              "options": {
+                "A": "Det räcker att olika professioner arbetar i samma lokaler",
+                "B": "Samtliga professioner måste tillhöra samma organisation",
+                "C": "Aktiva insatser krävs – enbart samlokalisering skapar inte automatiskt teamarbete",
+                "D": "En gemensam chef för alla professioner krävs"
+              },
+              "correct": "C",
+              "explanation": "Det är en utmaning att skapa team över organisationsgränser. Därför är det ingen självklarhet att ett teamarbete uppstår bara för att olika professioner arbetar i samma lokaler."
+            },
+            {
+              "id": "SF-3.2.1",
+              "type": "true_false",
+              "section": "Gemensamma strukturer",
+              "statement": "För att driva en familjecentral behövs ett samverkansavtal, uppföljning och utvärdering, en styrgrupp bestående av varje professions chef samt en samordnare.",
+              "correct": true,
+              "explanation": "Det behövs ett samverkansavtal som ska innehålla en uppdragsbeskrivning för respektive profession där ansvarsområden tydliggörs. Vidare behövs uppföljning och utvärdering av det gemensamma familjecentralsarbetet, en styrgrupp bestående av varje professions chef samt en samordnare för att driva familjecentralen."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Samarbete barnhälsovård och tandvård - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/samverkan-med-andra-verksamheter/samarbete-barnhalsovard-och-tandvard/",
+          "questions": [
+            {
+              "id": "FC-3.3.1",
+              "type": "flashcard",
+              "section": "God munhälsa är en rättighet för alla barn",
+              "question": "Hur definieras karies i förskoleåldern ur ett folkhälsoperspektiv och vilken grupp drabbas mest?",
+              "answer": "Karies i förskoleåldern är ett folkhälsoproblem med polarisering mot socioekonomiskt svaga grupper. Mer än var femte sexåring har lagningar eller behov av lagningar i mjölktänderna."
+            },
+            {
+              "id": "FC-3.3.2",
+              "type": "flashcard",
+              "section": "Viktigt fånga upp barn med karies tidigt",
+              "question": "Varför är det extra viktigt att fånga upp kariesskador hos barn under tre år?",
+              "answer": "Kariesskador innan tre års ålder utvecklas oftast mycket snabbt. Detta beror på att emaljen hos de nyss frambrutna mjölktänderna är 'omogen' och mjölktänderna har tunnare emalj än permanenta tänder."
+            },
+            {
+              "id": "FC-3.3.3",
+              "type": "flashcard",
+              "section": "Barnets sociala situation påverkar",
+              "question": "Vilket samband finns mellan barnets allmänna hälsosituation och risk för karies?",
+              "answer": "Samma barn som löper ökad risk vad gäller den allmänna hälsan har oftast ökad risk för karies. Barnets sociala situation och livsvillkor har stor betydelse för munhälsan."
+            },
+            {
+              "id": "MC-3.3.1",
+              "type": "multiple_choice",
+              "section": "Viktigt att behandla i tidigt skede",
+              "question": "Vad ska BHV göra vid misstanke om karies hos ett barn?",
+              "options": {
+                "A": "Avvakta och följa upp vid nästa rutinbesök",
+                "B": "Ta direkt kontakt med tandvården och motivera föräldrarna till bättre kost- och munhygienvanor",
+                "C": "Remittera till barnläkare för medicinsk bedömning",
+                "D": "Ordinera fluortabletter och avvakta"
+              },
+              "correct": "B",
+              "explanation": "Det är viktigt att kariesskador behandlas i ett tidigt skede eftersom de då fortfarande har möjlighet att läka ut. Ta därför alltid kontakt direkt med tandvården vid misstanke om karies och motivera föräldrarna till bättre kost- och munhygienvanor."
+            },
+            {
+              "id": "SF-3.3.1",
+              "type": "true_false",
+              "section": "Samarbete viktigt för barnets hälsa",
+              "statement": "Tandvården bär huvudansvaret för den förebyggande tandhälsan, men ett nära samarbete med barnhälsovården är viktigt för att förebygga och tidigt ta hand om barn som riskerar att utveckla karies.",
+              "correct": true,
+              "explanation": "Huvudansvaret för den förebyggande tandhälsan ligger på tandvården, men det är viktigt med ett nära samarbete med barnhälsovården, familjecentralen och förskolan med mera."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bemötande",
+      "pages": [
+        {
+          "id": "4.1",
+          "title": "När något allvarligt händer i en barnfamilj - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/bemotande/nar-nagot-allvarligt-hander-i-en-barnfamilj/",
+          "questions": [
+            {
+              "id": "FC-4.1.1",
+              "type": "flashcard",
+              "section": "Stöd från barnhälsovården",
+              "question": "Vad är den bästa hjälpen BHV kan ge när något allvarligt hänt i en familj?",
+              "answer": "Ofta att föräldern får prata med en BHV-sjuksköterska som de redan känner och har förtroende för – om vad som hänt samt om hur händelsen påverkat barnet."
+            },
+            {
+              "id": "FC-4.1.2",
+              "type": "flashcard",
+              "section": "Dödsfall",
+              "question": "Hur förstår barn under 5–6 år döden och vad innebär det för kommunikationen?",
+              "answer": "Barn under 5–6 år förstår inte att döden är definitiv och väntar sig ofta att den som dött ska komma tillbaka. De kan behöva höra många gånger att personen är borta för alltid. Abstrakta förklaringar fungerar dåligt – det är bättre att vara konkret."
+            },
+            {
+              "id": "FC-4.1.3",
+              "type": "flashcard",
+              "section": "Starka eller ökande symtom",
+              "question": "När kan ett barn behöva behandling för traumatisering efter en allvarlig händelse?",
+              "answer": "Om symtomen är fortsatt starka eller ökar efter en månad, eller om händelsen var dramatisk (t.ex. mord, självmord, bevittna en närstående persons död), liksom om det finns misstanke om att barnet upplever skuld för det inträffade."
+            },
+            {
+              "id": "MC-4.1.1",
+              "type": "multiple_choice",
+              "section": "Barn har rätt till information",
+              "question": "Enligt hälso- och sjukvårdslagen, vad har barn rätt till när någon vuxen i familjen plötsligt dör?",
+              "options": {
+                "A": "Rätt till omedelbar psykiatrisk vård",
+                "B": "Rätt till information, råd och stöd",
+                "C": "Rätt till ekonomisk ersättning",
+                "D": "Rätt till placering i familjehem"
+              },
+              "correct": "B",
+              "explanation": "Enligt hälso- och sjukvårdslagen (2017:30) 5 kap. 7 § har barn rätt till information, råd och stöd när någon vuxen i familjen plötsligt dör."
+            },
+            {
+              "id": "MC-4.1.2",
+              "type": "multiple_choice",
+              "section": "Förälderns mående",
+              "question": "Varför är det viktigt att uppmärksamma förälderns mående när något allvarligt har hänt?",
+              "options": {
+                "A": "För att föräldern kan behöva sjukskrivas",
+                "B": "Eftersom barnets välbefinnande är direkt beroende av förälderns förmåga till samspel, omsorg och trygghet",
+                "C": "För att förhindra att föräldern anmäler till socialtjänsten",
+                "D": "Eftersom föräldern har rätt till ekonomisk kompensation"
+              },
+              "correct": "B",
+              "explanation": "Barnet är beroende av förälderns förmåga till samspel, omsorg och trygghet. Därför är det viktigt att även uppmärksamma hur den vuxna mår."
+            },
+            {
+              "id": "SF-4.1.1",
+              "type": "true_false",
+              "section": "Förebyggande stöd kan göra skillnad",
+              "statement": "Den genetiska sårbarheten för beroendesjukdom och psykisk ohälsa som finns vid ärftlighet kan motverkas genom goda relationer och en god uppväxtmiljö.",
+              "correct": true,
+              "explanation": "Den risk som en genetisk sårbarhet för beroendesjukdom och psykisk ohälsa innebär, kan motverkas genom goda relationer och en god uppväxtmiljö."
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Möta föräldrars oro - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/bemotande/mota-foraldrarns-oro/",
+          "questions": [
+            {
+              "id": "FC-4.2.1",
+              "type": "flashcard",
+              "section": "Att ta föräldrars oro på allvar",
+              "question": "Vad bidrar ett respektfullt och lyhört bemötande av föräldrars oro till?",
+              "answer": "Det bidrar till trygghet och stärker förtroendet för barnhälsovården. Genom dialog som utgår från föräldrarnas egna tankar och erfarenheter skapas förutsättningar för ett hälsofrämjande möte."
+            },
+            {
+              "id": "MC-4.2.1",
+              "type": "multiple_choice",
+              "section": "Att ta föräldrars oro på allvar",
+              "question": "Varför är det viktigt att ta föräldrars oro på allvar, även om oron inte rör allvarlig sjukdom?",
+              "options": {
+                "A": "För att uppfylla juridiska krav på dokumentation",
+                "B": "Föräldrar upplever att det är betydelsefullt att bli lyssnade på och att deras oro tas på allvar, även i icke-allvarliga fall",
+                "C": "För att undvika klagomål till Inspektionen för vård och omsorg",
+                "D": "Eftersom all oro kräver medicinsk utredning"
+              },
+              "correct": "B",
+              "explanation": "Föräldrar upplever att det är betydelsefullt att bli lyssnade på och att deras oro tas på allvar, även när oron inte rör allvarlig sjukdom eller liknande tillstånd."
+            },
+            {
+              "id": "SF-4.2.1",
+              "type": "true_false",
+              "section": "Att ta föräldrars oro på allvar",
+              "statement": "Att möta föräldrars oro med ett respektfullt och lyhört bemötande stärker förtroendet för barnhälsovården.",
+              "correct": true,
+              "explanation": "Ett respektfullt och lyhört bemötande bidrar till trygghet och stärker förtroendet för barnhälsovården."
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Att möta och bemöta regnbågsfamiljer - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/bemotande/att-mota-och-bemota-regnbagsfamiljer/",
+          "questions": [
+            {
+              "id": "FC-4.3.1",
+              "type": "flashcard",
+              "section": "Vikten av ett gott vårdmöte",
+              "question": "Vilken typ av frågor rekommenderas i mötet med en ny familj för att inte göra heteronormativa antaganden?",
+              "answer": "Öppna frågor, som 'Vilka finns i er familj?' eller 'Vill du berätta om din familj?'. I samtal med barn kan 'dina vuxna' fungera bra, liksom 'Vem har du med dig idag?'."
+            },
+            {
+              "id": "FC-4.3.2",
+              "type": "flashcard",
+              "section": "Minoritetsstress",
+              "question": "Vad innebär minoritetsstress och vilken effekt kan den ha på hbtq-personers hälsa?",
+              "answer": "Minoritetsstress är den ökade stress som drabbar den som bryter mot samhällsnormer. Trots att de flesta hbtq-personer mår bra finns en högre grad av psykisk ohälsa jämfört med heterosexuella cispersoner, vilket förklaras av denna stress."
+            },
+            {
+              "id": "FC-4.3.3",
+              "type": "flashcard",
+              "section": "Regelverket gällande rättsligt föräldraskap",
+              "question": "Vad innebär föräldraskapspresumtionen som infördes 2022?",
+              "answer": "Om den som föder barn är gift med en kvinna, fastställs båda makarna automatiskt som rättsliga föräldrar och får gemensam vårdnad automatiskt – utan att behöva bekräfta föräldraskapet separat."
+            },
+            {
+              "id": "MC-4.3.1",
+              "type": "multiple_choice",
+              "section": "Inkludera alla i samtalet",
+              "question": "Vad vittnar icke-födande föräldrar i regnbågsfamiljer ofta om i vårdkontakter kring barnet?",
+              "options": {
+                "A": "Att de alltid inkluderas och tillfrågas lika mycket",
+                "B": "Att det främst är den födande föräldern som tilltalas, medan den icke-födande åsidosätts",
+                "C": "Att de ofta tar mer plats i samtalen än den födande föräldern",
+                "D": "Att de alltid nekas tillgång till barnets journal"
+              },
+              "correct": "B",
+              "explanation": "Icke-födande föräldrar vittnar ofta om att det främst är den födande föräldern som tilltalas i vårdkontakter kring barnet, medan den icke-födande åsidosätts, också då båda föräldrarna finns med i rummet."
+            },
+            {
+              "id": "MC-4.3.2",
+              "type": "multiple_choice",
+              "section": "Barn ska aldrig agera tolk",
+              "question": "Vad är ett vanligt dilemma för icke-födande mammor i regnbågsfamiljer vid föräldragrupper?",
+              "options": {
+                "A": "Att de inte har juridisk rätt att delta",
+                "B": "Att de inte vet om de ska delta i mammagrupp eller pappagrupp när grupper delas in efter kön",
+                "C": "Att de saknar tillgång till BVC",
+                "D": "Att de inte kan kommunicera med personalen"
+              },
+              "correct": "B",
+              "explanation": "Ett vanligt dilemma uppstår för den icke-födande mamman, i en familj med två mammor. Att delta i 'mammagruppen', där de övriga har kroppsliga förlossningsupplevelser, kan kännas lika utanförskapet som att delta i 'pappagruppen'."
+            },
+            {
+              "id": "SF-4.3.1",
+              "type": "true_false",
+              "section": "Mikroaggressioner",
+              "statement": "Negativa bemötanden inom hälso- och sjukvården utgörs ofta av mikroaggressioner, vilket innebär blickar, suckar, okunniga frågor eller olyckliga komplimanger som får individen att känna sig avvikande.",
+              "correct": true,
+              "explanation": "Det negativa bemötandet utgörs ofta av så kallade mikroaggressioner, vilket innebär blickar, suckar, okunniga eller plumpa frågor, olyckliga komplimanger och dylikt som får individen att känna sig avvikande."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tolk",
+      "pages": [
+        {
+          "id": "5.1",
+          "title": "Tolk - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/tolk/",
+          "questions": [
+            {
+              "id": "FC-5.1.1",
+              "type": "flashcard",
+              "section": "Rätten till tolk",
+              "question": "Varför är tillgång till tolk en förutsättning för jämlik barnhälsovård?",
+              "answer": "En förutsättning för att kunna ta del av vården och tillgodogöra sig de hälsofrämjande insatserna som erbjuds inom barnhälsovården är att barn och föräldrar kan kommunicera på ett språk eller ett sätt som familjen förstår."
+            },
+            {
+              "id": "FC-5.1.2",
+              "type": "flashcard",
+              "section": "Barn ska aldrig agera tolk",
+              "question": "Varför ska barn under 18 år aldrig agera tolk?",
+              "answer": "Det är inte förenligt med FN:s konvention om barnets rättigheter. Barn riskerar att utebli från skolan, får tillgång till känslig information och får ett för stort ansvar. Om barnet misstolkar kan familjen få fel information med allvarliga konsekvenser."
+            },
+            {
+              "id": "FC-5.1.3",
+              "type": "flashcard",
+              "section": "Språktolk",
+              "question": "Vilka fördelar har en auktoriserad tolk jämfört med andra tolkar?",
+              "answer": "En auktoriserad tolk har tystnadsplikt, har genomgått ett yrkesprov och står under tillsyn av Kammarkollegiet."
+            },
+            {
+              "id": "MC-5.1.1",
+              "type": "multiple_choice",
+              "section": "Tolk vid språk- och talundersökning",
+              "question": "Vad är viktigt att göra inför en bedömning av tal- och språkutveckling när tolk används?",
+              "options": {
+                "A": "Boka tolken med minst en veckas framförhållning",
+                "B": "Instruera tolken om hur språkundersökningen går till och vad som förväntas av tolken",
+                "C": "Be föräldern agera tolk för att säkerställa korrekt förståelse",
+                "D": "Genomföra undersökningen utan tolk och dokumentera resultaten"
+              },
+              "correct": "B",
+              "explanation": "Inför en bedömning är det viktigt att instruera tolken om hur språkundersökningen går till och vad som förväntas av tolken."
+            },
+            {
+              "id": "SF-5.1.1",
+              "type": "true_false",
+              "section": "Beställa tolk",
+              "statement": "Vid beställning av tolk behöver hänsyn ibland tas till faktorer som kön och religiös tillhörighet utöver rätt språk och dialekt.",
+              "correct": true,
+              "explanation": "När språktolk används är det viktigt att beställa tolk på rätt språk och språkdialekt. Ibland behöver hänsyn tas till andra faktorer som till exempel kön och religiös tillhörighet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Lokaler, utrustning och miljön på BVC",
+      "pages": [
+        {
+          "id": "6.1",
+          "title": "Lokaler, utrustning och miljön på BVC - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/lokaler-utrustning-och-miljon-pa-bvc/",
+          "questions": [
+            {
+              "id": "FC-6.1.1",
+              "type": "flashcard",
+              "section": "Förvaring och beredning av vaccin",
+              "question": "Vilken temperatur ska vaccinkylskåp hålla och hur ska förvaring skötas?",
+              "answer": "Vacciner ska förvaras i låsbart medicinkylskåp med regelbunden kontroll så att det håller rätt temperatur (2–8°C). Även kylskåp med larm bör kontrolleras regelbundet. Sprutor och kanyler ska förvaras inlåsta."
+            },
+            {
+              "id": "FC-6.1.2",
+              "type": "flashcard",
+              "section": "Hygien och förhindring av smittspridning",
+              "question": "Hur ska BVC organiseras för att förhindra smittspridning?",
+              "answer": "Väntrummet på BVC ska vara skilt från sjukvårdande verksamhet, så att barn inte behöver vänta tillsammans med infekterade patienter som besöker andra mottagningar."
+            },
+            {
+              "id": "FC-6.1.3",
+              "type": "flashcard",
+              "section": "Utrustning",
+              "question": "Varför ska godkänd digital våg finnas inne på mottagningsrummet, inte i ett separat rum?",
+              "answer": "Eftersom barnet ska vägas avklätt är det viktigt att vågen finns i mottagningsrummet så att barnets integritet skyddas."
+            },
+            {
+              "id": "MC-6.1.1",
+              "type": "multiple_choice",
+              "section": "Lokalernas utformning",
+              "question": "Vad ska ett mottagningsrum på BVC rymma?",
+              "options": {
+                "A": "Enbart sjuksköterska och förälder",
+                "B": "Barn, föräldrar, syskon, sjuksköterska, läkare och eventuell tolk och vårdstuderande, plus fri rörelseplats för barnet",
+                "C": "Maximalt tre personer åt gången för integritetsskydd",
+                "D": "Utrustning för vaccinering och ingenting annat"
+              },
+              "correct": "B",
+              "explanation": "Ett mottagningsrum behöver vara så stort att både barn, föräldrar, syskon, sjuksköterska, läkare och eventuell tolk och vårdstuderande får plats. Dessutom bör det finnas plats för barnet att fritt kunna röra sig."
+            },
+            {
+              "id": "SF-6.1.1",
+              "type": "true_false",
+              "section": "En inkluderande miljö på BVC",
+              "statement": "Risken med en icke-inkluderande miljö på BVC är att insatserna bara når en del av familjerna och att möjligheterna att ge barnet stöd minskar.",
+              "correct": true,
+              "explanation": "Barnhälsovårdens uppdrag är att främja hälsa och ge stöd åt alla barn och deras familjer. Risken är annars att insatserna bara når en del och att möjligheterna att ge barnet stöd minskar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Bildstöd",
+      "pages": [
+        {
+          "id": "7.1",
+          "title": "Bildstöd - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/bildstod/",
+          "questions": [
+            {
+              "id": "FC-7.1.1",
+              "type": "flashcard",
+              "section": "Varför ska man använda bildstöd?",
+              "question": "Vilket syfte har bildstöd inom barnhälsovården och vilka rättigheter grundar det sig på?",
+              "answer": "Bildstöd stärker barns möjligheter att förstå vad som sker, få säga sin mening och kommunicera om situationer på BVC. Det grundar sig på FN:s konvention om barnets rättigheter och Patientlagen (SFS 2014:821), som betonar barnets rätt till information och delaktighet."
+            },
+            {
+              "id": "FC-7.1.2",
+              "type": "flashcard",
+              "section": "Forskning om bildstöd",
+              "question": "Vad visar forskning om effekten av bildstöd i vårdsituationer?",
+              "answer": "Forskning visar att bildstöd underlättar barns förståelse och kan minska oro och stress hos barn i vårdsituationer. Det har visat sig att barn kan uttrycka ett behov av att titta på bilder (t.ex. en spruta) för att förbereda sig inför något jobbigt som en vaccination."
+            },
+            {
+              "id": "MC-7.1.1",
+              "type": "multiple_choice",
+              "section": "Vilka bildstöd kan man använda?",
+              "question": "Vad visar forskning om valet mellan fotografiska och tecknade bilder i bildstöd?",
+              "options": {
+                "A": "Fotografiska bilder är alltid bättre",
+                "B": "Tecknade bilder är alltid bättre för yngre barn",
+                "C": "Det finns inga studier som säger att särskilda typer av bilder är bättre – valet av bilder bör utgå från barnets perspektiv",
+                "D": "Digitala bildstöd är överlägset pappersbaserade"
+              },
+              "correct": "C",
+              "explanation": "Det finns inga studier som säger att särskilda typer av bilder är bättre än andra att använda på BVC. Att använda fotografiska bilder eller tecknade bilder har inte heller någon betydelse. Det är viktigt att komma ihåg att det är barnets perspektiv som är viktigast att beakta i valet av bilder."
+            },
+            {
+              "id": "SF-7.1.1",
+              "type": "true_false",
+              "section": "Forskning om bildstöd",
+              "statement": "Föräldrar som använt bildstöd innan BHV-besök har beskrivit att bildstöden underlättat samtal om saker som oroat barnet.",
+              "correct": true,
+              "explanation": "Föräldrar som använt bildstöd innan BHV-besök har också beskrivit att bildstöden underlättat samtal om saker som oroat barnet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Barnhälsovårdens nationella program",
+      "pages": [
+        {
+          "id": "8.1",
+          "title": "Barnhälsovårdens nationella program - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/barnhalsovårdens-nationella-program/",
+          "questions": [
+            {
+              "id": "FC-8.1.1",
+              "type": "flashcard",
+              "section": "Målen med det nationella barnhälsovårdsprogrammet",
+              "question": "Vad är barnhälsovårdens övergripande mål enligt det nationella barnhälsovårdsprogrammet?",
+              "answer": "Att bidra till bästa möjliga fysiska, psykiska och sociala hälsa för barn, genom att (1) främja barns hälsa och utveckling, (2) förebygga ohälsa hos barn, samt (3) tidigt identifiera och initiera åtgärder vid problem med barns hälsa, utveckling och uppväxtmiljö."
+            },
+            {
+              "id": "FC-8.1.2",
+              "type": "flashcard",
+              "section": "Kolumn ett - insatser för alla",
+              "question": "Vad avser insatserna i programmets första kolumn (insatser för alla)?",
+              "answer": "Att främja en god hälsa och utveckling, att förhindra uppkomst av sjukdomar, skador samt fysiska, psykiska och sociala problem. Dessa insatser erbjuds till alla barn och deras vårdnadshavare, oavsett individuella behov."
+            },
+            {
+              "id": "FC-8.1.3",
+              "type": "flashcard",
+              "section": "Kolumn tre - insatser för alla vid behov i samverkan med andra",
+              "question": "När används programmets tredje kolumn och vilket samordningsverktyg rekommenderas?",
+              "answer": "När det finns behov av insatser på annan vårdnivå och annan verksamhet eller myndighet. SIP (Samordnad Individuell Planering) rekommenderas och barnhälsovårdens egna insatser fortsätter parallellt."
+            },
+            {
+              "id": "MC-8.1.1",
+              "type": "multiple_choice",
+              "section": "Kolumn två - insatser för alla vid behov",
+              "question": "Vad karaktäriserar insatserna i programmets andra kolumn?",
+              "options": {
+                "A": "Universella insatser som ges lika till alla barn",
+                "B": "Insatser som anpassas till varje enskilt barns och vårdnadshavares behov, i tidigt skede för att stärka viktiga faktorer och förhindra negativ utveckling",
+                "C": "Insatser som enbart utförs av specialistsjukvården",
+                "D": "Obligatoriska samtal om vaccinationer"
+              },
+              "correct": "B",
+              "explanation": "Insatser för alla vid behov avser att i tidigt skede stärka betydelsefulla faktorer och förhindra en negativ utveckling av barnets fysiska, psykiska och sociala hälsa. Insatserna anpassas till behovet hos varje enskilt barn och dess vårdnadshavare."
+            },
+            {
+              "id": "SF-8.1.1",
+              "type": "true_false",
+              "section": "Bakgrund till nationella programmet",
+              "statement": "Företrädare för barnhälsovården och Socialstyrelsen inledde 2012 ett samarbete med målet att bidra till en jämlik och rättvis barnhälsovård och en ökad användning av evidensbaserad praktik.",
+              "correct": true,
+              "explanation": "Företrädare för barnhälsovården och Socialstyrelsens inledde 2012 ett samarbete med det gemensamma målet att bidra till en jämlik och rättvis barnhälsovård och en ökad användning av evidensbaserad praktik."
+            }
+          ]
+        },
+        {
+          "id": "8.2",
+          "title": "Barnhälsovårdens nationella program 0-12 månader - Rikshandboken i barnhälsovård",
+          "source_url": "https://www.rikshandboken-bhv.se/verksamhetsriktlinjer/barnhalsovårdens-nationella-program/barnhalsovårdens-nationella-program-0-12-manader/",
+          "questions": [
+            {
+              "id": "FC-8.2.1",
+              "type": "flashcard",
+              "section": "Barnhälsovårdens nationella program 0-12 månader",
+              "question": "Vad ingår vid varje kontakt med barnhälsovården under barnets första år?",
+              "answer": "Barn- och familjesituation, tillväxt, hälsosamtal och åtgärd. Under barnets första år erbjuds dessutom föräldrastöd i grupp till alla vårdnadshavare."
+            },
+            {
+              "id": "FC-8.2.2",
+              "type": "flashcard",
+              "section": "Barnhälsovårdens nationella program 18 månader till 5 år",
+              "question": "Vid vilken ålder sker teambesök (sjuksköterska + läkare) inom programmet för äldre barn?",
+              "answer": "Vid 3 års ålder genomförs teambesök. Övriga besök i åldrarna 18 månader, 2,5 år, 4 år och 5 år genomförs av sjuksköterska."
+            },
+            {
+              "id": "MC-8.2.1",
+              "type": "multiple_choice",
+              "section": "Barnhälsovårdens nationella program 0-12 månader",
+              "question": "Vilket av följande stämmer om hembesök inom det nationella barnhälsovårdsprogrammet?",
+              "options": {
+                "A": "Hembesök erbjuds enbart vid 4 veckor",
+                "B": "Hembesök ges vid nyföddhetsperioden och vid 8 månaders ålder",
+                "C": "Hembesök genomförs enbart på begäran av föräldrarna",
+                "D": "Hembesök erbjuds enbart i glesbygd"
+              },
+              "correct": "B",
+              "explanation": "Enligt det nationella programmet ges hembesök vid nyföddhetsperioden och vid 8 månaders ålder. Besöksplatsen BVC anges för de flesta övriga tillfällen."
+            },
+            {
+              "id": "SF-8.2.1",
+              "type": "true_false",
+              "section": "Barnhälsovårdens nationella program 18 månader till 5 år",
+              "statement": "BMI-uppföljning ingår i hälsobesöken under barnets förskoleålder.",
+              "correct": true,
+              "explanation": "Enligt programmets struktur för 18 månader till 5 år ingår BMI och att visa tillväxtkurvan som specifika insatser vid besöken."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3814 @@
+{
+  "category": "Somatik",
+  "source": "Rikshandboken BHV",
+  "subcategories": [
+    {
+      "subcategory_nr": 2,
+      "subcategory": "Buk - översikt",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Navelbråck",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/buk---oversikt/navelbrack/",
+          "questions": [
+            {
+              "id": "FC-2.1.1",
+              "type": "flashcard",
+              "section": "Orsak och definition",
+              "front": "Vad orsakar navelbråck och när slutar navelringen normalt?",
+              "back": "Ofullständig slutning av navelringen (öppningen navelsträngens kärl passerar). Slutningen börjar direkt efter födseln och är oftast färdig vid 4–5 års ålder."
+            },
+            {
+              "id": "FC-2.1.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vad är handläggningen av ett icke-inklämt navelbråck?",
+              "back": "Informera föräldrarna att det är ofarligt och sannolikt försvinner vid 4–5 årsålder. Avvakta med eventuell operation till dess; resultatet försämras inte av att vänta."
+            },
+            {
+              "id": "FC-2.1.3",
+              "type": "flashcard",
+              "section": "Förband eller tejp",
+              "front": "Varför rekommenderas inte förband/tejp vid navelbråck?",
+              "back": "Betydande risk för rejäl hudirritation; rekommenderas därför inte trots att enstaka studier visat att det kan påskynda slutningen."
+            },
+            {
+              "id": "MC-2.1.1",
+              "type": "multiple_choice",
+              "section": "Operation",
+              "question": "Vid vilken ålder och under vilka omständigheter kan operation av navelbråck bli aktuell?",
+              "options": {
+                "A": "Vid 2 år om bråcket syns",
+                "B": "Alltid vid inklämningsattack, oavsett ålder",
+                "C": "Efter 5 år om bråcket ger kosmetiska besvär, ömhet eller annat obehag",
+                "D": "Alltid opereras akut vid bråck"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-2.1.1",
+              "type": "true_false",
+              "section": "Till läkare - Remiss",
+              "statement": "Inklämt navelbråck är vanligt och den vanligaste indikationen för akut operation.",
+              "correct": false,
+              "explanation": "Inklämt navelbråck är mycket ovanligt. Akut operation krävs sällan; remiss skrivs om barnet haft inklämningsattack, upplever obehag eller har kosmetiskt besvärande bråck."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Kräkningar",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/buk---oversikt/krakningar/",
+          "questions": [
+            {
+              "id": "FC-2.2.1",
+              "type": "flashcard",
+              "section": "Normala kräkningar hos spädbarn",
+              "front": "Vad kallas de normala kräkningarna hos spädbarn och vad är deras orsak?",
+              "back": "Överskottskräkningar; en fysiologisk mekanism. Möjliggörs av att magsäck och matstrupe ännu inte antagit det äldre barnets anatomi."
+            },
+            {
+              "id": "FC-2.2.2",
+              "type": "flashcard",
+              "section": "Pylorusstenos",
+              "front": "Vilka barn drabbas av pylorusstenos och vilka symtom ger det?",
+              "back": "1–2/1000 födda barn, 75 % pojkar. Upprepade kaskadliknande kräkningar med risk för viktnedgång och uttorkning; debuterar ofta vid 2–8 veckors ålder."
+            },
+            {
+              "id": "FC-2.2.3",
+              "type": "flashcard",
+              "section": "Gastroesofageal refluxsjukdom (GERD)",
+              "front": "Vad skiljer GER från GERD?",
+              "back": "GER (passage av magsäcksinnehåll till matstrupen) är normalt och förekommer hos alla. GERD uppstår när refluxen leder till komplikationer: kräkningar med smärta, ätsvårigheter eller avplanande vikt."
+            },
+            {
+              "id": "MC-2.2.1",
+              "type": "multiple_choice",
+              "section": "Akut debuterande kräkningar hos barn - orsaker",
+              "question": "Vad är vanligaste orsaken till akut debuterande kräkningar hos barn?",
+              "options": {
+                "A": "Pylorusstenos",
+                "B": "Urinvägsinfektion",
+                "C": "Infektiös gastroenterit",
+                "D": "GERD"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-2.2.1",
+              "type": "true_false",
+              "section": "Urinvägsinfektion",
+              "statement": "UVI hos spädbarn kan ge kräkningar och feber utan diarré.",
+              "correct": true,
+              "explanation": "UVI hos spädbarn kan debutera med kräkningar, viktnedgång och feber men inte diarré. Diagnosen ska säkerställas med urinodling av rent urinprov."
+            }
+          ]
+        },
+        {
+          "page_nr": 3,
+          "title": "Blodig avföring",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/buk---oversikt/blodig-avforing/",
+          "questions": [
+            {
+              "id": "FC-2.3.1",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Vad tyder färgen på blod i avföringen hos spädbarn?",
+              "back": "Ljusrött blod tyder på en nära analöppningen belägen källa (kort tid i bajset). Mörkare blod mer blandat med avföringen tyder på högre upp belägen källa."
+            },
+            {
+              "id": "FC-2.3.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vad görs vid mer än enstaka blodstrimmor i avföringen hos ett välmående spädbarn?",
+              "back": "Extra läkarbedömning på BVC. Vanligtvis behövs ingen annan åtgärd än undersökning och information. Vid långdragna besvär kan komjölksfri ersättning provas."
+            },
+            {
+              "id": "MC-2.3.1",
+              "type": "multiple_choice",
+              "section": "Diagnos",
+              "question": "Vilka fynd kräver åtgärder vid blod i avföringen?",
+              "options": {
+                "A": "Alltid vid synligt blod oavsett mängd",
+                "B": "Enbart vid fynd av parasiter i odling",
+                "C": "Vid enstaka tillfälle hos välmående barn",
+                "D": "Vid större mängder mörkt blod eller påverkat allmäntillstånd"
+              },
+              "correct": "D"
+            },
+            {
+              "id": "SF-2.3.1",
+              "type": "true_false",
+              "section": "Definition",
+              "statement": "Blodstrimmor i avföringen vid enstaka tillfälle är ett ovanligt fynd hos spädbarn.",
+              "correct": false,
+              "explanation": "Det är vanligt hos spädbarn och kräver inga åtgärder om barnet i övrigt är välmående och det inträffar vid enstaka tillfällen."
+            }
+          ]
+        },
+        {
+          "page_nr": 4,
+          "title": "Diarré hos barn",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/buk---oversikt/diarre-hos-barn/",
+          "questions": [
+            {
+              "id": "FC-2.4.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Hur definieras diarré hos spädbarn och småbarn?",
+              "back": "Fler än 3 lösa avföringar per dag, eller mer än 10 gram lös avföring per kg kroppsvikt per dag (WHO)."
+            },
+            {
+              "id": "FC-2.4.2",
+              "type": "flashcard",
+              "section": "Diagnos",
+              "front": "Vad är 'Toddlers diarré' och vad är ett typiskt tecken?",
+              "back": "Funktionell diarré hos småbarn. Typiskt: ska l från ärtor och rester av morötter syns i avföringen eftersom tarmen inte hinner spjälka dem."
+            },
+            {
+              "id": "FC-2.4.3",
+              "type": "flashcard",
+              "section": "Infektiös diarré",
+              "front": "Vad är den vanligaste orsaken till infektiös diarré hos barn i förskoleålder?",
+              "back": "Virusinfektion. Bakterier, bakteriegifter och parasiter förekommer men är ovanliga orsaker."
+            },
+            {
+              "id": "MC-2.4.1",
+              "type": "multiple_choice",
+              "section": "Kostbehandling",
+              "question": "Vad rekommenderas vid funktionell (Toddlers) diarré?",
+              "options": {
+                "A": "Öka mängden kolhydrater och fibrer",
+                "B": "Minska mängden kolhydrater och öka mängden fett",
+                "C": "Ge antibiotika i kur",
+                "D": "Strikt laktosfri kost"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-2.4.1",
+              "type": "true_false",
+              "section": "Akut sjukvårdskontakt",
+              "statement": "Blodiga diarréer kräver akut sjukvårdskontakt.",
+              "correct": true,
+              "explanation": "Blodiga diarréer är ett av de tillstånd som kräver akut sjukvårdskontakt, tillsammans med påverkat allmäntillstånd och misstanke om allvarlig intorkning."
+            }
+          ]
+        },
+        {
+          "page_nr": 5,
+          "title": "Ljumskbråck",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/buk---oversikt/ljumskbrack/",
+          "questions": [
+            {
+              "id": "FC-2.5.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är ett ljumskbråck hos barn?",
+              "back": "Öppetstående kanal (processus vaginalis) mellan bukhåla och ljumske där bukinnehåll kan tränga ut – oftast fett eller tunntarm, ibland ned i pungen."
+            },
+            {
+              "id": "FC-2.5.2",
+              "type": "flashcard",
+              "section": "Symtom vid inklämt ljumskbråck",
+              "front": "Vilka symtom tyder på inklämt ljumskbråck?",
+              "back": "Smärta, ibland ileus-symtom (kräkning, utebliven avföring), och hård, spänd, ömmande resistens i ljumsken (ibland i pungen) vid undersökning."
+            },
+            {
+              "id": "FC-2.5.3",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Varför ges ljumskbråck hos flickor extra hög prioritet?",
+              "back": "Risk för inklämning av äggstockar, vilket utgör en allvarligare konsekvens."
+            },
+            {
+              "id": "MC-2.5.1",
+              "type": "multiple_choice",
+              "section": "Bedömning och åtgärder",
+              "question": "Vad ska göras med ett ljumskbråck som inte kan reponeras?",
+              "options": {
+                "A": "Avvakta och ge smärtstillande",
+                "B": "Poliklinisk remiss inom en vecka",
+                "C": "Akutremiss till kirurgisk klinik",
+                "D": "Ultraljud och planerad operation"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-2.5.1",
+              "type": "true_false",
+              "section": "Diagnos",
+              "statement": "Diagnos av ljumskbråck ställs alltid med ultraljud.",
+              "correct": false,
+              "explanation": "Diagnosen ställs kliniskt. Ultraljud genomförs enbart vid osäkerhet."
+            }
+          ]
+        },
+        {
+          "page_nr": 6,
+          "title": "Spädbarnskolik",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/buk---oversikt/spadbarnskolik/",
+          "questions": [
+            {
+              "id": "FC-2.6.1",
+              "type": "flashcard",
+              "section": "Skrik och skrikperioder",
+              "front": "När uppnår ett genomsnittligt spädbarn sin topp i dagligt skrik?",
+              "back": "Vid ungefär sex veckors ålder, då ett genomsnittligt barn skriker eller gnyr ca 90 minuter per dygn."
+            },
+            {
+              "id": "FC-2.6.2",
+              "type": "flashcard",
+              "section": "Orsaker",
+              "front": "Hos hur stor andel av barn med spädbarnskolik hittar man en åtgärdbar organisk orsak?",
+              "back": "Ungefär fem procent. Den vanligaste organiska orsaken är allergi/intolerans mot komjölk i bröstmjölksersättning."
+            },
+            {
+              "id": "FC-2.6.3",
+              "type": "flashcard",
+              "section": "Omhändertagande inom BHV",
+              "front": "Nämn tre symtom vid spädbarnskolik som gör snar läkarbedömning angelägen.",
+              "back": "Utbredda eksem, dålig viktuppgång, mörkt blod i avföringen, häftiga kräkningar, skrik utan dygnsrytm (tre av dessa räknas)."
+            },
+            {
+              "id": "MC-2.6.1",
+              "type": "multiple_choice",
+              "section": "Konsekvenser",
+              "question": "Vilka är de långsiktiga konsekvenserna av spädbarnskolik för barnets hälsa?",
+              "options": {
+                "A": "Direkt ökad risk för hjärt-kärlsjukdom",
+                "B": "Inga direkta negativa följder för hälsan, men ökad risk för beteendeproblem i uppföljningsstudier",
+                "C": "Ökad risk för celiaki",
+                "D": "Kronisk förstoppning i skolåldern"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-2.6.1",
+              "type": "true_false",
+              "section": "Begreppet spädbarnskolik och tremånaderskolik",
+              "statement": "Spädbarnskolik kvarstår under hela det första levnadsåret.",
+              "correct": false,
+              "explanation": "Spädbarnskolik är ett övergående tillstånd utan direkta långsiktiga negativa följdverkningar för barnets hälsa."
+            }
+          ]
+        },
+        {
+          "page_nr": 7,
+          "title": "Buksmärtor",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/buk---oversikt/buksmartor/",
+          "questions": [
+            {
+              "id": "FC-2.7.1",
+              "type": "flashcard",
+              "section": "Inledning",
+              "front": "Hur stor andel av buksmärtor hos barn bedöms ha icke-organiska orsaker?",
+              "back": "Över 90 procent."
+            },
+            {
+              "id": "FC-2.7.2",
+              "type": "flashcard",
+              "section": "Organiska orsaker",
+              "front": "Vilka symtom antyder organisk orsak till buksmärta?",
+              "back": "Plötslig debut, feber, nedsatt allmäntillstånd, kräkningar eller att barnet inte kan avledas från smärtan."
+            },
+            {
+              "id": "FC-2.7.3",
+              "type": "flashcard",
+              "section": "Icke-organiska orsaker",
+              "front": "Vad är den vanligaste orsaken till buksmärtor hos barn från 4 år och uppåt?",
+              "back": "Funktionell magtarmsjukdom."
+            },
+            {
+              "id": "MC-2.7.1",
+              "type": "multiple_choice",
+              "section": "Organiska orsaker",
+              "question": "Vilken organisk orsak till buksmärta är vanligast i åldern 3 månader till 2 år?",
+              "options": {
+                "A": "Appendicit",
+                "B": "Invagination",
+                "C": "Ljumskbråck",
+                "D": "Ulcus"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-2.7.1",
+              "type": "true_false",
+              "section": "Till läkare",
+              "statement": "Anamnes ensamt räcker för att utesluta organisk buksmärta.",
+              "correct": false,
+              "explanation": "Anamnes är viktig, men ett noggrant utfört status med auskultation, perkussion och palpation är avgörande för korrekt diagnos."
+            }
+          ]
+        },
+        {
+          "page_nr": 8,
+          "title": "Rektusdiastas",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/buk---oversikt/rektusdiastas/",
+          "questions": [
+            {
+              "id": "FC-2.8.1",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Vad orsakar rektusdiastas och när syns det tydligast?",
+              "back": "Svaghet i bindväven mellan bukmusklerna. Syns tydligast längs hela eller stora delar av medellinjen vid ökat buktryck (skrik, krystning)."
+            },
+            {
+              "id": "FC-2.8.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Kräver rektusdiastas hos nyfödda behandling?",
+              "back": "Nej. Det är ett normalt tillstånd som försvinner av sig självt när bukmuskulaturen stärks, senast vid tio år. Inga BVC-kontroller utöver ordinarie behövs."
+            },
+            {
+              "id": "MC-2.8.1",
+              "type": "multiple_choice",
+              "section": "Differentialdiagnos",
+              "question": "Vad skiljer rektusdiastas från medellinjebråck?",
+              "options": {
+                "A": "Rektusdiastas kräver alltid operation",
+                "B": "Rektusdiastas är svaghet längs hela/stora delar av medellinjen; medellinjebråck är en öppning i fascian ovanför naveln",
+                "C": "Det är synonyma begrepp",
+                "D": "Rektusdiastas sitter runt naveln"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-2.8.1",
+              "type": "true_false",
+              "section": "Symtom",
+              "statement": "Rektusdiastas räknas som ett bråck och kräver kirurgisk konsultation.",
+              "correct": false,
+              "explanation": "Rektusdiastas räknas INTE som ett bråck utan är ett normalt tillstånd som inte kräver uppföljning eller behandling."
+            }
+          ]
+        },
+        {
+          "page_nr": 9,
+          "title": "Förstoppning",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/buk---oversikt/forstoppning/",
+          "questions": [
+            {
+              "id": "FC-2.9.1",
+              "type": "flashcard",
+              "section": "Avföringsfrekvens",
+              "front": "Hur lång tid kan ett ammade spädbarn vara utan avföring och ändå vara normalt?",
+              "back": "Upp till 10–14 dagar (ibland längre) utan avföring är normalt om barnet i övrigt mår bra, eftersom bröstmjölken tas upp till så stor del."
+            },
+            {
+              "id": "FC-2.9.2",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Vilka tillstånd kan förstoppning hos barn leda till utöver hård avföring?",
+              "back": "Buk- och defekationssmärta, uppblåsthet, illamående, dålig matlust, enures och enkopres med avföringsläckage."
+            },
+            {
+              "id": "FC-2.9.3",
+              "type": "flashcard",
+              "section": "Differentialdiagnoser",
+              "front": "Vilka sjukdomar ska uteslutas vid plötslig förstoppning hos lite äldre barn?",
+              "back": "Celiaki och hypotyreos."
+            },
+            {
+              "id": "MC-2.9.1",
+              "type": "multiple_choice",
+              "section": "Läkemedelsbehandling",
+              "question": "Hur länge behöver förstoppningsbehandling med läkemedel typiskt pågå?",
+              "options": {
+                "A": "2–4 veckor",
+                "B": "1–3 månader",
+                "C": "Minst 6–12 månader eller längre",
+                "D": "Tills avföringen normaliseras, ca 1 vecka"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-2.9.1",
+              "type": "true_false",
+              "section": "Allmänna råd vid förstoppning",
+              "statement": "Även barn med blöja bör pottränas eftersom det är lättare att bajsa sittande.",
+              "correct": true,
+              "explanation": "Rikshandboken rekommenderar potträning även för barn med blöja eftersom sittande ställning underlättar tarmtömning jämfört med att stå i blöja."
+            }
+          ]
+        },
+        {
+          "page_nr": 10,
+          "title": "Medellinjebråck",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/buk---oversikt/medellinjebrack/",
+          "questions": [
+            {
+              "id": "FC-2.10.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Var sitter medellinjebråck och vad innehåller det vanligen?",
+              "back": "I mittlinjen ovanför naveln (mellan naveln och bröstbensspetsen). Innehåller oftast oment (tarmkex)."
+            },
+            {
+              "id": "FC-2.10.2",
+              "type": "flashcard",
+              "section": "Bedömning på BVC",
+              "front": "Vad skiljer medellinjebråck från navelbråck i prognos?",
+              "back": "Navelbråck växer i de allra flesta fall bort av sig självt. Medellinjebråck växer INTE bort och kräver operation vid behov."
+            },
+            {
+              "id": "MC-2.10.1",
+              "type": "multiple_choice",
+              "section": "Symtom",
+              "question": "Vilka är de vanligaste symtomen vid medellinjebråck?",
+              "options": {
+                "A": "Uttalad smärta och feber",
+                "B": "Framför allt kosmetiska besvär, ibland ömhet vid ansträngning",
+                "C": "Tarmvred med kräkningar",
+                "D": "Konstant smärta"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-2.10.1",
+              "type": "true_false",
+              "section": "Remiss till specialist",
+              "statement": "Medellinjebråck är nästan aldrig akuta.",
+              "correct": true,
+              "explanation": "Akut remiss skrivs enbart om bråcket fastnat på utsidan, inte kan tryckas tillbaka och gör ont – vilket är ovanligt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 3,
+      "subcategory": "Skelett och muskler - översikt",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "PEVA-fot",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/peva-fot/",
+          "questions": [
+            {
+              "id": "FC-3.1.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är PEVA-fot och hur kallas tillståndet numera?",
+              "back": "PEVA (Pes equinovarus adductus), tidigare kallad klumpfot. Medfödd missbildning där foten/fötterna står i spetsfotställning med hälen vriden inåt och framfoten riktad nedåt-inåt."
+            },
+            {
+              "id": "FC-3.1.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vad är principen för behandling av PEVA-fot?",
+              "back": "Behandling påbörjas inom några dagar efter födseln. Mjuka fötter: föräldrarna instrueras i tänjning/redressering. Övriga fall: behandling enligt lokala rutiner (ofta gipsning – Ponseti-metoden)."
+            },
+            {
+              "id": "MC-3.1.1",
+              "type": "multiple_choice",
+              "section": "Symtom och diagnos",
+              "question": "Hur och när diagnostiseras PEVA-fot?",
+              "options": {
+                "A": "På BVC vid 6-månaders besöket",
+                "B": "Antenatalt, på förlossning eller BB; barnet remitteras till ortoped första levnadsdagen",
+                "C": "Alltid med röntgen vid 1 år",
+                "D": "Av fysioterapeut vid gångdebut"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-3.1.1",
+              "type": "true_false",
+              "section": "Definition",
+              "statement": "PEVA-fot är alltid bilateral (drabbar båda fötter).",
+              "correct": false,
+              "explanation": "PEVA-fot kan drabba en eller båda fötter."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Nyckelbensfraktur hos nyfödd",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/nyckelbensfraktur-hos-nyfodd/",
+          "questions": [
+            {
+              "id": "FC-3.2.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Hur uppkommer nyckelbensfraktur hos nyfödda?",
+              "back": "Uppstår under förlossningen men upptäcks inte alltid på BB. Efter någon vecka uppträder en knöl vid frakturen som kan oroa föräldrar."
+            },
+            {
+              "id": "FC-3.2.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vad är prognosen och behandlingen vid nyckelbensfraktur hos nyfödda?",
+              "back": "Skadan är mycket godartad och läker alltid snabbt utan komplikationer, även om frakturen är felställd. Behandling: undvik att lägga barnet på den sidan de första levnadsveckorna för att reducera smärtan."
+            },
+            {
+              "id": "MC-3.2.1",
+              "type": "multiple_choice",
+              "section": "Till läkare",
+              "question": "När ska barnet alltid undersökas av läkare vid nyckelbensfraktur?",
+              "options": {
+                "A": "Om föräldrar är oroliga",
+                "B": "Vid misstanke om nedsatt funktion av hand eller arm",
+                "C": "Om knölen kvarstår efter 4 veckor",
+                "D": "Alltid – alla nyckelbensfrakturer kräver läkarbedömning"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-3.2.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Felläkt nyckelbensfraktur hos nyfödda kräver ofta operation.",
+              "correct": false,
+              "explanation": "Skadan läker alltid snabbt och utan komplikationer, även om frakturen är felställd i ursprungsläget."
+            }
+          ]
+        },
+        {
+          "page_nr": 3,
+          "title": "Hjulbenthet och kobenthet",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/hjulbenthet-och-kobenthet/",
+          "questions": [
+            {
+              "id": "FC-3.3.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är det normala förloppet för hjulbenthet och kobenthet hos barn?",
+              "back": "Barn föds med hjulbenthet (normalt t.o.m. 2–3 år). Vid 3–4 år är det istället vanligt med kobenthet. Sedan normaliseras det successivt."
+            },
+            {
+              "id": "FC-3.3.2",
+              "type": "flashcard",
+              "section": "Hjulbenthet – genu varum",
+              "front": "Vad är ett sätt att mäta hjulbenthet och när bör barnet utredas vidare?",
+              "back": "Mäta avstånd mellan knäna i stående. Utred om hjulbentheten är ensidig (kan indikera rakit eller skelettdysplasi)."
+            },
+            {
+              "id": "MC-3.3.1",
+              "type": "multiple_choice",
+              "section": "Kobenthet – genu valgum",
+              "question": "Vad rekommenderas vid symmetrisk kobenthet hos ett 3–4-årigt barn?",
+              "options": {
+                "A": "Remiss till ortoped",
+                "B": "Ortospädagogik och specialskor",
+                "C": "Ingen åtgärd; tillståndet normaliseras spontant",
+                "D": "Gipsskena"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-3.3.1",
+              "type": "true_false",
+              "section": "Uppföljning på BVC",
+              "statement": "Hjulbenthet och kobenthet under förskoleåldern är normaltillstånd som följs på BVC.",
+              "correct": true,
+              "explanation": "De allra flesta barn med hjulbenthet/kobenthet under förskoleåldern följs på BVC, eftersom det är normaltillstånd."
+            }
+          ]
+        },
+        {
+          "page_nr": 4,
+          "title": "Plattfothet",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/plattfothet/",
+          "questions": [
+            {
+              "id": "FC-3.4.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Hur ska mjuk plattfothet hos barn betraktas?",
+              "back": "Som ett normaltillstånd i de allra flesta fall. Barnet har mjuk bindväv (hög ledlaxitet) som gör att fotvalvet sjunker vid belastning."
+            },
+            {
+              "id": "FC-3.4.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Varför rekommenderas inte inlägg eller specialskor vid mjuk plattfothet?",
+              "back": "Det finns inga belägg för att inlägg eller specialskor påverkar fotens utseende eller funktion på vare sig kort eller lång sikt."
+            },
+            {
+              "id": "MC-3.4.1",
+              "type": "multiple_choice",
+              "section": "Till läkare",
+              "question": "Vilka fynd motiverar läkarbedömning vid plattfothet?",
+              "options": {
+                "A": "Bilateral mjuk plattfothet",
+                "B": "Ensidig plattfothet, återkommande smärta, eller stel plattfothet",
+                "C": "Plattfothet som syns tydligt",
+                "D": "Alltid vid plattfothet hos barn under 5 år"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-3.4.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Inlägg och specialskor rekommenderas rutinmässigt vid plattfothet hos barn.",
+              "correct": false,
+              "explanation": "Det finns inga belägg för att inlägg/specialskor påverkar fotens utseende eller funktion; de rekommenderas inte vid mjuk plattfothet."
+            }
+          ]
+        },
+        {
+          "page_nr": 5,
+          "title": "Rakit",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/rakit/",
+          "questions": [
+            {
+              "id": "FC-3.5.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad orsakar rakit?",
+              "back": "Bristande mineralisering av det växande skelettet p.g.a. för lågt intag av kalk, vitamin D eller för liten exponering för solljus."
+            },
+            {
+              "id": "FC-3.5.2",
+              "type": "flashcard",
+              "section": "Symtom och diagnos",
+              "front": "Vad är rosenkrans och var ses det vid rakit?",
+              "back": "Ojämnheter framtill på revbenen vid brosk-benövergången – ett typiskt fynd vid rakit."
+            },
+            {
+              "id": "MC-3.5.1",
+              "type": "multiple_choice",
+              "section": "Behandling",
+              "question": "Vad görs vid misstänkt rakit?",
+              "options": {
+                "A": "Ge D-vitamin och avvakta 3 månader",
+                "B": "Remittera omgående till barnläkare för utredning, diagnos och behandling",
+                "C": "Röntga på BVC",
+                "D": "Inga åtgärder – rakit är ovanligt i Sverige"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-3.5.1",
+              "type": "true_false",
+              "section": "Definition",
+              "statement": "Rakit är numera vanligt i Sverige trots D-vitaminrekommendationer.",
+              "correct": false,
+              "explanation": "Rakit är numera OVANLIGT i Sverige eftersom alla barn rekommenderas D-vitamintillskott."
+            }
+          ]
+        },
+        {
+          "page_nr": 6,
+          "title": "Höga fotvalv",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/hoga-fotvalv/",
+          "questions": [
+            {
+              "id": "FC-3.6.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är högt fotvalv och vad kan det ge för besvär?",
+              "back": "Pes cavus – fot med högt fotvalv, ofta nedärvt. Kan ge smärta och trötthetskänsla från foten vid belastning."
+            },
+            {
+              "id": "FC-3.6.2",
+              "type": "flashcard",
+              "section": "Diagnos",
+              "front": "Varför är det viktigt att bedöma neurologi vid höga fotvalv?",
+              "back": "En bakomliggande neurologisk sjukdom (CP, ryggmärgsbråck, Charcot-Marie-Tooth) kan orsaka höga fotvalv; neurologi ska utvärderas för att utesluta detta."
+            },
+            {
+              "id": "MC-3.6.1",
+              "type": "multiple_choice",
+              "section": "Behandling",
+              "question": "När bör ett barn med höga fotvalv undersökas av barnläkare/barnortoped?",
+              "options": {
+                "A": "Alltid, redan vid diagnos",
+                "B": "Enbart om barnet inte kan gå",
+                "C": "Vid påtagligt höga fotvalv med subjektiva besvär, eller om de utvecklats under uppväxten",
+                "D": "Aldrig – höga fotvalv är alltid normalt"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-3.6.1",
+              "type": "true_false",
+              "section": "Diagnos",
+              "statement": "Höga fotvalv som har utvecklats under uppväxten bör man vara extra uppmärksam på.",
+              "correct": true,
+              "explanation": "Rikshandboken anger att om höga fotvalven UTVECKLATS under uppväxten bör man vara extra uppmärksam på bakomliggande neurologisk orsak."
+            }
+          ]
+        },
+        {
+          "page_nr": 7,
+          "title": "Hälta",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/halta/",
+          "questions": [
+            {
+              "id": "FC-3.7.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är den vanligaste orsaken till hälta hos barn?",
+              "back": "Trauma. Även förhållandevis lindriga trauman kan leda till skelettskador hos barn."
+            },
+            {
+              "id": "FC-3.7.2",
+              "type": "flashcard",
+              "section": "Simplex-coxit",
+              "front": "Vad är simplex-coxit och vad föregår det typiskt?",
+              "back": "'Snuva i höften' – lindrig reaktiv artrit i höftleden hos förskolebarn. Typiskt föregånget av virusinfektion; barnet får plötslig smärta och rörelseinskränkning i ena höften."
+            },
+            {
+              "id": "FC-3.7.3",
+              "type": "flashcard",
+              "section": "Akuta tillstånd - septisk artrit",
+              "front": "Vilka symtom tyder på septisk artrit?",
+              "back": "Hög feber och allmänpåverkan i kombination med hälta eller rörelseinskränkning av en led. Barnet ska akut till barnläkare/ortoped; inneliggande vård krävs ofta."
+            },
+            {
+              "id": "MC-3.7.1",
+              "type": "multiple_choice",
+              "section": "Perthes sjukdom",
+              "question": "Från vilken ålder är Perthes sjukdom vanligast?",
+              "options": {
+                "A": "0–1 år",
+                "B": "1–2 år",
+                "C": "Från 3 år",
+                "D": "Från 10 år"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-3.7.1",
+              "type": "true_false",
+              "section": "Tumörer, Henoch Schönleins purpura och osteomyelit",
+              "statement": "Alla barn med oförklarlig hälta bör bedömas av barnläkare eller ortoped.",
+              "correct": true,
+              "explanation": "Leukemi, tumörer, Henoch Schönleins purpura och osteomyelit kan ge hälta, varför alla oförklarliga hältor bör utredas av läkare."
+            }
+          ]
+        },
+        {
+          "page_nr": 8,
+          "title": "Inåtvriden framfot",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/inatvriden-framfot/",
+          "questions": [
+            {
+              "id": "FC-3.8.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är inåtvriden framfot (metatarsus adductus)?",
+              "back": "Bakfoten har förväntat utseende medan framfoten är vriden inåt (medialt) mot stortån. Ofta medfödd och synlig direkt efter födseln."
+            },
+            {
+              "id": "FC-3.8.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vilken behandling ges vid uttalad inåtvriden framfot?",
+              "back": "Intensiv tänjning via barnkompetent fysioterapeut som visar föräldrarna hur det görs. Ortoped konsulteras om redressionsbehandling inte fungerat."
+            },
+            {
+              "id": "MC-3.8.1",
+              "type": "multiple_choice",
+              "section": "Symtom",
+              "question": "Hur ser den typiska foten ut vid inåtvriden framfot?",
+              "options": {
+                "A": "Hela foten inklusive hälen är vriden inåt",
+                "B": "Framfoten vriden inåt, vristen och hälen har förväntat utseende",
+                "C": "Foten står i spetsfotställning",
+                "D": "Hälen vriden utåt med plan fotsula"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-3.8.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Inåtvriden framfot läker alltid utan behandling oavsett grad.",
+              "correct": false,
+              "explanation": "Lindrig form: tänjning räcker. Mer uttalad form: intensiv tänjning via fysioterapeut, eventuellt ortopedremiss."
+            }
+          ]
+        },
+        {
+          "page_nr": 9,
+          "title": "Plexus brachialisskada hos nyfödd",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/plexus-brachialisskada-hos-nyfodd/",
+          "questions": [
+            {
+              "id": "FC-3.9.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad orsakar plexus brachialisskada hos nyfödda?",
+              "back": "Skada på en eller flera nervrötter (C4–Th1) som uppstår i samband med förlossningen."
+            },
+            {
+              "id": "FC-3.9.2",
+              "type": "flashcard",
+              "section": "Symtom och diagnos",
+              "front": "Vad är Erbs pares?",
+              "back": "Den vanligaste formen av plexus brachialisskada (övre nervrötter C4–C6). Armen är inåtroterad och slapp utmed kroppen; Mororeflex saknas men barnet kan röra på fingrarna och gripreflex finns oftast."
+            },
+            {
+              "id": "MC-3.9.1",
+              "type": "multiple_choice",
+              "section": "Behandling",
+              "question": "Vad ska göras om plexus brachialisskada misstänks på BVC och inte uppmärksammats tidigare?",
+              "options": {
+                "A": "Avvakta och följ upp vid 3 månader",
+                "B": "Skyndsam remiss till barnspecialiserad fysioterapeut",
+                "C": "Omedelbar kirurgisk konsultation",
+                "D": "Bara informera föräldrarna"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-3.9.1",
+              "type": "true_false",
+              "section": "Symtom och diagnos",
+              "statement": "Plexus brachialisskada bör diagnosticeras på BB för tidigt omhändertagande.",
+              "correct": true,
+              "explanation": "Plexus brachialisskador bör diagnosticeras på BB för tidigt omhändertagande av barnspecialiserad fysioterapeut."
+            }
+          ]
+        },
+        {
+          "page_nr": 10,
+          "title": "Skallasymmetri och torticollis",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/skallasymmetri-och-torticollis/",
+          "questions": [
+            {
+              "id": "FC-3.10.1",
+              "type": "flashcard",
+              "section": "Förebygga lägesbetingad skallasymmetri",
+              "front": "Vad är den mest effektiva åtgärden mot lägesbetingad skallasymmetri?",
+              "back": "Förebygga att den uppstår. Råd kan ges redan från första hembesöket: variera barnets huvud position och undvika att alltid lägga barnet på samma sida."
+            },
+            {
+              "id": "FC-3.10.2",
+              "type": "flashcard",
+              "section": "Kraniosynostos",
+              "front": "Vad är kraniosynostos och vilka problem orsakar det?",
+              "back": "För tidig slutning av skallens tillväxtsömmar (prematur kraniosynostos). Hindrar normal hjärntillväxt och kräver ofta kirurgisk behandling."
+            },
+            {
+              "id": "MC-3.10.1",
+              "type": "multiple_choice",
+              "section": "Förebygga lägesbetingad skallasymmetri",
+              "question": "När bör råd om förebyggande av skallasymmetri ges?",
+              "options": {
+                "A": "Vid 3-månaders besöket",
+                "B": "Redan från första hembesöket",
+                "C": "Vid 6 månaders ålder",
+                "D": "Enbart vid tecken på asymmetri"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-3.10.1",
+              "type": "true_false",
+              "section": "Kraniosynostos",
+              "statement": "Kraniosynostos är en ofarlig normalvariant som inte kräver behandling.",
+              "correct": false,
+              "explanation": "Kraniosynostos innebär för tidig slutning av skallens tillväxtsömmar och kräver uppföljning; allvarliga former kan behöva kirurgisk behandling."
+            }
+          ]
+        },
+        {
+          "page_nr": 11,
+          "title": "Tågång",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/tagang/",
+          "questions": [
+            {
+              "id": "FC-3.11.1",
+              "type": "flashcard",
+              "section": "Allmänt",
+              "front": "Hur vanlig är tågång hos små barn och hur förändras det?",
+              "back": "Vanligt, särskilt vid gångdebut. Förekomsten minskar successivt upp till skolåldern och blir relativt låg i tonåren."
+            },
+            {
+              "id": "FC-3.11.2",
+              "type": "flashcard",
+              "section": "Orsaker och behandling",
+              "front": "Vad är den vanligaste orsaken till tågång?",
+              "back": "Habituell (vanemässig) tågång – barnet känner sig 'säkrare' på tå och väljer omedvetet detta gångsätt vid gångdebuten. I vissa fall beror det på kort hälsena."
+            },
+            {
+              "id": "MC-3.11.1",
+              "type": "multiple_choice",
+              "section": "Till läkare",
+              "question": "Vid vilka fynd bör barnet bedömas av läkare vid tågång?",
+              "options": {
+                "A": "Alltid vid tågång",
+                "B": "Vid tveksamhet kring orsak, misstanke om kort hälsena eller bakomliggande neurologisk sjukdom",
+                "C": "Enbart om tågång kvarstår efter 10 årsålder",
+                "D": "Aldrig – tågång är alltid normalt"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-3.11.1",
+              "type": "true_false",
+              "section": "Diagnostik",
+              "statement": "Tågång kan ibland vara det första tecknet på en neurologisk rubbning eller muskelsjukdom.",
+              "correct": true,
+              "explanation": "I vissa fall kan fotdeformitet och tågång vara det första påtagliga tecknet på neurologisk rubbning eller muskelsjukdom."
+            }
+          ]
+        },
+        {
+          "page_nr": 12,
+          "title": "Hälfot",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/halfot/",
+          "questions": [
+            {
+              "id": "FC-3.12.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är hälfot och vad orsakar det?",
+              "back": "Pes calcaneovalgus – medfödd fotfelställning där foten legat uppslaget mot underbensframsidan i livmodern. Foten har i övrigt förväntat utseende och felställningen är relativt mjuk."
+            },
+            {
+              "id": "FC-3.12.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vad är behandlingen vid hälfot?",
+              "back": "Försiktig tänjning av foten hemma av föräldrarna. Inom ca 3 månader normaliseras fotens utseende."
+            },
+            {
+              "id": "MC-3.12.1",
+              "type": "multiple_choice",
+              "section": "Uppföljning på BVC",
+              "question": "Hur ställs diagnosen hälfot?",
+              "options": {
+                "A": "Med röntgen på BB",
+                "B": "Av ortoped vid 3 månader",
+                "C": "Uteslutande i samband med barnläkarundersökning på BB",
+                "D": "Av BVC-sköterska vid 1 månaders besöket"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-3.12.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Hälfot är ett helt godartat tillstånd.",
+              "correct": true,
+              "explanation": "Hälfot är ett helt godartat tillstånd. Den enda behandling som behövs är försiktig tänjning av foten."
+            }
+          ]
+        },
+        {
+          "page_nr": 13,
+          "title": "Växtvärk",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/vaxtvark/",
+          "questions": [
+            {
+              "id": "FC-3.13.1",
+              "type": "flashcard",
+              "section": "Allmänt",
+              "front": "Vad är växtvärk och vad vet man om orsakssambandet med tillväxt?",
+              "back": "Smärtor från rörelseapparaten hos barn utan känd orsak. Trots benämningen finns inga bevis för att tillväxten i sig orsakar värken."
+            },
+            {
+              "id": "FC-3.13.2",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Var sitter typisk växtvärk och när uppträder den?",
+              "back": "Lårens framsida, runt knän eller underben. Typiskt i vila – kvällar och nätter – och kan väcka barnet. Ofta i båda benen."
+            },
+            {
+              "id": "MC-3.13.1",
+              "type": "multiple_choice",
+              "section": "Till läkare",
+              "question": "Vid vilket fynd ska barn med smärtor som misstänks vara växtvärk ALLTID bedömas av läkare?",
+              "options": {
+                "A": "Om smärtan är bilateral",
+                "B": "Om smärtan uppträder nattetid",
+                "C": "Vid strikt ensidiga symtom",
+                "D": "Om barnet har svårt att sova"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-3.13.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Växtvärk försvinner alltid spontant senast vid ca 16 år.",
+              "correct": true,
+              "explanation": "Besvären försvinner alltid spontant efter avslutad tillväxt, senast vid ca 16 årsålder."
+            }
+          ]
+        },
+        {
+          "page_nr": 14,
+          "title": "Infothet och utfothet",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/skelett-och-muskler---oversikt/infothet-och-utfothet/",
+          "questions": [
+            {
+              "id": "FC-3.14.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Hur vanlig är infothet hos barn och hur behandlas det?",
+              "back": "Mycket vanligt, ca 20 % hos barn t.o.m. skolåldern. I första hand bedöms orsaken och föräldrarna informeras; övrig behandling är sällan aktuell."
+            },
+            {
+              "id": "FC-3.14.2",
+              "type": "flashcard",
+              "section": "Remittering",
+              "front": "När ska barnet remitteras vid infothet/utfothet?",
+              "back": "Vid uttalad underbensrotation, i synnerhet ensidig, eller uttalat vriden fot bör barnortoped konsulteras."
+            },
+            {
+              "id": "MC-3.14.1",
+              "type": "multiple_choice",
+              "section": "Definition",
+              "question": "Vad rekommenderas i första hand vid infothet och utfothet?",
+              "options": {
+                "A": "Specialskor och inlägg",
+                "B": "Remiss till ortoped",
+                "C": "Bedöma orsaken och informera föräldrarna – övrig behandling sällan aktuell",
+                "D": "Observation utan åtgärd fram till 10 år"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-3.14.1",
+              "type": "true_false",
+              "section": "Definition",
+              "statement": "Utfothet är vanligare än infothet hos barn.",
+              "correct": false,
+              "explanation": "Infothet är mycket vanlig (ca 20 % upp till skolåldern); utfothet nämns som ett separat tillstånd men infothet är det vanligaste."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 1,
+      "subcategory": "Infektioner - översikt",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Infektion hos nyfödda",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/infektioner---oversikt/infektion-hos-nyfodda/",
+          "questions": [
+            {
+              "id": "FC-1.1.1",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Varför är infektionssymtom hos nyfödda svåra att tolka?",
+              "back": "Nyfödda ger ofta ospecifika symtom och kan sakna feber vid svåra infektioner. Viktigt att uppmärksamma plötslig försämring av allmäntillståndet."
+            },
+            {
+              "id": "FC-1.1.2",
+              "type": "flashcard",
+              "section": "Orsak",
+              "front": "Nämn tre orsaker till allvarlig infektion hos nyfödda.",
+              "back": "Grupp B-streptokocker (sepsis/meningit), stafylokocksepsis (pustler/blåsor från naveln), urinvägsinfektioner (vid urinvägsmissbildning), herpesvirus (hudblåsor)."
+            },
+            {
+              "id": "FC-1.1.3",
+              "type": "flashcard",
+              "section": "Att undvika infektion hos nyfödda",
+              "front": "Mot vilka infektioner skyddar INTE antikroppar från modern via placenta och bröstmjölk?",
+              "back": "Vattkoppor (om modern insjuknar 5 dagar före – 2 dagar efter förlossning), RS-virus, kikhosta (om inte modern vaccinerats under graviditeten)."
+            },
+            {
+              "id": "MC-1.1.1",
+              "type": "multiple_choice",
+              "section": "Bedömning",
+              "question": "Vilken andningsfrekvens hos nyfödda tyder på möjlig infektion?",
+              "options": {
+                "A": ">40/min",
+                "B": ">60/min",
+                "C": ">80/min",
+                "D": ">100/min"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-1.1.1",
+              "type": "true_false",
+              "section": "Till läkare",
+              "statement": "Vid misstanke om infektion hos nyfödda kan man avvakta till dagen efter om barnet inte har feber.",
+              "correct": false,
+              "explanation": "Vid misstanke om infektion ska barnet bedömas på akutmottagning SAMMA DAG, oavsett om feber föreligger."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Feber",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/infektioner---oversikt/feber/",
+          "questions": [
+            {
+              "id": "FC-1.2.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Från vilken temperatur räknas feber hos barn och hur mäts den bäst under ett år?",
+              "back": "38,0 °C eller mer. Till barn under ett år rekommenderas rektal mätning."
+            },
+            {
+              "id": "FC-1.2.2",
+              "type": "flashcard",
+              "section": "Behandling med febernedsättande läkemedel",
+              "front": "Varför ska NSAID-preparat undvikas vid vattkoppor?",
+              "back": "NSAID ökar risken för ovanliga men allvarliga infektioner vid vattkoppor."
+            },
+            {
+              "id": "FC-1.2.3",
+              "type": "flashcard",
+              "section": "Barn yngre än 6 månader",
+              "front": "Varför kräver feber hos barn under 3 månader extra uppmärksamhet?",
+              "back": "De har ökad risk för svår bakteriell infektion och kan sakna förmåga att visa tydliga symtom."
+            },
+            {
+              "id": "MC-1.2.1",
+              "type": "multiple_choice",
+              "section": "Vid val av febernedsättande läkemedel",
+              "question": "Vilket preparat ska undvikas vid feber hos barn på grund av risk för Reyes syndrom?",
+              "options": {
+                "A": "Paracetamol",
+                "B": "Ibuprofen",
+                "C": "Salicylsyrepreparat",
+                "D": "Laktulos"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-1.2.1",
+              "type": "true_false",
+              "section": "Behandling med febernedsättande läkemedel",
+              "statement": "Paracetamol och ibuprofen bör kombineras för bästa febernedsättande effekt.",
+              "correct": false,
+              "explanation": "Effekten ökar obetydligt men risken för doseringsfel ökar; kombinationen rekommenderas inte."
+            }
+          ]
+        },
+        {
+          "page_nr": 3,
+          "title": "Torsk i barnets mun",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/infektioner---oversikt/torsk-i-barnets-mun/",
+          "questions": [
+            {
+              "id": "FC-1.3.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är torsk i barnets mun och vad orsakar det?",
+              "back": "Svampinfektion i munhålan orsakad av Candida albicans. Ses som vita beläggningar på kindernas/läpparnas insidor och på tungan."
+            },
+            {
+              "id": "FC-1.3.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "När behöver torsk i barnets mun behandlas?",
+              "back": "Vid utbredda förändringar och försämrat ätande. Måttliga förändringar hos ett välmående barn som äter bra brukar gå tillbaka av sig självt."
+            },
+            {
+              "id": "MC-1.3.1",
+              "type": "multiple_choice",
+              "section": "Symtom",
+              "question": "Vilka komplikationer kan torsk i barnets mun ge?",
+              "options": {
+                "A": "Meningit",
+                "B": "Matningssvårigheter och svamputslag i underlivet",
+                "C": "Andningssvårigheter",
+                "D": "Diarré och feber"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-1.3.1",
+              "type": "true_false",
+              "section": "Till läkare",
+              "statement": "Barn som inte svarar på nystatin bör bedömas för utredning av immunförsvar och eventuell systemisk behandling.",
+              "correct": true,
+              "explanation": "Sådana barn remitteras till läkare för bedömning av immunförsvaret och ställningstagande till systemisk behandling med fluconazol mixtur."
+            }
+          ]
+        },
+        {
+          "page_nr": 4,
+          "title": "RS-virusinfektion",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/infektioner---oversikt/rs-virusinfektion/",
+          "questions": [
+            {
+              "id": "FC-1.4.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är RS-virus och när sprids det?",
+              "back": "Respiratory syncytial virus. Sprids epidemiskt varje vinter; vartannat år brukar utbrottet bli kraftigare. De flesta fall sker i februari–mars."
+            },
+            {
+              "id": "FC-1.4.2",
+              "type": "flashcard",
+              "section": "Riskgrupp",
+              "front": "Vilka barn tillhör riskgruppen för allvarlig RS-virusinfektion?",
+              "back": "Prematura barn (t.o.m. 2 mån efter beräknad födelsetid), fullgångna de första 2 månaderna, barn under ~2 år med kronisk lungsjukdom, svår hjärtsjukdom, immunbrist eller neuromuskulär/neurologisk sjukdom."
+            },
+            {
+              "id": "FC-1.4.3",
+              "type": "flashcard",
+              "section": "Smittsamhet",
+              "front": "Hur länge kan RS-virus leva på leksaker och vad är effektivt mot det?",
+              "back": "Viruset kan leva i flera timmar på leksaker. Tvättsprit är mycket effektivt mot RSV."
+            },
+            {
+              "id": "MC-1.4.1",
+              "type": "multiple_choice",
+              "section": "Antikroppar för prevention från hösten 2025",
+              "question": "Vilket läkemedel erbjuds nyfödda för prevention av RSV-infektion?",
+              "options": {
+                "A": "Palivizumab",
+                "B": "Nirsevimab (Beyfortus)",
+                "C": "RSV-vaccin",
+                "D": "Immunglobulin"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-1.4.1",
+              "type": "true_false",
+              "section": "Förlopp",
+              "statement": "Inkubationstiden för RS-virus är 7–10 dagar.",
+              "correct": false,
+              "explanation": "Inkubationstiden för RS-virus är tre till fem dagar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 6,
+      "subcategory": "Ögon - översikt",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Ögonbesvär hos barn",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/ogon---oversikt/ogonbesvar-hos-barn/",
+          "questions": [
+            {
+              "id": "FC-6.1.1",
+              "type": "flashcard",
+              "section": "Skräp i ögat- handläggning",
+              "front": "Hur hanteras ett skräp i ögat på barnet?",
+              "back": "Inspektera ögat, titta noga på hornhinnan och under ögonlocken. Syns skräpet kan det torkas bort med fuktig bomullspinne. Syns inget skräp – spola med rikligt med vatten."
+            },
+            {
+              "id": "FC-6.1.2",
+              "type": "flashcard",
+              "section": "Frätande ämne i ögat - handläggning",
+              "front": "Vad är det viktigaste första steget vid frätande ämne i ögat?",
+              "back": "OMEDELBART skölja ögat med rikligt med vatten. Varje minut som går ökar risken för skada."
+            },
+            {
+              "id": "FC-6.1.3",
+              "type": "flashcard",
+              "section": "Variga, kladdiga och röda ögon",
+              "front": "Vad är orsaken till variga ögon i samband med förkylning och hur behandlas det?",
+              "back": "Vanligtvis virus (men kan vara bakterier). Tvätta med ljummet vatten/ögonbad flera gånger dagligen. Infektionen går vanligtvis över inom en vecka."
+            },
+            {
+              "id": "MC-6.1.1",
+              "type": "multiple_choice",
+              "section": "Barns ögonlock kan svullna upp av framför allt fyra olika orsaker",
+              "question": "Om det inte är uppenbart att svullna ögonlock beror på infektion eller allergi – vad ska undersökas?",
+              "options": {
+                "A": "Audiogram",
+                "B": "Urinsticka för att utesluta äggvita i urinen (nefrotiskt syndrom)",
+                "C": "Blodstatus",
+                "D": "Sinusröntgen"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-6.1.1",
+              "type": "true_false",
+              "section": "Variga, kladdiga och röda ögon",
+              "statement": "Variga ögon vid förkylning kräver alltid antibiotika-ögondroppar från start.",
+              "correct": false,
+              "explanation": "Tvätt med ljummet vatten räcker oftast. Antibiotikaögondroppar ges vid utebliven förbättring efter tvätt."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Neonatal konjunktivit",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/ogon---oversikt/neonatal-konjunktivit/",
+          "questions": [
+            {
+              "id": "FC-6.2.1",
+              "type": "flashcard",
+              "section": "Avvikande symtom",
+              "front": "Vad tyder liten/måttlig mängd gulaktigt sekret i ögonlockskanterna med bleka ögon på?",
+              "back": "Möjlig neonatal konjunktivit (bakteriell). Åtgärd: rengöring med ljummet vatten + odling. Remiss vid försämring."
+            },
+            {
+              "id": "FC-6.2.2",
+              "type": "flashcard",
+              "section": "Handläggning  - provtagning och behandling",
+              "front": "Vilka odlingar ska tas vid neonatal konjunktivit?",
+              "back": "Allmän odling, gonokockodling, och vid barn äldre än 5 dagar: klamydia. Rätt odlingspinne och rör för respektive odling."
+            },
+            {
+              "id": "MC-6.2.1",
+              "type": "multiple_choice",
+              "section": "Åtgärder efter provsvar:",
+              "question": "Vad ska göras vid positiv gonokockodling?",
+              "options": {
+                "A": "Behandla med kloramfenikolsalva",
+                "B": "Akut remiss till barnklinik",
+                "C": "Avvakta med behandling",
+                "D": "Enbart tvätt med koksalt"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-6.2.1",
+              "type": "true_false",
+              "section": "Tänk på detta:",
+              "statement": "Negativa odlingssvar utesluter alltid herpes simplex som orsak.",
+              "correct": false,
+              "explanation": "Negativa odlingssvar kan vara falska eller bero på virusinfektion. Tänk på herpes simplex om mammans har återkommande herpes."
+            }
+          ]
+        },
+        {
+          "page_nr": 3,
+          "title": "Tårkanalsstenos",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/ogon---oversikt/tarkanalsstenos/",
+          "questions": [
+            {
+              "id": "FC-6.3.1",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Vad karaktäriserar tårkanalsstenos?",
+              "back": "Relativt vanligt, oftast ensidigt. Stopp i tåravflödet ger ett tårfyllt, kladdigt öga. Till skillnad från konjunktivit: ögonvitan INTE rodnad och ögonlocken INTE svullna."
+            },
+            {
+              "id": "FC-6.3.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Hur behandlas tårkanalsstenos?",
+              "back": "Tvätt för att hålla rent. Massera över tårsäcken mot näsroten för att trycka ut sekret och stimulera öppning. Hud kring ögat kan behöva fuktighetskräm mot irritation."
+            },
+            {
+              "id": "MC-6.3.1",
+              "type": "multiple_choice",
+              "section": "Remittering",
+              "question": "Vid vilken ålder skickas remiss till ögonklinik om tårkanalsstenos kvarstår?",
+              "options": {
+                "A": "Vid 6 månaders ålder",
+                "B": "Vid ca 1 år",
+                "C": "Vid ca 2 år",
+                "D": "Vid ca 3 år"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-6.3.1",
+              "type": "true_false",
+              "section": "Symtom",
+              "statement": "De flesta tårkanaler öppnas spontant före ett års ålder.",
+              "correct": true,
+              "explanation": "De flesta tårkanaler öppnas spontant före ett årsålder; behandling är sällan nödvändig."
+            }
+          ]
+        },
+        {
+          "page_nr": 4,
+          "title": "Nystagmus - ögondarr",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/ogon---oversikt/nystagmus-ogondarr/",
+          "questions": [
+            {
+              "id": "FC-6.4.1",
+              "type": "flashcard",
+              "section": "Syfte med undersökningen",
+              "front": "Vad är nystagmus och varför är det alltid patologiskt?",
+              "back": "Ögondarr – snabba, upprepade, okontrollerade ögonrörelser (ofta horisontala). Alltid patologiskt; bakomliggande orsak ska utredas."
+            },
+            {
+              "id": "FC-6.4.2",
+              "type": "flashcard",
+              "section": "Exempel på orsaker:",
+              "front": "Nämn tre orsaker till nystagmus hos barn.",
+              "back": "Missbildning/sjukdom i ögats främre del (t.ex. bilateral medfödd grå starr), hjärntumör/missbildning, ärftlig näthinnesjukdom, albinism."
+            },
+            {
+              "id": "MC-6.4.1",
+              "type": "multiple_choice",
+              "section": "Handläggning - Remittering",
+              "question": "Vad ska göras vid nystagmus?",
+              "options": {
+                "A": "Avvakta 3 månader och kontrollera",
+                "B": "Remiss till ögonläkare; vid alarmerande neurologiska symtom till läkare först",
+                "C": "Alltid akutremiss till neurolog",
+                "D": "Synträning på BVC"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-6.4.1",
+              "type": "true_false",
+              "section": "Syfte med undersökningen",
+              "statement": "Nystagmus kan vara ett normalt fynd hos barn under 3 månaders ålder.",
+              "correct": false,
+              "explanation": "Nystagmus är ALLTID patologiskt och bakomliggande orsak ska alltid utredas."
+            }
+          ]
+        },
+        {
+          "page_nr": 5,
+          "title": "Skelning",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/ogon---oversikt/skelning/",
+          "questions": [
+            {
+              "id": "FC-6.5.1",
+              "type": "flashcard",
+              "section": "Amblyopi",
+              "front": "Vad är amblyopi och hur uppkommer det vid skelning?",
+              "back": "'Lata ögat' – hjärnan kopplar bort bilden från det skelande ögat och ögat utvecklar bestående synnedsättning om det inte tränas. Viktig att upptäcka och behandla tidigt."
+            },
+            {
+              "id": "FC-6.5.2",
+              "type": "flashcard",
+              "section": "Falsk skelning - pseudostrabism",
+              "front": "Vad är pseudostrabism och vad orsakar det?",
+              "back": "Anatomiska förhållanden som ger intryck av skelning utan egentlig skelning. Orsak: epicanthus (hudveck vid inre ögonvrån) ofta med bred näsrygg – ger intryck av inåtskelning."
+            },
+            {
+              "id": "FC-6.5.3",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vad är lappbehandling vid skelning?",
+              "back": "Behandling med täckplåster (lapp) över det starka ögat för att tvinga det svaga ögat att träna och motverka amblyopi."
+            },
+            {
+              "id": "MC-6.5.1",
+              "type": "multiple_choice",
+              "section": "Remiss till ögonmottagning",
+              "question": "Från vilken ålder bör varje misstanke om skelning remitteras till ögonmottagning?",
+              "options": {
+                "A": "Från 2 månader",
+                "B": "Från 6 månader",
+                "C": "Från 1 år",
+                "D": "Från 2 år"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-6.5.1",
+              "type": "true_false",
+              "section": "Viktigt att upptäcka skelning tidigt",
+              "statement": "Skelning under de 2-3 första månaderna är alltid ett alarmerande tecken som kräver akut remiss.",
+              "correct": false,
+              "explanation": "Före 2–3 månaders ålder har spädbarn svårt att ställa in ögonen rätt. EN PÅTAGLIG skelning i den åldern är dock anmärkningsvärd och ska föranleda remiss."
+            }
+          ]
+        },
+        {
+          "page_nr": 6,
+          "title": "Avvikande pupiller",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/ogon---oversikt/avvikande-pupiller/",
+          "questions": [
+            {
+              "id": "FC-6.6.1",
+              "type": "flashcard",
+              "section": "Förväntat utseende",
+              "front": "Hur ska normala pupiller se ut?",
+              "back": "Runda, lika stora på båda ögon, svarta i vanlig belysning. Vid undersökning med oftalmoskop ger näthinnan upphov till den röda reflexen."
+            },
+            {
+              "id": "FC-6.6.2",
+              "type": "flashcard",
+              "section": "Avvikande fynd",
+              "front": "Vad är kolobom?",
+              "back": "Missbildning av pupillen från födseln – ger oval form, s.k. nyckelhålspupill."
+            },
+            {
+              "id": "MC-6.6.1",
+              "type": "multiple_choice",
+              "section": "Handläggning - Remittering",
+              "question": "Vad görs vid avvikande pupillutseende?",
+              "options": {
+                "A": "Avvakta 3 månader",
+                "B": "Remitteras till ögonklinik utan dröjsmål",
+                "C": "Synundersökning på BVC",
+                "D": "Kortisontabletter"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-6.6.1",
+              "type": "true_false",
+              "section": "Syfte med undersökningen",
+              "statement": "Avvikelser i pupillernas form, storlek och färg behöver alltid utredas.",
+              "correct": true,
+              "explanation": "Pupillernas utseende kan avvika gällande form, storlek och färg – orsaken till avvikelsen behöver alltid utredas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 7,
+      "subcategory": "Allergier och intolerans - översikt",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Mjölkproteinallergi",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/allergier-och-intolerans---oversikt/mjolkproteinallergi/",
+          "questions": [
+            {
+              "id": "FC-7.1.1",
+              "type": "flashcard",
+              "section": "Förekomst",
+              "front": "Vad är prognosen för mjölkproteinallergi hos barn?",
+              "back": "God. Mer än 80 % tolererar mjölk vid 3 år; vid skolstart tolererar i princip alla (95 %) mjölk."
+            },
+            {
+              "id": "FC-7.1.2",
+              "type": "flashcard",
+              "section": "Symtom vid snabballergisk reaktion",
+              "front": "Vilket organsystem drabbas vanligast vid snabballergisk reaktion mot mjölk?",
+              "back": "Huden: 70–75 % reagerar med nässelutslag, klåda i munnen och/eller angioödem."
+            },
+            {
+              "id": "FC-7.1.3",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Varför tål inte ett komjölksproteinallergiskt barn heller get- eller fårmjölk?",
+              "back": "Mjölkprotein från olika djur är relativt lika varandra; korsreaktivitet är vanlig."
+            },
+            {
+              "id": "MC-7.1.1",
+              "type": "multiple_choice",
+              "section": "Anafylaxi",
+              "question": "Hur stor andel av barn med snabballergiska reaktioner mot mjölk får anafylaxi?",
+              "options": {
+                "A": "30–40 %",
+                "B": "10–20 %",
+                "C": "1–4 %",
+                "D": "<0,1 %"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-7.1.1",
+              "type": "true_false",
+              "section": "Hudbesvär",
+              "statement": "De flesta barn med eksem har allergi mot mjölkprotein och är hjälpta av mjölkfri kost.",
+              "correct": false,
+              "explanation": "Majoriteten av barn med eksem har INTE allergi mot mjölkprotein och är inte hjälpta av mjölkfri kost. Svåra eksem är oftast underbehandlade."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Laktosintolerans",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/allergier-och-intolerans---oversikt/laktosintolerans/",
+          "questions": [
+            {
+              "id": "FC-7.2.1",
+              "type": "flashcard",
+              "section": "Orsak",
+              "front": "Vad orsakar laktosintolerans?",
+              "back": "Brist på enzymet laktas, som bryter ner laktos till glukos och galaktos. Vid enzymbrist bryts laktos ned av bakterier i tarmen med gasbildning, diarré och magont som följd."
+            },
+            {
+              "id": "FC-7.2.2",
+              "type": "flashcard",
+              "section": "Primär laktosintolerans",
+              "front": "Hur vanlig är primär laktosintolerans hos vuxna i Sverige respektive i Afrika/Asien?",
+              "back": "I Sverige: 2–3 %. I stora delar av Afrika och Asien: 70–90 % av den vuxna befolkningen."
+            },
+            {
+              "id": "MC-7.2.1",
+              "type": "multiple_choice",
+              "section": "Uppföljning på BVC",
+              "question": "Vad ska utredning fokusera på vid upplevelse av laktosintolerans hos ett litet barn?",
+              "options": {
+                "A": "Diagnosen primär laktosintolerans ställs direkt",
+                "B": "Bakomliggande orsak – primär laktosintolerans debuterar sällan före tonåren",
+                "C": "Provning av laktosfri kost i 4 veckor",
+                "D": "Allergitestning mot mjölkprotein"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-7.2.1",
+              "type": "true_false",
+              "section": "Sekundär laktosintolerans",
+              "statement": "Sekundär laktosintolerans kan uppstå vid obehandlad celiaki.",
+              "correct": true,
+              "explanation": "Sekundär laktosintolerans kan uppstå om tunntarmen är skadad av sjukdom som obehandlad celiaki, vilket minskar laktasproduktionen."
+            }
+          ]
+        },
+        {
+          "page_nr": 3,
+          "title": "Celiaki - glutenintolerans",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/allergier-och-intolerans---oversikt/celiaki---glutenintolerans/",
+          "questions": [
+            {
+              "id": "FC-7.3.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är celiaki och vad orsakar det?",
+              "back": "Kronisk sjukdom med immunologisk reaktion mot gluten (protein i vete, råg och korn). Orsakar inflammation i tunntarmens slemhinna med nedsatt absorption av näringsämnen."
+            },
+            {
+              "id": "FC-7.3.2",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Vilka symtom kan celiaki ge?",
+              "back": "Varierande: magsmärtor, diarré, förstoppning; påverkan på tillväxt och vikt; mer vaga besvär är också möjliga."
+            },
+            {
+              "id": "FC-7.3.3",
+              "type": "flashcard",
+              "section": "Diagnos",
+              "front": "Hur ställs diagnosen celiaki?",
+              "back": "Kombination av blodprov (IgA-antikroppar mot transglutaminas) och vävnadsprov från tunntarmen. Vid mycket höga antikroppsnivåer kan upprepade blodprov räcka."
+            },
+            {
+              "id": "MC-7.3.1",
+              "type": "multiple_choice",
+              "section": "Behandling",
+              "question": "Vad är behandlingen vid celiaki?",
+              "options": {
+                "A": "Glutenreducerad kost – minska gluten",
+                "B": "Laktosfri kost",
+                "C": "Glutenfri kost livet ut – helt fri från vete, råg och korn",
+                "D": "Kortisontabletter"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-7.3.1",
+              "type": "true_false",
+              "section": "Remiss till specialist",
+              "statement": "Kosten ska ändras till glutenfri INNAN remiss för utredning av celiaki.",
+              "correct": false,
+              "explanation": "Kosten får INTE ändras innan remiss och utredning. Diagnosen kräver att glutenintag pågår; ändrad kost kan försvåra diagnostiken."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 5,
+      "subcategory": "Hud - översikt",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Kongenitalt melanocytärt nevus",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/fodelsemarken---oversikt/kongenitalt-melanocytart-nevus/",
+          "questions": [
+            {
+              "id": "FC-5.1.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Hur vanligt är kongenitalt melanocytärt nevus (KMN) och hur ser det ut?",
+              "back": "Hos ca 1–3 % av alla nyfödda. Välavgränsad, ljust röd till brunsvart fläck som växer med barnet och kan ändra färg. Kan uppstå upp till två års ålder."
+            },
+            {
+              "id": "FC-5.1.2",
+              "type": "flashcard",
+              "section": "Risker",
+              "front": "Vad är risken med stora kongenitala melanocytära nevus?",
+              "back": "Ju större och fler KMN desto högre risk för malignt melanom. Malignt melanom är ovanligt under barnaåren men risken ökar från puberteten."
+            },
+            {
+              "id": "FC-5.1.3",
+              "type": "flashcard",
+              "section": "Remiss till hudläkare",
+              "front": "Vilka typer av KMN ska remitteras till hudläkare?",
+              "back": "Medelstora, stora, gigantiska/jättestora, svårbedömda och/eller multipla medelstora KMN, samt de som sitter på svårinspekterade lokalisationer. Små KMN med benignt utseende kan kontrolleras hemma."
+            },
+            {
+              "id": "MC-5.1.1",
+              "type": "multiple_choice",
+              "section": "Solskydd",
+              "question": "Vilka solskyddsrekommendationer gäller för barn under 1 år?",
+              "options": {
+                "A": "SPF 30+ räcker",
+                "B": "Barn under 1 år bör helt undvika direkt solljus",
+                "C": "15 minuters sol per dag är hälsosamt",
+                "D": "Solskydd behövs bara i högsommar"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-5.1.1",
+              "type": "true_false",
+              "section": "Risker",
+              "statement": "Risken för malignt melanom vid KMN ökar från puberteten.",
+              "correct": true,
+              "explanation": "Malignt melanom är väldigt ovanligt under barnaåren men risken ökar redan från puberteten; därför är solskydd viktigt."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Atopiskt eksem",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/torr-hud-och-eksem---oversikt/atopiskt-eksem/",
+          "questions": [
+            {
+              "id": "FC-5.2.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är atopiskt eksem och hur debuterar det?",
+              "back": "Hudsjukdom med torr hud och återkommande perioder med kliande hudutslag. Debuterar oftast före 2 årsålder, men kan debutera i alla åldrar."
+            },
+            {
+              "id": "FC-5.2.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vad är förstahandsbehandling vid atopiskt eksem?",
+              "back": "Kortisonkrämer i kombination med mjukgörande kräm. Regelbunden insmörjning med mjukgörande gör att perioder med kliande utslag kommer mer sällan."
+            },
+            {
+              "id": "FC-5.2.3",
+              "type": "flashcard",
+              "section": "Kortisonkräm",
+              "front": "Vilken kortisonstyrka används till spädbarn och tunna hudområden (ansikte, underliv)?",
+              "back": "Svag kortisonkräm (grupp I)."
+            },
+            {
+              "id": "MC-5.2.1",
+              "type": "multiple_choice",
+              "section": "Diagnos",
+              "question": "Hur ställs diagnosen atopiskt eksem?",
+              "options": {
+                "A": "Med IgE-blodprov",
+                "B": "Med patch-test",
+                "C": "Genom anamnes och klinisk undersökning – inget prov kan säkert fastställa diagnosen",
+                "D": "Alltid med biopsi"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-5.2.1",
+              "type": "true_false",
+              "section": "Är mitt barn allergiskt? Ska vi utesluta något ur kosten?",
+              "statement": "Atopiskt eksem orsakas av allergi mot mat.",
+              "correct": false,
+              "explanation": "Atopiskt eksem orsakas inte av allergi. Hos spädbarn under ett år med svårt eksem kan matalllergi vara en försämrande faktor, men eksem i sig orsakas inte av matallergi."
+            }
+          ]
+        },
+        {
+          "page_nr": 3,
+          "title": "Storkbett",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/fodelsemarken---oversikt/storkbett/",
+          "questions": [
+            {
+              "id": "FC-5.3.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är storkbett och vad kallas det även?",
+              "back": "Kapillär kärlmissbildning med ökad mängd normala kapillärer ytligt i huden. Kallas även änglakyss eller nevus simplex."
+            },
+            {
+              "id": "FC-5.3.2",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Var sitter storkbett vanligast och vad händer med det med tiden?",
+              "back": "Vanliga lokalisationer: nacke, panna, ögonlock och mellan näsa och överläpp. De allra flesta bleknar inom ett par år; storkbett i nacken kan kvarstå hela livet."
+            },
+            {
+              "id": "MC-5.3.1",
+              "type": "multiple_choice",
+              "section": "Behandling",
+              "question": "Vilken behandling ges för storkbett?",
+              "options": {
+                "A": "Laserbehandling vid 6 månaders ålder",
+                "B": "Ingen behandling behövs; de allra flesta bleknar spontant",
+                "C": "Kirurgisk excision",
+                "D": "Kortisonkräm dagligen"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-5.3.1",
+              "type": "true_false",
+              "section": "Remiss till specialist",
+              "statement": "Alla storkbett ska remitteras till hudläkare för bedömning.",
+              "correct": false,
+              "explanation": "Remiss skickas enbart vid osäkerhet kring diagnosen. Storkbett är ett vanligt, godartat tillstånd som informeras om på BVC."
+            }
+          ]
+        },
+        {
+          "page_nr": 4,
+          "title": "Cafe-au-lait-fläckar",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/fodelsemarken---oversikt/cafe-au-lait-flackar/",
+          "questions": [
+            {
+              "id": "FC-5.4.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är café-au-lait-fläckar och kan de bli maligna?",
+              "back": "Runda/ovala, gula till mörkt bruna pigmenterade fläckar i hudens plan. De kan EJ utveckla malignitet."
+            },
+            {
+              "id": "FC-5.4.2",
+              "type": "flashcard",
+              "section": "Remiss till specialist",
+              "front": "När ska café-au-lait-fläckar remitteras?",
+              "back": "6 eller fler fläckar som är större än 5 mm, samt ovanligt stora fläckar ska remitteras till hudläkare eller barnläkare – kan vara associerat till andra sjukdomar."
+            },
+            {
+              "id": "MC-5.4.1",
+              "type": "multiple_choice",
+              "section": "Symtom",
+              "question": "Vad kan 6 eller fler café-au-lait-fläckar indikera?",
+              "options": {
+                "A": "Atopiskt eksem",
+                "B": "Möjlig association till andra sjukdomar",
+                "C": "Malign transformation",
+                "D": "Vitamin D-brist"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-5.4.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Café-au-lait-fläckar rekommenderas att tas bort preventivt.",
+              "correct": false,
+              "explanation": "De rekommenderas INTE att tas bort då de är helt ofarliga och inte kan utveckla malignitet."
+            }
+          ]
+        },
+        {
+          "page_nr": 5,
+          "title": "Hemangiom - smultronmärke",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/fodelsemarken---oversikt/hemangiom---smultronmarke/",
+          "questions": [
+            {
+              "id": "FC-5.5.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är hemangiom och hur vanligt är det?",
+              "back": "Godartad hudtumör av blodkärl. Knappt 5 % av alla barn har ett eller flera hemangiom. Vanligare hos prematurfödda och hos flickor."
+            },
+            {
+              "id": "FC-5.5.2",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Hur ser hemangiom ut och var kan de sitta?",
+              "back": "Klarröda, rödlila eller mörkröda förändringar; kan vara upphöjda eller platta. Djupa hemangiom kan vara nästan hudfärgade. Kan sitta varsomhelst på kroppen."
+            },
+            {
+              "id": "FC-5.5.3",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vilken behandling ges vid hemangiom som behöver behandlas?",
+              "back": "Betablockerare. Barnet följs av barnläkare och/eller hudläkare under behandlingstiden."
+            },
+            {
+              "id": "MC-5.5.1",
+              "type": "multiple_choice",
+              "section": "Bedömning på BVC",
+              "question": "Nämn en lokalisation av hemangiom som motiverar remiss till barnläkare.",
+              "options": {
+                "A": "På magen",
+                "B": "På ryggen",
+                "C": "På läpp eller munslemhinna",
+                "D": "På armen"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-5.5.1",
+              "type": "true_false",
+              "section": "Definition",
+              "statement": "Hemangiom är vanligare hos fullgångna barn än hos prematurer.",
+              "correct": false,
+              "explanation": "Hemangiom är vanligare hos prematurfödda samt hos flickor."
+            }
+          ]
+        },
+        {
+          "page_nr": 6,
+          "title": "Seborroiskt eksem",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/torr-hud-och-eksem---oversikt/seborroiskt-eksem/",
+          "questions": [
+            {
+              "id": "FC-5.6.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är seborroiskt eksem och var debuterar det typiskt?",
+              "back": "Vanlig, självbegränsande hudsjukdom hos spädbarn. Debuterar vanligen under första levnadsmånaden oftast på skalpen eller i blöjområdet, med välavgränsade rosa/röda fjällande fläckar med gul-bruna oljiga krustor."
+            },
+            {
+              "id": "FC-5.6.2",
+              "type": "flashcard",
+              "section": "Orsak",
+              "front": "Vilken mikroorganism kan bidra till seborroiskt eksem?",
+              "back": "Jästsvampen Malassezia furfur, som normalt finns i talgkörtlarna."
+            },
+            {
+              "id": "FC-5.6.3",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vad är förstahandsbehandling vid seborroiskt eksem med rodnad?",
+              "back": "Svag kortisonkräm (grupp I). Mjukgörande kräm eller olja för att mjuka upp och gnugga bort tjocka fjäll."
+            },
+            {
+              "id": "MC-5.6.1",
+              "type": "multiple_choice",
+              "section": "Diagnos",
+              "question": "Hur fastställs diagnosen seborroiskt eksem?",
+              "options": {
+                "A": "Blodprov för svamp",
+                "B": "Hudbiposy",
+                "C": "Anamnes och klinisk undersökning – ingen provtagning säkerställer diagnosen",
+                "D": "Allergitestning"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-5.6.1",
+              "type": "true_false",
+              "section": "Definition",
+              "statement": "Seborroiskt eksem hos spädbarn är ett kroniskt tillstånd som kräver livslång behandling.",
+              "correct": false,
+              "explanation": "Seborroiskt eksem hos spädbarn är ett vanligt, SJÄLVBEGRÄNSANDE tillstånd."
+            }
+          ]
+        },
+        {
+          "page_nr": 7,
+          "title": "Bedömning av hud, utslag och prickar hos barn med olika hudtyper",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/bedomning-av-hud-utslag-och-prickar-hos-barn-med-olika-hudtyper/",
+          "questions": [
+            {
+              "id": "FC-5.7.1",
+              "type": "flashcard",
+              "section": "Utslag och hudsjukdomar kan se olika ut på olika hudfärg",
+              "front": "Hur kan atopiskt eksem skilja sig i utseende och lokalisation vid mörk hud jämfört med ljus?",
+              "back": "Vid mörk hud: papulöst eksem på armbågarnas och knänas FRAMSIDOR med rikligt med knottror. Vid ljus hud: oftast i hudveck (armbågar, knäveck)."
+            },
+            {
+              "id": "FC-5.7.2",
+              "type": "flashcard",
+              "section": "Rodnad syns olika tydligt",
+              "front": "Varför kan vanliga virusexantem missas hos barn med mörk hud?",
+              "back": "Rodnad syns olika tydligt beroende på hudpigmentering. På mörk hud kan virusexantem vara svårare att se eller inte synas alls."
+            },
+            {
+              "id": "MC-5.7.1",
+              "type": "multiple_choice",
+              "section": "Ärr och resttillstånd",
+              "question": "Vad är keloider?",
+              "options": {
+                "A": "Hypopigmenterade fläckar efter inflammation",
+                "B": "Svampinfektion i huden",
+                "C": "Överdriven ärrbildning, vanligare i mörk hud",
+                "D": "En typ av hemangiom"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-5.7.1",
+              "type": "true_false",
+              "section": "Vissa hudförändringar är vanligare i mörk hud",
+              "statement": "Kongenital dermal melanocytos och café-au-lait-fläckar är vanligare i mörk hud.",
+              "correct": true,
+              "explanation": "Rikshandboken anger att dessa hudförändringar är vanligare i mörk hud."
+            }
+          ]
+        },
+        {
+          "page_nr": 8,
+          "title": "Nevus flammeus",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/fodelsemarken---oversikt/nevus-flammeus/",
+          "questions": [
+            {
+              "id": "FC-5.8.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är nevus flammeus och hur skiljer det sig från storkbett?",
+              "back": "Medfödd kapillär kärlmissbildning (eldsmärke/portvinsfläck) som INTE försvinner med tiden utan växer långsamt med barnet – till skillnad från storkbett som bleknar."
+            },
+            {
+              "id": "FC-5.8.2",
+              "type": "flashcard",
+              "section": "Remiss till specialist",
+              "front": "Varför bör nevus flammeus över ögat remitteras?",
+              "back": "Lokalisation över öga kan ge påverkan på ögontryck och bör bedömas av hud/barnläkare och ögonläkare."
+            },
+            {
+              "id": "MC-5.8.1",
+              "type": "multiple_choice",
+              "section": "Behandling",
+              "question": "Vad är standardbehandlingen av nevus flammeus?",
+              "options": {
+                "A": "Kirurgisk excision",
+                "B": "Kortisonsalva",
+                "C": "I de flesta fall ges ingen behandling; i vissa fall kan laserbehandling övervägas",
+                "D": "Solskyddskräm dagligen"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-5.8.1",
+              "type": "true_false",
+              "section": "Definition",
+              "statement": "Nevus flammeus försvinner spontant under de första levnadsåren, som storkbett.",
+              "correct": false,
+              "explanation": "Nevus flammeus försvinner INTE med tiden utan växer långsamt med barnet."
+            }
+          ]
+        },
+        {
+          "page_nr": 9,
+          "title": "Vätskefyllda blåsor hos nyfödda",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/vatskefyllda-blasor-hos-nyfodda/",
+          "questions": [
+            {
+              "id": "FC-5.9.1",
+              "type": "flashcard",
+              "section": "Definition/Symtom",
+              "front": "Varför är vätskefyllda blåsor hos nyfödda ett alarmerande fynd?",
+              "back": "De kan signalera potentiellt farliga tillstånd som infektioner (bullös impetigo, herpes simplex) och ärftliga hudsjukdomar (epidermolysis bullosa). Nyfödda med sådana blåsor ska omedelbart bedömas av läkare."
+            },
+            {
+              "id": "FC-5.9.2",
+              "type": "flashcard",
+              "section": "Bullös impetigo",
+              "front": "Hur ser bullös impetigo ut?",
+              "back": "Stafylokockinfektion med centimeterstora blåsor med klart/lätt grumligt innehåll. Tunt tak på blåsorna – går lätt sönder och lämnar ytliga, rodnande, ovala sårbildningar."
+            },
+            {
+              "id": "FC-5.9.3",
+              "type": "flashcard",
+              "section": "Herpes simplex",
+              "front": "Hur smittas nyfödda med herpes simplex och hur ser hudblåsorna ut?",
+              "back": "Barnet smittas oftast av föräldrar med mun- eller könsherpes. I huden ses små (mm-stora) blåsor på rodnad botten, oftast i grupp på ett mindre hudområde."
+            },
+            {
+              "id": "MC-5.9.1",
+              "type": "multiple_choice",
+              "section": "Bedömning på BVC",
+              "question": "Vad ska göras vid vätskefyllda blåsor hos ett nyfött barn?",
+              "options": {
+                "A": "Avvakta ett dygn och se om de läker",
+                "B": "Akut kontakt med läkare",
+                "C": "Smörja med hydrokortison",
+                "D": "Ge antibiotikaprofylax"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-5.9.1",
+              "type": "true_false",
+              "section": "Epidermolysis bullosa (EB)",
+              "statement": "Epidermolysis bullosa är en vanlig hudsjukdom hos nyfödda.",
+              "correct": false,
+              "explanation": "EB är en sällsynt medfödd hudsjukdom. Den är ärftlig och ger blåsbildning efter tryck och skav."
+            }
+          ]
+        },
+        {
+          "page_nr": 10,
+          "title": "Kongenital dermal melanocytos",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/fodelsemarken---oversikt/kongenital-dermal-melanocytos/",
+          "questions": [
+            {
+              "id": "FC-5.10.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är kongenital dermal melanocytos (KDM)?",
+              "back": "Blåfärgat hudområde (födelsemärke) bildat av melanocyter i underhuden. De flesta mörkhyade barn har en eller flera sådana fläckar vid ryggslutet."
+            },
+            {
+              "id": "FC-5.10.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Varför är det viktigt att dokumentera KDM?",
+              "back": "Dokumentation skapar ett utgångsläge för att undvika felaktig misstanke om misshandel om fläckarna senare syns eller uppfattas som blåmärken."
+            },
+            {
+              "id": "MC-5.10.1",
+              "type": "multiple_choice",
+              "section": "Symtom",
+              "question": "Vad sker typiskt med kongenital dermal melanocytos över tid?",
+              "options": {
+                "A": "De ökar i storlek och antal",
+                "B": "De bleknar med åren",
+                "C": "De kräver regelbunden kontroll av hudläkare",
+                "D": "De kan aldrig skilljas från blåmärken"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-5.10.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Kongenital dermal melanocytos är ofarliga och behöver inte behandlas.",
+              "correct": true,
+              "explanation": "KDM är ofarliga, bleknar med åldern och behöver inte behandlas."
+            }
+          ]
+        },
+        {
+          "page_nr": 11,
+          "title": "Hudsammanväxningar mellan tårna",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/hudsammanvaxningar-mellan-tarna/",
+          "questions": [
+            {
+              "id": "FC-5.11.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Var är hudsammanväxningar mellan tårna vanligast?",
+              "back": "Vanligast mellan andra och tredje tån. Tillståndet är ofta ärftligt."
+            },
+            {
+              "id": "FC-5.11.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Varför ska hudsammanväxningar mellan tårna inte behandlas kirurgiskt?",
+              "back": "Sammanväxningarna påverkar inte funktionen. Operation kan leda till sämre funktion pga ärrbildning och snedväxt av tårna."
+            },
+            {
+              "id": "MC-5.11.1",
+              "type": "multiple_choice",
+              "section": "Symtom och diagnos",
+              "question": "Hur påverkar hudsammanväxningar mellan tårna barnets funktion?",
+              "options": {
+                "A": "Ger signifikant funktionsnedsättning vid gång",
+                "B": "Hindrar idrottsutövning",
+                "C": "Enbart kosmetiska besvär; barnet går och springer normalt",
+                "D": "Ger smärta vid belastning"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-5.11.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Hudsammanväxningar mellan tårna ska alltid opereras kirurgiskt.",
+              "correct": false,
+              "explanation": "De ska INTE behandlas kirurgiskt då de enbart ger kosmetiska besvär och operation kan leda till sämre funktion."
+            }
+          ]
+        },
+        {
+          "page_nr": 12,
+          "title": "Torr hud",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud---oversikt/torr-hud-och-eksem---oversikt/torr-hud/",
+          "questions": [
+            {
+              "id": "FC-5.12.1",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Hur yttrar sig torr hud?",
+              "back": "Raspig, narig, stram hud; ibland syns vitaktig fjällning."
+            },
+            {
+              "id": "FC-5.12.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vad är grundbehandlingen vid torr hud?",
+              "back": "Regelbunden smörjning med mjukgörande kräm. Insmörjning direkt efter bad/dusch motverkar vattnets uttorkande effekt."
+            },
+            {
+              "id": "MC-5.12.1",
+              "type": "multiple_choice",
+              "section": "Skicka remiss:",
+              "question": "Vid vilket tillstånd bör remiss till barnläkare skickas vid torr hud?",
+              "options": {
+                "A": "Vid enbart torr hud utan klåda",
+                "B": "Alltid vid torr hud hos barn under 1 år",
+                "C": "Vid misstanke om Ichtyos eller vid rodnad, kraftig fjällning och besvärande klåda som inte svarar på daglig smörjning",
+                "D": "Efter 4 veckors behandling oavsett svar"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-5.12.1",
+              "type": "true_false",
+              "section": "Diagnos",
+              "statement": "Torr hud är en sjukdomsdiagnos som alltid kräver läkarbedömning.",
+              "correct": false,
+              "explanation": "Torr hud är ingen sjukdom. Vid enbart torr hud behöver barnet inte läkarkontakt – BVC-sköterskan kan ge råd om mjukgörande krämer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 4,
+      "subcategory": "Neurologi - översikt",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Nedsatt muskeltonus",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/neurologi---oversikt/nedsatt-tonus/",
+          "questions": [
+            {
+              "id": "FC-4.1.1",
+              "type": "flashcard",
+              "section": "Orsak",
+              "front": "Nämn fyra möjliga orsaker till nedsatt muskeltonus hos barn.",
+              "back": "Frisk normalvariant, hjärnpåverkan efter neonatal asfyxi, blödning/annan skada, neuromuskulär sjukdom, syndrom (t.ex. Downs), cerebral pares, metabol sjukdom."
+            },
+            {
+              "id": "MC-4.1.1",
+              "type": "multiple_choice",
+              "section": "Remittering",
+              "question": "Vad ska göras om nedsatt muskeltonus är konstant eller återkommande?",
+              "options": {
+                "A": "Avvakta till 1 årsåldern",
+                "B": "Barnet ska undersökas av barnläkare för bedömning och eventuell utredning",
+                "C": "Ge vitamintillskott",
+                "D": "Remiss direkt till neurolog utan barnläkarbedömning"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-4.1.1",
+              "type": "true_false",
+              "section": "Orsak",
+              "statement": "Nedsatt muskeltonus är alltid patologiskt och aldrig en normalvariant.",
+              "correct": false,
+              "explanation": "En av de möjliga orsakerna är frisk normalvariant – nedsatt tonus är inte alltid patologiskt."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Kramper och anfall",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/neurologi---oversikt/kramper/",
+          "questions": [
+            {
+              "id": "FC-4.2.1",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Varför är kramper hos barn under ett år svåra att upptäcka?",
+              "back": "De kan yttra sig som snabbt övergående stelhet, slapphet eller blekhet – subtila symtom som lätt missas."
+            },
+            {
+              "id": "FC-4.2.2",
+              "type": "flashcard",
+              "section": "Differentialdiagnoser",
+              "front": "Nämn tre differentialdiagnoser till kramper hos barn.",
+              "back": "Ofarliga insomningsryckningar, affektanfall, hjärtarytmi, självtillfredsställande beteende (tre av dessa)."
+            },
+            {
+              "id": "FC-4.2.3",
+              "type": "flashcard",
+              "section": "Akut remittering",
+              "front": "Vad är infantil spasm och hur handläggs det?",
+              "back": "Allvarligt tillstånd med upprepade, korta krampepisoder. Ska alltid handläggas AKUT på barnklinik."
+            },
+            {
+              "id": "MC-4.2.1",
+              "type": "multiple_choice",
+              "section": "Orsak",
+              "question": "Vilken orsak till kramper hos nyfödda nämns specifikt?",
+              "options": {
+                "A": "Epilepsi",
+                "B": "Afebril kramper",
+                "C": "Asfyxi",
+                "D": "Magnesiumbriat"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-4.2.1",
+              "type": "true_false",
+              "section": "Remittering",
+              "statement": "Om föräldrar har filmat ett anfallsliknande beteende bör de ta med filmen till läkarbedömningen.",
+              "correct": true,
+              "explanation": "Om föräldrar filmat barnet kan det vara till stor hjälp vid bedömning av om det rör sig om kramper eller differentialdiagnos."
+            }
+          ]
+        },
+        {
+          "page_nr": 3,
+          "title": "Det nyfödda barnets reflexer",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/neurologi---oversikt/det-nyfodda-barnets-reflexer/",
+          "questions": [
+            {
+              "id": "FC-4.3.1",
+              "type": "flashcard",
+              "section": "Mororeflexen",
+              "front": "Vad utlöser Mororeflexen och när försvinner den normalt?",
+              "back": "Utlöses av hastig rörelse/lägesförändring eller plötsligt högt ljud. Barnet slår ut armar och ben och för dem sedan samman. Brukar försvinna vid 2–3 mån; ska vara borta senast vid 6 mån."
+            },
+            {
+              "id": "FC-4.3.2",
+              "type": "flashcard",
+              "section": "Babinskireflexen",
+              "front": "Vad är Babinskireflexen och vad indikerar den hos spädbarn?",
+              "back": "När man stryker längs yttre fotsulan från häl mot lilltå sprider sig tårna (dorsalflexion av stortå). Vanlig upp till ca 1 år; visar på ett omoget nervsystem."
+            },
+            {
+              "id": "FC-4.3.3",
+              "type": "flashcard",
+              "section": "Sökreflexen",
+              "front": "Vad är sökreflexen?",
+              "back": "Hjälper barnet att söka efter bröstvårtan. Vid beröring av kinden vänder barnet huvudet åt det hållet."
+            },
+            {
+              "id": "MC-4.3.1",
+              "type": "multiple_choice",
+              "section": "Handgripreflexen",
+              "question": "Hur undersöks handgripreflexen (palmarreflexen)?",
+              "options": {
+                "A": "Man trycker mot handryggen",
+                "B": "Man för in ett finger från lateralsidan i barnets hand och undviker att trycka mot handryggen",
+                "C": "Man stryker längs fotsulan",
+                "D": "Man håller barnet upp och låter fötterna beröra ett underlag"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-4.3.1",
+              "type": "true_false",
+              "section": "Åtgärd vid avvikelse",
+              "statement": "Om Mororeflexen är ensidig ska barnet bedömas av barnläkare.",
+              "correct": true,
+              "explanation": "Barnet ska bedömas av barnläkare om reflexen inte kan utlösas eller är ensidig."
+            }
+          ]
+        },
+        {
+          "page_nr": 4,
+          "title": "Ökad muskeltonus",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/neurologi---oversikt/okad-muskeltonus/",
+          "questions": [
+            {
+              "id": "FC-4.4.1",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Hur yttrar sig ökad muskeltonus hos ett spädbarn?",
+              "back": "Barnet känns spänt och stelt när man lyfter upp eller tar i det. Barnet kan också vara extra skakigt."
+            },
+            {
+              "id": "FC-4.4.2",
+              "type": "flashcard",
+              "section": "Orsaker",
+              "front": "Nämn tre orsaker till ökad muskeltonus hos nyfödda.",
+              "back": "Frisk normalvariant, cerebral irritation (t.ex. efter asfyxi), abstinens (om modern tagit droger/dämpande läkemedel), metabol sjukdom, hjärnskada."
+            },
+            {
+              "id": "MC-4.4.1",
+              "type": "multiple_choice",
+              "section": "Remittering",
+              "question": "Vad ska göras om ökad muskeltonus är konstant eller återkommande?",
+              "options": {
+                "A": "Avvakta till 6 månaders ålder",
+                "B": "Barnet ska undersökas av barnläkare för bedömning och eventuell utredning",
+                "C": "Ge massage och stretching",
+                "D": "Inga åtgärder nödvändiga"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-4.4.1",
+              "type": "true_false",
+              "section": "Symtom",
+              "statement": "Barn med ökad muskeltonus kan vara extra skakiga.",
+              "correct": true,
+              "explanation": "Sprittiga barn har ofta något förhöjd tonus; skakighet kan alltså förekomma vid ökad muskeltonus."
+            }
+          ]
+        },
+        {
+          "page_nr": 5,
+          "title": "Sprittighet och skakighet",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/neurologi---oversikt/sprittighet-och-skakighet/",
+          "questions": [
+            {
+              "id": "FC-4.5.1",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Vad karaktäriserar sprittighet och skakighet hos nyfödda?",
+              "back": "Barnet spänner sig och skakar i armar och ben när man tar i eller stimulerar det. Sprittighet som snabbt går över har sällan samband med låga kalcium- eller glukosnivåer."
+            },
+            {
+              "id": "FC-4.5.2",
+              "type": "flashcard",
+              "section": "Åtgärder",
+              "front": "Hur ska ett sprittigt spädbarn hanteras?",
+              "back": "Hantera barnet mjukt och försiktigt. Håll gärna barnet i lätt hopböjt läge och undvik att plötsligt lägga barnet på rygg."
+            },
+            {
+              "id": "MC-4.5.1",
+              "type": "multiple_choice",
+              "section": "Remittering",
+              "question": "Vid vilket tillstånd ska barnläkare kontaktas akut vid sprittighet?",
+              "options": {
+                "A": "Vid sprittighet som varar mer än 5 sekunder",
+                "B": "Om barnet är slött eller har kramper",
+                "C": "Alltid vid sprittighet de första 3 dagarna",
+                "D": "Aldrig – sprittighet är alltid normalt"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-4.5.1",
+              "type": "true_false",
+              "section": "Orsak",
+              "statement": "Korta episoder av sprittighet under de första levnadsveckorna utan andra sjukdomstecken är vanligtvis ett allvarligt fenomen.",
+              "correct": false,
+              "explanation": "Det är VANLIGT under de första levnadsveckorna och utan andra sjukdomstecken är det INGET allvarligt fenomen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 8,
+      "subcategory": "Hud nyfödda - översikt",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Navelgranulom",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud-nyfodda/navelgranulom/",
+          "questions": [
+            {
+              "id": "FC-8.1.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är ett navelgranulom och hur uppstår det?",
+              "back": "Bildas när naveln inte läker spontant efter att navelstumpen fallit. Består av slemhinna; ser ut som en fuktig rosa/röd svullnad inuti naveln (oftast 3–10 mm) som kan utsöndra lite vätska."
+            },
+            {
+              "id": "FC-8.1.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vad är grundprincipen vid behandling av navelgranulom?",
+              "back": "De första tre veckorna hålls granulomet rent genom tvätt. Det är viktigt att undvika behandling som ger biverkningar eftersom det rör sig om ett godartat tillstånd."
+            },
+            {
+              "id": "MC-8.1.1",
+              "type": "multiple_choice",
+              "section": "Bedömning på BVC",
+              "question": "Vad ska göras vid misstanke om navelgranulom med osäkert utseende?",
+              "options": {
+                "A": "Alltid direkt remiss till kirurg",
+                "B": "Akut inläggning",
+                "C": "Läkarbedömning på BVC; vid tvivel uteslut differentialdiagnoser som urachusrest",
+                "D": "Avvakta 6 månader"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-8.1.1",
+              "type": "true_false",
+              "section": "Definition",
+              "statement": "Navelgranulom är ett allvarligt tillstånd som alltid kräver remiss.",
+              "correct": false,
+              "explanation": "Navelgranulom är en lindrig åkomma som oftast självläker. Remiss skickas enbart vid långdraget läkningsförlopp eller osäkerhet om diagnos."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Halvsidig rodnad  - Harlequin-fenomen",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud-nyfodda/halvsidig-rodnad--harlequin-fenomen/",
+          "questions": [
+            {
+              "id": "FC-8.2.1",
+              "type": "flashcard",
+              "section": "Symtom och orsak",
+              "front": "Vad är Harlequin-fenomen och hur vanligt är det?",
+              "back": "Godartat, övergående tillstånd där ena sidan av kroppen plötsligt rodnar/växlar i färg med en skarp gräns i medellinjen. Förekommer hos ca 10 % av friska nyfödda barn."
+            },
+            {
+              "id": "FC-8.2.2",
+              "type": "flashcard",
+              "section": "Diagnos",
+              "front": "Hur ställs diagnosen Harlequin-fenomen?",
+              "back": "Föräldrarnas beskrivning räcker vanligtvis; ett foto av utseendet hjälper vid eventuell barnläkarbedömning."
+            },
+            {
+              "id": "MC-8.2.1",
+              "type": "multiple_choice",
+              "section": "Behandling",
+              "question": "Vad är behandlingen för halvsidig rodnad (Harlequin-fenomen)?",
+              "options": {
+                "A": "Kortisonsalva",
+                "B": "Ingen behandling är nödvändig",
+                "C": "Omedelbar remiss till barnklinik",
+                "D": "Antihistaminbehandling"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-8.2.1",
+              "type": "true_false",
+              "section": "Symtom och orsak",
+              "statement": "Harlequin-fenomen är ett tecken på hjärtsjukdom och kräver akut utredning.",
+              "correct": false,
+              "explanation": "Det är ett godartat, övergående tillstånd; ingen behandling krävs. Remiss skickas vid osäkerhet om diagnosen."
+            }
+          ]
+        },
+        {
+          "page_nr": 3,
+          "title": "Svullna bröstkörtlar",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud-nyfodda/svullna-brostkortlar/",
+          "questions": [
+            {
+              "id": "FC-8.3.1",
+              "type": "flashcard",
+              "section": "Nyfödda barn",
+              "front": "Varför kan nyfödda pojkar och flickor ha svullna bröst?",
+              "back": "Stimulering av könshormoner från mamman via bröstmjölken eller moderkakan. Ibland sipprar litet vätska (häxmjölk). Vanligast under de första levnadsveckorna."
+            },
+            {
+              "id": "FC-8.3.2",
+              "type": "flashcard",
+              "section": "Åtgärder",
+              "front": "Hur hanteras vätska från svullna bröst hos nyfödda?",
+              "back": "Lägg en torr, ren kompress över brösten utan att klämma ut vätska. Tillståndet går vanligtvis tillbaka på några dagar utan komplikationer."
+            },
+            {
+              "id": "MC-8.3.1",
+              "type": "multiple_choice",
+              "section": "Till läkare",
+              "question": "Vad motiverar akut remiss vid svullna bröstkörtlar hos nyfödda?",
+              "options": {
+                "A": "Om häxmjölk förekommer",
+                "B": "Om bröstkörteln är synligt svullen",
+                "C": "Vid tecken på infektion med allmänpåverkan eller abscess",
+                "D": "Alltid vid bilaterala svullnader"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-8.3.1",
+              "type": "true_false",
+              "section": "Nyfödda barn",
+              "statement": "Svullna bröstkörtlar hos nyfödda är ett patologiskt tillstånd som kräver omedelbar läkarbedömning.",
+              "correct": false,
+              "explanation": "Det är ett vanligt, normalt fynd orsakat av hormonstimulering från mamman och går vanligtvis tillbaka utan åtgärd."
+            }
+          ]
+        },
+        {
+          "page_nr": 4,
+          "title": "Nagelbandsinflammation - Paronyki",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud-nyfodda/nagelbandsinflammation---paronyki/",
+          "questions": [
+            {
+              "id": "FC-8.4.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är paronyki och vilka riskfaktorer finns?",
+              "back": "Lokaliserad inflammation där nagel möter hud. Ökad risk hos barn som suger på tummen/fingrar, och kan orsakas av alltför kortklippta naglar."
+            },
+            {
+              "id": "FC-8.4.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Hur behandlas lindrig paronyki?",
+              "back": "Tvätt/omläggning med alsollösning eller klorhexidin ca 2–3 gånger per dag. Råd om att inte klippa naglarna för kort. Vid svampinfektion: antimykotisk behandling."
+            },
+            {
+              "id": "MC-8.4.1",
+              "type": "multiple_choice",
+              "section": "Remiss",
+              "question": "När ska akut remiss till barnläkare skickas vid paronyki?",
+              "options": {
+                "A": "Vid alla former av paronyki",
+                "B": "Vid feber eller allmänpåverkan",
+                "C": "Vid lindrig rodnad utan sekret",
+                "D": "Alltid efter 3 dagar"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-8.4.1",
+              "type": "true_false",
+              "section": "Bedömning på BVC",
+              "statement": "Barn med lindrig paronyki utan sekundärinfektion kan handläggas via rådgivning på BVC.",
+              "correct": true,
+              "explanation": "Lindriga fall utan tecken till sekundärinfektion kan handläggas via BVC-rådgivning. Tecken till infektion innebär remiss till läkare."
+            }
+          ]
+        },
+        {
+          "page_nr": 5,
+          "title": "Miliaria",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud-nyfodda/miliaria/",
+          "questions": [
+            {
+              "id": "FC-8.5.1",
+              "type": "flashcard",
+              "section": "Definition och orsak",
+              "front": "Vad orsakar miliaria och vilka är de två typerna hos spädbarn?",
+              "back": "Ocklusion av svettkörtlarnas utförsgångar vid varma fuktiga miljöer eller feber. De två typerna: miliaria crystallina och miliaria rubra."
+            },
+            {
+              "id": "FC-8.5.2",
+              "type": "flashcard",
+              "section": "Symptom",
+              "front": "Varför är symtomen vanligast under första levnadsveckan?",
+              "back": "Sannolikt beroende på omognad i svettkörtlarnas utförsgångar."
+            },
+            {
+              "id": "MC-8.5.1",
+              "type": "multiple_choice",
+              "section": "Remiss till barnläkare",
+              "question": "Vid vilket tillstånd ska miliaria remitteras akut till barnläkare?",
+              "options": {
+                "A": "Alltid",
+                "B": "Vid osäkerhet om det kan vara herpes eller vid samtidig allmänpåverkan/feber av okänd orsak",
+                "C": "Vid alla blåsliknande utslag",
+                "D": "Om det sitter i ansiktet"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-8.5.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Miliaria kräver antibiotikabehandling.",
+              "correct": false,
+              "explanation": "Ingen behandling krävs. Avklädning eller åtgärdande av överhettning minskar symtomen."
+            }
+          ]
+        },
+        {
+          "page_nr": 6,
+          "title": "Navelvård och navelinfektion",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud-nyfodda/navelvard-och-navelinfektion/",
+          "questions": [
+            {
+              "id": "FC-8.6.1",
+              "type": "flashcard",
+              "section": "Navelvård",
+              "front": "Hur ska barnets navel hållas och när är lite vätska normalt?",
+              "back": "Torr och ren; alla som tar i barnet ska ha rena händer. En liten mängd klar vätska i naveln är vanligt och behöver inte indikera infektion."
+            },
+            {
+              "id": "FC-8.6.2",
+              "type": "flashcard",
+              "section": "Navelinfektion (omfalit)",
+              "front": "Vilka är de vanligaste symtomen på navelinfektion?",
+              "back": "Röd och svullen hud i och runt naveln, gul illaluktande vätska från naveln, smärta och ömhet kring naveln."
+            },
+            {
+              "id": "FC-8.6.3",
+              "type": "flashcard",
+              "section": "Förekomst",
+              "front": "Hur vanlig är navelinfektion i Sverige?",
+              "back": "Ovanligt tack vare god hygien. Incidensen vid sjukhusförlossning är <1 %. De flesta fall är lindriga och kräver inte sjukhusvård."
+            },
+            {
+              "id": "MC-8.6.1",
+              "type": "multiple_choice",
+              "section": "Behandling",
+              "question": "Vad är förstahandsbehandling av navelinfektion?",
+              "options": {
+                "A": "Direkt inläggning på barnklinik",
+                "B": "Systemisk antibiotika per os direkt",
+                "C": "Tvätt med klorhexidinsprit 1–2 gånger dagligen; snabb remiss om det inte förbättras",
+                "D": "Torrt förband utan tvätt"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-8.6.1",
+              "type": "true_false",
+              "section": "Avlossning av navelstump",
+              "statement": "Om navelstumpen inte fallit efter 3 veckor tolkas det som försenad avlossning.",
+              "correct": true,
+              "explanation": "Navelstumpen faller normalt av inom första levnadsveckan. Kvarståend navelstump efter tre veckor tolkas som försenad avlossning."
+            }
+          ]
+        },
+        {
+          "page_nr": 7,
+          "title": "Marmorerad hud - cutis marmorata",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud-nyfodda/marmorerad-hud-cutis-marmorata/",
+          "questions": [
+            {
+              "id": "FC-8.7.1",
+              "type": "flashcard",
+              "section": "Definition och orsak",
+              "front": "Vad är cutis marmorata och hur ser det ut?",
+              "back": "Ofarlig fysiologisk reaktion med symmetrisk blå- eller rödtonad ådring i ett nätmönster på bål, armar och ben. Vanligast under de första levnadsmånaderna hos spädbarn."
+            },
+            {
+              "id": "FC-8.7.2",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Vad utlöser marmorering och vad får den att försvinna?",
+              "back": "Uppstår när barnet blir kallt; bleknar eller försvinner när barnet värms. Mer framträdande i ljus hud jämfört med mörk hud."
+            },
+            {
+              "id": "MC-8.7.1",
+              "type": "multiple_choice",
+              "section": "Diagnos",
+              "question": "När kan marmorerad hud vara ett allvarligt tecken?",
+              "options": {
+                "A": "Alltid vid marmorering hos nyfödda",
+                "B": "Vid lokaliserad permanent marmorering som kan vara Cutis marmorata telangiectatia congenita",
+                "C": "Hos friska barn efter kyla",
+                "D": "Alltid hos prematurer"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-8.7.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Cutis marmorata kräver behandling med läkemedel.",
+              "correct": false,
+              "explanation": "Ingen behandling behövs för fysiologisk cutis marmorata. Tillståndet är ofarligt."
+            }
+          ]
+        },
+        {
+          "page_nr": 8,
+          "title": "Ikterus",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud-nyfodda/ikterus/",
+          "questions": [
+            {
+              "id": "FC-8.8.1",
+              "type": "flashcard",
+              "section": "Handläggning på BVC av ikterus vid 0-2 veckors ålder",
+              "front": "Vad orsakar fysiologisk gulsot hos nyfödda?",
+              "back": "Ökad mängd bilirubin vid sönderfall av stort antal röda blodkroppar och otillräcklig nedbrytningskapacitet i levern. Maximal nivå ses oftast vid 3–6 dagars ålder."
+            },
+            {
+              "id": "FC-8.8.2",
+              "type": "flashcard",
+              "section": "Kontrollera även avföringens färg",
+              "front": "Vad kan avfärgad avföring (utan normalt gallfärgat pigment) hos ett gult barn indikera?",
+              "back": "Lever- och gallvägssjukdom med gallstas; barnet behöver omgående provtagning för konjugerat och totalt bilirubin."
+            },
+            {
+              "id": "FC-8.8.3",
+              "type": "flashcard",
+              "section": "Handläggning på BVC av ikterus vid 2-3 veckors ålder (prolongerad ikterus)",
+              "front": "Vad är handläggningsprincipen vid ikterus hos ett barn i 2–3 veckors ålder?",
+              "back": "Agera med provtagning direkt. 'Tänk inte – bara gör.' Risk för bakomliggande sjukdom som kräver tidig diagnos; fundering på differentialdiagnoser riskerar att fördröja viktig provtagning."
+            },
+            {
+              "id": "MC-8.8.1",
+              "type": "multiple_choice",
+              "section": "Gallstas (kolestas)",
+              "question": "Vad definierar gallstas (kolestas) hos barn?",
+              "options": {
+                "A": "Totalt bilirubin >200 µmol/L",
+                "B": "Konjugerat bilirubin utgör minst 20 % av totalt bilirubin",
+                "C": "Bröstmjölksikterus efter 4 veckor",
+                "D": "Avföring som innehåller galla"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-8.8.1",
+              "type": "true_false",
+              "section": "Ta prover direkt",
+              "statement": "Vid 2–3 veckors ålder är det bäst att utreda alla differentialdiagnoser innan provtagning initieras.",
+              "correct": false,
+              "explanation": "Tvärtom – man ska inte fastna i funderingar om differentialdiagnoser utan agera med provtagning direkt för att inte fördröja diagnos av allvarlig sjukdom."
+            }
+          ]
+        },
+        {
+          "page_nr": 9,
+          "title": "Erytema toxikum",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud-nyfodda/erytema-toxikum/",
+          "questions": [
+            {
+              "id": "FC-8.9.1",
+              "type": "flashcard",
+              "section": "Definition och symtom",
+              "front": "Vad är erytema toxikum och hur vanligt är det?",
+              "back": "Mycket vanligt hudutslag under första levnadsmånaden, lika vanligt oavsett kön och hudtyp. Rodnande fläckar med/utan papler eller millimeterstora blåsor på rodnad botten. Försvinner spontant."
+            },
+            {
+              "id": "FC-8.9.2",
+              "type": "flashcard",
+              "section": "Diagnos",
+              "front": "Hur bekräftas diagnosen erytema toxikum om man är osäker?",
+              "back": "Mikroskopi av blåsinnehåll visar eosinofila granulocyter. Bakterieodling kan tas för att utesluta infektion."
+            },
+            {
+              "id": "MC-8.9.1",
+              "type": "multiple_choice",
+              "section": "Remiss till specialist",
+              "question": "När ska akut remiss skickas vid utslag som liknar erytema toxikum?",
+              "options": {
+                "A": "Alltid, för att säkra diagnosen",
+                "B": "Vid atypisk bild med utbredda utslag och många blåsor, eller om barnet är allmänpåverkat",
+                "C": "Om utslaget sitter i ansiktet",
+                "D": "Om utslaget är mer än 5 dagar gammalt"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-8.9.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Erytema toxikum behöver behandlas med antibiotikabehandling.",
+              "correct": false,
+              "explanation": "Behandling behövs inte; hudutslagen går över av sig självt. Om utslagen kvarstår ska annan diagnos övervägas."
+            }
+          ]
+        },
+        {
+          "page_nr": 10,
+          "title": "Blekhet och cyanos hos nyfödda barn",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hud-nyfodda/hudfarg-hos-nyfodda-barn/",
+          "questions": [
+            {
+              "id": "FC-8.10.1",
+              "type": "flashcard",
+              "section": "Cyanos",
+              "front": "Vad orsakar perifer cyanos hos nyfödda och vad lindrar det?",
+              "back": "Nyföddas höga Hb och kyla kan ge cyanos på händer, fötter och läppar. Lindras när barnet värms."
+            },
+            {
+              "id": "FC-8.10.2",
+              "type": "flashcard",
+              "section": "Blekhet",
+              "front": "Vilka strukturer ger bäst vägledning vid bedömning av blekhet hos mörkhyade nyfödda?",
+              "back": "Munslemhinna och konjunktiva; ibland kan också Harlequin-fenomen ses."
+            },
+            {
+              "id": "MC-8.10.1",
+              "type": "multiple_choice",
+              "section": "Remiss till läkare",
+              "question": "Vilket fynd kräver att barnet bedöms på akutmottagning samma dag?",
+              "options": {
+                "A": "Perifer cyanos vid kyla",
+                "B": "Central cyanos",
+                "C": "Storkbett i ansiktet",
+                "D": "Fysiologisk gulsot dag 3"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-8.10.1",
+              "type": "true_false",
+              "section": "Cyanos",
+              "statement": "Cyanos vid skrik under de första dygnen är alltid patologiskt.",
+              "correct": false,
+              "explanation": "Cyanos vid skrik kan uppträda de första dygnen; DÄREFTER ska inte skrik framkalla cyanos hos friska barn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 9,
+      "subcategory": "Uro-genitalt - översikt",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Blåsdysfunktion hos barn",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/uro-genitalt---oversikt/blasdysfunktion-hos-barn/",
+          "questions": [
+            {
+              "id": "FC-9.1.1",
+              "type": "flashcard",
+              "section": "Definition och  symtom",
+              "front": "Vad är funktionell blåsrubbning (blåsdysfunktion)?",
+              "back": "Lagrings- och tömningssymtom från blåsan utan nervskada eller anatomisk avvikelse. Vanligt förekommande."
+            },
+            {
+              "id": "FC-9.1.2",
+              "type": "flashcard",
+              "section": "Överaktiv blåsa",
+              "front": "Vad är den vanligaste blåsdysfunktionen och vad orsakar den?",
+              "back": "Överaktiv blåsa med eller utan urinläckage. Orsaken är ofta att hämningen av blåsmuskeln ännu inte är färdigutvecklad."
+            },
+            {
+              "id": "FC-9.1.3",
+              "type": "flashcard",
+              "section": "Förstoppning",
+              "front": "Varför kan förstoppning ge blåsdysfunktion?",
+              "back": "Urinblåsa och tarm är anatomiskt nära varandra och styrs av gemensamma nerver. Vidgad rektum vid förstoppning kan ge överaktivitet i urinblåsan."
+            },
+            {
+              "id": "MC-9.1.1",
+              "type": "multiple_choice",
+              "section": "Sittställning",
+              "question": "Vad är en korrekt sittställning på toaletten för att minska risk för blåsdysfunktion?",
+              "options": {
+                "A": "Benen korsade, byxorna upp mot knäna",
+                "B": "Dra ned byxorna under knäna, benen lite isär, eventuellt fotstöd",
+                "C": "Stå med fötterna ihop",
+                "D": "Luta sig framåt med benen tätt ihop"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-9.1.1",
+              "type": "true_false",
+              "section": "Förekomst",
+              "statement": "Blåsdysfunktion är vanligare hos pojkar än hos flickor.",
+              "correct": false,
+              "explanation": "Blåsdysfunktion är VANLIGARE hos flickor än hos pojkar."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Flytning och klåda i underlivet",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/uro-genitalt---oversikt/flytning-och-klada-i-underlivet/",
+          "questions": [
+            {
+              "id": "FC-9.2.1",
+              "type": "flashcard",
+              "section": "Hos nyfödda",
+              "front": "Vad orsakar vitaktig flytning och lätt vaginal blödning hos nyfödda flickor?",
+              "back": "Hormoner från modern via moderkakan/bröstmjölken. Kallas pseudomenstruation (blödning) och är ofarligt."
+            },
+            {
+              "id": "FC-9.2.2",
+              "type": "flashcard",
+              "section": "Vanliga orsaker:",
+              "front": "Vad är de vanligaste orsakerna till flytning och klåda i underlivet hos barn?",
+              "back": "Irritation av tvål/badskum/aktiv rengöring (använd bara vatten), Candidainfektion (rodnad och klåda), bakteriell vulvovaginit (flytning)."
+            },
+            {
+              "id": "MC-9.2.1",
+              "type": "multiple_choice",
+              "section": "Till läkare",
+              "question": "Vid vilka symtom bör flytning hos en flicka bedömas av läkare?",
+              "options": {
+                "A": "Alltid vid synlig flytning",
+                "B": "Om flytningen är missfärgad, blodig, illaluktande eller inte går över på några dagar",
+                "C": "Enbart vid feber",
+                "D": "Vid flytning som varar mer än 4 veckor"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-9.2.1",
+              "type": "true_false",
+              "section": "Hos nyfödda",
+              "statement": "Vaginal blödning (pseudomenstruation) hos nyfödda är ett patologiskt tillstånd.",
+              "correct": false,
+              "explanation": "Det är ett normalt fynd orsakat av hormoner från modern; det är ofarligt."
+            }
+          ]
+        },
+        {
+          "page_nr": 3,
+          "title": "Hypospadi",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/uro-genitalt---oversikt/hypospadi/",
+          "questions": [
+            {
+              "id": "FC-9.3.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är hypospadi?",
+              "back": "Medfödd missbildning hos pojkar där urinröret mynnar på ollon, penis, pung eller mellangård. Ofta: förhuden inte sluten runt ollonet och penis kurverad."
+            },
+            {
+              "id": "FC-9.3.2",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Vad är det vanligaste utseendet vid hypospadi?",
+              "back": "Urinröret mynnar på penisets undersida; förhuden ansamlas på ovansidan som en kapuschong (kluven förhud förekommer hos 98 %)."
+            },
+            {
+              "id": "MC-9.3.1",
+              "type": "multiple_choice",
+              "section": "Remiss till specialist",
+              "question": "När remitteras ett barn med hypospadi?",
+              "options": {
+                "A": "Vid 1 årsålder till barnläkare",
+                "B": "Så snart tillståndet upptäcks till barnkirurg eller barnurolog",
+                "C": "Enbart om barnet har svårt att kissa",
+                "D": "Vid 3 årsålder"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-9.3.1",
+              "type": "true_false",
+              "section": "Behandling och handläggning",
+              "statement": "Trång urinrörsmynning vid hypospadi åtgärdas så snart som möjligt om pojken har svårt att kissa.",
+              "correct": true,
+              "explanation": "Trång urinrörsmynning åtgärdas snabbt för att underlätta miktion."
+            }
+          ]
+        },
+        {
+          "page_nr": 4,
+          "title": "Urinblåsans funktion hos barn",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/uro-genitalt---oversikt/urinblasans-funktion-hos-barn/",
+          "questions": [
+            {
+              "id": "FC-9.4.1",
+              "type": "flashcard",
+              "section": "Mängden urin",
+              "front": "Hur ofta kissar ett spädbarn i genomsnitt och vad påverkar det?",
+              "back": "I genomsnitt en gång i timmen. Urinproduktionen är relaterad till barnets vätskeintag."
+            },
+            {
+              "id": "FC-9.4.2",
+              "type": "flashcard",
+              "section": "Urinets färg",
+              "front": "Vad kan tegelröd urin hos nyfödda bero på?",
+              "back": "Uratutfällningar som kan misstolkas som blod – ett normalt och ofarligt fynd."
+            },
+            {
+              "id": "MC-9.4.1",
+              "type": "multiple_choice",
+              "section": "Miktion",
+              "question": "Vad kan framkalla miktion vid blöjbyte?",
+              "options": {
+                "A": "Hunger",
+                "B": "Kyla och tvättning",
+                "C": "Gråt",
+                "D": "Ljus"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-9.4.1",
+              "type": "true_false",
+              "section": "Urinblåsans utveckling",
+              "statement": "Nyfödda och spädbarn har alltid fullständig blåstömning.",
+              "correct": false,
+              "explanation": "Fostret och det späda barnet har en blåstömning som är ofullständig; det lämnas ibland residualurin."
+            }
+          ]
+        },
+        {
+          "page_nr": 5,
+          "title": "Sängvätning hos barn - enures",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/uro-genitalt---oversikt/sangvatning-hos-barn---enures/",
+          "questions": [
+            {
+              "id": "FC-9.5.1",
+              "type": "flashcard",
+              "section": "Definition och förekomst",
+              "front": "Hur definieras enures (sängvätning)?",
+              "back": "Ofrivillig urinavgång under sömn vid ålder över 5 år. Förekommer hos ca 5–10 % av barn i lågstadiet."
+            },
+            {
+              "id": "FC-9.5.2",
+              "type": "flashcard",
+              "section": "Nattlig polyuri",
+              "front": "Vad är den normala ADH-förändringen under barnets uppväxt och vad händer vid enures?",
+              "back": "Från några årsålder ökar ADH-bildningen nattetid, vilket minskar nattlig urinproduktion. Vid enures pga nattlig polyuri är denna mekanism otillräcklig."
+            },
+            {
+              "id": "FC-9.5.3",
+              "type": "flashcard",
+              "section": "Behandling vid enures",
+              "front": "Vilka är de två huvudsakliga behandlingarna vid enures?",
+              "back": "Enureslarm och farmakologisk behandling med desmopressin."
+            },
+            {
+              "id": "MC-9.5.1",
+              "type": "multiple_choice",
+              "section": "Råd till föräldrar",
+              "question": "Från vilken ålder är aktiv behandling av sängvätning motiverad?",
+              "options": {
+                "A": "Från 3 år",
+                "B": "Från 4 år",
+                "C": "Från minst 6 år",
+                "D": "Från 8 år"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-9.5.1",
+              "type": "true_false",
+              "section": "Definition och förekomst",
+              "statement": "Sängvätning hos ett 4-årigt barn är alltid ett patologiskt fynd.",
+              "correct": false,
+              "explanation": "Enures definieras vid ålder ÖVER 5 år. Hos barn under 5 år kan diagnosen daginkontinens eller enures inte ställas."
+            }
+          ]
+        },
+        {
+          "page_nr": 6,
+          "title": "Svullen pung",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/uro-genitalt---oversikt/svullen-pung/",
+          "questions": [
+            {
+              "id": "FC-9.6.1",
+              "type": "flashcard",
+              "section": "Testistorsion",
+              "front": "Vad är testistorsion och varför är det allvarligt?",
+              "back": "Testikeln har snurrat sig och strypt sin blodtillförsel. Mycket smärtsamt; kräver akut kirurgisk bedömning för att rädda testikeln."
+            },
+            {
+              "id": "FC-9.6.2",
+              "type": "flashcard",
+              "section": "Hydrocele (vattenbråck)",
+              "front": "Hur handläggs medfött hydrocele?",
+              "back": "De flesta försvinner spontant; behöver sällan åtgärdas före 3–4 årsålder."
+            },
+            {
+              "id": "MC-9.6.1",
+              "type": "multiple_choice",
+              "section": "Åtgärder",
+              "question": "Vid vilken typ av svullnad i pungen bör akutremiss skickas?",
+              "options": {
+                "A": "Mjukt hydrocele hos ett välmående barn",
+                "B": "Misstanke om testistorsion",
+                "C": "Stassvullnad efter sätesförlossning",
+                "D": "Idiopatiskt skrotalödem"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-9.6.1",
+              "type": "true_false",
+              "section": "Inklämt ljumskbråck",
+              "statement": "Inklämt ljumskbråck som ger svullnad i pungen kan tryckas tillbaka utan svårighet.",
+              "correct": false,
+              "explanation": "Inklämt ljumskbråck kan INTE reponeras (tryckas tillbaka) vid palpation – ett viktigt diagnostiskt kännetecken som kräver akutremiss."
+            }
+          ]
+        },
+        {
+          "page_nr": 7,
+          "title": "Hydrocele - vattenbråck",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/uro-genitalt---oversikt/hydrocele---vattenbrack/",
+          "questions": [
+            {
+              "id": "FC-9.7.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad karaktäriserar hydrocele?",
+              "back": "Vätskeinnehållande bråcksäck i pungen. Pojken är oftast symtomfri. Genomlysbar med ficklampa – testikeln kan ibland palperas."
+            },
+            {
+              "id": "FC-9.7.2",
+              "type": "flashcard",
+              "section": "Remiss till specialist",
+              "front": "Vid vilken ålder remitteras kvarståend hydrocele?",
+              "back": "Remiss till barnkirurg/kirurg vid kvarståend hydrocele vid 3 årsålder. Mycket stora/spända hydrocelen bedöms tidigare."
+            },
+            {
+              "id": "MC-9.7.1",
+              "type": "multiple_choice",
+              "section": "Behandling",
+              "question": "Vilka hydrocelen behöver opereras?",
+              "options": {
+                "A": "Alla medfödda hydrocelen",
+                "B": "Enbart kosmetiskt/mekaniskt störande eller mycket stora/spända hydrocelen som kvarstår",
+                "C": "Alla hydrocelen vid 1 årsålder",
+                "D": "Aldrig – hydrocelen behandlas aldrig"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-9.7.1",
+              "type": "true_false",
+              "section": "Uppföljning på BVC",
+              "statement": "Kvarståend hydrocele vid 3 årsålder kräver remiss.",
+              "correct": true,
+              "explanation": "Om hydrocele kvarstår vid 3 årsålder skickas remiss till barnkirurg/kirurg för ställningstagande till operation."
+            }
+          ]
+        },
+        {
+          "page_nr": 8,
+          "title": "Balanit - balanopostit",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/uro-genitalt---oversikt/balanit---balanopostit/",
+          "questions": [
+            {
+              "id": "FC-9.8.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är balanit och vilka pojkar drabbas framför allt?",
+              "back": "Lokal inflammation på ollonet (ofta med förhuden och ibland hela penisskaftet involverat). Drabbar framför allt pojkar med trång förhud (fimosis)."
+            },
+            {
+              "id": "FC-9.8.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Hur behandlas balanit?",
+              "back": "Sittbad i ljummet vatten med någon droppe tvål 1–3 gånger dagligen ca 10–15 min. Tidigare rekommendationer om spolning med koksalt har ersatts av denna metod."
+            },
+            {
+              "id": "MC-9.8.1",
+              "type": "multiple_choice",
+              "section": "Till läkare",
+              "question": "Vad motiverar akutremiss vid balanit?",
+              "options": {
+                "A": "Rodnad och klåda",
+                "B": "Om pojken har svårt att kissa",
+                "C": "Om sekretion ses",
+                "D": "Vid första episoden av balanit"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-9.8.1",
+              "type": "true_false",
+              "section": "Steroidsalva",
+              "statement": "Vid upprepade balaniter bör lokal steroidsalva provas när balaniten är utläkt.",
+              "correct": true,
+              "explanation": "Steroidsalva prövas för att förbättra fimosis och på så vis minska risken för ny balanit."
+            }
+          ]
+        },
+        {
+          "page_nr": 9,
+          "title": "Fimosis - trång förhud",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/uro-genitalt---oversikt/fimosis---trang-forhud/",
+          "questions": [
+            {
+              "id": "FC-9.9.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är fysiologisk fimosis och när försvinner den?",
+              "back": "Vid födseln kan förhuden inte dras tillbaka på 9 av 10 pojkar – fysiologisk fimosis. Försvinner successivt under uppväxten."
+            },
+            {
+              "id": "FC-9.9.2",
+              "type": "flashcard",
+              "section": "Behandling",
+              "front": "Vilken behandling är förstahandsvalet vid trång förhud?",
+              "back": "Kortisonsalva grupp 3 eller 4. Studier visar att 70–80 % av behandlade pojkar blir besvärsfria."
+            },
+            {
+              "id": "MC-9.9.1",
+              "type": "multiple_choice",
+              "section": "Bedömning på BVC",
+              "question": "Vad är BVC:s åtgärd vid fysiologisk fimosis?",
+              "options": {
+                "A": "Remiss direkt till urolog",
+                "B": "Ingen åtgärd; lugnande information om naturalförloppet",
+                "C": "Kortisonsalva som profylax",
+                "D": "Daglig tänjning av förhuden"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-9.9.1",
+              "type": "true_false",
+              "section": "Remiss till specialist",
+              "statement": "Kirurgi för fimosis är aktuellt utan att man först provat lokalbehandling.",
+              "correct": false,
+              "explanation": "Kirurgi kan enbart bli aktuell om man FÖRST provat adekvat lokalbehandling som inte gett effekt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 10,
+      "subcategory": "Näsa och hals - översikt",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Tungband",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/Nasa-och-hals---oversikt/tungband/",
+          "questions": [
+            {
+              "id": "FC-10.1.1",
+              "type": "flashcard",
+              "section": "Kort tungband kan ibland påverka amningen",
+              "front": "Hur påverkar ett symtomgivande kort tungband amningen?",
+              "back": "Barnets sugförmåga försämras – ytligt tag, svårighet att skapa vakuum, smärta för mamman. Förstärks av att barnet inte kan röra tungan normalt under sugning."
+            },
+            {
+              "id": "FC-10.1.2",
+              "type": "flashcard",
+              "section": "Gör en amningsobservation",
+              "front": "Nämn tre tecken på kort tungband som kan observeras vid amningsobservation.",
+              "back": "Barnets ytliga tag, svårighet att skapa vakuum, smärta för mamman. (Hjärtformad/kluven tungspets och tungbandets fäste kan också observeras.)"
+            },
+            {
+              "id": "FC-10.1.3",
+              "type": "flashcard",
+              "section": "Skicka remiss",
+              "front": "Under vilken förutsättning kan ett kort tungband behöva klippas?",
+              "back": "Enbart om det är symtomgivande hos spädbarn och amningsstöd plus amningsobservation bekräftar att tungbandet orsaker problemen."
+            },
+            {
+              "id": "MC-10.1.1",
+              "type": "multiple_choice",
+              "section": "Bedömning på BVC - förskolebarn",
+              "question": "Vid vilket symtom hos förskolebarn skickas remiss vid misstanke om kort tungband?",
+              "options": {
+                "A": "Enbart vid synligt kort tungband",
+                "B": "Talsvårigheter/artikulationsproblem – remiss till logoped vid ca 4 år",
+                "C": "Om barnet ännu inte kan gå",
+                "D": "Vid öroninflammation"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-10.1.1",
+              "type": "true_false",
+              "section": "Definition",
+              "statement": "Alla korta tungband behöver klippas oavsett om de ger symtom.",
+              "correct": false,
+              "explanation": "Enbart symtomgivande korta tungband hos spädbarn kan behöva åtgärdas. Underlaget ska bestå av amningsobservation och bekräftade amningsproblem."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Körtel bakom näsan",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/Nasa-och-hals---oversikt/kortel-bakom-nasan/",
+          "questions": [
+            {
+              "id": "FC-10.2.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är körtel bakom näsan (adenoiden)?",
+              "back": "Ansamling av lymfoid vävnad (samma typ som tonsillerna) bakom näsan. Kallas felaktigt ibland 'polypen' – äkta näspolyper hos barn är sällsynta."
+            },
+            {
+              "id": "FC-10.2.2",
+              "type": "flashcard",
+              "section": "Symtom",
+              "front": "Vilka symtom ger en förstorad adenoid?",
+              "back": "Nästäppa, andning via munnen, snorkande, snuva, upprepade öroninflammationer (via förträngning av örontrumpeten)."
+            },
+            {
+              "id": "MC-10.2.1",
+              "type": "multiple_choice",
+              "section": "Remiss till läkare",
+              "question": "Vad motiverar remiss till öronläkare vid förstorad adenoid?",
+              "options": {
+                "A": "Enbart lindrig nästäppa dagtid",
+                "B": "Uttalade nattliga andningsbesvär, snarkningar med apnéer trots kortisonsprej",
+                "C": "Adenoid hos barn under 1 år",
+                "D": "Snuva under 2 veckor"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-10.2.1",
+              "type": "true_false",
+              "section": "Behandling",
+              "statement": "Nässprej med kortison kan provas vid symtom från adenoiden, särskilt vid allergi.",
+              "correct": true,
+              "explanation": "Nässprej med kortison kan provas under några veckor, särskilt hos barn med allergi, innan kirurgi övervägs."
+            }
+          ]
+        },
+        {
+          "page_nr": 3,
+          "title": "Lymfkörtelförstoring",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/Nasa-och-hals---oversikt/lymfkortelforstoring/",
+          "questions": [
+            {
+              "id": "FC-10.3.1",
+              "type": "flashcard",
+              "section": "Infektiösa körtlar",
+              "front": "Vilka egenskaper har infektiösa lymfkörtlar?",
+              "back": "Vanligtvis <2 cm, mjuka och släta, ruckbara mot underlaget, vanligen på båda sidor. Ömmande; tillväxer ofta snabbt vid infektion."
+            },
+            {
+              "id": "FC-10.3.2",
+              "type": "flashcard",
+              "section": "Icke-infektiösa körtlar",
+              "front": "Vilka egenskaper tyder på icke-infektiösa (maligna) lymfkörtlar?",
+              "back": "Växer långsamt, oömma, oftast ensidig lokalisation, hårdare och knöligare konsistens, kan växa fast mot underlaget."
+            },
+            {
+              "id": "MC-10.3.1",
+              "type": "multiple_choice",
+              "section": "Remittering",
+              "question": "Vilken körtellokalisation kräver snabb remiss till ÖNH eller barnklinik?",
+              "options": {
+                "A": "Bakom örat",
+                "B": "Under hakan",
+                "C": "I gropen ovan nyckelbenen",
+                "D": "Käkvinklarna"
+              },
+              "correct": "C"
+            },
+            {
+              "id": "SF-10.3.1",
+              "type": "true_false",
+              "section": "Handläggning",
+              "statement": "Ett välmående barn med en körtlar <2 cm på sedvanlig lokalisation med mjuk konsistens behöver alltid utredas.",
+              "correct": false,
+              "explanation": "Sådana körtlar behöver INTE utredas. Utredning behövs om körtlar är avvikande i storlek (>2 cm), konsistens, form eller tillväxthastighet."
+            }
+          ]
+        },
+        {
+          "page_nr": 4,
+          "title": "Fistel eller cysta på halsen",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/Nasa-och-hals---oversikt/fistel-eller-cysta-pa-halsen/",
+          "questions": [
+            {
+              "id": "FC-10.4.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är fistel eller cysta på halsen?",
+              "back": "Utvecklingsanomalier anlagda under fosterstadiet. Kan visa sig som en liten utförsgång eller knöl (medialt eller lateralt) på halsen."
+            },
+            {
+              "id": "FC-10.4.2",
+              "type": "flashcard",
+              "section": "Mediala cystor",
+              "front": "Var brukar mediala cystor sitta och vad utlöser dem ofta?",
+              "back": "Inom några centimeter från mittlinjen, i höjd med/strax nedanför tungbenet (os hyoideum). Debuterar ofta efter en övre luftvägsinfektion."
+            },
+            {
+              "id": "MC-10.4.1",
+              "type": "multiple_choice",
+              "section": "Behandling",
+              "question": "Vad är behandlingen av fistlar och cystor på halsen?",
+              "options": {
+                "A": "Antibiotikaprofylax livet igenom",
+                "B": "Kirurgi vid behov; antibiotika vid infektion",
+                "C": "Alltid omedelbar operation",
+                "D": "Kortisoninjektion lokalt"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-10.4.1",
+              "type": "true_false",
+              "section": "Förekomst",
+              "statement": "Fistlar och cystor på halsen är ovanliga och förekommer hos <0,1% av befolkningen.",
+              "correct": false,
+              "explanation": "De kan finnas hos upp till 7 % av befolkningen, men de flesta upptäcks aldrig eftersom de inte ger symtom."
+            }
+          ]
+        },
+        {
+          "page_nr": 5,
+          "title": "Stora tonsiller",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/Nasa-och-hals---oversikt/stora-tonsiller/",
+          "questions": [
+            {
+              "id": "FC-10.5.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "När är stora halsmandlar (tonsiller) som störst hos barn?",
+              "back": "Tonsillerna är mycket små hos nyfödda och växer kraftigt hos förskolebarn, för att sedan avsta eller minska."
+            },
+            {
+              "id": "FC-10.5.2",
+              "type": "flashcard",
+              "section": "Tonsillit",
+              "front": "Vilken bakterie kan kräva penicillinbehandling vid tonsillit?",
+              "back": "Grupp A streptokocker – behandling rekommenderas för att minska risken för komplikationer och följdsjukdomar."
+            },
+            {
+              "id": "MC-10.5.1",
+              "type": "multiple_choice",
+              "section": "Remiss",
+              "question": "Vad motiverar remiss vid stora tonsiller?",
+              "options": {
+                "A": "Synliga tonsiller",
+                "B": "Störd nattsömn med orestorerad sömn, ätsvårigheter, tillväxtpåverkan",
+                "C": "Täta förkylningar",
+                "D": "Snarkningar utan andra symtom"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-10.5.1",
+              "type": "true_false",
+              "section": "Symtom",
+              "statement": "Stora halsmandlar i sig är ingen orsak till oro.",
+              "correct": true,
+              "explanation": "Stora halsmandlar är vanligt hos barn och i sig ingen orsak till oro. Det är symtomen (andningsbesvär, ätproblem) som avgör åtgärd."
+            }
+          ]
+        },
+        {
+          "page_nr": 6,
+          "title": "Läpp-käk-gomspalt",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/Nasa-och-hals---oversikt/lapp-kak-gomspalt/",
+          "questions": [
+            {
+              "id": "FC-10.6.1",
+              "type": "flashcard",
+              "section": "Förekomst och orsak",
+              "front": "Hur vanlig är läpp-käk-gomspalt i Sverige?",
+              "back": "Ungefär 2 av 1 000 födda barn i Sverige har LKG; ca 150–200 barn per år."
+            },
+            {
+              "id": "FC-10.6.2",
+              "type": "flashcard",
+              "section": "Matning av barn med LKG",
+              "front": "Varför kan barn med LKG ha svårt att amma?",
+              "back": "Spalten hindrar barnet från att bygga upp undertryck i munhålan, vilket behövs för sugning. Barnet kan äta men behöver anpassad flaska eller amningsstöd."
+            },
+            {
+              "id": "FC-10.6.3",
+              "type": "flashcard",
+              "section": "LKG-team",
+              "front": "Vilka professioner ingår i ett LKG-team?",
+              "back": "Plastikkirurg, ortodontist, logoped, käkkirurg, öron-näsa-halsläkare, foniater, genetiker, specialistsjuksköterska och psykolog."
+            },
+            {
+              "id": "MC-10.6.1",
+              "type": "multiple_choice",
+              "section": "Utmaningar",
+              "question": "Vilken funktion kan påverkas hos barn med spalt i gommen?",
+              "options": {
+                "A": "Syn",
+                "B": "Talutveckling och hörsel",
+                "C": "Balans",
+                "D": "Motorisk utveckling"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-10.6.1",
+              "type": "true_false",
+              "section": "Operation och uppföljning",
+              "statement": "Läpp och gom opereras färdigt under barnets första två levnadsår.",
+              "correct": true,
+              "explanation": "Operationerna sker i flera steg; läpp och gom opereras färdigt under barnets första två levnadsår."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 11,
+      "subcategory": "Andningssvårigheter",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Andningssvårigheter",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/andningssvarigheter/",
+          "questions": [
+            {
+              "id": "FC-11.1.1",
+              "type": "flashcard",
+              "section": "Plötsliga andningssvårigheter - andnöd",
+              "front": "Vad misstänks om ett barn plötsligt får andnöd och intensiv hosta?",
+              "back": "Att ett främmande föremål har fastnat i halsen, luftstrupen eller luftrören."
+            },
+            {
+              "id": "FC-11.1.2",
+              "type": "flashcard",
+              "section": "Ökat andningsarbete",
+              "front": "Vilka extra muskler används vid ökat andningsarbete?",
+              "back": "Bröstkorgens muskler, skulderbladets muskler och halsmusklerna – utöver de ordinarie andningsmusklerna (mellangärdet och bukmusklerna)."
+            },
+            {
+              "id": "FC-11.1.3",
+              "type": "flashcard",
+              "section": "Bronkiolit - infektion i de finaste luftrören",
+              "front": "Vad är bronkiolit och vilken åldersgrupp drabbas?",
+              "back": "Infektion och inflammation i de allra finaste luftrören (bronkiolerna). Drabbar i huvudsak barn under 1–2 år. Orsakas ofta av RSV och andra förkylningsvirus."
+            },
+            {
+              "id": "MC-11.1.1",
+              "type": "multiple_choice",
+              "section": "Viruskrupp",
+              "question": "Hur karaktäriseras viruskrupp?",
+              "options": {
+                "A": "Exspiratorisk stridor och feber hos skolbarn",
+                "B": "Inspiratoriska biljud, skällande hosta hos barn 1–2 år vid luftvägsinfektion",
+                "C": "Plötslig andnöd efter att ätit",
+                "D": "Långdragen produktiv hosta hos tonåring"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-11.1.1",
+              "type": "true_false",
+              "section": "Snarkning och obstruktiv sömnapné",
+              "statement": "Barn som snarkar regelbundet (>3 nätter/vecka) och sover oroligt kan ha en sömnrelaterad andningsstörning.",
+              "correct": true,
+              "explanation": "Regelbunden snarkning kombinerat med orolig sömn kan vara tecken på obstruktiv sömnapné (OSA), som bör utredas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 13,
+      "subcategory": "Hjärta",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Blåsljud på hjärtat",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hjarta/blasljud-pa-hjartat/",
+          "questions": [
+            {
+              "id": "FC-13.1.1",
+              "type": "flashcard",
+              "section": "Fysiologiska blåsljud",
+              "front": "Vad är fysiologiska blåsljud?",
+              "back": "Ljud som uppstår utan anatomisk avvikelse i hjärtat – vid blodets passage genom hjärtklaffarna eller i andra delar av centrala cirkulationen. Kräver inga åtgärder om hjärtat i övrigt är friskt."
+            },
+            {
+              "id": "FC-13.1.2",
+              "type": "flashcard",
+              "section": "Blåsljud hos barn med hjärtsjukdom",
+              "front": "Hur skiljer sig blåsljud vid hjärtsjukdom från fysiologiska blåsljud?",
+              "back": "Patologiska blåsljud är vanligtvis kraftigare. Erfaren läkare kan ofta ställa diagnos men vid minsta tvekan krävs kompletterande utredning (t.ex. ultraljud)."
+            },
+            {
+              "id": "MC-13.1.1",
+              "type": "multiple_choice",
+              "section": "Handläggning",
+              "question": "Vad ska göras vid minsta tvekan om vilket typ av blåsljud det rör sig om?",
+              "options": {
+                "A": "Avvakta och kontrollera om 6 månader",
+                "B": "Utredning kompletteras, t.ex. med ultraljud",
+                "C": "Remiss direkt till thoraxkirurg",
+                "D": "EKG är tillräckligt"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-13.1.1",
+              "type": "true_false",
+              "section": "Vad är blåsljud?",
+              "statement": "Blåsljud hörs alltid utan stetoskop.",
+              "correct": false,
+              "explanation": "Blåsljud hörs vanligtvis med hjälp av stetoskop när man lyssnar över bröstkorgen."
+            }
+          ]
+        },
+        {
+          "page_nr": 2,
+          "title": "Hjärtklappning och extraslag",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/hjarta/hjartklappning-och-extraslag/",
+          "questions": [
+            {
+              "id": "FC-13.2.1",
+              "type": "flashcard",
+              "section": "Hjärtklappning",
+              "front": "Vad är prognosen för hjärtklappning hos barn utan andra besvär?",
+              "back": "Oftast ingen tydlig orsak; går som regel över inom 1–2 minuter. Inget skäl till oro om barnet inte har andra symtom."
+            },
+            {
+              "id": "FC-13.2.2",
+              "type": "flashcard",
+              "section": "Sinusarytmi (andningskorrelerad frekvensvariation)",
+              "front": "Vad är sinusarytmi och är det patologiskt?",
+              "back": "Hjärtfrekvensen ökar vid inandning och sjunker vid utandning. Kallas respiratorisk arytmi och är en normalvariant."
+            },
+            {
+              "id": "MC-13.2.1",
+              "type": "multiple_choice",
+              "section": "Avvikelser, sjukdomstillstånd",
+              "question": "Om föräldrar ringer om hjärtklappning – vart hänvisas de i första hand?",
+              "options": {
+                "A": "Omedelbart till akutmottagning alltid",
+                "B": "Till vårdcentral eller akutmottagning beroende på allvarlighetsgrad och lokal rutin",
+                "C": "Avvakta till BVC-besöket",
+                "D": "Direkt till barnhjärtläkare"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-13.2.1",
+              "type": "true_false",
+              "section": "Extra eller överhoppade hjärtslag",
+              "statement": "Extra hjärtslag (extraslag) är alltid tecken på allvarlig hjärtsjukdom.",
+              "correct": false,
+              "explanation": "Äldre barn kan uppleva att hjärtat 'slår en volt' – extraslag. Det efterföljande hjärtslaget är då kraftigare. Dessa tillstånd är oftast ofarliga."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 14,
+      "subcategory": "PKU-prov",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "PKU-prov",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/pku-prov/",
+          "questions": [
+            {
+              "id": "FC-14.1.1",
+              "type": "flashcard",
+              "section": "Definition",
+              "front": "Vad är PKU-provet och när tas det?",
+              "back": "Blodprov på alla nyfödda så snart som möjligt efter 48 timmars ålder för att upptäcka medfödda metabola/endokrina sjukdomar och en svår muskelsjukdom."
+            },
+            {
+              "id": "FC-14.1.2",
+              "type": "flashcard",
+              "section": "Resultat efter en vecka",
+              "front": "Vad händer om ett analysresultat inte är normalt?",
+              "back": "Barnet kallas för kontroll. Mindre än 1/1 000 återkallas, och vid ny provtagning kan misstanke om sjukdom ofta avskrivas."
+            },
+            {
+              "id": "MC-14.1.1",
+              "type": "multiple_choice",
+              "section": "Screeningprogrammet med PKU-prov utökas med ny sjukdom",
+              "question": "Vilken sjukdom lades till det nationella screeningprogrammet med PKU-prov den 30 aug 2023?",
+              "options": {
+                "A": "Cystisk fibros",
+                "B": "Spinal muskelatrofi (SMA)",
+                "C": "Congenital hypothyreos",
+                "D": "PKU (fenylketonuri)"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-14.1.1",
+              "type": "true_false",
+              "section": "Definition",
+              "statement": "PKU-provet erbjuds enbart nyfödda på svenska sjukhus.",
+              "correct": false,
+              "explanation": "PKU-provet erbjuds även nyanlända och adopterade barn upp till åtta årsålder."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subcategory_nr": 15,
+      "subcategory": "Slöhet hos nyfödda",
+      "pages": [
+        {
+          "page_nr": 1,
+          "title": "Slöhet hos nyfödda",
+          "source_url": "https://www.rikshandboken-bhv.se/somatik/slohet-hos-nyfodda/",
+          "questions": [
+            {
+              "id": "FC-15.1.1",
+              "type": "flashcard",
+              "section": "Långsamt utvecklad slöhet",
+              "front": "Vad är den vanligaste orsaken till långsamt utvecklad slöhet hos nyfödda?",
+              "back": "För lite föda – barnet ökar inte i vikt som det ska. Dålig viktutveckling och ikterus i kombination kan också ge slöhet."
+            },
+            {
+              "id": "FC-15.1.2",
+              "type": "flashcard",
+              "section": "Snabbt utvecklad slöhet",
+              "front": "Vad kan plötslig slöhet hos ett nyfött barn tyda på?",
+              "back": "Allvarlig sjukdom, t.ex. medfött hjärtfel som inte kunde upptäckas vid rutinkontroller, infektion eller metabol sjukdom."
+            },
+            {
+              "id": "MC-15.1.1",
+              "type": "multiple_choice",
+              "section": "Till läkare",
+              "question": "Vad ska göras vid plötslig insättande slöhet hos ett nyfött barn?",
+              "options": {
+                "A": "Avvakta och ge mer mat",
+                "B": "Omedelbar kontakt med akutmottagning eller barnklinik",
+                "C": "Kontrollera blodsocker hemma",
+                "D": "Ring BVC nästa dag"
+              },
+              "correct": "B"
+            },
+            {
+              "id": "SF-15.1.1",
+              "type": "true_false",
+              "section": "Snabbt utvecklad slöhet",
+              "statement": "Plötslig slöhet hos ett nyfött barn kan vara ett tecken på allvarlig sjukdom som kräver akut vård.",
+              "correct": true,
+              "explanation": "Barn som plötsligt inte orkar äta eller är svårväckta kan tyda på allvarlig sjukdom; omedelbar kontakt med akutmottagning eller barnklinik ska göras."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
