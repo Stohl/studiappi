@@ -419,7 +419,7 @@ const ACHIEVEMENTS = [
   { id:'c500',    name:'500 rätt totalt',    icon:'👑', check:s => s.totalC >= 500 },
   { id:'cat1',    name:'Första kategorin klar!', icon:'✅', check:s => s.completed >= 1 },
   { id:'cat5',    name:'5 kategorier klara', icon:'🎯', check:s => s.completed >= 5 },
-  { id:'perfect', name:'Perfekt omgång!',    icon:'💯', check:s => s.sesWrong === 0 && s.sesTotal >= 5 },
+  { id:'perfect', name:'Perfekt omgång!',    icon:'💯', onlyAtEnd:true, check:s => s.sesWrong === 0 && s.sesTotal >= 5 },
   { id:'daily3',  name:'3 dagar i rad',      icon:'📅', check:s => s.dailyStreak >= 3 },
   { id:'daily7',  name:'7 dagar i rad',      icon:'🗓️', check:s => s.dailyStreak >= 7 },
 ];
@@ -507,9 +507,12 @@ function updateDailyStreak() {
 // ── Achievements ──────────────────────────────────────────────────────────────
 function getUnlocked() { try{return JSON.parse(localStorage.getItem('bhv_ach')||'[]');}catch{return[];} }
 let achQueue=[], achRunning=false;
-function checkAchievements(stats) {
+function checkAchievements(stats, sessionEnded=false) {
   const unlocked=getUnlocked(), toShow=[];
-  for(const a of ACHIEVEMENTS) if(!unlocked.includes(a.id)&&a.check(stats)){unlocked.push(a.id);toShow.push(a);}
+  for(const a of ACHIEVEMENTS) {
+    if(a.onlyAtEnd && !sessionEnded) continue;
+    if(!unlocked.includes(a.id)&&a.check(stats)){unlocked.push(a.id);toShow.push(a);}
+  }
   if(toShow.length){localStorage.setItem('bhv_ach',JSON.stringify(unlocked));toShow.forEach(a=>achQueue.push(a));if(!achRunning)drainAch();}
 }
 function drainAch() {
@@ -914,7 +917,7 @@ function showResults(){
   } else document.getElementById('result-xp-box').style.display='none';
 
   const completed=getCompletedCount();
-  checkAchievements({totalC:getTotalCorrect(),sesStreak:streak,sesWrong:wrong,sesTotal:total,dailyStreak:getDailyStreak().streak,completed});
+  checkAchievements({totalC:getTotalCorrect(),sesStreak:streak,sesWrong:wrong,sesTotal:total,dailyStreak:getDailyStreak().streak,completed}, true);
 
   // Level-up check (based on subcat completion)
   const newLevel=getCompletionLevel();
