@@ -22,7 +22,7 @@
   .app-header { background: var(--blue); color: white; padding: 12px 20px; display: flex; align-items: center; gap: 12px; box-shadow: 0 2px 8px rgba(0,106,167,0.3); }
   .app-header h1 { font-size: 1.1rem; font-weight: 700; }
   .app-header .subtitle { font-size: 0.72rem; opacity: 0.8; }
-  .header-xp { margin-left: auto; text-align: right; min-width: 110px; }
+  .header-xp { margin-left: auto; text-align: right; min-width: 120px; }
   .header-level { font-size: 0.7rem; font-weight: 700; color: rgba(255,255,255,0.9); white-space: nowrap; }
   .xp-bar-wrap { background: rgba(255,255,255,0.2); border-radius: 4px; height: 5px; margin-top: 4px; overflow: hidden; }
   .xp-bar-fill { height: 100%; background: #FFD700; border-radius: 4px; transition: width 0.6s ease; }
@@ -38,36 +38,36 @@
   .loading-status { font-size: 0.85rem; color: var(--gray); line-height: 1.6; }
   .error-box { background: var(--red-light); border: 1px solid var(--red); border-radius: var(--radius-sm); padding: 16px 20px; margin-top: 20px; font-size: 0.9rem; line-height: 1.7; color: var(--red); }
 
-  /* Home – streak */
   .home-streak { background: var(--white); border-radius: var(--radius); padding: 12px 16px; margin-bottom: 12px; display: flex; align-items: center; gap: 12px; border: 2px solid #fde8c0; }
   .streak-flame { font-size: 2rem; }
   .streak-info .streak-title { font-size: 0.9rem; font-weight: 700; }
   .streak-info .streak-sub { font-size: 0.75rem; color: var(--gray); margin-top: 2px; }
   .streak-info .next-goal { font-size: 0.72rem; color: var(--blue); font-weight: 700; margin-top: 3px; }
 
-  /* Universal start section */
   .universal-section { background: var(--white); border-radius: var(--radius); padding: 16px; margin-bottom: 20px; border: 2px solid var(--blue-light); }
   .universal-title { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
   .universal-meta { font-size: 0.75rem; color: var(--gray); margin-bottom: 12px; min-height: 1.1em; }
 
-  /* Home – category grid */
   .main-cats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 24px; }
   .main-cat-btn { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius); padding: 16px; cursor: pointer; text-align: center; transition: all 0.2s; }
   .main-cat-btn:hover { border-color: var(--blue); box-shadow: var(--shadow); transform: translateY(-1px); }
   .main-cat-btn .cat-emoji { font-size: 1.8rem; display: block; margin-bottom: 6px; }
   .main-cat-btn .cat-name { font-size: 0.85rem; font-weight: 600; }
-  .main-cat-btn .cat-count { font-size: 0.75rem; color: var(--gray); margin-top: 2px; }
+  .main-cat-btn .cat-count { font-size: 0.72rem; color: var(--gray); margin-top: 2px; }
+  .main-cat-btn .cat-done { font-size: 0.72rem; color: var(--green); font-weight: 700; margin-top: 1px; }
   .cat-progress-bar { height: 5px; background: var(--border); border-radius: 3px; margin-top: 8px; overflow: hidden; }
   .cat-progress-bar-fill { height: 100%; background: var(--green); border-radius: 3px; }
 
   .section-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--gray); margin-bottom: 12px; }
   .divider { height: 1px; background: var(--border); margin: 20px 0; }
 
-  /* Subcats */
   .subcat-grid { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
   .subcat-item { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius-sm); padding: 12px 16px; display: flex; align-items: flex-start; gap: 12px; cursor: pointer; transition: all 0.15s; user-select: none; }
   .subcat-item:hover { border-color: var(--blue); background: var(--blue-light); }
   .subcat-item.checked { border-color: var(--blue); background: var(--blue-light); }
+  .subcat-item.complete { border-color: var(--green); }
+  .subcat-item.complete.checked { background: var(--green-light); border-color: var(--green); }
+  .subcat-item.complete.checked .subcat-check { background: var(--green) !important; border-color: var(--green) !important; }
   .subcat-item.locked { opacity: 0.55; }
   .subcat-item.locked:hover { border-color: var(--border); background: var(--gray-light); }
   .subcat-item.locked.checked { border-color: var(--yellow); background: var(--yellow-light); opacity: 1; }
@@ -84,7 +84,6 @@
   .btn-sm { padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border); background: var(--white); font-size: 0.8rem; cursor: pointer; font-weight: 600; transition: all 0.15s; color: var(--gray); }
   .btn-sm:hover { border-color: var(--blue); color: var(--blue); }
 
-  /* Session length */
   .session-len-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 20px; }
   .len-btn { background: var(--white); border: 2px solid var(--border); border-radius: var(--radius-sm); padding: 10px 4px; cursor: pointer; text-align: center; font-size: 0.85rem; font-weight: 700; color: var(--text); transition: all 0.15s; }
   .len-btn:hover { border-color: var(--blue); }
@@ -168,11 +167,11 @@
   .explanation-box strong { color: var(--yellow); }
   .source-link { display: inline-flex; align-items: center; gap: 5px; margin-top: 10px; font-size: 0.78rem; color: var(--blue); text-decoration: none; font-weight: 600; border-top: 1px solid rgba(240,165,0,0.3); padding-top: 8px; width: 100%; }
   .source-link:hover { text-decoration: underline; }
+  @keyframes slideIn { from{opacity:0;transform:translateY(-6px);} to{opacity:1;transform:translateY(0);} }
 
-  @keyframes slideIn { from { opacity:0; transform: translateY(-6px); } to { opacity:1; transform: translateY(0); } }
   .next-btn { background: var(--blue); color: white; border: none; padding: 14px 28px; border-radius: var(--radius); font-size: 0.95rem; font-weight: 700; cursor: pointer; width: 100%; transition: all 0.15s; animation: fadeIn 0.2s; }
   .next-btn:hover { background: var(--blue-dark); }
-  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @keyframes fadeIn { from{opacity:0;} to{opacity:1;} }
 
   #screen-results { text-align: center; }
   .result-emoji { font-size: 4rem; margin: 20px 0 10px; }
@@ -231,7 +230,7 @@
   <div class="header-xp">
     <div class="header-level" id="header-level">BHV-novis</div>
     <div class="xp-bar-wrap"><div class="xp-bar-fill" id="header-xp-fill" style="width:0%"></div></div>
-    <div class="header-xp-next" id="header-xp-next">0 / 100 XP</div>
+    <div class="header-xp-next" id="header-xp-next">0 kategorier klara</div>
   </div>
 </div>
 
@@ -371,63 +370,58 @@ const CAT_META = {
   'Verksamhetsriktlinjer': { emoji:'📋', key:'riktlinjer' },
 };
 
+// Levels based on number of completed subcategories (≥80% answered correctly)
 const LEVELS = [
-  { level:1, name:'BHV-novis',      minXP:0    },
-  { level:2, name:'BHV-lärling',    minXP:100  },
-  { level:3, name:'BHV-praktikant', minXP:300  },
-  { level:4, name:'BHV-scout',      minXP:600  },
-  { level:5, name:'BHV-assistent',  minXP:1000 },
-  { level:6, name:'BHV-specialist', minXP:1600 },
-  { level:7, name:'BHV-expert',     minXP:2400 },
-  { level:8, name:'BHV-mästare',    minXP:3500 },
+  { level:1, name:'BHV-novis',      minCompleted:0  },
+  { level:2, name:'BHV-lärling',    minCompleted:3  },
+  { level:3, name:'BHV-praktikant', minCompleted:7  },
+  { level:4, name:'BHV-scout',      minCompleted:12 },
+  { level:5, name:'BHV-assistent',  minCompleted:18 },
+  { level:6, name:'BHV-specialist', minCompleted:25 },
+  { level:7, name:'BHV-expert',     minCompleted:35 },
+  { level:8, name:'BHV-mästare',    minCompleted:50 },
 ];
 
-// Subcategory unlock levels (default 1 for any not listed)
 const UNLOCK_RULES = {
-  // Vaccination
   'Vaccinationer på BVC':1, 'Praktiska riktlinjer':1, 'Överväganden vid vaccination':1,
   'Checklistor inför vaccination':1, 'Samtal med föräldrar som är tveksamma till vaccin':1,
   'Anafylaxi på BVC':2, 'Bedöma och komplettera vaccinationer':2,
-  // Hälsosamtal
   'Toalettvanor':1, 'Goda vanor för en bättre munhälsa':1, 'Sömnsvårigheter':1,
   'Främja god sömn':1, 'Hälsosamtal om rörelsevanor och fysisk aktivitet':1,
   'Hälsosamtal och hälsovägledning om levnadsvanor':1, 'Samtal om solvanor':1,
   'Hälsosamtal om matvanor':1,
   'Barn och alkohol':2, 'Barn och tobak':2, 'Skärmvanor för barn 0-6 år':2,
-  // Amning & nutrition
   'Komplikationer vid amning - översikt':1, 'Mat och dryck - översikt':1, 'Främja amning - översikt':1,
   'Stödja amning - översikt':2,
   'Bröstmjölksersättning - översikt':3, 'Bröstmjölk':3, 'Amningsutmaningar':3,
-  // Föräldraskapsstöd
   'Barnsäkerhet':1, 'Individuellt föräldraskapsstöd':2, 'Föräldraskapsstöd i grupp':3,
-  // Hälsobesök
   'Hembesök':1, 'Hälsobesök (allmänt)':1, 'Barnhälsovård för barn som bor i familjehem':1,
   'Barnhälsovård för internationellt adopterade barn':1,
   'Identifiera skyddsfaktorer och riskfaktorer':1, 'Barnhälsovård för barn som har migrerat':1,
   'Hälsobesök i alla åldrar':3, 'Informationsmaterial och brevmallar':3,
   'Hälsoundersökning':4, 'För tidigt födda barn':4,
   'Barn som riskerar att fara illa':5, 'Utvecklingsuppföljning':5,
-  // Somatik
   'PKU-prov':1, 'Andningssvårigheter':1, 'Slöhet hos nyfödda':1,
   'Infektioner - översikt':3, 'Hjärta':3,
   'Allergier och intolerans - översikt':4, 'Ögon - översikt':4, 'Näsa och hals - översikt':4,
   'Hud - översikt':5, 'Hud nyfödda - översikt':5, 'Neurologi - översikt':5,
   'Buk - översikt':6, 'Skelett och muskler - översikt':6, 'Uro-genitalt - översikt':6,
-  // Verksamhetsriktlinjer – all default to 1
 };
 
 const ACHIEVEMENTS = [
-  { id:'first',   name:'Första rätt!',      icon:'🌱', check:s => s.totalC >= 1 },
-  { id:'s5',      name:'5 i rad',           icon:'🔥', check:s => s.sesStreak >= 5 },
-  { id:'s10',     name:'10 i rad',          icon:'💥', check:s => s.sesStreak >= 10 },
-  { id:'s20',     name:'20 i rad!!',        icon:'🌪️', check:s => s.sesStreak >= 20 },
-  { id:'c25',     name:'25 rätt totalt',    icon:'⭐', check:s => s.totalC >= 25 },
-  { id:'c100',    name:'100 rätt totalt',   icon:'🏅', check:s => s.totalC >= 100 },
-  { id:'c250',    name:'250 rätt totalt',   icon:'🏆', check:s => s.totalC >= 250 },
-  { id:'c500',    name:'500 rätt totalt',   icon:'👑', check:s => s.totalC >= 500 },
-  { id:'perfect', name:'Perfekt omgång!',   icon:'💯', check:s => s.sesWrong === 0 && s.sesTotal >= 5 },
-  { id:'daily3',  name:'3 dagar i rad',     icon:'📅', check:s => s.dailyStreak >= 3 },
-  { id:'daily7',  name:'7 dagar i rad',     icon:'🗓️', check:s => s.dailyStreak >= 7 },
+  { id:'first',   name:'Första rätt!',       icon:'🌱', check:s => s.totalC >= 1 },
+  { id:'s5',      name:'5 i rad',            icon:'🔥', check:s => s.sesStreak >= 5 },
+  { id:'s10',     name:'10 i rad',           icon:'💥', check:s => s.sesStreak >= 10 },
+  { id:'s20',     name:'20 i rad!!',         icon:'🌪️', check:s => s.sesStreak >= 20 },
+  { id:'c25',     name:'25 rätt totalt',     icon:'⭐', check:s => s.totalC >= 25 },
+  { id:'c100',    name:'100 rätt totalt',    icon:'🏅', check:s => s.totalC >= 100 },
+  { id:'c250',    name:'250 rätt totalt',    icon:'🏆', check:s => s.totalC >= 250 },
+  { id:'c500',    name:'500 rätt totalt',    icon:'👑', check:s => s.totalC >= 500 },
+  { id:'cat1',    name:'Första kategorin klar!', icon:'✅', check:s => s.completed >= 1 },
+  { id:'cat5',    name:'5 kategorier klara', icon:'🎯', check:s => s.completed >= 5 },
+  { id:'perfect', name:'Perfekt omgång!',    icon:'💯', check:s => s.sesWrong === 0 && s.sesTotal >= 5 },
+  { id:'daily3',  name:'3 dagar i rad',      icon:'📅', check:s => s.dailyStreak >= 3 },
+  { id:'daily7',  name:'7 dagar i rad',      icon:'🗓️', check:s => s.dailyStreak >= 7 },
 ];
 
 // ── State ─────────────────────────────────────────────────────────────────────
@@ -436,354 +430,382 @@ let currentMainCat = null;
 let session = [], sessionIdx = 0;
 let correct = 0, wrong = 0, streak = 0, sessionXP = 0;
 let wrongPool = [], fcFlipped = false, answered = false;
-let universalLen = 20;
+let universalLen = 20, preSessionLevel = 1;
 
 // ── Persistence ───────────────────────────────────────────────────────────────
 function qId(q) {
-  const s = q.type + q.q; let h = 0;
-  for (let i = 0; i < s.length; i++) h = (Math.imul(31,h) + s.charCodeAt(i)) | 0;
+  const s = q.type+q.q; let h = 0;
+  for (let i=0;i<s.length;i++) h=(Math.imul(31,h)+s.charCodeAt(i))|0;
   return h.toString(36);
 }
-function getResults() { try { return JSON.parse(localStorage.getItem('bhv_results')||'{}'); } catch { return {}; } }
-function saveResult(q, ok) {
-  const r = getResults(), id = qId(q);
-  if (!r[id]) r[id] = {c:0,w:0};
-  if (ok) r[id].c++; else r[id].w++;
-  localStorage.setItem('bhv_results', JSON.stringify(r));
+function getResults() { try{return JSON.parse(localStorage.getItem('bhv_results')||'{}');}catch{return {};} }
+function saveResult(q,ok) {
+  const r=getResults(),id=qId(q);
+  if(!r[id])r[id]={c:0,w:0};
+  if(ok)r[id].c++;else r[id].w++;
+  localStorage.setItem('bhv_results',JSON.stringify(r));
 }
-function getTotalCorrect() { return Object.values(getResults()).reduce((s,e) => s+(e.c||0), 0); }
+function getTotalCorrect() { return Object.values(getResults()).reduce((s,e)=>s+(e.c||0),0); }
 
-// ── XP & Levels ───────────────────────────────────────────────────────────────
+// ── XP (in-session motivation, not used for levels) ───────────────────────────
 function getXP() { return parseInt(localStorage.getItem('bhv_xp')||'0'); }
-function getLevel(xp) {
-  let lv = LEVELS[0];
-  for (const l of LEVELS) { if (xp >= l.minXP) lv = l; else break; }
-  const next = LEVELS.find(l => l.minXP > xp);
-  return { ...lv, nextMinXP: next ? next.minXP : null, pct: next ? Math.round((xp-lv.minXP)/(next.minXP-lv.minXP)*100) : 100 };
-}
-function addXP(amount) {
-  const oldXP = getXP(), newXP = oldXP + amount;
-  const oldLv = getLevel(oldXP).level, newLv = getLevel(newXP);
-  localStorage.setItem('bhv_xp', newXP);
-  if (newLv.level > oldLv) setTimeout(() => showLevelUp(newLv), 500);
-  return newXP;
-}
-function updateHeaderXP() {
-  const xp = getXP(), lv = getLevel(xp);
-  document.getElementById('header-level').textContent = lv.name;
-  document.getElementById('header-xp-fill').style.width = lv.pct + '%';
-  document.getElementById('header-xp-next').textContent = lv.nextMinXP ? `${xp} / ${lv.nextMinXP} XP` : `${xp} XP · Max!`;
+function addXP(amount) { localStorage.setItem('bhv_xp', getXP()+amount); }
+
+// ── Completion-based level system ─────────────────────────────────────────────
+const COMPLETE_THRESHOLD = 0.8;
+
+function isSubcatComplete(sub) {
+  const r = getResults();
+  const qs = ALL_QUESTIONS.filter(q=>q.cat===sub.id);
+  if (!qs.length) return false;
+  const needed = Math.ceil(qs.length * COMPLETE_THRESHOLD);
+  const done = qs.filter(q=>{const e=r[qId(q)];return e&&e.c>0;}).length;
+  return done >= needed;
 }
 
-// ── Unlock helpers ────────────────────────────────────────────────────────────
-function currentUserLevel() { return getLevel(getXP()).level; }
-function isUnlocked(sub) { return currentUserLevel() >= sub.minLevel; }
-function xpToUnlock(sub) {
-  const lvl = LEVELS.find(l => l.level === sub.minLevel);
-  return lvl ? Math.max(0, lvl.minXP - getXP()) : 0;
+function getCompletedCount() {
+  return SUBCATS.filter(s=>isSubcatComplete(s)).length;
+}
+
+function getCompletionLevel(completed) {
+  if (completed === undefined) completed = getCompletedCount();
+  let lv = LEVELS[0];
+  for (const l of LEVELS) { if(completed>=l.minCompleted) lv=l; else break; }
+  const next = LEVELS.find(l=>l.minCompleted>completed);
+  const pct = next ? Math.round((completed-lv.minCompleted)/(next.minCompleted-lv.minCompleted)*100) : 100;
+  return {...lv, nextMin:next?next.minCompleted:null, pct, completed};
+}
+
+function currentUserLevel() { return getCompletionLevel().level; }
+
+function subcatsToUnlock(sub) {
+  const lvl = LEVELS.find(l=>l.level===sub.minLevel);
+  if (!lvl) return 0;
+  return Math.max(0, lvl.minCompleted - getCompletedCount());
+}
+
+function updateHeaderLevel() {
+  const lv = getCompletionLevel();
+  document.getElementById('header-level').textContent = lv.name;
+  document.getElementById('header-xp-fill').style.width = lv.pct+'%';
+  document.getElementById('header-xp-next').textContent = lv.nextMin
+    ? `${lv.completed} / ${lv.nextMin} kategorier klara`
+    : `${lv.completed} / ${SUBCATS.length} kategorier klara`;
 }
 
 // ── Daily streak ──────────────────────────────────────────────────────────────
-function getDailyStreak() { try { return JSON.parse(localStorage.getItem('bhv_daily')||'{"streak":0,"last":""}'); } catch { return {streak:0,last:''}; } }
+function getDailyStreak() { try{return JSON.parse(localStorage.getItem('bhv_daily')||'{"streak":0,"last":""}');}catch{return{streak:0,last:''};} }
 function updateDailyStreak() {
-  const today = new Date().toISOString().slice(0,10), d = getDailyStreak();
-  if (d.last === today) return d.streak;
-  const yesterday = new Date(Date.now()-86400000).toISOString().slice(0,10);
-  const n = d.last === yesterday ? d.streak + 1 : 1;
-  localStorage.setItem('bhv_daily', JSON.stringify({streak:n, last:today}));
+  const today=new Date().toISOString().slice(0,10), d=getDailyStreak();
+  if(d.last===today) return d.streak;
+  const yesterday=new Date(Date.now()-86400000).toISOString().slice(0,10);
+  const n=d.last===yesterday?d.streak+1:1;
+  localStorage.setItem('bhv_daily',JSON.stringify({streak:n,last:today}));
   return n;
 }
 
 // ── Achievements ──────────────────────────────────────────────────────────────
-function getUnlocked() { try { return JSON.parse(localStorage.getItem('bhv_ach')||'[]'); } catch { return []; } }
-let achQueue = [], achRunning = false;
+function getUnlocked() { try{return JSON.parse(localStorage.getItem('bhv_ach')||'[]');}catch{return[];} }
+let achQueue=[], achRunning=false;
 function checkAchievements(stats) {
-  const unlocked = getUnlocked(), toShow = [];
-  for (const a of ACHIEVEMENTS) if (!unlocked.includes(a.id) && a.check(stats)) { unlocked.push(a.id); toShow.push(a); }
-  if (toShow.length) { localStorage.setItem('bhv_ach', JSON.stringify(unlocked)); toShow.forEach(a => achQueue.push(a)); if (!achRunning) drainAch(); }
+  const unlocked=getUnlocked(), toShow=[];
+  for(const a of ACHIEVEMENTS) if(!unlocked.includes(a.id)&&a.check(stats)){unlocked.push(a.id);toShow.push(a);}
+  if(toShow.length){localStorage.setItem('bhv_ach',JSON.stringify(unlocked));toShow.forEach(a=>achQueue.push(a));if(!achRunning)drainAch();}
 }
 function drainAch() {
-  if (!achQueue.length) { achRunning = false; return; }
-  achRunning = true;
-  const a = achQueue.shift();
-  const toast = document.getElementById('ach-toast');
-  document.getElementById('ach-icon').textContent = a.icon;
-  document.getElementById('ach-name').textContent = a.name;
+  if(!achQueue.length){achRunning=false;return;}
+  achRunning=true;
+  const a=achQueue.shift();
+  const toast=document.getElementById('ach-toast');
+  document.getElementById('ach-icon').textContent=a.icon;
+  document.getElementById('ach-name').textContent=a.name;
   toast.classList.add('show');
-  setTimeout(() => { toast.classList.remove('show'); setTimeout(drainAch, 400); }, 2600);
+  setTimeout(()=>{toast.classList.remove('show');setTimeout(drainAch,400);},2600);
 }
 
 // ── Confetti & XP float ───────────────────────────────────────────────────────
 function spawnConfetti(n) {
-  const colors = ['#FFD700','#FF6B6B','#4ECDC4','#45B7D1','#96CEB4','#DDA0DD','#FF9F43'];
-  for (let i = 0; i < n; i++) setTimeout(() => {
-    const el = document.createElement('div'); el.className = 'confetti-piece';
-    el.style.left = Math.random()*100+'vw'; el.style.background = colors[i%colors.length];
+  const colors=['#FFD700','#FF6B6B','#4ECDC4','#45B7D1','#96CEB4','#DDA0DD','#FF9F43'];
+  for(let i=0;i<n;i++) setTimeout(()=>{
+    const el=document.createElement('div');el.className='confetti-piece';
+    el.style.left=Math.random()*100+'vw';el.style.background=colors[i%colors.length];
     el.style.setProperty('--dur',(1.4+Math.random()*1.6)+'s');
-    el.style.width=(7+Math.random()*7)+'px'; el.style.height=(7+Math.random()*7)+'px';
-    el.style.borderRadius = Math.random()>0.5?'50%':'2px';
-    document.body.appendChild(el); setTimeout(()=>el.remove(),3200);
-  }, i*25);
+    el.style.width=(7+Math.random()*7)+'px';el.style.height=(7+Math.random()*7)+'px';
+    el.style.borderRadius=Math.random()>0.5?'50%':'2px';
+    document.body.appendChild(el);setTimeout(()=>el.remove(),3200);
+  },i*25);
 }
 function showXPGain(amount, anchorEl) {
-  const rect = anchorEl ? anchorEl.getBoundingClientRect() : {top:window.innerHeight/2,left:window.innerWidth/2,width:60};
-  const el = document.createElement('div'); el.className = 'xp-gain'; el.textContent = '+'+amount+' XP';
-  el.style.left = Math.round(rect.left+rect.width/2-30)+'px';
-  el.style.top  = Math.round(rect.top+window.scrollY-5)+'px';
-  document.body.appendChild(el); setTimeout(()=>el.remove(),1300);
+  const rect=anchorEl?anchorEl.getBoundingClientRect():{top:window.innerHeight/2,left:window.innerWidth/2,width:60};
+  const el=document.createElement('div');el.className='xp-gain';el.textContent='+'+amount+' XP';
+  el.style.left=Math.round(rect.left+rect.width/2-30)+'px';
+  el.style.top=Math.round(rect.top+window.scrollY-5)+'px';
+  document.body.appendChild(el);setTimeout(()=>el.remove(),1300);
 }
 function showLevelUp(lv) {
-  document.getElementById('lu-name').textContent = lv.name;
-  const xp = getXP();
-  document.getElementById('lu-sub').textContent = lv.nextMinXP ? `${lv.nextMinXP-xp} XP till nästa nivå` : 'Maxnivå uppnådd! Du är en legende 🎊';
-  document.getElementById('level-up-overlay').style.display = 'flex';
-  spawnConfetti(50);
+  document.getElementById('lu-name').textContent=lv.name;
+  document.getElementById('lu-sub').textContent=lv.nextMin
+    ? `Klara ${lv.nextMin-lv.completed} fler kategorier för nästa nivå`
+    : 'Maxnivå uppnådd! Du är en legende 🎊';
+  document.getElementById('level-up-overlay').style.display='flex';
+  spawnConfetti(60);
 }
 function closeLevelUp() {
-  document.getElementById('level-up-overlay').style.display = 'none';
-  updateUniversalMeta();
+  document.getElementById('level-up-overlay').style.display='none';
+  updateHeaderLevel(); updateUniversalMeta();
 }
 
 // ── Loading ───────────────────────────────────────────────────────────────────
 async function loadData() {
-  const statusEl = document.getElementById('loading-status');
-  const files = [
+  const statusEl=document.getElementById('loading-status');
+  const files=[
     'amning-och-nutrition_studiematerial.json','foraldraskapsstod_studiematerial.json',
     'halsobesok_studiematerial.json','halsosamtal_studiematerial.json',
     'somatik_studiematerial.json','vaccination_studiematerial.json',
     'verksamhetsriktlinjer_studiematerial.json',
   ];
   try {
-    for (let i = 0; i < files.length; i++) {
-      statusEl.textContent = `Laddar ${files[i]} (${i+1}/${files.length})…`;
-      const r = await fetch(files[i]);
-      if (!r.ok) throw new Error(`Kunde inte ladda ${files[i]}: HTTP ${r.status}`);
-      parseJsonFile(await r.json(), i*1000);
+    for(let i=0;i<files.length;i++){
+      statusEl.textContent=`Laddar ${files[i]} (${i+1}/${files.length})…`;
+      const r=await fetch(files[i]);
+      if(!r.ok) throw new Error(`Kunde inte ladda ${files[i]}: HTTP ${r.status}`);
+      parseJsonFile(await r.json(),i*1000);
     }
-    updateHeaderXP(); renderHome(); updateUniversalMeta(); showScreen('home');
+    updateHeaderLevel(); renderHome(); updateUniversalMeta(); showScreen('home');
   } catch(err) {
-    document.getElementById('loading-status').innerHTML = `<div class="error-box">❌ ${err.message}</div>`;
+    document.getElementById('loading-status').innerHTML=`<div class="error-box">❌ ${err.message}</div>`;
     console.error(err);
   }
 }
 
 function parseJsonFile(data, offset) {
-  const catName = data.category||'Okänd';
-  const meta = CAT_META[catName] || {emoji:'📚', key:catName.toLowerCase().replace(/[^a-z]/g,'')};
-  const mcKey = meta.key; let total = 0;
-  data.subcategories.forEach(sc => {
-    const catId = sc.id + offset; let count = 0;
-    (sc.pages||[]).forEach(page => {
-      const url = page.source_url||'';
-      (page.questions||[]).forEach(q => {
+  const catName=data.category||'Okänd';
+  const meta=CAT_META[catName]||{emoji:'📚',key:catName.toLowerCase().replace(/[^a-z]/g,'')};
+  const mcKey=meta.key; let total=0;
+  data.subcategories.forEach(sc=>{
+    const catId=sc.id+offset; let count=0;
+    (sc.pages||[]).forEach(page=>{
+      const url=page.source_url||'';
+      (page.questions||[]).forEach(q=>{
         count++;
-        if (q.type==='flashcard') ALL_QUESTIONS.push({mainCat:mcKey,cat:catId,type:'fc',q:q.question,a:q.answer,url});
-        else if (q.type==='multiple_choice') {
-          const optList = ['A','B','C','D'].map(k=>q.options[k]).filter(Boolean);
+        if(q.type==='flashcard') ALL_QUESTIONS.push({mainCat:mcKey,cat:catId,type:'fc',q:q.question,a:q.answer,url});
+        else if(q.type==='multiple_choice'){
+          const optList=['A','B','C','D'].map(k=>q.options[k]).filter(Boolean);
           ALL_QUESTIONS.push({mainCat:mcKey,cat:catId,type:'mc',q:q.question,opts:optList,correct:q.correct.charCodeAt(0)-65,exp:q.explanation||'',url});
-        } else if (q.type==='true_false') ALL_QUESTIONS.push({mainCat:mcKey,cat:catId,type:'sf',q:q.statement,correct:q.correct,exp:q.explanation||'',url});
+        } else if(q.type==='true_false') ALL_QUESTIONS.push({mainCat:mcKey,cat:catId,type:'sf',q:q.statement,correct:q.correct,exp:q.explanation||'',url});
       });
     });
-    const minLevel = UNLOCK_RULES[sc.name] || 1;
-    SUBCATS.push({id:catId, name:sc.name, count, mainCat:mcKey, minLevel});
-    total += count;
+    const minLevel=UNLOCK_RULES[sc.name]||1;
+    SUBCATS.push({id:catId,name:sc.name,count,mainCat:mcKey,minLevel});
+    total+=count;
   });
-  MAIN_CATS.push({key:mcKey, name:catName, emoji:meta.emoji, count:total});
+  MAIN_CATS.push({key:mcKey,name:catName,emoji:meta.emoji,count:total});
 }
 
 // ── Home ──────────────────────────────────────────────────────────────────────
 function renderHome() {
-  const ds = getDailyStreak(), xp = getXP(), lv = getLevel(xp);
-  const toNext = lv.nextMinXP ? lv.nextMinXP - xp : null;
-  const flame = ds.streak>=7?'🔥':ds.streak>=3?'⚡':ds.streak>=1?'✨':'💤';
-  document.getElementById('home-streak-wrap').innerHTML = `
+  const ds=getDailyStreak(), lv=getCompletionLevel();
+  const flame=ds.streak>=7?'🔥':ds.streak>=3?'⚡':ds.streak>=1?'✨':'💤';
+  const toNext=lv.nextMin?lv.nextMin-lv.completed:null;
+  document.getElementById('home-streak-wrap').innerHTML=`
     <div class="home-streak">
       <div class="streak-flame">${flame}</div>
       <div class="streak-info">
         <div class="streak-title">${ds.streak} dag${ds.streak!==1?'ar':''} i rad</div>
-        <div class="streak-sub">${lv.name} · ${xp} XP totalt</div>
-        ${toNext?`<div class="next-goal">⭐ ${toNext} XP till nästa nivå</div>`:'<div class="next-goal">👑 Maxnivå uppnådd!</div>'}
+        <div class="streak-sub">${lv.name} · ${lv.completed} av ${SUBCATS.length} kategorier klara</div>
+        ${toNext?`<div class="next-goal">⭐ ${toNext} kategorier till nästa nivå</div>`:'<div class="next-goal">👑 Maxnivå uppnådd!</div>'}
       </div>
     </div>`;
-  const container = document.getElementById('main-cats-container');
-  const r = getResults(); container.innerHTML = '';
-  MAIN_CATS.forEach(mc => {
-    const nSub = SUBCATS.filter(s=>s.mainCat===mc.key).length;
-    const catQs = ALL_QUESTIONS.filter(q=>q.mainCat===mc.key);
-    const mastered = catQs.filter(q=>{const e=r[qId(q)];return e&&e.c>0;}).length;
-    const pct = catQs.length>0?Math.round(mastered/catQs.length*100):0;
-    const progressBar = mastered>0?`<div class="cat-progress-bar"><div class="cat-progress-bar-fill" style="width:${pct}%"></div></div>`:'';
-    const btn = document.createElement('button'); btn.className='main-cat-btn';
-    btn.innerHTML=`<span class="cat-emoji">${mc.emoji}</span><div class="cat-name">${mc.name}</div><div class="cat-count">${nSub} kategorier · ${mc.count} frågor</div>${progressBar}`;
+
+  const container=document.getElementById('main-cats-container');
+  const r=getResults(); container.innerHTML='';
+  MAIN_CATS.forEach(mc=>{
+    const subs=SUBCATS.filter(s=>s.mainCat===mc.key);
+    const nSub=subs.length;
+    const nDone=subs.filter(s=>isSubcatComplete(s)).length;
+    const catQs=ALL_QUESTIONS.filter(q=>q.mainCat===mc.key);
+    const mastered=catQs.filter(q=>{const e=r[qId(q)];return e&&e.c>0;}).length;
+    const pct=catQs.length>0?Math.round(mastered/catQs.length*100):0;
+    const progressBar=mastered>0?`<div class="cat-progress-bar"><div class="cat-progress-bar-fill" style="width:${pct}%"></div></div>`:'';
+    const doneText=nDone>0?`<div class="cat-done">✅ ${nDone} av ${nSub} klara</div>`:'';
+    const btn=document.createElement('button'); btn.className='main-cat-btn';
+    btn.innerHTML=`<span class="cat-emoji">${mc.emoji}</span>
+      <div class="cat-name">${mc.name}</div>
+      <div class="cat-count">${nSub} underkategorier · ${mc.count} frågor</div>
+      ${doneText}${progressBar}`;
     btn.addEventListener('click',()=>showConfig(mc.key));
     container.appendChild(btn);
   });
 }
 
 function updateUniversalMeta() {
-  const r = getResults();
-  const ulvl = currentUserLevel();
-  const pool = ALL_QUESTIONS.filter(q => SUBCATS.find(s=>s.id===q.cat&&ulvl>=s.minLevel));
-  const newCount  = pool.filter(q=>!r[qId(q)]).length;
-  const seenCount = pool.length - newCount;
-  const el = document.getElementById('universal-meta');
-  if (el) el.textContent = `${pool.length} frågor upplåsta · ${newCount} nya · ${seenCount} sedda`;
+  const ulvl=currentUserLevel();
+  const unlocked=SUBCATS.filter(s=>ulvl>=s.minLevel);
+  const completed=getCompletedCount();
+  const total=SUBCATS.length;
+  const el=document.getElementById('universal-meta');
+  if(el) el.textContent=`${completed} av ${total} kategorier klara · ${unlocked.length} upplåsta`;
 }
 
-function setUniversalLen(el, val) {
+function setUniversalLen(el,val) {
   document.querySelectorAll('.universal-section .len-btn').forEach(b=>b.classList.remove('selected'));
-  el.classList.add('selected');
-  universalLen = val;
+  el.classList.add('selected'); universalLen=val;
 }
 
-// ── Universal session builder ─────────────────────────────────────────────────
+// ── Universal session ─────────────────────────────────────────────────────────
 function weightedPick(questions, results, n) {
-  if (!n || !questions.length) return [];
-  const pool = questions.map(q => {
-    const e = results[qId(q)]||{c:0,w:0};
-    const w = (e.w>0&&e.c===0)?4 : e.w>0?3 : e.c<=2?2 : 0.5;
-    return {q, w};
+  if(!n||!questions.length) return [];
+  const pool=questions.map(q=>{
+    const e=results[qId(q)]||{c:0,w:0};
+    const w=(e.w>0&&e.c===0)?4:e.w>0?3:e.c<=2?2:0.5;
+    return{q,w};
   });
-  const picked = [], rem = [...pool];
-  for (let i = 0; i < Math.min(n, rem.length); i++) {
-    const tot = rem.reduce((s,x)=>s+x.w,0);
-    let rand = Math.random()*tot, idx = rem.length-1;
-    for (let j=0;j<rem.length;j++) { rand-=rem[j].w; if(rand<=0){idx=j;break;} }
-    picked.push(rem[idx].q); rem.splice(idx,1);
+  const picked=[],rem=[...pool];
+  for(let i=0;i<Math.min(n,rem.length);i++){
+    const tot=rem.reduce((s,x)=>s+x.w,0);
+    let rand=Math.random()*tot,idx=rem.length-1;
+    for(let j=0;j<rem.length;j++){rand-=rem[j].w;if(rand<=0){idx=j;break;}}
+    picked.push(rem[idx].q);rem.splice(idx,1);
   }
   return picked;
 }
 
 function buildUniversalSession() {
-  const r = getResults(), ulvl = currentUserLevel();
-  const pool = ALL_QUESTIONS.filter(q => SUBCATS.find(s=>s.id===q.cat&&ulvl>=s.minLevel));
-  const newQs  = shuffle(pool.filter(q=>!r[qId(q)]));
-  const seenQs = pool.filter(q=> !!r[qId(q)]);
-  const total  = universalLen || pool.length;
-  let seenTarget = Math.min(Math.floor(total/2), seenQs.length);
-  let newTarget  = Math.min(total - seenTarget, newQs.length);
-  seenTarget     = Math.min(total - newTarget, seenQs.length);
-  return shuffle([...newQs.slice(0,newTarget), ...weightedPick(seenQs,r,seenTarget)]);
+  const r=getResults(),ulvl=currentUserLevel();
+  const pool=ALL_QUESTIONS.filter(q=>SUBCATS.find(s=>s.id===q.cat&&ulvl>=s.minLevel));
+  const newQs=shuffle(pool.filter(q=>!r[qId(q)]));
+  const seenQs=pool.filter(q=>!!r[qId(q)]);
+  const total=universalLen||pool.length;
+  let seenTarget=Math.min(Math.floor(total/2),seenQs.length);
+  let newTarget=Math.min(total-seenTarget,newQs.length);
+  seenTarget=Math.min(total-newTarget,seenQs.length);
+  return shuffle([...newQs.slice(0,newTarget),...weightedPick(seenQs,r,seenTarget)]);
 }
 
 function startUniversalSession() {
-  const qs = buildUniversalSession();
-  if (!qs.length) return;
-  session = qs; sessionIdx=0; correct=0; wrong=0; streak=0; sessionXP=0; wrongPool=[];
-  updateStats(); updateDailyStreak(); showScreen('study'); renderQuestion();
+  const qs=buildUniversalSession();
+  if(!qs.length) return;
+  preSessionLevel=currentUserLevel();
+  session=qs;sessionIdx=0;correct=0;wrong=0;streak=0;sessionXP=0;wrongPool=[];
+  updateStats();updateDailyStreak();showScreen('study');renderQuestion();
 }
 
 // ── Config ────────────────────────────────────────────────────────────────────
 function showConfig(mainCatKey) {
-  currentMainCat = mainCatKey;
-  const ulvl = currentUserLevel();
+  currentMainCat=mainCatKey;
+  const ulvl=currentUserLevel();
   SUBCATS.filter(s=>s.mainCat===mainCatKey&&ulvl>=s.minLevel).forEach(s=>selectedCats.add(s.id));
-  const mc = MAIN_CATS.find(m=>m.key===mainCatKey);
-  document.getElementById('config-title').textContent = `${mc.emoji} ${mc.name}`;
+  const mc=MAIN_CATS.find(m=>m.key===mainCatKey);
+  document.getElementById('config-title').textContent=`${mc.emoji} ${mc.name}`;
   document.querySelectorAll('.mode-btn').forEach(b=>b.classList.remove('selected'));
   document.querySelectorAll('.mode-btn')[0].classList.add('selected');
-  selectedMode='all'; renderSubcats(); updateStartBtn(); showScreen('config');
+  selectedMode='all';renderSubcats();updateStartBtn();showScreen('config');
 }
 
 function renderSubcats() {
-  const list = document.getElementById('subcat-list');
-  const r = getResults(), ulvl = currentUserLevel();
-  list.innerHTML = '';
-  SUBCATS.filter(s=>s.mainCat===currentMainCat).forEach(sub => {
-    const unlocked = ulvl >= sub.minLevel;
-    const isChecked = selectedCats.has(sub.id);
-    const subcatQs = ALL_QUESTIONS.filter(q=>q.cat===sub.id);
-    const mastered = subcatQs.filter(q=>{const e=r[qId(q)];return e&&e.c>0;}).length;
-    const progressTxt = unlocked && mastered>0
-      ? ` · <span style="color:var(--green);font-weight:700;">${mastered}/${sub.count} ✓</span>` : '';
-    const item = document.createElement('div');
-    item.className = 'subcat-item' + (isChecked?' checked':'') + (unlocked?'':' locked');
-    let lockInfo = '';
-    if (!unlocked) {
-      const xpLeft = xpToUnlock(sub);
-      lockInfo = `<div class="lock-info">🔒 Kräver nivå ${sub.minLevel} · ${xpLeft} XP kvar${isChecked?' · <span style="color:var(--yellow);font-weight:700;">manuellt vald</span>':' · klicka för att öva ändå'}</div>`;
+  const list=document.getElementById('subcat-list');
+  const r=getResults(),ulvl=currentUserLevel();
+  list.innerHTML='';
+  SUBCATS.filter(s=>s.mainCat===currentMainCat).forEach(sub=>{
+    const unlocked=ulvl>=sub.minLevel;
+    const complete=isSubcatComplete(sub);
+    const isChecked=selectedCats.has(sub.id);
+    const qs=ALL_QUESTIONS.filter(q=>q.cat===sub.id);
+    const mastered=qs.filter(q=>{const e=r[qId(q)];return e&&e.c>0;}).length;
+    let metaText=`${sub.count} frågor`;
+    if(unlocked && mastered>0) {
+      const pct=Math.round(mastered/sub.count*100);
+      metaText+=complete
+        ? ` · <span style="color:var(--green);font-weight:800;">✅ Klar! (${mastered}/${sub.count})</span>`
+        : ` · <span style="color:var(--green);font-weight:700;">${mastered}/${sub.count} rätt (${pct}%)</span>`;
     }
-    item.innerHTML = `<div class="subcat-check"></div>
+    let lockInfo='';
+    if(!unlocked){
+      const need=subcatsToUnlock(sub);
+      lockInfo=`<div class="lock-info">🔒 Kräver nivå ${sub.minLevel} · ${need>0?`slutför ${need} fler kategorier`:'du är nära!'}${isChecked?' · <span style="color:var(--yellow);font-weight:700;">manuellt vald</span>':' · klicka för att öva ändå'}</div>`;
+    }
+    const item=document.createElement('div');
+    item.className='subcat-item'+(isChecked?' checked':'')+(unlocked?(complete?' complete':''):' locked');
+    item.innerHTML=`<div class="subcat-check"></div>
       <div class="subcat-label">
         <div class="name">${sub.name}</div>
-        <div class="meta">${sub.count} frågor${progressTxt}</div>
+        <div class="meta">${metaText}</div>
         ${lockInfo}
       </div>`;
     item.addEventListener('click',()=>{
-      if(selectedCats.has(sub.id)) selectedCats.delete(sub.id); else selectedCats.add(sub.id);
-      renderSubcats(); updateStartBtn();
+      if(selectedCats.has(sub.id))selectedCats.delete(sub.id);else selectedCats.add(sub.id);
+      renderSubcats();updateStartBtn();
     });
     list.appendChild(item);
   });
 }
 
 function selectAll(val) {
-  const ulvl = currentUserLevel();
-  SUBCATS.filter(s=>s.mainCat===currentMainCat).forEach(s => {
-    if (val && ulvl >= s.minLevel) selectedCats.add(s.id);
-    else if (!val) selectedCats.delete(s.id);
+  const ulvl=currentUserLevel();
+  SUBCATS.filter(s=>s.mainCat===currentMainCat).forEach(s=>{
+    if(val&&ulvl>=s.minLevel)selectedCats.add(s.id);else if(!val)selectedCats.delete(s.id);
   });
-  renderSubcats(); updateStartBtn();
+  renderSubcats();updateStartBtn();
 }
-function selectMode(el,mode) { document.querySelectorAll('.mode-btn').forEach(b=>b.classList.remove('selected')); el.classList.add('selected'); selectedMode=mode; updateStartBtn(); }
-function selectLen(el,val) { document.querySelectorAll('#screen-config .len-btn').forEach(b=>b.classList.remove('selected')); el.classList.add('selected'); sessionLengthLimit=val; updateStartBtn(); }
-function getFiltered() { return ALL_QUESTIONS.filter(q=>selectedCats.has(q.cat)&&(selectedMode==='all'||q.type===selectedMode)); }
-function updateStartBtn() {
-  const available=getFiltered().length, actual=sessionLengthLimit?Math.min(sessionLengthLimit,available):available;
+function selectMode(el,mode){document.querySelectorAll('.mode-btn').forEach(b=>b.classList.remove('selected'));el.classList.add('selected');selectedMode=mode;updateStartBtn();}
+function selectLen(el,val){document.querySelectorAll('#screen-config .len-btn').forEach(b=>b.classList.remove('selected'));el.classList.add('selected');sessionLengthLimit=val;updateStartBtn();}
+function getFiltered(){return ALL_QUESTIONS.filter(q=>selectedCats.has(q.cat)&&(selectedMode==='all'||q.type===selectedMode));}
+function updateStartBtn(){
+  const available=getFiltered().length,actual=sessionLengthLimit?Math.min(sessionLengthLimit,available):available;
   const btn=document.getElementById('start-btn');
   btn.disabled=available===0;
   btn.textContent=available>0?`Starta → (${actual} frågor)`:'Välj minst en kategori';
 }
 
 // ── Session ───────────────────────────────────────────────────────────────────
-function shuffle(arr) {
-  const a=[...arr];
-  for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}
-  return a;
-}
-function startSession() {
+function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function startSession(){
+  preSessionLevel=currentUserLevel();
   let qs=shuffle(getFiltered());
-  if(sessionLengthLimit) qs=qs.slice(0,sessionLengthLimit);
-  session=qs; sessionIdx=0; correct=0; wrong=0; streak=0; sessionXP=0; wrongPool=[];
-  updateStats(); updateDailyStreak(); showScreen('study'); renderQuestion();
+  if(sessionLengthLimit)qs=qs.slice(0,sessionLengthLimit);
+  session=qs;sessionIdx=0;correct=0;wrong=0;streak=0;sessionXP=0;wrongPool=[];
+  updateStats();updateDailyStreak();showScreen('study');renderQuestion();
 }
-function replayWrong() {
+function replayWrong(){
   if(!wrongPool.length){startSession();return;}
-  session=shuffle(wrongPool); sessionIdx=0; correct=0; wrong=0; streak=0; sessionXP=0; wrongPool=[];
-  updateStats(); showScreen('study'); renderQuestion();
+  preSessionLevel=currentUserLevel();
+  session=shuffle(wrongPool);sessionIdx=0;correct=0;wrong=0;streak=0;sessionXP=0;wrongPool=[];
+  updateStats();showScreen('study');renderQuestion();
 }
 
 // ── Answer helpers ────────────────────────────────────────────────────────────
-function handleCorrect(anchorEl) {
-  correct++; streak++;
-  const xp = 10 + Math.min(30,(streak-1)*5);
-  sessionXP+=xp; addXP(xp); showXPGain(xp,anchorEl);
-  if(streak>1) showStreakFlash(streak);
-  checkAchievements({totalC:getTotalCorrect(),sesStreak:streak,sesWrong:wrong,sesTotal:correct+wrong,dailyStreak:getDailyStreak().streak});
-  updateStats(); updateHeaderXP();
+function handleCorrect(anchorEl){
+  correct++;streak++;
+  const xp=10+Math.min(30,(streak-1)*5);
+  sessionXP+=xp;addXP(xp);showXPGain(xp,anchorEl);
+  if(streak>1)showStreakFlash(streak);
+  const completed=getCompletedCount();
+  checkAchievements({totalC:getTotalCorrect(),sesStreak:streak,sesWrong:wrong,sesTotal:correct+wrong,dailyStreak:getDailyStreak().streak,completed});
+  updateStats();
 }
-function handleWrong(q) { wrong++; streak=0; wrongPool.push(q); updateStats(); }
+function handleWrong(q){wrong++;streak=0;wrongPool.push(q);updateStats();}
 
 // ── Rendering ─────────────────────────────────────────────────────────────────
-function showScreen(name) {
+function showScreen(name){
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   document.getElementById('screen-'+name).classList.add('active');
   window.scrollTo(0,0);
-  if(name==='home'){renderHome();updateUniversalMeta();}
+  if(name==='home'){renderHome();updateUniversalMeta();updateHeaderLevel();}
 }
-function renderQuestion() {
-  answered=false; fcFlipped=false;
+function renderQuestion(){
+  answered=false;fcFlipped=false;
   const pct=Math.round(sessionIdx/session.length*100);
   document.getElementById('progress-fill').style.width=pct+'%';
   document.getElementById('progress-text').textContent=`Fråga ${sessionIdx+1} av ${session.length}`;
-  const q=session[sessionIdx], area=document.getElementById('question-area');
-  area.innerHTML=''; area.className='card-appear';
-  if(q.type==='fc') renderFC(q,area); else if(q.type==='mc') renderMC(q,area); else renderSF(q,area);
+  const q=session[sessionIdx],area=document.getElementById('question-area');
+  area.innerHTML='';area.className='card-appear';
+  if(q.type==='fc')renderFC(q,area);else if(q.type==='mc')renderMC(q,area);else renderSF(q,area);
 }
 function badge(type){const l={fc:'🃏 Flashcard',mc:'✅ Flerval',sf:'⚖️ Sant/Falskt'};return `<span class="q-type-badge ${type}">${l[type]}</span>`;}
-function srcLink(url){if(!url)return '';return `<a class="source-link" href="${url}" target="_blank" rel="noopener">📖 Rikshandboken – öppna källan ↗</a>`;}
+function srcLink(url){if(!url)return'';return `<a class="source-link" href="${url}" target="_blank" rel="noopener">📖 Rikshandboken – öppna källan ↗</a>`;}
 
-function renderFC(q,area) {
+function renderFC(q,area){
   area.innerHTML=`${badge('fc')}
     <div class="flashcard-scene"><div class="flashcard" id="fc-card" onclick="flipCard()">
       <div class="card-face card-front"><div class="card-label">Fråga</div><div class="card-text">${q.q}</div><div class="flip-hint">Klicka för att se svaret</div></div>
@@ -798,7 +820,7 @@ function renderFC(q,area) {
 }
 function flipCard(){const c=document.getElementById('fc-card');if(!c)return;fcFlipped=!fcFlipped;c.classList.toggle('flipped',fcFlipped);if(fcFlipped)document.getElementById('fc-actions').style.display='grid';}
 function fcAnswer(knew){
-  if(answered)return; answered=true;
+  if(answered)return;answered=true;
   saveResult(session[sessionIdx],knew);
   if(knew){const b=document.querySelector('.btn-knew.yes');if(b)b.classList.add('fc-correct-flash');handleCorrect(b);}
   else{const b=document.querySelector('.btn-knew.no');if(b){b.style.background='var(--red)';b.style.color='white';}handleWrong(session[sessionIdx]);}
@@ -813,18 +835,18 @@ function renderMC(q,area){
     <div id="next-wrap" style="display:none;"><button class="next-btn" onclick="nextQuestion()">Nästa fråga →</button><div class="kbd-hint" style="margin-top:6px;">Tryck <kbd>Enter</kbd> eller <kbd>→</kbd></div></div>`;
 }
 function mcAnswer(idx){
-  if(answered)return; answered=true;
-  const q=session[sessionIdx], ok=idx===q.correct;
+  if(answered)return;answered=true;
+  const q=session[sessionIdx],ok=idx===q.correct;
   saveResult(q,ok);
   document.querySelectorAll('.mc-option').forEach((el,i)=>{
     el.classList.add('disabled');
-    if(i===q.correct) el.classList.add('reveal-correct');
-    if(i===idx&&!ok) el.classList.add('selected-wrong');
+    if(i===q.correct)el.classList.add('reveal-correct');
+    if(i===idx&&!ok)el.classList.add('selected-wrong');
     if(i===idx&&ok){el.classList.remove('reveal-correct');el.classList.add('selected-correct');}
   });
-  if(ok) handleCorrect(document.getElementById('mc-opt-'+idx)); else handleWrong(q);
+  if(ok)handleCorrect(document.getElementById('mc-opt-'+idx));else handleWrong(q);
   const exp=document.getElementById('explanation');
-  exp.style.display='block'; exp.className='explanation-box';
+  exp.style.display='block';exp.className='explanation-box';
   exp.innerHTML=`<strong>💡 Förklaring:</strong> ${q.exp}${srcLink(q.url)}`;
   document.getElementById('next-wrap').style.display='block';
 }
@@ -839,16 +861,16 @@ function renderSF(q,area){
     <div id="next-wrap" style="display:none;"><button class="next-btn" onclick="nextQuestion()">Nästa fråga →</button><div class="kbd-hint" style="margin-top:6px;">Tryck <kbd>Enter</kbd> eller <kbd>→</kbd></div></div>`;
 }
 function sfAnswer(val){
-  if(answered)return; answered=true;
-  const q=session[sessionIdx], ok=val===q.correct;
+  if(answered)return;answered=true;
+  const q=session[sessionIdx],ok=val===q.correct;
   saveResult(q,ok);
-  const s=document.getElementById('btn-sant'), f=document.getElementById('btn-falskt');
-  s.classList.add('disabled'); f.classList.add('disabled');
+  const s=document.getElementById('btn-sant'),f=document.getElementById('btn-falskt');
+  s.classList.add('disabled');f.classList.add('disabled');
   if(q.correct){s.classList.add('correct');if(!ok)f.classList.add('wrong');}
   else{f.classList.add('correct');if(!ok)s.classList.add('wrong');}
-  if(ok) handleCorrect(val?s:f); else handleWrong(q);
+  if(ok)handleCorrect(val?s:f);else handleWrong(q);
   const exp=document.getElementById('explanation');
-  exp.style.display='block'; exp.className='explanation-box';
+  exp.style.display='block';exp.className='explanation-box';
   exp.innerHTML=`<strong>💡 Förklaring:</strong> ${q.exp}${srcLink(q.url)}`;
   document.getElementById('next-wrap').style.display='block';
 }
@@ -861,15 +883,14 @@ function updateStats(){
   document.getElementById('stat-streak').textContent='🔥 '+streak+' i rad';
   document.getElementById('stat-xp').textContent='⚡ '+sessionXP+' XP';
 }
-
 function showStreakFlash(n){
-  const el=document.createElement('div'); el.className='streak-flash';
+  const el=document.createElement('div');el.className='streak-flash';
   el.textContent=n>=20?n+' i rad! 🌪️':n>=10?n+' i rad! 💥':n+' i rad! 🔥';
-  document.body.appendChild(el); setTimeout(()=>el.remove(),2100);
+  document.body.appendChild(el);setTimeout(()=>el.remove(),2100);
 }
 
 function showResults(){
-  const total=correct+wrong, pct=total>0?Math.round(correct/total*100):0;
+  const total=correct+wrong,pct=total>0?Math.round(correct/total*100):0;
   document.getElementById('res-correct').textContent=correct;
   document.getElementById('res-wrong').textContent=wrong;
   document.getElementById('res-pct').textContent=pct+'%';
@@ -881,19 +902,29 @@ function showResults(){
   document.getElementById('result-emoji').textContent=emoji;
   document.getElementById('result-title').textContent=title;
   document.getElementById('result-subtitle').textContent=subtitle;
+
+  // XP box
   if(sessionXP>0){
-    const xp=getXP(), lv=getLevel(xp);
+    const lv=getCompletionLevel();
     document.getElementById('result-xp-box').style.display='block';
     document.getElementById('res-xp-num').textContent='+'+sessionXP+' XP';
     document.getElementById('res-xp-bar').style.width=lv.pct+'%';
-    document.getElementById('res-level-line').textContent=lv.name+(lv.nextMinXP?` · ${lv.nextMinXP-xp} XP till nästa nivå`:' · Maxnivå!');
+    document.getElementById('res-level-line').textContent=
+      lv.name+(lv.nextMin?` · ${lv.nextMin-lv.completed} kategorier till nästa nivå`:' · Maxnivå!');
   } else document.getElementById('result-xp-box').style.display='none';
-  checkAchievements({totalC:getTotalCorrect(),sesStreak:streak,sesWrong:wrong,sesTotal:total,dailyStreak:getDailyStreak().streak});
+
+  const completed=getCompletedCount();
+  checkAchievements({totalC:getTotalCorrect(),sesStreak:streak,sesWrong:wrong,sesTotal:total,dailyStreak:getDailyStreak().streak,completed});
+
+  // Level-up check (based on subcat completion)
+  const newLevel=getCompletionLevel();
+  if(newLevel.level>preSessionLevel) setTimeout(()=>showLevelUp(newLevel),800);
+
   const btnW=document.getElementById('btn-replay-wrong');
   btnW.style.display=wrongPool.length?'block':'none';
-  if(wrongPool.length) btnW.textContent=`🔁 Öva på ${wrongPool.length} felaktiga svar`;
-  if(pct>=70) spawnConfetti(pct>=90?70:40);
-  showScreen('results'); updateHeaderXP();
+  if(wrongPool.length)btnW.textContent=`🔁 Öva på ${wrongPool.length} felaktiga svar`;
+  if(pct>=70)spawnConfetti(pct>=90?70:40);
+  showScreen('results');updateHeaderLevel();
 }
 
 function confirmExit(){if(confirm('Avsluta sessionen?'))showScreen('home');}
@@ -901,7 +932,7 @@ function confirmExit(){if(confirm('Avsluta sessionen?'))showScreen('home');}
 // ── Keyboard shortcuts ────────────────────────────────────────────────────────
 document.addEventListener('keydown',e=>{
   if(!document.getElementById('screen-study').classList.contains('active'))return;
-  const q=session[sessionIdx]; if(!q)return;
+  const q=session[sessionIdx];if(!q)return;
   if(q.type==='fc'){
     if(e.code==='Space'){e.preventDefault();flipCard();}
     if(e.key==='1'&&fcFlipped)fcAnswer(false);
